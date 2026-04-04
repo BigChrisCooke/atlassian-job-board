@@ -45,6 +45,11 @@ export interface TeamtailorSource {
   name: string;
 }
 
+export interface BambooHRSource {
+  slug: string;
+  name: string;
+}
+
 export interface JobsDataFile {
   generatedAt: string;
   totalActive: number;

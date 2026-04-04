@@ -4,6 +4,7 @@ import { PERSONIO_SOURCES } from './config/personio-sources.js';
 import { GREENHOUSE_SOURCES } from './config/greenhouse-sources.js';
 import { SMARTRECRUITERS_SOURCES } from './config/smartrecruiters-sources.js';
 import { TEAMTAILOR_SOURCES } from './config/teamtailor-sources.js';
+import { BAMBOOHR_SOURCES } from './config/bamboohr-sources.js';
 
 export {
   LEVER_SOURCES,
@@ -12,4 +13,5 @@ export {
   GREENHOUSE_SOURCES,
   SMARTRECRUITERS_SOURCES,
   TEAMTAILOR_SOURCES,
+  BAMBOOHR_SOURCES,
 };

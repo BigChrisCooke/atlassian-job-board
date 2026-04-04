@@ -8,7 +8,9 @@ import { scrapeGreenhouse } from './sources/engines/greenhouse.js';
 import { scrapeSmartRecruiters } from './sources/engines/smartrecruiters.js';
 import { scrapeTeamtailor } from './sources/engines/teamtailor.js';
 import { scrapePersonio } from './sources/engines/personio.js';
+import { scrapeBambooHR } from './sources/engines/bamboohr.js';
 import { scrapeCommunardo } from './sources/custom/communardo.js';
+import { scrapeSeibert } from './sources/custom/seibert.js';
 import {
   LEVER_SOURCES,
   ASHBY_SOURCES,
@@ -16,6 +18,7 @@ import {
   SMARTRECRUITERS_SOURCES,
   TEAMTAILOR_SOURCES,
   PERSONIO_SOURCES,
+  BAMBOOHR_SOURCES,
 } from './sources/index.js';
 
 async function main() {
@@ -99,11 +102,32 @@ async function main() {
     }
   }
 
+  // --- BambooHR sources ---
+  console.log('\n[scrape] Group 7 — BambooHR');
+  for (const source of BAMBOOHR_SOURCES) {
+    try {
+      process.stdout.write(`  ${source.name}... `);
+      const jobs = await scrapeBambooHR(source);
+      allFresh.push(...jobs);
+      console.log(`${jobs.length} jobs`);
+    } catch (err) {
+      console.error(`FAILED — ${(err as Error).message}`);
+    }
+  }
+
   // --- Custom scrapers ---
-  console.log('\n[scrape] Group 7 — Custom');
+  console.log('\n[scrape] Group 8 — Custom');
   try {
     process.stdout.write('  Communardo... ');
     const jobs = await scrapeCommunardo();
+    allFresh.push(...jobs);
+    console.log(`${jobs.length} jobs`);
+  } catch (err) {
+    console.error(`FAILED — ${(err as Error).message}`);
+  }
+  try {
+    process.stdout.write('  Seibert Group... ');
+    const jobs = await scrapeSeibert();
     allFresh.push(...jobs);
     console.log(`${jobs.length} jobs`);
   } catch (err) {
