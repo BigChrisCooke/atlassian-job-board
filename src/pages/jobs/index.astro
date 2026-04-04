@@ -7,6 +7,17 @@ import Footer from '../../components/Footer.astro';
 const activeJobs = jobsData.jobs.filter((j) => j.isActive);
 const locations = [...new Set(activeJobs.map((j) => j.locationNormalised))].sort();
 
+const normaliseType = (t: string | undefined) => {
+  if (!t) return '';
+  const l = t.toLowerCase();
+  if (l.includes('part')) return 'part-time';
+  if (l.includes('contract')) return 'contract';
+  return 'full-time';
+};
+const types = ['full-time', 'part-time', 'contract'].filter(
+  (t) => activeJobs.some((j) => normaliseType(j.type) === t)
+);
+
 const jobPostings = activeJobs.map((j) => ({
   '@type': 'JobPosting',
   title: j.title,
@@ -63,6 +74,12 @@ const jobPostings = activeJobs.map((j) => ({
             <option value={l}>{l.charAt(0).toUpperCase() + l.slice(1)}</option>
           ))}
         </select>
+        <select id="filter-type" aria-label="Filter by job type">
+          <option value="">All job types</option>
+          {types.map((t) => (
+            <option value={t}>{t.charAt(0).toUpperCase() + t.slice(1)}</option>
+          ))}
+        </select>
       </div>
     </section>
 
@@ -73,8 +90,9 @@ const jobPostings = activeJobs.map((j) => ({
         {activeJobs.map((job) => (
           <article
             class="job-card"
-            data-title={`${job.title.toLowerCase()} ${job.company.toLowerCase()}`}
+            data-title={`${job.title.toLowerCase()} ${job.company.toLowerCase()} ${(job.type ?? '').toLowerCase()}`}
             data-location={job.locationNormalised}
+            data-type={normaliseType(job.type)}
           >
             <div class="job-card__meta">
               <span class="job-card__source">{job.source}</span>
@@ -99,6 +117,7 @@ const jobPostings = activeJobs.map((j) => ({
 <script>
   const titleInput = document.getElementById('filter-title') as HTMLInputElement;
   const locationSelect = document.getElementById('filter-location') as HTMLSelectElement;
+  const typeSelect = document.getElementById('filter-type') as HTMLSelectElement;
   const noResultsEl = document.getElementById('no-results') as HTMLParagraphElement;
   const cards = Array.from(document.querySelectorAll<HTMLElement>('.job-card'));
 
@@ -107,12 +126,14 @@ const jobPostings = activeJobs.map((j) => ({
   function filter() {
     const q = titleInput.value.toLowerCase();
     const loc = locationSelect.value;
+    const type = typeSelect.value;
     let visible = 0;
 
     cards.forEach((card) => {
       const matchesTitle = !q || (card.dataset.title ?? '').includes(q);
       const matchesLocation = !loc || card.dataset.location === loc;
-      card.hidden = !(matchesTitle && matchesLocation);
+      const matchesType = !type || card.dataset.type === type;
+      card.hidden = !(matchesTitle && matchesLocation && matchesType);
       if (!card.hidden) visible++;
     });
 
@@ -125,4 +146,5 @@ const jobPostings = activeJobs.map((j) => ({
   });
 
   locationSelect.addEventListener('change', filter);
+  typeSelect.addEventListener('change', filter);
 </script>
