@@ -18,6 +18,27 @@ const types = ['full-time', 'part-time', 'contract'].filter(
   (t) => activeJobs.some((j) => normaliseType(j.type) === t)
 );
 
+const normaliseCategory = (dept: string | undefined, title: string) => {
+  if (dept) {
+    const d = dept.toLowerCase();
+    if (d.includes('engineering') || d.includes('development') || d.includes('product') || d.includes('cloud') || d === 'data' || d.includes('bi &') || d.includes('data analysis') || d.includes('technology and tools') || d.includes('ux') || d.includes('trust')) return 'developer';
+    if (d.includes('marketing') || d === 'sales' || d.includes('sales &') || d.includes('sales and')) return 'marketing-sales';
+    if (d.includes('support function') || d.includes('managed service') || d.includes('service delivery') || d === 'delivery' || d.includes('delivery management') || d.includes('services :')) return 'support';
+    if (d.includes('consult') || d.includes('enterprise agility') || d.includes('it strategy') || d.includes('transformation') || d.includes('business process') || d.includes('enterprise technology') || d.includes('work management') || d.includes('monday') || d.includes('contract service')) return 'consultancy';
+    if (d.includes('finance') || d.includes('accounting') || d.includes('people experience') || d.includes('talent') || d.includes('shared services') || d.includes('sites')) return 'back-office';
+  }
+  const t = title.toLowerCase();
+  if (t.includes('developer') || t.includes('engineer') || t.includes('architect') || t.includes('technical') || t.includes('data') || t.includes('cloud') || t.includes('product')) return 'developer';
+  if (t.includes('consult') || t.includes('advisor') || t.includes('implementation') || t.includes('agile') || t.includes('scrum') || t.includes('migration')) return 'consultancy';
+  if (t.includes('marketing') || t.includes('content') || t.includes('brand') || t.includes('sales') || t.includes('account manager') || t.includes('business development')) return 'marketing-sales';
+  if (t.includes('support') || t.includes('service desk') || t.includes('helpdesk') || t.includes('customer success')) return 'support';
+  if (t.includes('finance') || t.includes('payroll') || t.includes('accounting') || t.includes('recruit') || t.includes('talent') || t.includes('people ops') || t.includes('legal') || t.includes('compliance') || t.includes('office manager')) return 'back-office';
+  return '';
+};
+const categories = ['developer', 'consultancy', 'marketing-sales', 'support', 'back-office'].filter(
+  (c) => activeJobs.some((j) => normaliseCategory(j.department, j.title) === c)
+);
+
 const jobPostings = activeJobs.map((j) => ({
   '@type': 'JobPosting',
   title: j.title,
@@ -80,6 +101,17 @@ const jobPostings = activeJobs.map((j) => ({
             <option value={t}>{t.charAt(0).toUpperCase() + t.slice(1)}</option>
           ))}
         </select>
+        <select id="filter-category" aria-label="Filter by category">
+          <option value="">All categories</option>
+          {categories.map((c) => {
+            const label = c === 'developer' ? 'Developer'
+              : c === 'consultancy' ? 'Consultancy'
+              : c === 'marketing-sales' ? 'Marketing and Sales'
+              : c === 'support' ? 'Support'
+              : 'Back-Office';
+            return <option value={c}>{label}</option>;
+          })}
+        </select>
       </div>
     </section>
 
@@ -93,6 +125,7 @@ const jobPostings = activeJobs.map((j) => ({
             data-title={`${job.title.toLowerCase()} ${job.company.toLowerCase()} ${(job.type ?? '').toLowerCase()}`}
             data-location={job.locationNormalised}
             data-type={normaliseType(job.type)}
+            data-category={normaliseCategory(job.department, job.title)}
           >
             <div class="job-card__meta">
               <span class="job-card__source">{job.source}</span>
@@ -118,6 +151,7 @@ const jobPostings = activeJobs.map((j) => ({
   const titleInput = document.getElementById('filter-title') as HTMLInputElement;
   const locationSelect = document.getElementById('filter-location') as HTMLSelectElement;
   const typeSelect = document.getElementById('filter-type') as HTMLSelectElement;
+  const categorySelect = document.getElementById('filter-category') as HTMLSelectElement;
   const noResultsEl = document.getElementById('no-results') as HTMLParagraphElement;
   const cards = Array.from(document.querySelectorAll<HTMLElement>('.job-card'));
 
@@ -127,13 +161,15 @@ const jobPostings = activeJobs.map((j) => ({
     const q = titleInput.value.toLowerCase();
     const loc = locationSelect.value;
     const type = typeSelect.value;
+    const cat = categorySelect.value;
     let visible = 0;
 
     cards.forEach((card) => {
       const matchesTitle = !q || (card.dataset.title ?? '').includes(q);
       const matchesLocation = !loc || card.dataset.location === loc;
       const matchesType = !type || card.dataset.type === type;
-      card.hidden = !(matchesTitle && matchesLocation && matchesType);
+      const matchesCategory = !cat || card.dataset.category === cat;
+      card.hidden = !(matchesTitle && matchesLocation && matchesType && matchesCategory);
       if (!card.hidden) visible++;
     });
 
@@ -147,4 +183,5 @@ const jobPostings = activeJobs.map((j) => ({
 
   locationSelect.addEventListener('change', filter);
   typeSelect.addEventListener('change', filter);
+  categorySelect.addEventListener('change', filter);
 </script>
