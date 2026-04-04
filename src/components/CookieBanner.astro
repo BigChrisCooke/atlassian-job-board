@@ -1,0 +1,107 @@
+---
+---
+
+<div class="cookie-banner" id="cookie-banner" style="display: none;">
+  <div class="cookie-banner__inner container">
+    <p class="cookie-banner__text">
+      Our website uses cookies to help provide a better experience and helps us with usage statistics.
+      <a href="#" class="cookie-banner__link">Learn more</a>
+    </p>
+    <div class="cookie-banner__actions">
+      <button class="cookie-btn cookie-btn--accept" id="cookie-accept">Accept All</button>
+      <button class="cookie-btn cookie-btn--reject" id="cookie-reject">Reject</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  const banner = document.getElementById('cookie-banner');
+  const acceptBtn = document.getElementById('cookie-accept');
+  const rejectBtn = document.getElementById('cookie-reject');
+
+  // Show banner if no preference stored
+  if (!localStorage.getItem('cookie-consent')) {
+    banner && (banner.style.display = 'block');
+  }
+
+  function dismissBanner(value: string) {
+    localStorage.setItem('cookie-consent', value);
+    banner && (banner.style.display = 'none');
+  }
+
+  acceptBtn?.addEventListener('click', () => dismissBanner('accepted'));
+  rejectBtn?.addEventListener('click', () => dismissBanner('rejected'));
+</script>
+
+<style>
+  .cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
+    z-index: 2000;
+    padding: 16px 0;
+  }
+
+  .cookie-banner__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  .cookie-banner__text {
+    font-size: 0.9rem;
+    color: var(--color-text-light);
+    line-height: 1.5;
+  }
+
+  .cookie-banner__link {
+    color: var(--color-primary);
+    text-decoration: underline;
+  }
+
+  .cookie-banner__actions {
+    display: flex;
+    gap: 8px;
+    flex-shrink: 0;
+  }
+
+  .cookie-btn {
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-family: var(--font-heading);
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    transition: background 0.2s;
+  }
+
+  .cookie-btn--accept {
+    background: var(--color-primary);
+    color: #fff;
+  }
+
+  .cookie-btn--accept:hover {
+    background: var(--color-primary-dark);
+  }
+
+  .cookie-btn--reject {
+    background: var(--color-bg-alt);
+    color: var(--color-text);
+  }
+
+  .cookie-btn--reject:hover {
+    background: #e0dce5;
+  }
+
+  @media (max-width: 768px) {
+    .cookie-banner__inner {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+</style>

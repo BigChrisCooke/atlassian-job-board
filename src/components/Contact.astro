@@ -1,0 +1,162 @@
+---
+import Stats from './Stats.astro';
+---
+
+<section id="contact" class="section section--dark">
+  <div class="contact container">
+    <div class="contact__form-side">
+      <h2 class="contact__heading">Ready to work better</h2>
+      <p class="contact__body">
+        Let's discuss how we can help transform your team's collaboration with Atlassian solutions.
+      </p>
+      <form class="contact__form" action="#" method="post">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" required />
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" />
+        </div>
+        <button type="submit" class="contact__submit">Get In Touch</button>
+      </form>
+    </div>
+    <div class="contact__info-side">
+      <img src="/images/logo-white.svg" alt="Togetha Group" class="contact__logo" />
+      <Stats
+        items={[
+          { number: '10', label: 'Countries We Service' },
+          { number: '9', label: 'Years Operating' },
+        ]}
+        light={true}
+      />
+    </div>
+  </div>
+</section>
+
+<style>
+  .contact {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 64px;
+    align-items: center;
+  }
+
+  .contact__heading {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 16px;
+  }
+
+  .contact__body {
+    font-size: 1.05rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 32px;
+    line-height: 1.7;
+  }
+
+  .contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .form-group label {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: var(--font-heading);
+  }
+
+  .form-group input {
+    padding: 14px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.08);
+    color: #fff;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    transition: border-color 0.2s;
+  }
+
+  .form-group input::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .form-group input:focus {
+    outline: none;
+    border-color: var(--color-primary);
+  }
+
+  .contact__submit {
+    padding: 16px 32px;
+    background: var(--color-primary);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-top: 8px;
+  }
+
+  .contact__submit:hover {
+    background: var(--color-primary-dark);
+  }
+
+  .contact__info-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .contact__logo {
+    width: 200px;
+    opacity: 0.6;
+  }
+
+  @media (max-width: 768px) {
+    .contact {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+
+    .contact__info-side {
+      order: -1;
+    }
+
+    .contact__heading {
+      font-size: 1.75rem;
+    }
+
+    .form-row {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

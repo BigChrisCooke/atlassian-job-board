@@ -1,0 +1,122 @@
+---
+import SectionHeading from './SectionHeading.astro';
+
+const services = [
+  {
+    title: 'Atlassian Training',
+    description: 'Tailored training in Atlassian products to uplift team output and onboard new team members efficiently.',
+    href: '#',
+  },
+  {
+    title: 'Licensing & Procurement',
+    description: 'We supply Atlassian products with government panel rates, flexible payment terms, and dedicated portfolio management.',
+    href: '#',
+  },
+  {
+    title: 'Implementation & Configuration',
+    description: 'Expert implementation including environment review, product integration, marketplace apps, and custom dashboards.',
+    href: '#',
+  },
+  {
+    title: 'Managed Services & Support',
+    description: 'On-call support, migrations, SSO implementation, and dedicated administrator services.',
+    href: '#',
+  },
+  {
+    title: 'ITSM Implementation',
+    description: 'Specialised IT Service Management implementation using Jira Service Management.',
+    href: '#',
+  },
+  {
+    title: 'Cloud & SaaS Solutions',
+    description: 'Atlassian Cloud products with automatic upgrades and Australian data centre hosting.',
+    href: '#',
+  },
+];
+---
+
+<section id="services" class="section section--alt">
+  <div class="container">
+    <SectionHeading
+      title="Our Services"
+      subtitle="Configure, Implement, and Support Your Atlassian Ecosystem"
+      align="center"
+    />
+    <div class="services-grid">
+      {services.map((service) => (
+        <div class="service-card">
+          <h3 class="service-card__title">{service.title}</h3>
+          <p class="service-card__desc">{service.description}</p>
+          <a href={service.href} class="service-card__link">Learn More &rarr;</a>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .service-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 32px 28px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .service-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+  }
+
+  .service-card__title {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: 12px;
+  }
+
+  .service-card__desc {
+    font-size: 0.95rem;
+    color: var(--color-text-light);
+    line-height: 1.6;
+    flex: 1;
+    margin-bottom: 16px;
+  }
+
+  .service-card__link {
+    font-family: var(--font-heading);
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--color-primary);
+    transition: color 0.2s;
+  }
+
+  .service-card__link:hover {
+    color: var(--color-primary-dark);
+  }
+
+  @media (max-width: 1024px) {
+    .services-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .services-grid {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+
+    .service-card {
+      padding: 24px 20px;
+    }
+  }
+</style>

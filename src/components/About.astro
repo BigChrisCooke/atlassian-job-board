@@ -1,0 +1,110 @@
+---
+import Stats from './Stats.astro';
+---
+
+<section id="about" class="section">
+  <div class="about container">
+    <div class="about__content">
+      <span class="about__label">About Togetha Group</span>
+      <h2 class="about__heading">Expertise, Integrity, and Collaborative Solutions</h2>
+      <p>
+        Togetha Group are expert Atlassian Solution Partners. We work primarily with Government and
+        Enterprises, however we also work with nimble, entrepreneurial businesses too.
+      </p>
+      <p>
+        One of the greatest challenges faced by teams working together is to ensure they do this with
+        genuine collaboration. We create custom solutions that bring teams together.
+      </p>
+      <a href="#" class="about__link">Learn More About Us &rarr;</a>
+    </div>
+    <div class="about__illustrations">
+      <img src="/images/illustration-collaborative.svg" alt="Collaborative teamwork" class="about__illust" />
+      <img src="/images/illustration-training.svg" alt="Training programs" class="about__illust" />
+    </div>
+  </div>
+  <div class="container">
+    <Stats />
+  </div>
+</section>
+
+<style>
+  .about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 64px;
+    margin-bottom: 48px;
+  }
+
+  .about__label {
+    display: inline-block;
+    font-family: var(--font-heading);
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+  }
+
+  .about__heading {
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: 20px;
+  }
+
+  .about__content p {
+    font-size: 1.05rem;
+    color: var(--color-text-light);
+    margin-bottom: 16px;
+    line-height: 1.7;
+  }
+
+  .about__link {
+    display: inline-block;
+    margin-top: 8px;
+    font-family: var(--font-heading);
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--color-primary);
+    transition: color 0.2s;
+  }
+
+  .about__link:hover {
+    color: var(--color-primary-dark);
+  }
+
+  .about__illustrations {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  .about__illust {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 768px) {
+    .about {
+      grid-template-columns: 1fr;
+      gap: 32px;
+      text-align: center;
+    }
+
+    .about__heading {
+      font-size: 1.75rem;
+    }
+
+    .about__illustrations {
+      max-width: 320px;
+      margin: 0 auto;
+    }
+
+    .about__illust {
+      max-width: 140px;
+    }
+  }
+</style>

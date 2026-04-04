@@ -1,0 +1,104 @@
+---
+import Button from './Button.astro';
+---
+
+<section class="hero">
+  <div class="hero__inner container">
+    <img src="/images/logo-white.svg" alt="Togetha Group" class="hero__logo" />
+    <h1 class="hero__title">work better</h1>
+    <p class="hero__subtitle">Your Atlassian Platinum Solution Partner</p>
+    <p class="hero__body">
+      We help teams of all sizes work better together, creating custom solutions
+      using the Atlassian ecosystem of products and services.
+    </p>
+    <div class="hero__actions">
+      <Button href="#services" variant="white">Our Services</Button>
+      <Button href="#contact" variant="outline-white">Contact Us</Button>
+    </div>
+    <div class="hero__illustration">
+      <img src="/images/illustration-connected.svg" alt="Connected teams illustration" />
+    </div>
+  </div>
+</section>
+
+<style>
+  .hero {
+    background: linear-gradient(135deg, var(--color-text) 0%, var(--color-dark) 100%);
+    color: #fff;
+    text-align: center;
+    padding: 80px 0 40px;
+  }
+
+  .hero__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero__logo {
+    height: 48px;
+    width: auto;
+    margin-bottom: 32px;
+  }
+
+  .hero__title {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 16px;
+    color: #fff;
+  }
+
+  .hero__subtitle {
+    font-size: 1.35rem;
+    font-weight: 400;
+    color: var(--color-primary);
+    margin-bottom: 20px;
+  }
+
+  .hero__body {
+    font-size: 1.1rem;
+    max-width: 560px;
+    opacity: 0.85;
+    line-height: 1.7;
+    margin-bottom: 32px;
+  }
+
+  .hero__actions {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 48px;
+  }
+
+  .hero__illustration {
+    max-width: 360px;
+  }
+
+  @media (max-width: 768px) {
+    .hero {
+      padding: 48px 0 24px;
+    }
+
+    .hero__title {
+      font-size: 3rem;
+    }
+
+    .hero__subtitle {
+      font-size: 1.1rem;
+    }
+
+    .hero__body {
+      font-size: 1rem;
+    }
+
+    .hero__actions {
+      flex-direction: column;
+      width: 100%;
+      max-width: 300px;
+    }
+
+    .hero__illustration {
+      max-width: 260px;
+    }
+  }
+</style>

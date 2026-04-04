@@ -1,0 +1,124 @@
+---
+import jobsData from '../../data/jobs.json';
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+
+const activeJobs = jobsData.jobs.filter((j) => j.isActive);
+const locations = [...new Set(activeJobs.map((j) => j.locationNormalised))].sort();
+
+const jobPostings = activeJobs.map((j) => ({
+  '@type': 'JobPosting',
+  title: j.title,
+  description: j.description ?? `${j.title} position at ${j.company}.`,
+  datePosted: j.firstSeen,
+  validThrough: j.lastSeen,
+  hiringOrganization: { '@type': 'Organization', name: j.company },
+  jobLocation:
+    j.locationNormalised === 'remote'
+      ? { '@type': 'Place', address: { '@type': 'PostalAddress', addressCountry: 'AU' } }
+      : { '@type': 'Place', address: j.location },
+  ...(j.locationNormalised === 'remote' ? { jobLocationType: 'TELECOMMUTE' } : {}),
+  url: j.url,
+}));
+---
+
+<Layout
+  title="Atlassian Ecosystem Jobs | Togetha Group"
+  description={`${activeJobs.length} jobs at Atlassian Solution Partners and Marketplace vendors. Jira admins, Confluence specialists, and more. Updated weekly.`}
+>
+  {jobPostings.length > 0 && (
+    <script
+      type="application/ld+json"
+      slot="head"
+      set:html={JSON.stringify({ '@context': 'https://schema.org', '@graph': jobPostings })}
+    />
+  )}
+
+  <Header />
+
+  <main>
+    <section class="jobs-hero container">
+      <h1>Atlassian Ecosystem Jobs</h1>
+      <p class="jobs-meta">
+        {activeJobs.length > 0
+          ? `${activeJobs.length} roles across Solution Partners and Marketplace vendors · updated weekly`
+          : 'Jobs loading — check back soon'}
+      </p>
+
+      <div class="jobs-filters">
+        <input
+          id="filter-title"
+          type="search"
+          placeholder="Search by title, keyword, or company…"
+          autocomplete="off"
+        />
+        <select id="filter-location" aria-label="Filter by location">
+          <option value="">All locations</option>
+          {locations.map((l) => (
+            <option value={l}>{l.charAt(0).toUpperCase() + l.slice(1)}</option>
+          ))}
+        </select>
+      </div>
+    </section>
+
+    <section class="container" style="padding-bottom: 80px;">
+      <p id="no-results" hidden>No jobs match your search. Try different keywords or clear the filters.</p>
+
+      <div id="job-results" class="job-grid">
+        {activeJobs.map((job) => (
+          <article
+            class="job-card"
+            data-title={`${job.title.toLowerCase()} ${job.company.toLowerCase()}`}
+            data-location={job.locationNormalised}
+          >
+            <div class="job-card__meta">
+              <span class="job-card__source">{job.source}</span>
+              <span class="job-card__location">{job.location || 'Location not specified'}</span>
+              {job.type && <span class="job-card__type">{job.type}</span>}
+            </div>
+            <h2 class="job-card__title">
+              <a href={job.url} target="_blank" rel="noopener noreferrer">
+                {job.title}
+              </a>
+            </h2>
+            <p class="job-card__company">{job.company}</p>
+          </article>
+        ))}
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>
+
+<script>
+  const titleInput = document.getElementById('filter-title') as HTMLInputElement;
+  const locationSelect = document.getElementById('filter-location') as HTMLSelectElement;
+  const noResultsEl = document.getElementById('no-results') as HTMLParagraphElement;
+  const cards = Array.from(document.querySelectorAll<HTMLElement>('.job-card'));
+
+  let debounceTimer: ReturnType<typeof setTimeout>;
+
+  function filter() {
+    const q = titleInput.value.toLowerCase();
+    const loc = locationSelect.value;
+    let visible = 0;
+
+    cards.forEach((card) => {
+      const matchesTitle = !q || (card.dataset.title ?? '').includes(q);
+      const matchesLocation = !loc || card.dataset.location === loc;
+      card.hidden = !(matchesTitle && matchesLocation);
+      if (!card.hidden) visible++;
+    });
+
+    noResultsEl.hidden = visible > 0;
+  }
+
+  titleInput.addEventListener('input', () => {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(filter, 50);
+  });
+
+  locationSelect.addEventListener('change', filter);
+</script>

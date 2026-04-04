@@ -1,0 +1,182 @@
+---
+import SectionHeading from './SectionHeading.astro';
+import Button from './Button.astro';
+
+const articles = [
+  {
+    image: '/images/blog-certification.png',
+    category: 'Training',
+    date: 'March 19, 2026',
+    author: 'Geoff Mether',
+    title: 'You might not need an Atlassian certification',
+    excerpt: 'Exploring when Atlassian certifications add value and when hands-on experience might be the better path for your career.',
+  },
+  {
+    image: '/images/blog-training-types.png',
+    category: 'Training',
+    date: 'March 17, 2026',
+    author: 'Geoff Mether',
+    title: 'Public vs private vs bespoke Atlassian training',
+    excerpt: 'A practical comparison of training delivery formats to help you choose the right approach for your team.',
+  },
+  {
+    image: '/images/blog-rovo-mcp.png',
+    category: 'AI & Innovation',
+    date: 'February 24, 2026',
+    author: 'Geoff Mether',
+    title: 'How Atlassian Rovo MCP Server makes your AI interactions safer',
+    excerpt: 'Understanding how Atlassian\'s Rovo MCP Server adds a layer of safety and governance to AI-powered workflows.',
+  },
+];
+---
+
+<section class="section section--alt">
+  <div class="container">
+    <SectionHeading title="Insights" subtitle="Latest from Our Blog" align="center" />
+    <div class="blog-grid">
+      {articles.map((article) => (
+        <a href="#" class="blog-card">
+          <div class="blog-card__image">
+            <img src={article.image} alt={article.title} />
+          </div>
+          <div class="blog-card__body">
+            <div class="blog-card__meta">
+              <span class="blog-card__category">{article.category}</span>
+              <span class="blog-card__date">{article.date}</span>
+            </div>
+            <h3 class="blog-card__title">{article.title}</h3>
+            <p class="blog-card__excerpt">{article.excerpt}</p>
+            <div class="blog-card__footer">
+              <span class="blog-card__author">by {article.author}</span>
+              <span class="blog-card__read-more">Read More &rarr;</span>
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+    <div class="blog-cta">
+      <Button href="#" variant="outline">View All Posts</Button>
+    </div>
+  </div>
+</section>
+
+<style>
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-bottom: 40px;
+  }
+
+  .blog-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blog-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+  }
+
+  .blog-card__image {
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+  }
+
+  .blog-card__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+
+  .blog-card:hover .blog-card__image img {
+    transform: scale(1.05);
+  }
+
+  .blog-card__body {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .blog-card__meta {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+
+  .blog-card__category {
+    font-size: 0.75rem;
+    font-weight: 600;
+    font-family: var(--font-heading);
+    color: var(--color-primary);
+    background: var(--color-primary-light);
+    padding: 3px 10px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .blog-card__date {
+    font-size: 0.8rem;
+    color: var(--color-text-light);
+  }
+
+  .blog-card__title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: 8px;
+    line-height: 1.4;
+  }
+
+  .blog-card__excerpt {
+    font-size: 0.9rem;
+    color: var(--color-text-light);
+    line-height: 1.6;
+    flex: 1;
+    margin-bottom: 16px;
+  }
+
+  .blog-card__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+  }
+
+  .blog-card__author {
+    color: var(--color-text-light);
+  }
+
+  .blog-card__read-more {
+    font-family: var(--font-heading);
+    font-weight: 500;
+    color: var(--color-primary);
+  }
+
+  .blog-cta {
+    text-align: center;
+  }
+
+  @media (max-width: 1024px) {
+    .blog-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .blog-grid {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+  }
+</style>

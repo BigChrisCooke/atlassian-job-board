@@ -1,0 +1,245 @@
+---
+import Icon from './Icon.astro';
+---
+
+<footer class="footer">
+  <div class="footer__inner container">
+    <div class="footer__grid">
+      <!-- Brand -->
+      <div class="footer__brand">
+        <img src="/images/logo-white.svg" alt="Togetha Group" class="footer__logo" />
+        <p class="footer__about">
+          Togetha Group is an Atlassian Platinum Solution Partner specialising in enterprise
+          collaboration, ITSM, and agile transformation solutions for government and corporate clients.
+        </p>
+      </div>
+
+      <!-- Contact -->
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:hello@togetha.group">hello@togetha.group</a></li>
+          <li><a href="tel:+61261901554">+61 2 6190 1554</a></li>
+        </ul>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer__col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Support Portal</a></li>
+        </ul>
+      </div>
+
+      <!-- Offices -->
+      <div class="footer__col">
+        <h4>Offices</h4>
+        <ul class="footer__offices">
+          <li><strong>Canberra</strong><br/>Level 9, 161 London Circuit, ACT 2601</li>
+          <li><strong>Sydney</strong><br/>81-83 Campbell Street, Surry Hills NSW 2010</li>
+          <li><strong>Melbourne</strong><br/>Unit 1, 242 Victoria Street, Brunswick VIC 3056</li>
+          <li><strong>Hong Kong</strong><br/>50 Bonham Strand, Sheung Wan</li>
+        </ul>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="footer__col">
+        <h4>Newsletter</h4>
+        <p class="footer__newsletter-desc">Stay updated with our latest insights.</p>
+        <form class="footer__newsletter" action="#" method="post">
+          <input type="email" placeholder="Email address" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Social -->
+    <div class="footer__social">
+      <a href="#" aria-label="Twitter"><Icon name="twitter" size={18} /></a>
+      <a href="#" aria-label="Facebook"><Icon name="facebook" size={18} /></a>
+      <a href="#" aria-label="LinkedIn"><Icon name="linkedin" size={18} /></a>
+      <a href="#" aria-label="YouTube"><Icon name="youtube" size={18} /></a>
+    </div>
+
+    <!-- Bottom -->
+    <div class="footer__bottom">
+      <p>&copy; 2026 Togetha Group Pty Ltd. All Rights Reserved.</p>
+      <a href="#" class="footer__privacy">Privacy Policy</a>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    background: var(--color-dark);
+    color: #ccc;
+    padding: 60px 0 30px;
+  }
+
+  .footer__grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1.2fr 1.2fr;
+    gap: 32px;
+    margin-bottom: 40px;
+  }
+
+  .footer__logo {
+    height: 32px;
+    width: auto;
+    margin-bottom: 16px;
+  }
+
+  .footer__about {
+    font-size: 0.85rem;
+    line-height: 1.6;
+    color: #999;
+  }
+
+  .footer__col h4 {
+    font-family: var(--font-heading);
+    color: #fff;
+    font-size: 0.95rem;
+    margin-bottom: 16px;
+  }
+
+  .footer__col ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .footer__col li,
+  .footer__col a {
+    font-size: 0.85rem;
+    color: #999;
+    transition: color 0.2s;
+    line-height: 1.5;
+  }
+
+  .footer__col a:hover {
+    color: var(--color-primary);
+  }
+
+  .footer__offices li {
+    margin-bottom: 8px;
+    font-size: 0.8rem;
+    line-height: 1.4;
+  }
+
+  .footer__offices strong {
+    color: #ccc;
+    font-weight: 500;
+  }
+
+  .footer__newsletter-desc {
+    font-size: 0.85rem;
+    color: #999;
+    margin-bottom: 12px;
+  }
+
+  .footer__newsletter {
+    display: flex;
+    gap: 0;
+  }
+
+  .footer__newsletter input {
+    flex: 1;
+    padding: 10px 12px;
+    border: 1px solid #444;
+    border-radius: 6px 0 0 6px;
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+    font-size: 0.85rem;
+    font-family: var(--font-body);
+    outline: none;
+    min-width: 0;
+  }
+
+  .footer__newsletter input:focus {
+    border-color: var(--color-primary);
+  }
+
+  .footer__newsletter button {
+    padding: 10px 16px;
+    background: var(--color-primary);
+    color: #fff;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    font-family: var(--font-heading);
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+    white-space: nowrap;
+  }
+
+  .footer__newsletter button:hover {
+    background: var(--color-primary-dark);
+  }
+
+  .footer__social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #3A1A5A;
+  }
+
+  .footer__social a {
+    color: #777;
+    transition: color 0.2s;
+  }
+
+  .footer__social a:hover {
+    color: var(--color-primary);
+  }
+
+  .footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #666;
+  }
+
+  .footer__privacy {
+    color: #666;
+    transition: color 0.2s;
+  }
+
+  .footer__privacy:hover {
+    color: var(--color-primary);
+  }
+
+  @media (max-width: 1024px) {
+    .footer__grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 32px;
+    }
+
+    .footer__brand {
+      grid-column: span 2;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .footer__grid {
+      grid-template-columns: 1fr;
+    }
+
+    .footer__brand {
+      grid-column: span 1;
+    }
+
+    .footer__bottom {
+      flex-direction: column;
+      gap: 8px;
+      text-align: center;
+    }
+  }
+</style>

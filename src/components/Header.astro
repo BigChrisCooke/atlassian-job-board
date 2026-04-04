@@ -1,0 +1,413 @@
+---
+const services = [
+  { text: 'Atlassian Training', href: '#' },
+  { text: 'Licensing & Procurement', href: '#' },
+  { text: 'Implementation & Configuration', href: '#' },
+  { text: 'Managed Services & Support', href: '#' },
+  { text: 'ITSM Implementation', href: '#' },
+  { text: 'Cloud & SaaS', href: '#' },
+];
+
+const resources = [
+  { text: 'Resources', href: '#' },
+  { text: 'Blog', href: '#' },
+];
+---
+
+<header class="header" id="site-header">
+  <div class="header__inner container">
+    <a href="/" class="header__logo">
+      <img src="/images/logo.svg" alt="Togetha Group" class="logo-img" />
+    </a>
+
+    <nav class="nav-desktop">
+      <ul class="nav-desktop__list">
+        <li><a href="/">Home</a></li>
+        <li class="dropdown">
+          <button class="dropdown__trigger">
+            Services
+            <svg class="dropdown__chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <ul class="dropdown__menu">
+            {services.map((item) => (
+              <li><a href={item.href}>{item.text}</a></li>
+            ))}
+          </ul>
+        </li>
+        <li class="dropdown">
+          <button class="dropdown__trigger">
+            Resources
+            <svg class="dropdown__chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <ul class="dropdown__menu">
+            {resources.map((item) => (
+              <li><a href={item.href}>{item.text}</a></li>
+            ))}
+          </ul>
+        </li>
+        <li><a href="/jobs">Jobs</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-secondary">
+      <a href="#">Blog</a>
+      <a href="#">About Us</a>
+      <a href="#contact" class="nav-cta">Contact Us</a>
+    </div>
+
+    <button class="mobile-menu-btn" aria-label="Toggle menu">
+      <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+      <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+
+  <!-- Mobile Panel -->
+  <div class="mobile-backdrop" id="mobile-backdrop"></div>
+  <div class="mobile-panel" id="mobile-panel">
+    <div class="mobile-panel__inner">
+      <div class="mobile-nav-group">
+        <a href="/" class="mobile-nav-link">Home</a>
+
+        <div class="mobile-accordion">
+          <button class="mobile-accordion-btn">
+            Services
+            <svg class="mobile-accordion-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="mobile-accordion-content">
+            {services.map((item) => (
+              <a href={item.href} class="mobile-sub-link">{item.text}</a>
+            ))}
+          </div>
+        </div>
+
+        <div class="mobile-accordion">
+          <button class="mobile-accordion-btn">
+            Resources
+            <svg class="mobile-accordion-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="mobile-accordion-content">
+            {resources.map((item) => (
+              <a href={item.href} class="mobile-sub-link">{item.text}</a>
+            ))}
+          </div>
+        </div>
+
+        <a href="/jobs" class="mobile-nav-link">Jobs</a>
+        <a href="#" class="mobile-nav-link">Blog</a>
+        <a href="#" class="mobile-nav-link">About Us</a>
+        <a href="#contact" class="mobile-nav-link mobile-nav-cta">Contact Us</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<script>
+  const header = document.getElementById('site-header');
+  const menuBtn = document.querySelector('.mobile-menu-btn');
+  const backdrop = document.getElementById('mobile-backdrop');
+  const panel = document.getElementById('mobile-panel');
+  let menuOpen = false;
+
+  // Scroll shadow
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 10) {
+      header?.classList.add('header--scrolled');
+    } else {
+      header?.classList.remove('header--scrolled');
+    }
+  });
+
+  // Mobile menu toggle
+  function toggleMenu() {
+    menuOpen = !menuOpen;
+    menuBtn?.classList.toggle('active', menuOpen);
+    backdrop?.classList.toggle('active', menuOpen);
+    panel?.classList.toggle('active', menuOpen);
+    document.body.style.overflow = menuOpen ? 'hidden' : '';
+  }
+
+  menuBtn?.addEventListener('click', toggleMenu);
+  backdrop?.addEventListener('click', toggleMenu);
+
+  // Mobile accordion
+  document.querySelectorAll('.mobile-accordion-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const accordion = btn.closest('.mobile-accordion');
+      accordion?.classList.toggle('open');
+    });
+  });
+</script>
+
+<style>
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #fff;
+    height: var(--header-height);
+    transition: box-shadow 0.3s;
+  }
+
+  .header--scrolled {
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+  }
+
+  .header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    gap: 32px;
+  }
+
+  .header__logo {
+    flex-shrink: 0;
+  }
+
+  .logo-img {
+    height: 40px;
+    width: auto;
+  }
+
+  /* Desktop Nav */
+  .nav-desktop__list {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+  }
+
+  .nav-desktop__list > li > a,
+  .dropdown__trigger {
+    font-family: var(--font-heading);
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--color-text);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    transition: color 0.2s;
+  }
+
+  .nav-desktop__list > li > a:hover,
+  .dropdown__trigger:hover {
+    color: var(--color-primary);
+  }
+
+  .dropdown {
+    position: relative;
+  }
+
+  .dropdown__chevron {
+    transition: transform 0.2s;
+  }
+
+  .dropdown:hover .dropdown__chevron {
+    transform: rotate(180deg);
+  }
+
+  .dropdown__menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 240px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    padding: 8px 0;
+    z-index: 100;
+  }
+
+  .dropdown:hover .dropdown__menu {
+    display: block;
+  }
+
+  .dropdown__menu a {
+    display: block;
+    padding: 12px 20px;
+    font-size: 0.9rem;
+    color: var(--color-text);
+    transition: all 0.2s;
+  }
+
+  .dropdown__menu a:hover {
+    background: var(--color-primary-light);
+    color: var(--color-primary);
+  }
+
+  /* Secondary Nav */
+  .nav-secondary {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-shrink: 0;
+  }
+
+  .nav-secondary a {
+    font-family: var(--font-heading);
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--color-text);
+    transition: color 0.2s;
+  }
+
+  .nav-secondary a:hover {
+    color: var(--color-primary);
+  }
+
+  .nav-cta {
+    background: var(--color-primary);
+    color: #fff !important;
+    padding: 10px 24px;
+    border-radius: 6px;
+    transition: background 0.2s !important;
+  }
+
+  .nav-cta:hover {
+    background: var(--color-primary-dark) !important;
+  }
+
+  /* Mobile Menu Button */
+  .mobile-menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    color: var(--color-text);
+  }
+
+  .close-icon {
+    display: none;
+  }
+
+  .mobile-menu-btn.active .hamburger-icon {
+    display: none;
+  }
+
+  .mobile-menu-btn.active .close-icon {
+    display: block;
+  }
+
+  /* Mobile Backdrop */
+  .mobile-backdrop {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 998;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .mobile-backdrop.active {
+    display: block;
+    opacity: 1;
+  }
+
+  /* Mobile Panel */
+  .mobile-panel {
+    position: fixed;
+    top: var(--header-height);
+    right: 0;
+    bottom: 0;
+    width: 320px;
+    max-width: 85vw;
+    background: #fff;
+    z-index: 999;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    overflow-y: auto;
+  }
+
+  .mobile-panel.active {
+    transform: translateX(0);
+  }
+
+  .mobile-panel__inner {
+    padding: 24px;
+  }
+
+  .mobile-nav-link {
+    display: block;
+    padding: 14px 0;
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-text);
+    border-bottom: 1px solid #eee;
+  }
+
+  .mobile-nav-cta {
+    background: var(--color-primary);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 14px;
+    margin-top: 16px;
+    border: none;
+  }
+
+  .mobile-accordion {
+    border-bottom: 1px solid #eee;
+  }
+
+  .mobile-accordion-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 14px 0;
+    background: none;
+    border: none;
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-text);
+    cursor: pointer;
+  }
+
+  .mobile-accordion-chevron {
+    transition: transform 0.3s;
+  }
+
+  .mobile-accordion.open .mobile-accordion-chevron {
+    transform: rotate(180deg);
+  }
+
+  .mobile-accordion-content {
+    display: none;
+    padding-bottom: 8px;
+  }
+
+  .mobile-accordion.open .mobile-accordion-content {
+    display: block;
+  }
+
+  .mobile-sub-link {
+    display: block;
+    padding: 10px 16px;
+    font-size: 0.9rem;
+    color: var(--color-text-light);
+    transition: color 0.2s;
+  }
+
+  .mobile-sub-link:hover {
+    color: var(--color-primary);
+  }
+
+  @media (max-width: 768px) {
+    .nav-desktop,
+    .nav-secondary {
+      display: none;
+    }
+
+    .mobile-menu-btn {
+      display: block;
+    }
+  }
+</style>

@@ -1,0 +1,42 @@
+import type { Job, PersonioSource } from '../../types.js';
+import { buildJobId, normaliseLocation } from '../../utils/normalise.js';
+
+export async function scrapePersonio(source: PersonioSource): Promise<Job[]> {
+  const url = `https://${source.slug}.jobs.personio.com/xml`;
+  const res = await fetch(url, {
+    headers: { 'User-Agent': 'TogethaJobBot/1.0' },
+  });
+
+  if (!res.ok) throw new Error(`Personio ${source.slug}: HTTP ${res.status}`);
+
+  const xml = await res.text();
+  const now = new Date().toISOString();
+
+  // Extract <position> blocks
+  const positions = xml.match(/<position>[\s\S]*?<\/position>/g) ?? [];
+
+  return positions.map((block) => {
+    const id = block.match(/<id>(\d+)<\/id>/)?.[1] ?? '';
+    const title = block.match(/<name>([^<]+)<\/name>/)?.[1]?.trim() ?? '';
+    const office = block.match(/<office>([^<]+)<\/office>/)?.[1]?.trim() ?? '';
+    const department = block.match(/<department>([^<]+)<\/department>/)?.[1]?.trim() ?? undefined;
+    const schedule = block.match(/<schedule>([^<]+)<\/schedule>/)?.[1]?.trim();
+    const createdAt = block.match(/<createdAt>([^<]+)<\/createdAt>/)?.[1] ?? now;
+
+    return {
+      id: buildJobId(source.slug, title, office),
+      sourceId: id,
+      source: source.name,
+      title,
+      company: source.name,
+      location: office,
+      locationNormalised: normaliseLocation(office),
+      department,
+      type: schedule,
+      url: `https://${source.slug}.jobs.personio.com/job/${id}`,
+      firstSeen: createdAt,
+      lastSeen: now,
+      isActive: true,
+    };
+  });
+}

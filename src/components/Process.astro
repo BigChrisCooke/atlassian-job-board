@@ -1,0 +1,107 @@
+---
+import SectionHeading from './SectionHeading.astro';
+
+const steps = [
+  {
+    number: '01',
+    title: 'Discovery & Assessment',
+    description: 'We conduct a deep dive into your current environment, processes, and goals to understand your unique needs.',
+  },
+  {
+    number: '02',
+    title: 'Strategy & Implementation',
+    description: 'Our certified consultants collaborate with your team to design and implement the optimal Atlassian solution.',
+  },
+  {
+    number: '03',
+    title: 'Support & Optimisation',
+    description: 'We provide ongoing support, training, and optimisation to ensure your team gets maximum value.',
+  },
+];
+---
+
+<section class="section">
+  <div class="container">
+    <SectionHeading
+      title="Our Process"
+      subtitle="How We Work With You"
+      align="center"
+    />
+    <p class="process-descriptor">Our Proven Approach to Atlassian Solutions</p>
+    <div class="process-grid">
+      {steps.map((step) => (
+        <div class="process-step">
+          <span class="process-step__number">{step.number}</span>
+          <div class="process-step__content">
+            <h3 class="process-step__title">{step.title}</h3>
+            <p class="process-step__desc">{step.description}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .process-descriptor {
+    text-align: center;
+    font-size: 1rem;
+    color: var(--color-text-light);
+    margin-top: -24px;
+    margin-bottom: 48px;
+  }
+
+  .process-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+
+  .process-step {
+    text-align: center;
+    position: relative;
+  }
+
+  .process-step__number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: var(--color-primary);
+    color: #fff;
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+  }
+
+  .process-step__title {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: 12px;
+  }
+
+  .process-step__desc {
+    font-size: 0.95rem;
+    color: var(--color-text-light);
+    line-height: 1.6;
+  }
+
+  @media (max-width: 768px) {
+    .process-grid {
+      grid-template-columns: 1fr;
+      gap: 32px;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    .process-step__number {
+      width: 52px;
+      height: 52px;
+      font-size: 1.1rem;
+    }
+  }
+</style>

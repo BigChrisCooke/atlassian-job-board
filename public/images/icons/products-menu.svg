@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 90 90">
+  <!-- Generator: Adobe Illustrator 29.6.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 207)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke: #bd4bf8;
+        stroke-miterlimit: 10;
+      }
+
+      .st0, .st1 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-width: 2.5px;
+      }
+
+      .st2 {
+        fill: #fff;
+      }
+
+      .st1 {
+        stroke: #fff;
+        stroke-linejoin: round;
+      }
+
+      .st3 {
+        fill: #bd4bf8;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2">
+    <rect class="st3" width="90" height="90" rx="10" ry="10"/>
+  </g>
+  <g id="Layer_1">
+    <path class="st1" d="M16.651,26.274h56.699c.921,0,1.67.748,1.67,1.67v38.356H14.981V27.944c0-.921.748-1.67,1.67-1.67Z"/>
+    <path class="st1" d="M9.978,66.3h70.044v3.832c0,3.408-2.767,6.174-6.174,6.174H16.152c-3.408,0-6.174-2.767-6.174-6.174v-3.832h0Z"/>
+    <polygon class="st2" points="45 56.33 26.096 45.962 26.096 23.557 45 11.398 63.904 23.557 63.904 45.962 45 56.33"/>
+    <path class="st3" d="M45,11.398l18.904,12.16v22.405l-18.904,10.367-18.904-10.367v-22.405l18.904-12.16M45,8.425l-1.352.87-18.904,12.16-1.148.738v25.25l1.298.712,18.904,10.367,1.202.659,1.202-.659,18.904-10.367,1.298-.712v-25.25l-1.148-.738-18.904-12.16-1.352-.87h0Z"/>
+    <g>
+      <line class="st0" x1="44.921" y1="49.71" x2="44.921" y2="34.445"/>
+      <polyline class="st0" points="31.293 26.07 44.921 34.445 58.707 26.07"/>
+    </g>
+  </g>
+</svg>

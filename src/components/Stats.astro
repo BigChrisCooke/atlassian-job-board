@@ -1,0 +1,71 @@
+---
+interface Props {
+  items?: { number: string; label: string }[];
+  light?: boolean;
+}
+
+const { items = [
+  { number: '10', label: 'Countries We Service' },
+  { number: '9', label: 'Years Operating' },
+  { number: '4', label: 'Office Locations' },
+], light = false } = Astro.props;
+---
+
+<div class={`stats ${light ? 'stats--light' : ''}`}>
+  {items.map((item) => (
+    <div class="stats__item">
+      <span class="stats__number">{item.number}</span>
+      <span class="stats__label">{item.label}</span>
+    </div>
+  ))}
+</div>
+
+<style>
+  .stats {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    padding: 32px 0;
+  }
+
+  .stats__item {
+    text-align: center;
+  }
+
+  .stats__number {
+    display: block;
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+
+  .stats--light .stats__number {
+    color: #fff;
+  }
+
+  .stats__label {
+    font-size: 0.9rem;
+    color: var(--color-text-light);
+  }
+
+  .stats--light .stats__label {
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  @media (max-width: 768px) {
+    .stats {
+      gap: 24px;
+    }
+
+    .stats__number {
+      font-size: 2rem;
+    }
+
+    .stats__label {
+      font-size: 0.8rem;
+    }
+  }
+</style>
