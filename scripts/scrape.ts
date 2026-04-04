@@ -11,6 +11,8 @@ import { scrapePersonio } from './sources/engines/personio.js';
 import { scrapeBambooHR } from './sources/engines/bamboohr.js';
 import { scrapeCommunardo } from './sources/custom/communardo.js';
 import { scrapeSeibert } from './sources/custom/seibert.js';
+import { scrapeDeviniti } from './sources/custom/deviniti.js';
+import { scrapeGlintech } from './sources/custom/glintech.js';
 import {
   LEVER_SOURCES,
   ASHBY_SOURCES,
@@ -128,6 +130,22 @@ async function main() {
   try {
     process.stdout.write('  Seibert Group... ');
     const jobs = await scrapeSeibert();
+    allFresh.push(...jobs);
+    console.log(`${jobs.length} jobs`);
+  } catch (err) {
+    console.error(`FAILED — ${(err as Error).message}`);
+  }
+  try {
+    process.stdout.write('  Deviniti... ');
+    const jobs = await scrapeDeviniti();
+    allFresh.push(...jobs);
+    console.log(`${jobs.length} jobs`);
+  } catch (err) {
+    console.error(`FAILED — ${(err as Error).message}`);
+  }
+  try {
+    process.stdout.write('  GLINtech... ');
+    const jobs = await scrapeGlintech();
     allFresh.push(...jobs);
     console.log(`${jobs.length} jobs`);
   } catch (err) {
