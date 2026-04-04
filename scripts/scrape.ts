@@ -13,6 +13,10 @@ import { scrapeCommunardo } from './sources/custom/communardo.js';
 import { scrapeSeibert } from './sources/custom/seibert.js';
 import { scrapeDeviniti } from './sources/custom/deviniti.js';
 import { scrapeGlintech } from './sources/custom/glintech.js';
+import { scrapeIdalko } from './sources/custom/idalko.js';
+import { scrapeCatworkx } from './sources/custom/catworkx.js';
+import { scrapeContegix } from './sources/custom/contegix.js';
+import { scrapeSpectrumGroupe } from './sources/custom/spectrumgroupe.js';
 import {
   LEVER_SOURCES,
   ASHBY_SOURCES,
@@ -146,6 +150,38 @@ async function main() {
   try {
     process.stdout.write('  GLINtech... ');
     const jobs = await scrapeGlintech();
+    allFresh.push(...jobs);
+    console.log(`${jobs.length} jobs`);
+  } catch (err) {
+    console.error(`FAILED — ${(err as Error).message}`);
+  }
+  try {
+    process.stdout.write('  iDalko (Exalate)... ');
+    const jobs = await scrapeIdalko();
+    allFresh.push(...jobs);
+    console.log(`${jobs.length} jobs`);
+  } catch (err) {
+    console.error(`FAILED — ${(err as Error).message}`);
+  }
+  try {
+    process.stdout.write('  catworkx... ');
+    const jobs = await scrapeCatworkx();
+    allFresh.push(...jobs);
+    console.log(`${jobs.length} jobs`);
+  } catch (err) {
+    console.error(`FAILED — ${(err as Error).message}`);
+  }
+  try {
+    process.stdout.write('  Contegix... ');
+    const jobs = await scrapeContegix();
+    allFresh.push(...jobs);
+    console.log(`${jobs.length} jobs`);
+  } catch (err) {
+    console.error(`FAILED — ${(err as Error).message}`);
+  }
+  try {
+    process.stdout.write('  Spectrum Groupe... ');
+    const jobs = await scrapeSpectrumGroupe();
     allFresh.push(...jobs);
     console.log(`${jobs.length} jobs`);
   } catch (err) {
