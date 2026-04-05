@@ -191,7 +191,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .job-card:hover {
   border-color: var(--color-primary);
-  box-shadow: 0 4px 16px rgba(254, 80, 0, 0.08);
+  box-shadow: 0 4px 16px rgba(105, 0, 196, 0.12);
 }
 
 .job-card__meta {
