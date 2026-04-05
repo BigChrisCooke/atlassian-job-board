@@ -4,7 +4,7 @@ import { buildJobId, normaliseLocation } from '../../utils/normalise.js';
 export async function scrapeTeamtailor(source: TeamtailorSource): Promise<Job[]> {
   const rssUrl = `${source.baseUrl}/jobs.rss`;
   const res = await fetch(rssUrl, {
-    headers: { 'User-Agent': 'TogethaJobBot/1.0' },
+    headers: { 'User-Agent': 'ApwideJobBot/1.0' },
   });
 
   if (!res.ok) throw new Error(`Teamtailor ${source.baseUrl}: HTTP ${res.status}`);

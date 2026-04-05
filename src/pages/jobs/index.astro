@@ -56,11 +56,12 @@ const jobPostings = activeJobs.map((j) => ({
 ---
 
 <Layout
-  title="Atlassian Ecosystem Jobs | Togetha Group"
+  title="Atlassian Ecosystem Jobs | Apwide"
   description={`${activeJobs.length} jobs at Atlassian Solution Partners and Marketplace vendors. Jira admins, Confluence specialists, and more. Updated weekly.`}
 >
   {jobPostings.length > 0 && (
     <script
+      is:inline
       type="application/ld+json"
       slot="head"
       set:html={JSON.stringify({ '@context': 'https://schema.org', '@graph': jobPostings })}

@@ -6,7 +6,7 @@ const LIST_URL = `${BASE_URL}/about/careers/`;
 
 export async function scrapeGlintech(): Promise<Job[]> {
   const res = await fetch(LIST_URL, {
-    headers: { 'User-Agent': 'TogethaJobBot/1.0' },
+    headers: { 'User-Agent': 'ApwideJobBot/1.0' },
   });
 
   if (!res.ok) throw new Error(`GLINtech: HTTP ${res.status}`);
@@ -33,7 +33,7 @@ export async function scrapeGlintech(): Promise<Job[]> {
     slugs.map(async (slug) => {
       const url = `${BASE_URL}/about/careers/${slug}/`;
       try {
-        const pageRes = await fetch(url, { headers: { 'User-Agent': 'TogethaJobBot/1.0' } });
+        const pageRes = await fetch(url, { headers: { 'User-Agent': 'ApwideJobBot/1.0' } });
         const pageHtml = await pageRes.text();
 
         // og:title contains "Job Title at GLiNTECH"

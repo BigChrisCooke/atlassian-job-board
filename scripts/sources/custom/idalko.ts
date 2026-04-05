@@ -5,7 +5,7 @@ const LIST_URL = 'https://idalko.com/job-list';
 
 export async function scrapeIdalko(): Promise<Job[]> {
   const res = await fetch(LIST_URL, {
-    headers: { 'User-Agent': 'TogethaJobBot/1.0' },
+    headers: { 'User-Agent': 'ApwideJobBot/1.0' },
   });
 
   if (!res.ok) throw new Error(`iDalko: HTTP ${res.status}`);

@@ -5,7 +5,7 @@ const LIST_URL = 'https://spectrumgroupe.fr/en/jobs/discover-all-our-offers/';
 
 export async function scrapeSpectrumGroupe(): Promise<Job[]> {
   const res = await fetch(LIST_URL, {
-    headers: { 'User-Agent': 'TogethaJobBot/1.0' },
+    headers: { 'User-Agent': 'ApwideJobBot/1.0' },
   });
 
   if (!res.ok) throw new Error(`Spectrum Groupe: HTTP ${res.status}`);

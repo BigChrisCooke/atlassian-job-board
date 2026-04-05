@@ -5,7 +5,7 @@ const LIST_URL = 'https://jobs.jobvite.com/contegix/jobs';
 
 export async function scrapeContegix(): Promise<Job[]> {
   const res = await fetch(LIST_URL, {
-    headers: { 'User-Agent': 'TogethaJobBot/1.0' },
+    headers: { 'User-Agent': 'ApwideJobBot/1.0' },
   });
 
   if (!res.ok) throw new Error(`Contegix: HTTP ${res.status}`);

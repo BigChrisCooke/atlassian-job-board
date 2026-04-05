@@ -20,7 +20,7 @@ export async function scrapeBambooHR(source: BambooHRSource): Promise<Job[]> {
   const res = await fetch(url, {
     headers: {
       'Accept': 'application/json',
-      'User-Agent': 'TogethaJobBot/1.0',
+      'User-Agent': 'ApwideJobBot/1.0',
     },
   });
 

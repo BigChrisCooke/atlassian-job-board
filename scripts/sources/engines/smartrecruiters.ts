@@ -18,7 +18,7 @@ interface SRPosting {
 export async function scrapeSmartRecruiters(source: SmartRecruitersSource): Promise<Job[]> {
   const url = `https://api.smartrecruiters.com/v1/companies/${source.companyId}/postings?limit=100`;
   const res = await fetch(url, {
-    headers: { 'User-Agent': 'TogethaJobBot/1.0' },
+    headers: { 'User-Agent': 'ApwideJobBot/1.0' },
   });
 
   if (!res.ok) throw new Error(`SmartRecruiters ${source.companyId}: HTTP ${res.status}`);

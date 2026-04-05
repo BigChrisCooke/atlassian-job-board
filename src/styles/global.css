@@ -11,16 +11,16 @@
 
 /* ===== CSS Custom Properties ===== */
 :root {
-  --color-primary: #FE5000;
-  --color-primary-light: #FFF3EC;
-  --color-primary-dark: #D94400;
-  --color-secondary: #BD4BF8;
-  --color-secondary-light: #F3E5FD;
-  --color-text: #3F0B78;
-  --color-text-light: #6B4D8A;
+  --color-primary: #1abc9c;
+  --color-primary-light: #e8faf6;
+  --color-primary-dark: #15a288;
+  --color-secondary: #1f92cb;
+  --color-secondary-light: #e6f4fb;
+  --color-text: #171716;
+  --color-text-light: #555554;
   --color-bg: #ffffff;
-  --color-bg-alt: #f8f7fa;
-  --color-dark: #2A0A4A;
+  --color-bg-alt: #fafafa;
+  --color-dark: #0a0a0a;
   --font-heading: 'Fira Sans', sans-serif;
   --font-body: 'Roboto', sans-serif;
   --max-width: 1200px;

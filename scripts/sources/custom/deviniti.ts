@@ -6,7 +6,7 @@ const LIST_URL = `${BASE_URL}/jobs/`;
 
 export async function scrapeDeviniti(): Promise<Job[]> {
   const res = await fetch(LIST_URL, {
-    headers: { 'User-Agent': 'TogethaJobBot/1.0' },
+    headers: { 'User-Agent': 'ApwideJobBot/1.0' },
   });
 
   if (!res.ok) throw new Error(`Deviniti: HTTP ${res.status}`);
@@ -34,7 +34,7 @@ export async function scrapeDeviniti(): Promise<Job[]> {
   const jobs = await Promise.all(
     slugs.map(async ({ url, slug }) => {
       try {
-        const pageRes = await fetch(url, { headers: { 'User-Agent': 'TogethaJobBot/1.0' } });
+        const pageRes = await fetch(url, { headers: { 'User-Agent': 'ApwideJobBot/1.0' } });
         const pageHtml = await pageRes.text();
         const titleMatch = pageHtml.match(/<title>([^<|]+)/);
         const title = titleMatch ? titleMatch[1].trim() : slug.replace(/-/g, ' ');

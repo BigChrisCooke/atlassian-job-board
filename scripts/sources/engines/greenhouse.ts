@@ -14,7 +14,7 @@ interface GreenhouseJob {
 export async function scrapeGreenhouse(source: GreenhouseSource): Promise<Job[]> {
   const url = `https://boards-api.greenhouse.io/v1/boards/${source.slug}/jobs`;
   const res = await fetch(url, {
-    headers: { 'User-Agent': 'TogethaJobBot/1.0' },
+    headers: { 'User-Agent': 'ApwideJobBot/1.0' },
   });
 
   if (!res.ok) throw new Error(`Greenhouse ${source.slug}: HTTP ${res.status}`);

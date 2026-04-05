@@ -6,7 +6,7 @@ const LIST_URL = `${BASE_URL}/offene-stellen/`;
 
 export async function scrapeSeibert(): Promise<Job[]> {
   const res = await fetch(LIST_URL, {
-    headers: { 'User-Agent': 'TogethaJobBot/1.0' },
+    headers: { 'User-Agent': 'ApwideJobBot/1.0' },
   });
 
   if (!res.ok) throw new Error(`Seibert: HTTP ${res.status}`);

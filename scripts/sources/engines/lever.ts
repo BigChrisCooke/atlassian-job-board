@@ -4,7 +4,7 @@ import { buildJobId, normaliseLocation } from '../../utils/normalise.js';
 export async function scrapeLeaver(source: LeverSource): Promise<Job[]> {
   const url = `https://api.lever.co/v0/postings/${source.slug}?mode=json`;
   const res = await fetch(url, {
-    headers: { 'User-Agent': 'TogethaJobBot/1.0 (+https://www.togetha.group)' },
+    headers: { 'User-Agent': 'ApwideJobBot/1.0 (+https://www.apwide.com)' },
   });
 
   if (!res.ok) {

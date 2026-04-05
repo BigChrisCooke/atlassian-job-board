@@ -6,7 +6,7 @@ const LIST_URL = `${BASE_URL}/en/karriere/stellenangebote`;
 
 export async function scrapeCatworkx(): Promise<Job[]> {
   const res = await fetch(LIST_URL, {
-    headers: { 'User-Agent': 'TogethaJobBot/1.0' },
+    headers: { 'User-Agent': 'ApwideJobBot/1.0' },
   });
 
   if (!res.ok) throw new Error(`catworkx: HTTP ${res.status}`);
@@ -33,7 +33,7 @@ export async function scrapeCatworkx(): Promise<Job[]> {
   const results = await Promise.all(
     jobs.map(async ({ url, slug }) => {
       try {
-        const pageRes = await fetch(url, { headers: { 'User-Agent': 'TogethaJobBot/1.0' } });
+        const pageRes = await fetch(url, { headers: { 'User-Agent': 'ApwideJobBot/1.0' } });
         const pageHtml = await pageRes.text();
 
         // og:title format: "Job Title | Job opening"

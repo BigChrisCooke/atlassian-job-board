@@ -4,7 +4,7 @@ import { buildJobId, normaliseLocation } from '../../utils/normalise.js';
 export async function scrapePersonio(source: PersonioSource): Promise<Job[]> {
   const url = `https://${source.slug}.jobs.personio.com/xml`;
   const res = await fetch(url, {
-    headers: { 'User-Agent': 'TogethaJobBot/1.0' },
+    headers: { 'User-Agent': 'ApwideJobBot/1.0' },
   });
 
   if (!res.ok) throw new Error(`Personio ${source.slug}: HTTP ${res.status}`);

@@ -6,7 +6,7 @@ const LIST_URL = `${BASE_URL}/karriere/?limit=all`;
 
 export async function scrapeCommunardo(): Promise<Job[]> {
   const res = await fetch(LIST_URL, {
-    headers: { 'User-Agent': 'TogethaJobBot/1.0' },
+    headers: { 'User-Agent': 'ApwideJobBot/1.0' },
   });
 
   if (!res.ok) throw new Error(`Communardo: HTTP ${res.status}`);
