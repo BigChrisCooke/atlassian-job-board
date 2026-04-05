@@ -1,58 +1,27 @@
 ---
-const services = [
-  { text: 'Atlassian Training', href: '#' },
-  { text: 'Licensing & Procurement', href: '#' },
-  { text: 'Implementation & Configuration', href: '#' },
-  { text: 'Managed Services & Support', href: '#' },
-  { text: 'ITSM Implementation', href: '#' },
-  { text: 'Cloud & SaaS', href: '#' },
-];
-
-const resources = [
-  { text: 'Resources', href: '#' },
-  { text: 'Blog', href: '#' },
-];
 ---
 
 <header class="header" id="site-header">
   <div class="header__inner container">
-    <a href="/" class="header__logo">
+    <a href="https://www.apwide.com/" class="header__logo" target="_blank" rel="noopener noreferrer">
       <img src="/images/logo.svg" alt="Apwide" class="logo-img" />
     </a>
 
     <nav class="nav-desktop">
       <ul class="nav-desktop__list">
-        <li><a href="/">Home</a></li>
-        <li class="dropdown">
-          <button class="dropdown__trigger">
-            Services
-            <svg class="dropdown__chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
-          </button>
-          <ul class="dropdown__menu">
-            {services.map((item) => (
-              <li><a href={item.href}>{item.text}</a></li>
-            ))}
-          </ul>
-        </li>
-        <li class="dropdown">
-          <button class="dropdown__trigger">
-            Resources
-            <svg class="dropdown__chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
-          </button>
-          <ul class="dropdown__menu">
-            {resources.map((item) => (
-              <li><a href={item.href}>{item.text}</a></li>
-            ))}
-          </ul>
-        </li>
+        <li><a href="https://www.apwide.com/" target="_blank" rel="noopener noreferrer">Home</a></li>
+        <li><a href="https://www.apwide.com/solutions-features/" target="_blank" rel="noopener noreferrer">Solutions</a></li>
+        <li><a href="https://www.apwide.com/golive-integrations/" target="_blank" rel="noopener noreferrer">Integrations</a></li>
+        <li><a href="https://www.apwide.com/golive-jira-app-pricing/" target="_blank" rel="noopener noreferrer">Pricing</a></li>
+        <li><a href="https://www.apwide.com/trusted-partners-network/" target="_blank" rel="noopener noreferrer">Partners</a></li>
+        <li><a href="https://www.apwide.com/support-documentation/" target="_blank" rel="noopener noreferrer">Support</a></li>
+        <li><a href="https://www.apwide.com/blog/" target="_blank" rel="noopener noreferrer">Blog</a></li>
         <li><a href="/jobs">Jobs</a></li>
       </ul>
     </nav>
 
     <div class="nav-secondary">
-      <a href="#">Blog</a>
-      <a href="#">About Us</a>
-      <a href="#contact" class="nav-cta">Contact Us</a>
+      <a href="https://marketplace.atlassian.com/apps/1212239/golive-release-test-environment-management" target="_blank" rel="noopener noreferrer" class="nav-cta">Try GoLive</a>
     </div>
 
     <button class="mobile-menu-btn" aria-label="Toggle menu">
@@ -66,36 +35,15 @@ const resources = [
   <div class="mobile-panel" id="mobile-panel">
     <div class="mobile-panel__inner">
       <div class="mobile-nav-group">
-        <a href="/" class="mobile-nav-link">Home</a>
-
-        <div class="mobile-accordion">
-          <button class="mobile-accordion-btn">
-            Services
-            <svg class="mobile-accordion-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
-          </button>
-          <div class="mobile-accordion-content">
-            {services.map((item) => (
-              <a href={item.href} class="mobile-sub-link">{item.text}</a>
-            ))}
-          </div>
-        </div>
-
-        <div class="mobile-accordion">
-          <button class="mobile-accordion-btn">
-            Resources
-            <svg class="mobile-accordion-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
-          </button>
-          <div class="mobile-accordion-content">
-            {resources.map((item) => (
-              <a href={item.href} class="mobile-sub-link">{item.text}</a>
-            ))}
-          </div>
-        </div>
-
+        <a href="https://www.apwide.com/" class="mobile-nav-link" target="_blank" rel="noopener noreferrer">Home</a>
+        <a href="https://www.apwide.com/solutions-features/" class="mobile-nav-link" target="_blank" rel="noopener noreferrer">Solutions</a>
+        <a href="https://www.apwide.com/golive-integrations/" class="mobile-nav-link" target="_blank" rel="noopener noreferrer">Integrations</a>
+        <a href="https://www.apwide.com/golive-jira-app-pricing/" class="mobile-nav-link" target="_blank" rel="noopener noreferrer">Pricing</a>
+        <a href="https://www.apwide.com/trusted-partners-network/" class="mobile-nav-link" target="_blank" rel="noopener noreferrer">Partners</a>
+        <a href="https://www.apwide.com/support-documentation/" class="mobile-nav-link" target="_blank" rel="noopener noreferrer">Support</a>
+        <a href="https://www.apwide.com/blog/" class="mobile-nav-link" target="_blank" rel="noopener noreferrer">Blog</a>
         <a href="/jobs" class="mobile-nav-link">Jobs</a>
-        <a href="#" class="mobile-nav-link">Blog</a>
-        <a href="#" class="mobile-nav-link">About Us</a>
-        <a href="#contact" class="mobile-nav-link mobile-nav-cta">Contact Us</a>
+        <a href="https://marketplace.atlassian.com/apps/1212239/golive-release-test-environment-management" class="mobile-nav-link mobile-nav-cta" target="_blank" rel="noopener noreferrer">Try GoLive</a>
       </div>
     </div>
   </div>
