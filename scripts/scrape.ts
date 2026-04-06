@@ -17,6 +17,11 @@ import { scrapeIdalko } from './sources/custom/idalko.js';
 import { scrapeCatworkx } from './sources/custom/catworkx.js';
 import { scrapeContegix } from './sources/custom/contegix.js';
 import { scrapeSpectrumGroupe } from './sources/custom/spectrumgroupe.js';
+import { scrapeOxalis } from './sources/custom/oxalis.js';
+import { scrapeNsi } from './sources/custom/nsi.js';
+import { scrapeSoftgile } from './sources/custom/softgile.js';
+import { scrapeEuris } from './sources/custom/euris.js';
+import { scrapeEcore } from './sources/custom/ecore.js';
 import {
   LEVER_SOURCES,
   ASHBY_SOURCES,
@@ -182,6 +187,46 @@ async function main() {
   try {
     process.stdout.write('  Spectrum Groupe... ');
     const jobs = await scrapeSpectrumGroupe();
+    allFresh.push(...jobs);
+    console.log(`${jobs.length} jobs`);
+  } catch (err) {
+    console.error(`FAILED — ${(err as Error).message}`);
+  }
+  try {
+    process.stdout.write('  Oxalis Solutions... ');
+    const jobs = await scrapeOxalis();
+    allFresh.push(...jobs);
+    console.log(`${jobs.length} jobs`);
+  } catch (err) {
+    console.error(`FAILED — ${(err as Error).message}`);
+  }
+  try {
+    process.stdout.write('  NSI... ');
+    const jobs = await scrapeNsi();
+    allFresh.push(...jobs);
+    console.log(`${jobs.length} jobs`);
+  } catch (err) {
+    console.error(`FAILED — ${(err as Error).message}`);
+  }
+  try {
+    process.stdout.write('  Softgile... ');
+    const jobs = await scrapeSoftgile();
+    allFresh.push(...jobs);
+    console.log(`${jobs.length} jobs`);
+  } catch (err) {
+    console.error(`FAILED — ${(err as Error).message}`);
+  }
+  try {
+    process.stdout.write('  GetConnected / Euris... ');
+    const jobs = await scrapeEuris();
+    allFresh.push(...jobs);
+    console.log(`${jobs.length} jobs`);
+  } catch (err) {
+    console.error(`FAILED — ${(err as Error).message}`);
+  }
+  try {
+    process.stdout.write('  e-core... ');
+    const jobs = await scrapeEcore();
     allFresh.push(...jobs);
     console.log(`${jobs.length} jobs`);
   } catch (err) {
