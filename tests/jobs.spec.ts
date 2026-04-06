@@ -17,7 +17,7 @@ test('job count is shown and non-zero', async ({ page }) => {
 
   // Look for any element showing a count/number of jobs
   const body = page.locator('body');
-  await expect(body).toContainText(/\d+ job/i, { timeout: 10000 });
+  await expect(body).toContainText(/\d+ roles/i, { timeout: 10000 });
 });
 
 test('category filter works', async ({ page }) => {
