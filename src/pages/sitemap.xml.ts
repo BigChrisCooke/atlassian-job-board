@@ -22,7 +22,7 @@ const PAGES: SitemapPage[] = [
 ];
 
 export const GET: APIRoute = ({ site }) => {
-  const baseUrl = (site ?? 'https://www.togetha.group').toString().replace(/\/$/, '');
+  const baseUrl = (site ?? 'https://atlassian-job-board.vercel.app').toString().replace(/\/$/, '');
 
   const indexable = PAGES.filter(
     (p) =>
