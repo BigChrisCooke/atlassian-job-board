@@ -1,4 +1,4 @@
-import type { Job, SmartRecruitersSource } from '../../types.js';
+import type { Job, SmartRecruitersSource, SmartRecruitersQuery } from '../../types.js';
 import { buildJobId, normaliseLocation } from '../../utils/normalise.js';
 
 interface SRPosting {
@@ -16,15 +16,24 @@ interface SRPosting {
 }
 
 export async function scrapeSmartRecruiters(source: SmartRecruitersSource): Promise<Job[]> {
-  const url = `https://api.smartrecruiters.com/v1/companies/${source.companyId}/postings?limit=100`;
-  const res = await fetch(url, {
-    headers: { 'User-Agent': 'ApwideJobBot/1.0' },
-  });
+  const queries: Array<SmartRecruitersQuery | null> = source.queries ?? [null];
+  const seen = new Set<string>();
+  const postings: SRPosting[] = [];
 
-  if (!res.ok) throw new Error(`SmartRecruiters ${source.companyId}: HTTP ${res.status}`);
-
-  const data = await res.json();
-  const postings: SRPosting[] = data.content ?? [];
+  for (const query of queries) {
+    const url = `https://api.smartrecruiters.com/v1/companies/${source.companyId}/postings?limit=100${query ? `&q=${encodeURIComponent(query.q)}` : ''}`;
+    const res = await fetch(url, {
+      headers: { 'User-Agent': 'ApwideJobBot/1.0' },
+    });
+    if (!res.ok) throw new Error(`SmartRecruiters ${source.companyId}: HTTP ${res.status}`);
+    const data = await res.json();
+    for (const p of (data.content ?? []) as SRPosting[]) {
+      if (seen.has(p.id)) continue;
+      if (query?.titleContains && !p.name.toLowerCase().includes(query.titleContains.toLowerCase())) continue;
+      seen.add(p.id);
+      postings.push(p);
+    }
+  }
   const now = new Date().toISOString();
 
   return postings.map((p) => {

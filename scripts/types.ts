@@ -35,9 +35,15 @@ export interface GreenhouseSource {
   name: string;
 }
 
+export interface SmartRecruitersQuery {
+  q: string;
+  titleContains?: string;  // if set, further filter results to titles matching this string
+}
+
 export interface SmartRecruitersSource {
   companyId: string;
   name: string;
+  queries?: SmartRecruitersQuery[];
 }
 
 export interface TeamtailorSource {
