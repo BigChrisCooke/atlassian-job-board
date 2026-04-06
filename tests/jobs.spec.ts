@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-const BASE_URL = 'https://atlassian-job-board.netlify.app';
+const BASE_URL = 'https://atlassian-job-board.vercel.app';
 
 test('jobs page loads and displays listings', async ({ page }) => {
   await page.goto(`${BASE_URL}/jobs/`);
