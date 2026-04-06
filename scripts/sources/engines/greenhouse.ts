@@ -20,7 +20,10 @@ export async function scrapeGreenhouse(source: GreenhouseSource): Promise<Job[]>
   if (!res.ok) throw new Error(`Greenhouse ${source.slug}: HTTP ${res.status}`);
 
   const data = await res.json();
-  const jobs: GreenhouseJob[] = data.jobs ?? [];
+  const allJobs: GreenhouseJob[] = data.jobs ?? [];
+  const jobs = source.titleFilter
+    ? allJobs.filter((j) => source.titleFilter!.test(j.title))
+    : allJobs;
   const now = new Date().toISOString();
 
   return jobs.map((j) => ({

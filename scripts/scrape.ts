@@ -7,6 +7,7 @@ import { scrapeAshby } from './sources/engines/ashby.js';
 import { scrapeGreenhouse } from './sources/engines/greenhouse.js';
 import { scrapeSmartRecruiters } from './sources/engines/smartrecruiters.js';
 import { scrapeTeamtailor } from './sources/engines/teamtailor.js';
+import { scrapeWorkable } from './sources/engines/workable.js';
 import { scrapePersonio } from './sources/engines/personio.js';
 import { scrapeBambooHR } from './sources/engines/bamboohr.js';
 import { scrapeCommunardo } from './sources/custom/communardo.js';
@@ -30,6 +31,7 @@ import {
   TEAMTAILOR_SOURCES,
   PERSONIO_SOURCES,
   BAMBOOHR_SOURCES,
+  WORKABLE_SOURCES,
 } from './sources/index.js';
 
 async function main() {
@@ -126,8 +128,21 @@ async function main() {
     }
   }
 
+  // --- Workable sources ---
+  console.log('\n[scrape] Group 8 — Workable');
+  for (const source of WORKABLE_SOURCES) {
+    try {
+      process.stdout.write(`  ${source.name}... `);
+      const jobs = await scrapeWorkable(source);
+      allFresh.push(...jobs);
+      console.log(`${jobs.length} jobs`);
+    } catch (err) {
+      console.error(`FAILED — ${(err as Error).message}`);
+    }
+  }
+
   // --- Custom scrapers ---
-  console.log('\n[scrape] Group 8 — Custom');
+  console.log('\n[scrape] Group 9 — Custom');
   try {
     process.stdout.write('  Communardo... ');
     const jobs = await scrapeCommunardo();

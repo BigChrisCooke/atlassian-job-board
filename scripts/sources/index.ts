@@ -5,6 +5,7 @@ import { GREENHOUSE_SOURCES } from './config/greenhouse-sources.js';
 import { SMARTRECRUITERS_SOURCES } from './config/smartrecruiters-sources.js';
 import { TEAMTAILOR_SOURCES } from './config/teamtailor-sources.js';
 import { BAMBOOHR_SOURCES } from './config/bamboohr-sources.js';
+import { WORKABLE_SOURCES } from './config/workable-sources.js';
 
 export {
   LEVER_SOURCES,
@@ -14,4 +15,5 @@ export {
   SMARTRECRUITERS_SOURCES,
   TEAMTAILOR_SOURCES,
   BAMBOOHR_SOURCES,
+  WORKABLE_SOURCES,
 };

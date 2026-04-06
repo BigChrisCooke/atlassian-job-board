@@ -33,6 +33,13 @@ export interface PersonioSource {
 export interface GreenhouseSource {
   slug: string;
   name: string;
+  titleFilter?: RegExp;  // if set, only include jobs whose title matches
+}
+
+export interface WorkableSource {
+  slug: string;   // subdomain on apply.workable.com
+  name: string;
+  titleFilter?: RegExp;
 }
 
 export interface SmartRecruitersQuery {
