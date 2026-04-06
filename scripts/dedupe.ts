@@ -3,7 +3,7 @@ import path from 'path';
 import type { Job, JobsDataFile } from './types.js';
 
 const DATA_PATH = path.resolve('src/data/jobs.json');
-const INACTIVE_PRUNE_DAYS = 14;
+const INACTIVE_PRUNE_DAYS = 21;
 
 export function deduplicateAndMerge(freshJobs: Job[]): Job[] {
   let existing: Job[] = [];

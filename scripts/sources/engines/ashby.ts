@@ -20,17 +20,25 @@ export async function scrapeAshby(source: AshbySource): Promise<Job[]> {
 
     await page.goto(`https://jobs.ashbyhq.com/${source.slug}`, {
       waitUntil: 'domcontentloaded',
-      timeout: 30_000,
+      timeout: 60_000,
     });
 
     try {
       await page.waitForFunction(
         'window.__appData && window.__appData.jobBoard !== null',
-        { timeout: 15_000 }
+        { timeout: 30_000 }
       );
     } catch {
-      // Board timed out — likely genuinely empty or slow to load
-      return [];
+      // First attempt timed out — wait 5s and retry once before giving up
+      await new Promise((r) => setTimeout(r, 5_000));
+      try {
+        await page.waitForFunction(
+          'window.__appData && window.__appData.jobBoard !== null',
+          { timeout: 20_000 }
+        );
+      } catch {
+        return [];
+      }
     }
 
     const appData = await page.evaluate(() => (window as any).__appData);

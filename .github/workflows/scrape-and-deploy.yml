@@ -28,6 +28,7 @@ jobs:
         run: npx playwright install chromium --with-deps
 
       - name: Run scraper
+        timeout-minutes: 30
         run: npm run scrape
 
       - name: Commit updated jobs data (if changed)

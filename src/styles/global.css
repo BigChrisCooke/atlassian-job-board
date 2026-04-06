@@ -11,9 +11,9 @@
 
 /* ===== CSS Custom Properties ===== */
 :root {
-  --color-primary: #6900c4;
-  --color-primary-light: #f0e6ff;
-  --color-primary-dark: #5200a0;
+  --color-primary: #1abc9c;
+  --color-primary-light: #e8faf6;
+  --color-primary-dark: #15a288;
   --color-secondary: #1f92cb;
   --color-secondary-light: #e6f4fb;
   --color-text: #171716;

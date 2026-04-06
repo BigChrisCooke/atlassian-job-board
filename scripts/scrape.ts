@@ -23,6 +23,10 @@ import { scrapeNsi } from './sources/custom/nsi.js';
 import { scrapeSoftgile } from './sources/custom/softgile.js';
 import { scrapeEuris } from './sources/custom/euris.js';
 import { scrapeEcore } from './sources/custom/ecore.js';
+import { scrapeRemoteOK } from './sources/custom/remoteok.js';
+import { scrapeSalto } from './sources/custom/salto.js';
+import { scrapeXpandIt } from './sources/custom/xpandit.js';
+import { scrapeElements } from './sources/custom/elements.js';
 import {
   LEVER_SOURCES,
   ASHBY_SOURCES,
@@ -33,6 +37,8 @@ import {
   BAMBOOHR_SOURCES,
   WORKABLE_SOURCES,
 } from './sources/index.js';
+
+const sleep = (ms: number) => new Promise<void>((r) => setTimeout(r, ms));
 
 async function main() {
   const allFresh: Job[] = [];
@@ -48,6 +54,7 @@ async function main() {
     } catch (err) {
       console.error(`FAILED — ${(err as Error).message}`);
     }
+    await sleep(1500);
   }
 
   // --- Ashby sources ---
@@ -61,6 +68,7 @@ async function main() {
     } catch (err) {
       console.error(`FAILED — ${(err as Error).message}`);
     }
+    await sleep(1500);
   }
 
   // --- Greenhouse sources ---
@@ -74,6 +82,7 @@ async function main() {
     } catch (err) {
       console.error(`FAILED — ${(err as Error).message}`);
     }
+    await sleep(1500);
   }
 
   // --- SmartRecruiters sources ---
@@ -87,6 +96,7 @@ async function main() {
     } catch (err) {
       console.error(`FAILED — ${(err as Error).message}`);
     }
+    await sleep(1500);
   }
 
   // --- Teamtailor sources ---
@@ -100,6 +110,7 @@ async function main() {
     } catch (err) {
       console.error(`FAILED — ${(err as Error).message}`);
     }
+    await sleep(1500);
   }
 
   // --- Personio sources ---
@@ -113,6 +124,7 @@ async function main() {
     } catch (err) {
       console.error(`FAILED — ${(err as Error).message}`);
     }
+    await sleep(1500);
   }
 
   // --- BambooHR sources ---
@@ -126,6 +138,7 @@ async function main() {
     } catch (err) {
       console.error(`FAILED — ${(err as Error).message}`);
     }
+    await sleep(1500);
   }
 
   // --- Workable sources ---
@@ -139,6 +152,7 @@ async function main() {
     } catch (err) {
       console.error(`FAILED — ${(err as Error).message}`);
     }
+    await sleep(1500);
   }
 
   // --- Custom scrapers ---
@@ -151,6 +165,7 @@ async function main() {
   } catch (err) {
     console.error(`FAILED — ${(err as Error).message}`);
   }
+  await sleep(1500);
   try {
     process.stdout.write('  Seibert Group... ');
     const jobs = await scrapeSeibert();
@@ -159,6 +174,7 @@ async function main() {
   } catch (err) {
     console.error(`FAILED — ${(err as Error).message}`);
   }
+  await sleep(1500);
   try {
     process.stdout.write('  Deviniti... ');
     const jobs = await scrapeDeviniti();
@@ -167,6 +183,7 @@ async function main() {
   } catch (err) {
     console.error(`FAILED — ${(err as Error).message}`);
   }
+  await sleep(1500);
   try {
     process.stdout.write('  GLINtech... ');
     const jobs = await scrapeGlintech();
@@ -175,6 +192,7 @@ async function main() {
   } catch (err) {
     console.error(`FAILED — ${(err as Error).message}`);
   }
+  await sleep(1500);
   try {
     process.stdout.write('  iDalko (Exalate)... ');
     const jobs = await scrapeIdalko();
@@ -183,6 +201,7 @@ async function main() {
   } catch (err) {
     console.error(`FAILED — ${(err as Error).message}`);
   }
+  await sleep(1500);
   try {
     process.stdout.write('  catworkx... ');
     const jobs = await scrapeCatworkx();
@@ -191,6 +210,7 @@ async function main() {
   } catch (err) {
     console.error(`FAILED — ${(err as Error).message}`);
   }
+  await sleep(1500);
   try {
     process.stdout.write('  Contegix... ');
     const jobs = await scrapeContegix();
@@ -199,6 +219,7 @@ async function main() {
   } catch (err) {
     console.error(`FAILED — ${(err as Error).message}`);
   }
+  await sleep(1500);
   try {
     process.stdout.write('  Spectrum Groupe... ');
     const jobs = await scrapeSpectrumGroupe();
@@ -207,6 +228,7 @@ async function main() {
   } catch (err) {
     console.error(`FAILED — ${(err as Error).message}`);
   }
+  await sleep(1500);
   try {
     process.stdout.write('  Oxalis Solutions... ');
     const jobs = await scrapeOxalis();
@@ -215,6 +237,7 @@ async function main() {
   } catch (err) {
     console.error(`FAILED — ${(err as Error).message}`);
   }
+  await sleep(1500);
   try {
     process.stdout.write('  NSI... ');
     const jobs = await scrapeNsi();
@@ -223,6 +246,7 @@ async function main() {
   } catch (err) {
     console.error(`FAILED — ${(err as Error).message}`);
   }
+  await sleep(1500);
   try {
     process.stdout.write('  Softgile... ');
     const jobs = await scrapeSoftgile();
@@ -231,6 +255,7 @@ async function main() {
   } catch (err) {
     console.error(`FAILED — ${(err as Error).message}`);
   }
+  await sleep(1500);
   try {
     process.stdout.write('  GetConnected / Euris... ');
     const jobs = await scrapeEuris();
@@ -239,9 +264,46 @@ async function main() {
   } catch (err) {
     console.error(`FAILED — ${(err as Error).message}`);
   }
+  await sleep(1500);
   try {
     process.stdout.write('  e-core... ');
     const jobs = await scrapeEcore();
+    allFresh.push(...jobs);
+    console.log(`${jobs.length} jobs`);
+  } catch (err) {
+    console.error(`FAILED — ${(err as Error).message}`);
+  }
+  await sleep(1500);
+  try {
+    process.stdout.write('  Remote OK... ');
+    const jobs = await scrapeRemoteOK();
+    allFresh.push(...jobs);
+    console.log(`${jobs.length} jobs`);
+  } catch (err) {
+    console.error(`FAILED — ${(err as Error).message}`);
+  }
+  await sleep(1500);
+  try {
+    process.stdout.write('  Salto... ');
+    const jobs = await scrapeSalto();
+    allFresh.push(...jobs);
+    console.log(`${jobs.length} jobs`);
+  } catch (err) {
+    console.error(`FAILED — ${(err as Error).message}`);
+  }
+  await sleep(1500);
+  try {
+    process.stdout.write('  Xpand IT... ');
+    const jobs = await scrapeXpandIt();
+    allFresh.push(...jobs);
+    console.log(`${jobs.length} jobs`);
+  } catch (err) {
+    console.error(`FAILED — ${(err as Error).message}`);
+  }
+  await sleep(1500);
+  try {
+    process.stdout.write('  Elements... ');
+    const jobs = await scrapeElements();
     allFresh.push(...jobs);
     console.log(`${jobs.length} jobs`);
   } catch (err) {
