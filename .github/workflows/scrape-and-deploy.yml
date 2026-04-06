@@ -47,5 +47,6 @@ jobs:
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
 
-      - name: Trigger Netlify deploy
-        run: curl -s -X POST "${{ secrets.NETLIFY_BUILD_HOOK }}"
+      # Netlify paused — re-enable when plan upgraded or credits resume
+      # - name: Trigger Netlify deploy
+      #   run: curl -s -X POST "${{ secrets.NETLIFY_BUILD_HOOK }}"
