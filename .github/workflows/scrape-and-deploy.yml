@@ -35,12 +35,14 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git stash
+          git pull --rebase origin master
+          git stash pop
           git add src/data/jobs.json
           if git diff --staged --quiet; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             git commit -m "chore: weekly job data refresh [skip ci]"
-            git pull --rebase origin master
             git push
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
