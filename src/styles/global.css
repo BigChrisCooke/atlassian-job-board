@@ -11,9 +11,9 @@
 
 /* ===== CSS Custom Properties ===== */
 :root {
-  --color-primary: #1abc9c;
-  --color-primary-light: #e8faf6;
-  --color-primary-dark: #15a288;
+  --color-primary: #6900c4;
+  --color-primary-light: #f0e6ff;
+  --color-primary-dark: #5200a0;
   --color-secondary: #1f92cb;
   --color-secondary-light: #e6f4fb;
   --color-text: #171716;
@@ -191,7 +191,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .job-card:hover {
   border-color: var(--color-primary);
-  box-shadow: 0 4px 16px rgba(254, 80, 0, 0.08);
+  box-shadow: 0 4px 16px rgba(105, 0, 196, 0.12);
 }
 
 .job-card__meta {
