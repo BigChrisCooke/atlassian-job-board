@@ -123,7 +123,7 @@ const jobPostings = activeJobs.map((j) => ({
         {activeJobs.map((job) => (
           <article
             class="job-card"
-            data-title={`${job.title.toLowerCase()} ${job.company.toLowerCase()} ${(job.type ?? '').toLowerCase()}`}
+            data-title={`${job.title.toLowerCase()} ${job.company.toLowerCase()} ${(job.type ?? '').toLowerCase()} ${job.location.toLowerCase()} ${job.locationNormalised.toLowerCase()}`}
             data-location={job.locationNormalised}
             data-type={normaliseType(job.type)}
             data-category={normaliseCategory(job.department, job.title)}
