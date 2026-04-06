@@ -1,58 +1,48 @@
 import type { Job } from '../../types.js';
 import { buildJobId } from '../../utils/normalise.js';
 
-const LIST_URL = 'https://ecore.inhire.app/vagas';
-const BASE_URL = 'https://ecore.inhire.app';
+// InHire public API — no Playwright needed
+const API_URL = 'https://api.inhire.app/job-posts/public/pages';
+const BASE_URL = 'https://ecore.inhire.app/vagas';
+
+interface InHireJob {
+  jobId: string;
+  displayName: string;
+  city?: string;
+  country?: string;
+  remote?: boolean;
+}
 
 export async function scrapeEcore(): Promise<Job[]> {
-  // InHire is a JS SPA — requires Playwright to render
-  const { chromium } = await import('playwright');
-  const browser = await chromium.launch({ headless: true });
+  const res = await fetch(API_URL, {
+    headers: {
+      'User-Agent': 'ApwideJobBot/1.0',
+      'Accept': 'application/json',
+      'X-Tenant': 'ecore',
+    },
+  });
 
-  try {
-    const page = await browser.newPage();
-    await page.goto(LIST_URL, { waitUntil: 'networkidle', timeout: 45000 });
+  if (!res.ok) throw new Error(`e-core InHire: HTTP ${res.status}`);
 
-    // Scroll to trigger any lazy-loaded jobs
-    await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
-    await page.waitForTimeout(1500);
+  const data = await res.json();
 
-    const links = await page.locator('a[href^="/vagas/"]').evaluateAll(
-      (els) =>
-        els.map((e) => ({
-          href: e.getAttribute('href') ?? '',
-          title: e.textContent?.trim() ?? '',
-        }))
-    );
+  // jobsPage is an object keyed by index: { "0": {...}, "1": {...}, ... }
+  const jobs: InHireJob[] = Object.values(data.jobsPage ?? {});
+  const now = new Date().toISOString();
 
-    const now = new Date().toISOString();
-    const seen = new Set<string>();
-    const jobs: Job[] = [];
-
-    for (const { href, title } of links) {
-      if (!href || !title || seen.has(href)) continue;
-      seen.add(href);
-
-      // URL slug is the last path segment: /vagas/{uuid}/{slug}
-      const sourceId = href.split('/')[2] ?? href;
-
-      jobs.push({
-        id: buildJobId('ecore', title, 'brazil'),
-        sourceId,
-        source: 'e-core',
-        title,
-        company: 'e-core',
-        location: 'Brazil',
-        locationNormalised: 'other',
-        url: `${BASE_URL}${href}`,
-        firstSeen: now,
-        lastSeen: now,
-        isActive: true,
-      });
-    }
-
-    return jobs;
-  } finally {
-    await browser.close();
-  }
+  return jobs
+    .filter((j) => j.jobId && j.displayName)
+    .map((j) => ({
+      id: buildJobId('ecore', j.displayName, 'brazil'),
+      sourceId: j.jobId,
+      source: 'e-core',
+      title: j.displayName,
+      company: 'e-core',
+      location: 'Brazil',
+      locationNormalised: 'other',
+      url: `${BASE_URL}/${j.jobId}`,
+      firstSeen: now,
+      lastSeen: now,
+      isActive: true,
+    }));
 }
