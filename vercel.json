@@ -1,0 +1,6 @@
+{
+  "redirects": [
+    { "source": "/jobs",  "destination": "/", "permanent": true },
+    { "source": "/jobs/", "destination": "/", "permanent": true }
+  ]
+}

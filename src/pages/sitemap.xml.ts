@@ -16,8 +16,7 @@ interface SitemapPage {
 }
 
 const PAGES: SitemapPage[] = [
-  { path: '/',      changefreq: 'monthly', priority: '1.0' },
-  { path: '/jobs/', changefreq: 'weekly',  priority: '0.9', lastmod: jobsData.generatedAt },
+  { path: '/', changefreq: 'weekly', priority: '1.0', lastmod: jobsData.generatedAt },
   // Add new pages here as the site grows
 ];
 
