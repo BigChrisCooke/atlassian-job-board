@@ -122,6 +122,22 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 8px;
 }
 
+.jobs-about {
+  font-size: 0.95rem;
+  color: var(--color-text-light);
+  margin-bottom: 1rem;
+  max-width: 680px;
+  line-height: 1.6;
+}
+.jobs-about a {
+  color: var(--color-primary);
+  font-weight: 500;
+  text-decoration: none;
+}
+.jobs-about a:hover {
+  text-decoration: underline;
+}
+
 .atlassian-link {
   font-size: 0.9rem;
   color: var(--color-text-light);
