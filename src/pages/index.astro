@@ -7,7 +7,7 @@ const GRACE_MS = 7 * 24 * 60 * 60 * 1000;
 const activeJobs = jobsData.jobs.filter(
   (j) => j.isActive || Date.now() - new Date(j.lastSeen).getTime() <= GRACE_MS
 );
-const locations = [...new Set(activeJobs.map((j) => j.locationNormalised))].sort();
+const locations = [...new Set(activeJobs.flatMap((j) => j.locationNormalised))].sort();
 
 const normaliseType = (t: string | undefined) => {
   if (!t) return '';
@@ -49,10 +49,10 @@ const jobPostings = activeJobs.map((j) => ({
   validThrough: j.lastSeen,
   hiringOrganization: { '@type': 'Organization', name: j.company },
   jobLocation:
-    j.locationNormalised === 'remote'
+    j.locationNormalised.includes('remote')
       ? { '@type': 'Place', address: { '@type': 'PostalAddress', addressCountry: 'AU' } }
       : { '@type': 'Place', address: j.location },
-  ...(j.locationNormalised === 'remote' ? { jobLocationType: 'TELECOMMUTE' } : {}),
+  ...(j.locationNormalised.includes('remote') ? { jobLocationType: 'TELECOMMUTE' } : {}),
   url: j.url,
 }));
 ---
@@ -129,8 +129,8 @@ const jobPostings = activeJobs.map((j) => ({
         {activeJobs.map((job) => (
           <article
             class="job-card"
-            data-title={`${job.title.toLowerCase()} ${job.company.toLowerCase()} ${(job.type ?? '').toLowerCase()} ${job.location.toLowerCase()} ${job.locationNormalised.toLowerCase()}`}
-            data-location={job.locationNormalised}
+            data-title={`${job.title.toLowerCase()} ${job.company.toLowerCase()} ${(job.type ?? '').toLowerCase()} ${job.location.toLowerCase()} ${job.locationNormalised.join(' ')}`}
+            data-location={job.locationNormalised.join(' ')}
             data-type={normaliseType(job.type)}
             data-category={normaliseCategory(job.department, job.title)}
           >
@@ -172,7 +172,7 @@ const jobPostings = activeJobs.map((j) => ({
 
     cards.forEach((card) => {
       const matchesTitle = !q || (card.dataset.title ?? '').includes(q);
-      const matchesLocation = !loc || card.dataset.location === loc;
+      const matchesLocation = !loc || (card.dataset.location ?? '').split(' ').includes(loc);
       const matchesType = !type || card.dataset.type === type;
       const matchesCategory = !cat || card.dataset.category === cat;
       card.hidden = !(matchesTitle && matchesLocation && matchesType && matchesCategory);

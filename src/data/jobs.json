@@ -9,7 +9,9 @@
       "title": "Atlassian Solution Architect",
       "company": "Cprime",
       "location": "Chennai, Tamil Nadu",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "india"
+      ],
       "department": "Technology and Tools",
       "type": "Full-time",
       "description": "Cprime brings business into a new light—illuminating possibilities that once seemed hidden. For more than two decades, we’ve partnered with 2,500+ organizations worldwide, including over 300 of the Fortune 500, to help leaders see complexity with new clarity and rewire it into intelligent flow. With",
@@ -25,7 +27,9 @@
       "title": "Atlassian Technical Consultant",
       "company": "Cprime",
       "location": "Chennai, Tamil Nadu",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "india"
+      ],
       "department": "Technology and Tools",
       "type": "Full-time",
       "description": "Cprime brings business into a new light—illuminating possibilities that once seemed hidden. For more than two decades, we’ve partnered with 2,500+ organizations worldwide, including over 300 of the Fortune 500, to help leaders see complexity with new clarity and rewire it into intelligent flow. With",
@@ -41,7 +45,9 @@
       "title": "ATP Implementation Consultant",
       "company": "Cprime",
       "location": "India",
-      "locationNormalised": "india",
+      "locationNormalised": [
+        "india"
+      ],
       "department": "Enterprise Technology and Financial Management",
       "type": "Full-time",
       "description": "Cprime brings business into a new light—illuminating possibilities that once seemed hidden. For more than two decades, we’ve partnered with 2,500+ organizations worldwide, including over 300 of the Fortune 500, to help leaders see complexity with new clarity and rewire it into intelligent flow. With",
@@ -57,7 +63,9 @@
       "title": "Engagement Director",
       "company": "Cprime",
       "location": "London, UK",
-      "locationNormalised": "uk",
+      "locationNormalised": [
+        "uk"
+      ],
       "department": "Delivery",
       "type": "Full-time",
       "description": "Who is Cprime?\n\nOur mission is to enable our clients to turn ideas into action faster. Our globally diverse team transforms businesses with consulting, managed services, software, and custom solutions that keep us engaged with clients for true lifetime value.\n\nWe are curious, passionate, motivated a",
@@ -73,7 +81,9 @@
       "title": "Enterprise Agility & Organizational Effectiveness Coach",
       "company": "Cprime",
       "location": "Hyderabad, India",
-      "locationNormalised": "india",
+      "locationNormalised": [
+        "india"
+      ],
       "department": "Enterprise Agility",
       "type": "Contractor",
       "description": "Cprime brings business into a new light—illuminating possibilities that once seemed hidden. For more than two decades, we’ve partnered with 2,500+ organizations worldwide, including over 300 of the Fortune 500, to help leaders see complexity with new clarity and rewire it into intelligent flow. With",
@@ -89,7 +99,9 @@
       "title": "Expression of Interest – ( Delivery and Technology Opportunities)",
       "company": "Cprime",
       "location": "Melbourne",
-      "locationNormalised": "australia",
+      "locationNormalised": [
+        "australia"
+      ],
       "department": "Consulting - Digital & Enterprise Solutions",
       "type": "Contractor",
       "description": "About Elabor8\n\nWe are all about bringing value to our clients on their agile transformation journeys. Our focus on operational design, new ways of working and agile delivery helps organisations move easily between now, and what comes next.\n\nWe are currently building our Expression of Interest talent",
@@ -105,7 +117,9 @@
       "title": "Front End Developer",
       "company": "Cprime",
       "location": "Chennai",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "india"
+      ],
       "department": "Technology and Tools",
       "type": "Full-time",
       "description": "Cprime brings business into a new light—illuminating possibilities that once seemed hidden. For more than two decades, we’ve partnered with 2,500+ organizations worldwide, including over 300 of the Fortune 500, to help leaders see complexity with new clarity and rewire it into intelligent flow. With",
@@ -121,7 +135,9 @@
       "title": "ServiceNow Sales Executive",
       "company": "Cprime",
       "location": "Dallas, TX",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "department": "Sales",
       "type": "Full-time",
       "description": "Cprime brings business into a new light—illuminating possibilities that once seemed hidden. For more than two decades, we’ve partnered with 2,500+ organizations worldwide, including over 300 of the Fortune 500, to help leaders see complexity with new clarity and rewire it into intelligent flow. With",
@@ -137,7 +153,9 @@
       "title": "ServiceNow Technical Consultant - HRSD",
       "company": "Cprime",
       "location": "Hyderabad, India",
-      "locationNormalised": "india",
+      "locationNormalised": [
+        "india"
+      ],
       "department": "Global Talent Services",
       "type": "Full-time",
       "description": "Cprime brings business into a new light—illuminating possibilities that once seemed hidden. For more than two decades, we’ve partnered with 2,500+ organizations worldwide, including over 300 of the Fortune 500, to help leaders see complexity with new clarity and rewire it into intelligent flow. With",
@@ -153,7 +171,9 @@
       "title": "Solutions Advisory Director",
       "company": "Cprime",
       "location": "United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "department": "Enterprise Technology and Value Acceleration",
       "type": "Full-time",
       "description": "Cprime brings business into a new light—illuminating possibilities that once seemed hidden. For more than two decades, we’ve partnered with 2,500+ organizations worldwide, including over 300 of the Fortune 500, to help leaders see complexity with new clarity and rewire it into intelligent flow. With",
@@ -169,7 +189,9 @@
       "title": "Specialist 2, Customer Support",
       "company": "Cprime",
       "location": "Cincinatti, OH",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "department": "Global Talent Services",
       "description": "Role:                   Specialist 2, Customer Support\nContract:            3+ months- Contract-to-Hire\nLocation:             Blue Ash, OH (no remote work available)\n\nJob Description:\nOnsite in Blue Ash, OH (no remote work available)\nStart:  03/23 \nSchedule:  Mon-Fri 9am-6pm ESTP ay $20.00/hour\nWoul",
       "url": "https://jobs.lever.co/cprime/2ccbfad1-be7e-4627-a10a-a4dcdc212639",
@@ -184,7 +206,9 @@
       "title": "Sr Consultant – ITAM, CMDB & AIOps",
       "company": "Cprime",
       "location": "Hyderabad, India",
-      "locationNormalised": "india",
+      "locationNormalised": [
+        "india"
+      ],
       "department": "Global Talent Services -India",
       "type": "Full-time",
       "description": "Cprime brings business into a new light—illuminating possibilities that once seemed hidden. For more than two decades, we’ve partnered with 2,500+ organizations worldwide, including over 300 of the Fortune 500, to help leaders see complexity with new clarity and rewire it into intelligent flow. With",
@@ -200,7 +224,9 @@
       "title": "Sr Developer (HP NONSTOP ,TANDEM, SCOBOL)",
       "company": "Cprime",
       "location": "Pune, India",
-      "locationNormalised": "india",
+      "locationNormalised": [
+        "india"
+      ],
       "department": "Global Talent Services -India",
       "type": "Full-time",
       "description": "Cprime brings business into a new light—illuminating possibilities that once seemed hidden. For more than two decades, we’ve partnered with 2,500+ organizations worldwide, including over 300 of the Fortune 500, to help leaders see complexity with new clarity and rewire it into intelligent flow. With",
@@ -216,7 +242,9 @@
       "title": "Sr Oracle EPM ARCS & FCCS Technical Consultant (Contract)",
       "company": "Cprime",
       "location": "Hyderabad, India",
-      "locationNormalised": "india",
+      "locationNormalised": [
+        "india"
+      ],
       "department": "Global Talent Services -India",
       "type": "Contractor",
       "description": "Cprime brings business into a new light—illuminating possibilities that once seemed hidden. For more than two decades, we’ve partnered with 2,500+ organizations worldwide, including over 300 of the Fortune 500, to help leaders see complexity with new clarity and rewire it into intelligent flow. With",
@@ -232,7 +260,9 @@
       "title": "Sr ServiceNow Developer (CMDB and ITSM )",
       "company": "Cprime",
       "location": "Hyderabad, India",
-      "locationNormalised": "india",
+      "locationNormalised": [
+        "india"
+      ],
       "department": "Global Talent Services -India",
       "type": "Full-time",
       "description": "Cprime brings business into a new light—illuminating possibilities that once seemed hidden. For more than two decades, we’ve partnered with 2,500+ organizations worldwide, including over 300 of the Fortune 500, to help leaders see complexity with new clarity and rewire it into intelligent flow. With",
@@ -248,7 +278,9 @@
       "title": "Associate Solutions Architect",
       "company": "ServiceRocket",
       "location": "Sydney, Australia",
-      "locationNormalised": "australia",
+      "locationNormalised": [
+        "australia"
+      ],
       "department": "Sales and Success",
       "type": "Full-time",
       "description": "G'day!\nWe are ServiceRocket🚀, a global tech-enabled services company headquartered in Palo Alto, California. Our purpose is to be the single most reliable partner in the acceleration of your growth. At ServiceRocket, we are committed to the development of every Rocketeer and the trust of every cust",
@@ -264,7 +296,9 @@
       "title": "Client Solutions Project Manager",
       "company": "ServiceRocket",
       "location": "Sydney, Australia",
-      "locationNormalised": "australia",
+      "locationNormalised": [
+        "australia"
+      ],
       "department": "Service Delivery",
       "type": "Full-time",
       "description": "G'day!\nWe are ServiceRocket🚀, a global tech-enabled services company headquartered in Palo Alto, California. Our purpose is to be the single most reliable partner in the acceleration of your growth. At ServiceRocket, we are committed to the development of every Rocketeer and the trust of every cust",
@@ -280,7 +314,10 @@
       "title": "ITSM Atlassian Consultant",
       "company": "ServiceRocket",
       "location": "Remote (AU), Australia",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote",
+        "australia"
+      ],
       "department": "Service Delivery",
       "type": "Contract",
       "description": "G'day!\nWe are ServiceRocket🚀, a global tech-enabled services company headquartered in Palo Alto, California. Our purpose is to be the single most reliable partner in the acceleration of our clients' and your growth. At ServiceRocket, we are committed to the development of every Rocketeer and the tr",
@@ -296,7 +333,9 @@
       "title": "Solutions Architect - Enterprise Service Management",
       "company": "ServiceRocket",
       "location": "Sydney, Australia",
-      "locationNormalised": "australia",
+      "locationNormalised": [
+        "australia"
+      ],
       "department": "Sales and Success",
       "type": "Full-time",
       "description": "G'day!\nWe are ServiceRocket🚀, a global tech-enabled services company headquartered in Palo Alto, California. Our purpose is to be the single most reliable partner in the acceleration of your growth. At ServiceRocket, we are committed to the development of every Rocketeer and the trust of every cust",
@@ -312,7 +351,9 @@
       "title": "Technology Consultant",
       "company": "ServiceRocket",
       "location": "Sydney, Australia",
-      "locationNormalised": "australia",
+      "locationNormalised": [
+        "australia"
+      ],
       "department": "Service Delivery",
       "type": "Full-time",
       "description": "G'day!\nWe are ServiceRocket🚀, a global tech-enabled services company headquartered in Palo Alto, California. Our purpose is to be the single most reliable partner in the acceleration of your growth. At ServiceRocket, we are committed to the development of every Rocketeer and the trust of every cust",
@@ -328,7 +369,9 @@
       "title": "Atlassian Consultant - Cloud Practice",
       "company": "Valiantys",
       "location": "Paris, Île-de-France, France",
-      "locationNormalised": "europe",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Consulting",
       "type": "Full Time Permanent",
       "description": "Valiantys transforms how organizations work by delivering expert solutions that increase enterprise and team agility. Valiantys unlocks the full value of Atlassian’s System of Work, helping customers revolutionize product development, streamline enterprise service management (ESM), and accelerate cl",
@@ -344,7 +387,9 @@
       "title": "Atlassian Lead Consultant - Cloud Practice",
       "company": "Valiantys",
       "location": "Paris, Île-de-France, France",
-      "locationNormalised": "europe",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Consulting",
       "type": "Full Time Permanent",
       "description": "Valiantys transforms how organizations work by delivering expert solutions that increase enterprise and team agility. Valiantys unlocks the full value of Atlassian’s System of Work, helping customers revolutionize product development, streamline enterprise service management (ESM), and accelerate cl",
@@ -360,7 +405,10 @@
       "title": "Delivery Director France & UK",
       "company": "Valiantys",
       "location": "Remote, United Kingdom",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote",
+        "uk"
+      ],
       "department": "Delivery Management",
       "type": "Full Time Permanent Contract",
       "description": "About Valiantys\nValiantys is the leading global consulting and services firm dedicated to Atlassian. We accelerate business transformation by digitizing processes and modernizing teamwork, using the best Agile methods and tools. Our Atlassian technical expertise is unparalleled and we support our cu",
@@ -376,7 +424,9 @@
       "title": "Delivery Manager",
       "company": "Valiantys",
       "location": "Paris, Île-de-France, France",
-      "locationNormalised": "europe",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Delivery Management",
       "type": "Full Time Permanent Contract",
       "description": "About Valiantys\nJoin Valiantys and be part of something extraordinary!\nAt Valiantys, we're not your typical Atlassian Platinum Solution Partner – we're the force behind awe-inspiring, game-changing solutions, meticulously designed for Atlassian's suite of software products.\nWe're the pioneers in del",
@@ -392,7 +442,10 @@
       "title": "DevOps & Platform Developer",
       "company": "Valiantys",
       "location": "Remote, France",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote",
+        "europe"
+      ],
       "department": "BI & Data Analysis",
       "type": "Full Time Permanent Contract",
       "description": "About Valiantys\nJoin Valiantys and be part of something extraordinary!\nAt Valiantys, we're not your typical Atlassian Platinum Solution Partner – we're the force behind awe-inspiring, game-changing solutions, meticulously designed for Atlassian's suite of software products.\nWe're the pioneers in del",
@@ -408,7 +461,10 @@
       "title": "Enterprise Growth Manager - Strategic Sales",
       "company": "Valiantys",
       "location": "Remote, North America",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote",
+        "usa"
+      ],
       "department": "Sales",
       "type": "Full Time Permanent",
       "description": "About Valiantys\nValiantys is the leading global consulting and services firm dedicated to Atlassian. We accelerate business transformation by digitizing processes and modernizing teamwork, using the best Agile methods and tools. Our Atlassian technical expertise is unparalleled and we support our cu",
@@ -424,7 +480,9 @@
       "title": "Enterprise Sales Lead",
       "company": "Valiantys",
       "location": "Paris, Île-de-France, France",
-      "locationNormalised": "europe",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Sales",
       "type": "Full Time Permanent Contract",
       "description": "About Valiantys \n\nValiantys transforms how organizations work by delivering expert solutions that increase enterprise and team agility. Valiantys unlocks the full value of Atlassian’s System of Work, helping customers revolutionize product development, streamline enterprise service management (ESM),",
@@ -440,7 +498,9 @@
       "title": "Enterprise Sales Lead",
       "company": "Valiantys",
       "location": "Bern, Bern, Switzerland",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Sales",
       "type": "Full Time Permanent Contract",
       "description": "About Valiantys \n \nValiantys transforms how organizations work by delivering expert solutions that increase enterprise and team agility. Valiantys unlocks the full value of Atlassian’s System of Work, helping customers revolutionize product development, streamline enterprise service management (ESM)",
@@ -456,7 +516,9 @@
       "title": "Enterprise Sales Lead",
       "company": "Valiantys",
       "location": "London, England, United Kingdom",
-      "locationNormalised": "uk",
+      "locationNormalised": [
+        "uk"
+      ],
       "department": "Sales",
       "type": "Full or Part Time Permanent Contract",
       "description": "About Valiantys \nValiantys is the leading global consulting and services firm dedicated to Atlassian. We accelerate business transformation by digitizing processes and modernizing teamwork, using the best Agile methods and tools. Our Atlassian technical expertise is unparalleled and we support our c",
@@ -472,7 +534,9 @@
       "title": "Enterprise Sales Lead (f/m/d)",
       "company": "Valiantys",
       "location": "Amsterdam",
-      "locationNormalised": "europe",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Sales",
       "type": "Full Time Permanent Contract",
       "description": "About Valiantys \n\nValiantys transforms how organizations work by delivering expert solutions that increase enterprise and team agility. Valiantys unlocks the full value of Atlassian’s System of Work, helping customers revolutionize product development, streamline enterprise service management (ESM),",
@@ -488,7 +552,10 @@
       "title": "Graphic Designer (f/m/d)",
       "company": "Valiantys",
       "location": "Remote, Germany",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote",
+        "europe"
+      ],
       "department": "Corporate Marketing",
       "type": "Full or Part Time Permanent Contract",
       "description": "Über Valiantys \n \nSchließe dich Valiantys an und werde Teil von etwas Außergewöhnlichem!\nBei Valiantys sind wir kein typischer Atlassian Platinum Solution Partner – wir sind die treibende Kraft hinter beeindruckenden, bahnbrechenden Lösungen, die mit größter Sorgfalt für die Atlassian-Produktpalette",
@@ -504,7 +571,9 @@
       "title": "Junior Transformation Consultant (f/m/d)",
       "company": "Valiantys",
       "location": "Paris, Île-de-France, France",
-      "locationNormalised": "europe",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Transformation Consulting",
       "type": "Full Time Permanent Contract",
       "description": "About Valiantys\n\nValiantys is a global leader in consulting and services for the Atlassian ecosystem, helping businesses transform their IT operations and business processes. With a focus on driving operational excellence, innovation, and agility, we empower organizations to achieve their goals thro",
@@ -520,7 +589,10 @@
       "title": "People Experience Manager North America",
       "company": "Valiantys",
       "location": "Remote, North America",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote",
+        "usa"
+      ],
       "department": "People Experience",
       "type": "Full Time Permanent",
       "description": "About Valiantys\nJoin Valiantys and be part of something extraordinary!\nAt Valiantys, we're not your typical Atlassian Platinum Solution Partner – we're the force behind awe-inspiring, game-changing solutions, meticulously designed for Atlassian's suite of software products.\nWe're the pioneers in del",
@@ -536,7 +608,10 @@
       "title": "Principal Transformation Consultant (f/m/d)",
       "company": "Valiantys",
       "location": "Remote, United Kingdom",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote",
+        "uk"
+      ],
       "department": "Transformation Consulting",
       "description": "About Valiantys\nValiantys is a global leader in consulting and services for the Atlassian ecosystem, helping businesses transform their IT operations and business processes. With a focus on driving operational excellence, innovation, and agility, we empower organizations to achieve their goals throu",
       "url": "https://jobs.lever.co/valiantys/e7a6a4e3-38c0-4d6a-abe7-3f37b4a5b933",
@@ -551,7 +626,10 @@
       "title": "Senior Technical Consultant",
       "company": "Valiantys",
       "location": "Remote, North America",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote",
+        "usa"
+      ],
       "department": "Consulting",
       "type": "Full Time Permanent",
       "description": "About Valiantys\nHere at Valiantys, we are one of the world’s largest Atlassian partners, helping organizations work better through scalable, people-centered solutions. As an Atlassian Platinum Solution Partner with a global footprint, we support customers across industries as they adopt ITSM, Agile ",
@@ -567,7 +645,9 @@
       "title": "Senior Transformation Consultant (f/m/d)",
       "company": "Valiantys",
       "location": "Paris, Île-de-France, France",
-      "locationNormalised": "europe",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Transformation Consulting",
       "type": "Full Time Permanent Contract",
       "description": "About Valiantys\n\nValiantys is a global leader in consulting and services for the Atlassian ecosystem, helping businesses transform their IT operations and business processes. With a focus on driving operational excellence, innovation, and agility, we empower organizations to achieve their goals thro",
@@ -583,7 +663,10 @@
       "title": "Sr Solution Consultant - ITSM",
       "company": "Valiantys",
       "location": "Remote, North America",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote",
+        "usa"
+      ],
       "department": "Consulting",
       "type": "Full Time Permanent",
       "description": "About Valiantys\nHere at Valiantys, we are one of the world’s largest Atlassian partners, helping organizations work better through scalable, people-centered solutions. As an Atlassian Platinum Solution Partner with a global footprint, we support customers across industries as they adopt ITSM, Agile ",
@@ -599,7 +682,9 @@
       "title": "Account Executive",
       "company": "Tempo",
       "location": "Spain",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Sales",
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/e94d97cd-9fb7-4d9a-863b-3c6d35c4270f",
@@ -614,7 +699,9 @@
       "title": "Director, Account Based Marketing",
       "company": "Tempo",
       "location": "United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "department": "Marketing",
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/3c427da4-3656-4b28-b707-af6275e306a7",
@@ -629,7 +716,9 @@
       "title": "Director of Legal",
       "company": "Tempo",
       "location": "United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "department": "Finance",
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/c88696ff-17a1-447d-bc0d-1cdba652c12f",
@@ -644,7 +733,9 @@
       "title": "Manager, Site Reliability Engineering",
       "company": "Tempo",
       "location": "Canada",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "canada"
+      ],
       "department": "Engineering",
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/b1aca505-6772-46ea-9d5d-54a4d11f816d",
@@ -659,7 +750,9 @@
       "title": "Partner Sales Manager",
       "company": "Tempo",
       "location": "United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "department": "Sales",
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/94bfba40-72cf-4dea-9dad-083d133b8530",
@@ -674,7 +767,9 @@
       "title": "Principal Product Manager",
       "company": "Tempo",
       "location": "United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "department": "Product",
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/b9310798-5832-4c5f-9a3a-85a261c1f0d7",
@@ -689,7 +784,9 @@
       "title": "QA Analyst",
       "company": "Tempo",
       "location": "Canada",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "canada"
+      ],
       "department": "Engineering",
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/126b0f0e-3b90-4c89-863b-777705754b29",
@@ -704,7 +801,9 @@
       "title": "Senior Backend Developer",
       "company": "Tempo",
       "location": "Canada",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "canada"
+      ],
       "department": "Engineering",
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/ebc0a488-7b15-45a1-b468-0e8dd7869a40",
@@ -719,7 +818,9 @@
       "title": "Senior Backend Developer (Cloud)",
       "company": "Tempo",
       "location": "Canada",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "canada"
+      ],
       "department": "Engineering",
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/2e3bfa48-72ac-4eaa-b5b3-18c1cb46dbd0",
@@ -734,7 +835,9 @@
       "title": "Senior Community & Influencer Manager",
       "company": "Tempo",
       "location": "United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "department": "Marketing",
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/aa919003-abfc-4975-a504-b06bb87a382f",
@@ -749,7 +852,9 @@
       "title": "Senior Financial Analyst  (R&D/Customer Success)",
       "company": "Tempo",
       "location": "United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "department": "Finance",
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/75d044fc-95ed-45bc-b6a9-ceb4c604f474",
@@ -764,7 +869,9 @@
       "title": "Senior Frontend Developer (Growth)",
       "company": "Tempo",
       "location": "South America",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "department": "Engineering",
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/6d3eed11-3687-4627-a441-811892f9e3a2",
@@ -779,7 +886,9 @@
       "title": "Senior Manager, Customer Advocacy",
       "company": "Tempo",
       "location": "United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "department": "Marketing",
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/072a78d8-fdea-4f3e-b0b7-890467b5e147",
@@ -794,7 +903,9 @@
       "title": "Senior Manager, Product & Cloud Security",
       "company": "Tempo",
       "location": "Canada",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "canada"
+      ],
       "department": "Engineering",
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/4a674f6d-1944-4624-af97-3a4405da7510",
@@ -809,7 +920,9 @@
       "title": "Senior Product Manager - Insights",
       "company": "Tempo",
       "location": "Canada",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "canada"
+      ],
       "department": "Product",
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/b963b7f3-83a1-4809-94ed-592129d848a6",
@@ -824,7 +937,9 @@
       "title": "Senior Software Developer (Cloud) ",
       "company": "Tempo",
       "location": "Canada",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "canada"
+      ],
       "department": "Engineering",
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/f643690c-42ff-4440-8bd6-e018d82e1349",
@@ -839,7 +954,9 @@
       "title": "Technology Partner GTM Manager",
       "company": "Tempo",
       "location": "Canada",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "canada"
+      ],
       "department": "Marketing",
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/c0f380da-28bb-4126-8617-9cebcc269487",
@@ -854,7 +971,9 @@
       "title": "Associate Software Engineer (React)",
       "company": "Appfire",
       "location": "Bulgaria",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4656905005",
       "firstSeen": "2026-02-08T15:17:11-05:00",
       "lastSeen": "2026-04-06T13:28:21.867Z",
@@ -867,7 +986,9 @@
       "title": "Corporate Counsel",
       "company": "Appfire",
       "location": "United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4662698005",
       "firstSeen": "2026-02-17T07:28:10-05:00",
       "lastSeen": "2026-04-06T13:28:21.867Z",
@@ -880,7 +1001,9 @@
       "title": "Director of Product Management ",
       "company": "Appfire",
       "location": "Bulgaria",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4668226005",
       "firstSeen": "2026-03-03T05:52:54-05:00",
       "lastSeen": "2026-04-06T13:28:21.867Z",
@@ -893,7 +1016,9 @@
       "title": "Director of Product Management ",
       "company": "Appfire",
       "location": "Spain",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4668228005",
       "firstSeen": "2026-03-03T05:58:07-05:00",
       "lastSeen": "2026-04-06T13:28:21.867Z",
@@ -906,7 +1031,9 @@
       "title": "Global Payroll Lead",
       "company": "Appfire",
       "location": "United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4669634005",
       "firstSeen": "2026-03-13T15:14:39-04:00",
       "lastSeen": "2026-04-06T13:28:21.867Z",
@@ -919,7 +1046,9 @@
       "title": "Manager, Customer Success - Bulgaria",
       "company": "Appfire",
       "location": "Bulgaria",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4669853005",
       "firstSeen": "2026-03-05T10:14:53-05:00",
       "lastSeen": "2026-04-06T13:28:21.867Z",
@@ -932,7 +1061,9 @@
       "title": "Manager, Customer Success - Poland",
       "company": "Appfire",
       "location": "Poland",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4669838005",
       "firstSeen": "2026-03-05T08:19:03-05:00",
       "lastSeen": "2026-04-06T13:28:21.867Z",
@@ -945,7 +1076,9 @@
       "title": "Manager, Customer Success - Spain",
       "company": "Appfire",
       "location": "Spain",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4668878005",
       "firstSeen": "2026-03-05T07:55:21-05:00",
       "lastSeen": "2026-04-06T13:28:21.867Z",
@@ -958,7 +1091,9 @@
       "title": "Manager, Software Engineering",
       "company": "Appfire",
       "location": "Poland",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4633727005",
       "firstSeen": "2025-12-16T03:53:06-05:00",
       "lastSeen": "2026-04-06T13:28:21.867Z",
@@ -971,7 +1106,9 @@
       "title": "Manager, Software Engineering",
       "company": "Appfire",
       "location": "Bulgaria",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4641115005",
       "firstSeen": "2025-12-16T03:53:07-05:00",
       "lastSeen": "2026-04-06T13:28:21.867Z",
@@ -984,7 +1121,9 @@
       "title": "Principal Software Engineer",
       "company": "Appfire",
       "location": "Bulgaria",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4637089005",
       "firstSeen": "2025-12-11T03:13:14-05:00",
       "lastSeen": "2026-04-06T13:28:21.867Z",
@@ -997,7 +1136,9 @@
       "title": "Principal Software Engineer",
       "company": "Appfire",
       "location": "Poland",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4638824005",
       "firstSeen": "2025-12-11T03:13:15-05:00",
       "lastSeen": "2026-04-06T13:28:21.867Z",
@@ -1010,7 +1151,9 @@
       "title": "Product Support Manager",
       "company": "Appfire",
       "location": "Poland",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4673043005",
       "firstSeen": "2026-03-13T11:19:32-04:00",
       "lastSeen": "2026-04-06T13:28:21.867Z",
@@ -1023,7 +1166,9 @@
       "title": "Product Support Manager",
       "company": "Appfire",
       "location": "Bulgaria",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4673047005",
       "firstSeen": "2026-03-13T11:21:32-04:00",
       "lastSeen": "2026-04-06T13:28:21.867Z",
@@ -1036,7 +1181,9 @@
       "title": "Senior Backend Java Developer",
       "company": "Appfire",
       "location": "Bulgaria",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4656919005",
       "firstSeen": "2026-02-09T10:31:43-05:00",
       "lastSeen": "2026-04-06T13:28:21.867Z",
@@ -1049,7 +1196,9 @@
       "title": "Senior Fullstack Software Engineer",
       "company": "Appfire",
       "location": "Spain",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4637969005",
       "firstSeen": "2025-12-09T07:27:03-05:00",
       "lastSeen": "2026-04-06T13:28:21.867Z",
@@ -1062,7 +1211,9 @@
       "title": "Senior Fullstack Software Engineer ",
       "company": "Appfire",
       "location": "Bulgaria",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4636509005",
       "firstSeen": "2025-12-09T01:47:11-05:00",
       "lastSeen": "2026-04-06T13:28:21.867Z",
@@ -1075,7 +1226,9 @@
       "title": "Senior IT Automation Engineer",
       "company": "Appfire",
       "location": "India",
-      "locationNormalised": "india",
+      "locationNormalised": [
+        "india"
+      ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4667233005",
       "firstSeen": "2026-03-04T04:31:58-05:00",
       "lastSeen": "2026-04-06T13:28:21.867Z",
@@ -1088,7 +1241,9 @@
       "title": "Senior Product Manager ",
       "company": "Appfire",
       "location": "Bulgaria",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4664145005",
       "firstSeen": "2026-02-19T11:36:04-05:00",
       "lastSeen": "2026-04-06T13:28:21.867Z",
@@ -1101,7 +1256,9 @@
       "title": "Senior Product Manager ",
       "company": "Appfire",
       "location": "Poland",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4667238005",
       "firstSeen": "2026-03-03T11:20:14-05:00",
       "lastSeen": "2026-04-06T13:28:21.867Z",
@@ -1114,7 +1271,9 @@
       "title": "Senior Product Manager ",
       "company": "Appfire",
       "location": "Spain",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4660626005",
       "firstSeen": "2026-02-19T11:36:02-05:00",
       "lastSeen": "2026-04-06T13:28:21.867Z",
@@ -1127,7 +1286,9 @@
       "title": "Senior Software Engineer (Python)",
       "company": "Appfire",
       "location": "Spain",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4659508005",
       "firstSeen": "2026-02-09T15:14:54-05:00",
       "lastSeen": "2026-04-06T13:28:21.867Z",
@@ -1140,7 +1301,9 @@
       "title": "Senior Software Engineer (Python)",
       "company": "Appfire",
       "location": "Bulgaria",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4655908005",
       "firstSeen": "2026-02-09T15:05:37-05:00",
       "lastSeen": "2026-04-06T13:28:21.867Z",
@@ -1153,7 +1316,9 @@
       "title": "Senior Talent Acquisition Partner",
       "company": "Appfire",
       "location": "Spain",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4679824005",
       "firstSeen": "2026-03-31T15:58:31-04:00",
       "lastSeen": "2026-04-06T13:28:21.867Z",
@@ -1166,7 +1331,9 @@
       "title": "Senior Talent Acquisition Partner",
       "company": "Appfire",
       "location": "Bulgaria",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4679115005",
       "firstSeen": "2026-03-31T15:58:30-04:00",
       "lastSeen": "2026-04-06T13:28:21.867Z",
@@ -1179,7 +1346,9 @@
       "title": "Senior Technical Project Manager",
       "company": "Appfire",
       "location": "Spain",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4669651005",
       "firstSeen": "2026-03-12T13:52:49-04:00",
       "lastSeen": "2026-04-06T13:28:21.867Z",
@@ -1192,7 +1361,9 @@
       "title": "Senior Technical Project Manager",
       "company": "Appfire",
       "location": "Bulgaria",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4672674005",
       "firstSeen": "2026-03-12T14:00:29-04:00",
       "lastSeen": "2026-04-06T13:28:21.867Z",
@@ -1205,7 +1376,9 @@
       "title": "Technical Program Manager (TPM)",
       "company": "Appfire",
       "location": "Spain",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4667742005",
       "firstSeen": "2026-03-02T11:11:05-05:00",
       "lastSeen": "2026-04-06T13:28:21.867Z",
@@ -1218,7 +1391,9 @@
       "title": "Technical Program Manager (TPM)",
       "company": "Appfire",
       "location": "Bulgaria",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4666151005",
       "firstSeen": "2026-03-02T10:57:00-05:00",
       "lastSeen": "2026-04-06T13:28:21.867Z",
@@ -1231,7 +1406,9 @@
       "title": "Technical Program Manager (TPM)",
       "company": "Appfire",
       "location": "India",
-      "locationNormalised": "india",
+      "locationNormalised": [
+        "india"
+      ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4667724005",
       "firstSeen": "2026-03-02T10:52:38-05:00",
       "lastSeen": "2026-04-06T13:28:21.867Z",
@@ -1244,7 +1421,9 @@
       "title": "Strategic Sales Manager (monday.com) - (Maternity Cover - Contrato de Sustitución)",
       "company": "Adaptavist",
       "location": "Remote",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote"
+      ],
       "department": "Monday.com",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/TheAdaptavistGroup/744000118174877",
@@ -1259,7 +1438,9 @@
       "title": "Werkstudent (m/w/d) IT Consulting - Schwerpunkt Atlassian",
       "company": "Adaptavist",
       "location": "Cologne, North Rhine-Westphalia, Germany",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Work Management",
       "type": "Part-time",
       "url": "https://jobs.smartrecruiters.com/TheAdaptavistGroup/744000116416957",
@@ -1274,7 +1455,9 @@
       "title": "Business Consultant - monday.com, Atlassian",
       "company": "Adaptavist",
       "location": "Remote",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote"
+      ],
       "department": "Work Management",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/TheAdaptavistGroup/744000112974447",
@@ -1289,7 +1472,9 @@
       "title": "System Engineer (f/m/d)",
       "company": "Adaptavist",
       "location": "Remote",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote"
+      ],
       "department": "Managed Services",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/TheAdaptavistGroup/744000110219205",
@@ -1304,7 +1489,9 @@
       "title": "Tax Accountant",
       "company": "Adaptavist",
       "location": "Remote",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote"
+      ],
       "department": "Accounting & Finance Operations",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/TheAdaptavistGroup/744000109909005",
@@ -1319,7 +1506,9 @@
       "title": "Associate Service Desk Analyst (f/m/d) (german speaker)",
       "company": "Adaptavist",
       "location": "Remote",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote"
+      ],
       "department": "Adaptavist Shared Services",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/TheAdaptavistGroup/744000109264713",
@@ -1334,7 +1523,9 @@
       "title": "Technical Consultant (Atlassian)",
       "company": "Adaptavist",
       "location": "Remote, , Malaysia",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote"
+      ],
       "department": "Work Management",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/TheAdaptavistGroup/744000071982115",
@@ -1349,7 +1540,9 @@
       "title": "Atlassian Consultant",
       "company": "Eficode",
       "location": "Zürich - Switzerland",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Atlassian consulting",
       "url": "https://career.eficode.com/jobs/7471122-atlassian-consultant",
       "firstSeen": "2026-04-03T18:16:51.506Z",
@@ -1363,7 +1556,9 @@
       "title": "Senior Atlassian Consultant",
       "company": "Eficode",
       "location": "Helsinki - Finland",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Atlassian consulting",
       "url": "https://career.eficode.com/jobs/7465413-senior-atlassian-consultant",
       "firstSeen": "2026-04-03T18:16:51.506Z",
@@ -1377,7 +1572,9 @@
       "title": "DevOps Solutions Architect (GitHub transformations)",
       "company": "Eficode",
       "location": "Helsinki - Finland",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "GitHub &amp; Microsoft consulting",
       "url": "https://career.eficode.com/jobs/7425294-devops-solutions-architect-github-transformations",
       "firstSeen": "2026-04-03T18:16:51.506Z",
@@ -1391,7 +1588,9 @@
       "title": "GitHub Solutions Architect",
       "company": "Eficode",
       "location": "Gothenburg - Sweden",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "GitHub &amp; Microsoft consulting",
       "url": "https://career.eficode.com/jobs/7319649-github-solutions-architect",
       "firstSeen": "2026-04-03T18:16:51.506Z",
@@ -1405,7 +1604,9 @@
       "title": "Senior Innovation Engineer",
       "company": "Eficode",
       "location": "Stockholm - Sweden ",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://career.eficode.com/jobs/7197625-senior-innovation-engineer",
       "firstSeen": "2026-04-03T18:16:51.506Z",
       "lastSeen": "2026-04-06T13:28:27.362Z",
@@ -1418,7 +1619,9 @@
       "title": "Open Application",
       "company": "Eficode",
       "location": "Philadelphia - US",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://career.eficode.com/jobs/7001190-open-application",
       "firstSeen": "2026-04-03T18:16:51.506Z",
       "lastSeen": "2026-04-06T13:28:27.362Z",
@@ -1431,7 +1634,9 @@
       "title": "Customer Support - Specialist 2",
       "company": "Cprime",
       "location": "Cincinatti, OH",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "department": "Contract Service Opportunities-US",
       "type": "Contract-to-Hire",
       "description": "Cprime brings business into a new light—illuminating possibilities that once seemed hidden. For more than two decades, we’ve partnered with 2,500+ organizations worldwide, including over 300 of the Fortune 500, to help leaders see complexity with new clarity and rewire it into intelligent flow. With",
@@ -1447,7 +1652,9 @@
       "title": "(Senior) Front-End Engineer (m/w/d)",
       "company": "K15t",
       "location": "Stuttgart",
-      "locationNormalised": "europe",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Sites",
       "type": "full-time",
       "url": "https://k15t.jobs.personio.com/job/2527693",
@@ -1462,7 +1669,10 @@
       "title": "Choose Your Own Position",
       "company": "K15t",
       "location": "Stuttgart or Remote",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote",
+        "europe"
+      ],
       "type": "full-or-part-time",
       "url": "https://k15t.jobs.personio.com/job/857940",
       "firstSeen": "2022-10-18T13:41:41+00:00",
@@ -1476,7 +1686,9 @@
       "title": "People Operations Specialist (m/w/d)",
       "company": "Communardo",
       "location": "Germany",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://www.communardo.de/karriere/stellenangebot/people-operations-specialist-m-w-d/",
       "firstSeen": "2026-04-04T01:29:30.734Z",
       "lastSeen": "2026-04-06T13:28:32.793Z",
@@ -1489,7 +1701,9 @@
       "title": "Chief Revenue Officer (m/f/d)",
       "company": "Communardo",
       "location": "Germany",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://www.communardo.de/karriere/stellenangebot/chief-revenue-officer-m-f-d/",
       "firstSeen": "2026-04-04T01:29:30.734Z",
       "lastSeen": "2026-04-06T13:28:32.793Z",
@@ -1502,7 +1716,9 @@
       "title": "People & Culture Business Partner DACH (w/m/d)",
       "company": "Communardo",
       "location": "Germany",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://www.communardo.de/karriere/stellenangebot/people-culture-business-partner-dach-w-m-d/",
       "firstSeen": "2026-04-04T01:29:30.734Z",
       "lastSeen": "2026-04-06T13:28:32.793Z",
@@ -1515,7 +1731,9 @@
       "title": "VP Operations (f/m/d)",
       "company": "Communardo",
       "location": "Germany",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://www.communardo.de/karriere/stellenangebot/vp-operations-f-m-d/",
       "firstSeen": "2026-04-04T01:29:30.734Z",
       "lastSeen": "2026-04-06T13:28:32.793Z",
@@ -1528,7 +1746,9 @@
       "title": "Senior Service Delivery Manager – Modern Support & Automation (m/w/d)",
       "company": "Communardo",
       "location": "Germany",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://www.communardo.de/karriere/stellenangebot/senior-service-delivery-manager-modern-support-automation-m-w-d/",
       "firstSeen": "2026-04-04T01:29:30.734Z",
       "lastSeen": "2026-04-06T13:28:32.793Z",
@@ -1541,7 +1761,9 @@
       "title": "Group Revenue Operations Lead (f/m/d)",
       "company": "Communardo",
       "location": "Germany",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://www.communardo.de/karriere/stellenangebot/group-revenue-operations-lead-f-m-d/",
       "firstSeen": "2026-04-04T01:29:30.734Z",
       "lastSeen": "2026-04-06T13:28:32.793Z",
@@ -1554,7 +1776,9 @@
       "title": "Lead Consultant Atlassian Cloud Transformation (m/w/d)",
       "company": "Communardo",
       "location": "Germany",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://www.communardo.de/karriere/stellenangebot/lead-consultant-atlassian-cloud-transformation-m-w-d/",
       "firstSeen": "2026-04-04T01:29:30.734Z",
       "lastSeen": "2026-04-06T13:28:32.793Z",
@@ -1567,7 +1791,9 @@
       "title": "Senior Projektleiter*in Atlassian Cloud Transformation (m/w/d)",
       "company": "Communardo",
       "location": "Germany",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://www.communardo.de/karriere/stellenangebot/senior-projektleiterin-atlassian-cloud-transformation-m-w-d/",
       "firstSeen": "2026-04-04T01:29:30.734Z",
       "lastSeen": "2026-04-06T13:28:32.793Z",
@@ -1580,7 +1806,9 @@
       "title": "Professional Projektleiter*in Atlassian Cloud Transformation (m/w/d)",
       "company": "Communardo",
       "location": "Germany",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://www.communardo.de/karriere/stellenangebot/professional-projektleiterin-atlassian-cloud-transformation-m-w-d/",
       "firstSeen": "2026-04-04T01:29:30.734Z",
       "lastSeen": "2026-04-06T13:28:32.793Z",
@@ -1593,7 +1821,9 @@
       "title": "Microsoft AI Solution Consultant (m/w/d)",
       "company": "Communardo",
       "location": "Germany",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://www.communardo.de/karriere/stellenangebot/microsoft-solution-consultant-m-w-d/",
       "firstSeen": "2026-04-04T01:29:30.734Z",
       "lastSeen": "2026-04-06T13:28:32.793Z",
@@ -1606,7 +1836,9 @@
       "title": "Accepting Applications for Future Opportunities - Renewals Specialist",
       "company": "SmartBear",
       "location": "Somerville, Massachusetts, United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7536798003",
       "firstSeen": "2025-12-03T14:22:19-05:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -1619,7 +1851,9 @@
       "title": " Accepting Applications for Future Opportunities -Sales Development Representative",
       "company": "SmartBear",
       "location": "Somerville, Massachusetts, United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/5905855003",
       "firstSeen": "2026-02-02T12:35:41-05:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -1632,7 +1866,9 @@
       "title": "Account Executive",
       "company": "SmartBear",
       "location": "Galway, Galway, Ireland",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7659639003",
       "firstSeen": "2026-04-03T06:45:24-04:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -1645,7 +1881,9 @@
       "title": "Account Executive II ",
       "company": "SmartBear",
       "location": "Somerville, Massachusetts, United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7620299003",
       "firstSeen": "2026-02-06T10:52:56-05:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -1658,7 +1896,9 @@
       "title": "Account Executive III",
       "company": "SmartBear",
       "location": "Somerville, Massachusetts, United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7660734003",
       "firstSeen": "2026-03-14T09:54:00-04:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -1671,7 +1911,9 @@
       "title": "Backend Engineer - Zephyr Enterprise",
       "company": "SmartBear",
       "location": "Bengaluru, Karnataka, India",
-      "locationNormalised": "india",
+      "locationNormalised": [
+        "india"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7551629003",
       "firstSeen": "2025-12-17T06:00:46-05:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -1684,7 +1926,9 @@
       "title": "BI Developer",
       "company": "SmartBear",
       "location": "Wrocław, Lower Silesian Voivodeship, Poland",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7645527003",
       "firstSeen": "2026-02-26T02:44:34-05:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -1697,7 +1941,9 @@
       "title": "Channel Manager, Atlassian Partnerships ",
       "company": "SmartBear",
       "location": "Galway, Galway, Ireland",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7550244003",
       "firstSeen": "2025-12-17T11:05:39-05:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -1710,7 +1956,9 @@
       "title": "Customer Success Manager",
       "company": "SmartBear",
       "location": "Ahmedabad, Gujarat, India",
-      "locationNormalised": "india",
+      "locationNormalised": [
+        "india"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7631077003",
       "firstSeen": "2026-02-16T06:34:22-05:00",
       "lastSeen": "2026-04-04T09:51:46.439Z",
@@ -1723,7 +1971,9 @@
       "title": "Customer Success Manager",
       "company": "SmartBear",
       "location": "Galway, Galway, Ireland",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7682137003",
       "firstSeen": "2026-04-01T10:50:03-04:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -1736,7 +1986,9 @@
       "title": "DevOps Engineer",
       "company": "SmartBear",
       "location": "Bengaluru, Karnataka, India",
-      "locationNormalised": "india",
+      "locationNormalised": [
+        "india"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7652573003",
       "firstSeen": "2026-03-20T09:42:15-04:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -1749,7 +2001,9 @@
       "title": "DevOps Engineer",
       "company": "SmartBear",
       "location": "Ahmedabad, Gujarat, India",
-      "locationNormalised": "india",
+      "locationNormalised": [
+        "india"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7644991003",
       "firstSeen": "2026-03-13T04:22:58-04:00",
       "lastSeen": "2026-04-04T02:27:09.297Z",
@@ -1762,7 +2016,9 @@
       "title": "Digital Customer Success Manager",
       "company": "SmartBear",
       "location": "Ahmedabad, Gujarat, India",
-      "locationNormalised": "india",
+      "locationNormalised": [
+        "india"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7625486003",
       "firstSeen": "2026-02-19T04:50:17-05:00",
       "lastSeen": "2026-04-04T09:51:46.439Z",
@@ -1775,7 +2031,9 @@
       "title": "Director of IT Enterprise Applications",
       "company": "SmartBear",
       "location": "Somerville, Massachusetts, United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7568505003",
       "firstSeen": "2025-12-19T09:38:06-05:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -1788,7 +2046,9 @@
       "title": "Director, Product Management - API",
       "company": "SmartBear",
       "location": "Somerville, Massachusetts, United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7595274003",
       "firstSeen": "2026-01-26T09:44:16-05:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -1801,7 +2061,9 @@
       "title": "Engineering Manager - AI Services (BearQ) ",
       "company": "SmartBear",
       "location": "Somerville, Massachusetts, United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7665351003",
       "firstSeen": "2026-04-03T09:14:27-04:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -1814,7 +2076,9 @@
       "title": "Graphic Designer",
       "company": "SmartBear",
       "location": "Wrocław, Lower Silesian Voivodeship, Poland",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7665421003",
       "firstSeen": "2026-03-20T08:40:46-04:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -1827,7 +2091,9 @@
       "title": "Junior Frontend Engineer - Swagger Functional Testing",
       "company": "SmartBear",
       "location": "Wrocław, Lower Silesian Voivodeship, Poland",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7659607003",
       "firstSeen": "2026-03-18T08:09:14-04:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -1840,7 +2106,9 @@
       "title": "Junior Software Engineer - AI",
       "company": "SmartBear",
       "location": "Ahmedabad, Gujarat, India",
-      "locationNormalised": "india",
+      "locationNormalised": [
+        "india"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7564677003",
       "firstSeen": "2025-12-23T23:32:58-05:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -1853,7 +2121,9 @@
       "title": "Junior Software Engineer - AI Services",
       "company": "SmartBear",
       "location": "Ahmedabad, Gujarat, India",
-      "locationNormalised": "india",
+      "locationNormalised": [
+        "india"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7663631003",
       "firstSeen": "2026-03-13T02:19:06-04:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -1866,7 +2136,9 @@
       "title": "Junior Software Engineer ZE",
       "company": "SmartBear",
       "location": "Bengaluru, Karnataka, India",
-      "locationNormalised": "india",
+      "locationNormalised": [
+        "india"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7667231003",
       "firstSeen": "2026-03-17T03:09:48-04:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -1879,7 +2151,9 @@
       "title": "Lead Software Engineer",
       "company": "SmartBear",
       "location": "Bengaluru, Karnataka, India",
-      "locationNormalised": "india",
+      "locationNormalised": [
+        "india"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7665171003",
       "firstSeen": "2026-03-23T01:04:54-04:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -1892,7 +2166,9 @@
       "title": "Major Account Executive ",
       "company": "SmartBear",
       "location": "Somerville, Massachusetts, United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7629535003",
       "firstSeen": "2026-02-24T09:49:16-05:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -1905,7 +2181,9 @@
       "title": "Major Account Executive I",
       "company": "SmartBear",
       "location": "Somerville, Massachusetts, United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7689605003",
       "firstSeen": "2026-04-03T16:10:43-04:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -1918,7 +2196,9 @@
       "title": "Major Account Executive II",
       "company": "SmartBear",
       "location": "Somerville, Massachusetts, United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7656194003",
       "firstSeen": "2026-03-10T20:55:47-04:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -1931,7 +2211,9 @@
       "title": "Partner Program Manager",
       "company": "SmartBear",
       "location": "Somerville, Massachusetts, United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7607136003",
       "firstSeen": "2026-02-03T06:26:31-05:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -1944,7 +2226,9 @@
       "title": "Principal Product Manager – Pricing & Monetization",
       "company": "SmartBear",
       "location": "Somerville, Massachusetts, United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7665379003",
       "firstSeen": "2026-03-25T13:25:47-04:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -1957,7 +2241,9 @@
       "title": "Product Marketing Manager- API Test",
       "company": "SmartBear",
       "location": "Somerville, Massachusetts, United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7652405003",
       "firstSeen": "2026-03-06T10:21:07-05:00",
       "lastSeen": "2026-04-06T06:34:18.179Z",
@@ -1970,7 +2256,9 @@
       "title": "Public Relations Manager",
       "company": "SmartBear",
       "location": "Somerville, Massachusetts, United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7663067003",
       "firstSeen": "2026-03-17T12:09:42-04:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -1983,7 +2271,9 @@
       "title": "QA Engineer- ReadyAPI",
       "company": "SmartBear",
       "location": "Wrocław, Lower Silesian Voivodeship, Poland",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7629262003",
       "firstSeen": "2026-02-12T03:06:21-05:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -1996,7 +2286,9 @@
       "title": "Renewals Advisor",
       "company": "SmartBear",
       "location": "Ahmedabad, Gujarat, India",
-      "locationNormalised": "india",
+      "locationNormalised": [
+        "india"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7645752003",
       "firstSeen": "2026-03-03T04:09:26-05:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -2009,7 +2301,9 @@
       "title": "Renewals Specialist",
       "company": "SmartBear",
       "location": "Somerville, Massachusetts, United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7682346003",
       "firstSeen": "2026-03-30T14:02:20-04:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -2022,7 +2316,9 @@
       "title": "Sales Development Representative",
       "company": "SmartBear",
       "location": "Galway, Galway, Ireland",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7618410003",
       "firstSeen": "2026-02-04T05:09:35-05:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -2035,7 +2331,9 @@
       "title": "Senior Backend Engineer",
       "company": "SmartBear",
       "location": "Bengaluru, Karnataka, India",
-      "locationNormalised": "india",
+      "locationNormalised": [
+        "india"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7519783003",
       "firstSeen": "2025-11-20T01:35:51-05:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -2048,7 +2346,9 @@
       "title": "Senior DevOps Engineer",
       "company": "SmartBear",
       "location": "Wrocław, Lower Silesian Voivodeship, Poland",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7635717003",
       "firstSeen": "2026-02-18T10:24:40-05:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -2061,7 +2361,9 @@
       "title": "Senior Financial Analyst",
       "company": "SmartBear",
       "location": "Somerville, Massachusetts, United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7605609003",
       "firstSeen": "2026-01-30T16:37:49-05:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -2074,7 +2376,9 @@
       "title": "Senior Major Account Executive II",
       "company": "SmartBear",
       "location": "Somerville, Massachusetts, United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7682615003",
       "firstSeen": "2026-03-30T10:06:52-04:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -2087,7 +2391,9 @@
       "title": "Senior Manager, Technical Writing",
       "company": "SmartBear",
       "location": "Bengaluru, Karnataka, India",
-      "locationNormalised": "india",
+      "locationNormalised": [
+        "india"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7614642003",
       "firstSeen": "2026-02-02T08:44:04-05:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -2100,7 +2406,9 @@
       "title": "Senior Product Marketing Manager ",
       "company": "SmartBear",
       "location": "Bengaluru, Karnataka, India",
-      "locationNormalised": "india",
+      "locationNormalised": [
+        "india"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7656040003",
       "firstSeen": "2026-03-12T00:44:06-04:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -2113,7 +2421,9 @@
       "title": "Senior Software Engineer",
       "company": "SmartBear",
       "location": "Ahmedabad, Gujarat, India",
-      "locationNormalised": "india",
+      "locationNormalised": [
+        "india"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7678357003",
       "firstSeen": "2026-03-25T02:07:30-04:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -2126,7 +2436,9 @@
       "title": "Senior Software Engineer C++",
       "company": "SmartBear",
       "location": "Bengaluru, Karnataka, India",
-      "locationNormalised": "india",
+      "locationNormalised": [
+        "india"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7560984003",
       "firstSeen": "2026-01-04T21:57:48-05:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -2139,7 +2451,9 @@
       "title": "Solutions Engineer I, API",
       "company": "SmartBear",
       "location": "Somerville, Massachusetts, United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7667858003",
       "firstSeen": "2026-03-23T12:39:05-04:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -2152,7 +2466,9 @@
       "title": "Solutions Engineer I, Test",
       "company": "SmartBear",
       "location": "Somerville, Massachusetts, United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7635705003",
       "firstSeen": "2026-02-19T15:22:43-05:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -2165,7 +2481,9 @@
       "title": "Technical Lead Software Engineer (Principle Engineer)ZE",
       "company": "SmartBear",
       "location": "Bengaluru, Karnataka, India",
-      "locationNormalised": "india",
+      "locationNormalised": [
+        "india"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7668635003",
       "firstSeen": "2026-03-17T23:02:44-04:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -2178,7 +2496,9 @@
       "title": "Technical Writer P3",
       "company": "SmartBear",
       "location": "Bengaluru, Karnataka, India",
-      "locationNormalised": "india",
+      "locationNormalised": [
+        "india"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7673233003",
       "firstSeen": "2026-03-20T03:13:49-04:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -2191,7 +2511,9 @@
       "title": "Vice President of AI Ecosystem Partnerships",
       "company": "SmartBear",
       "location": "Somerville, Massachusetts, United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7545069003",
       "firstSeen": "2026-02-11T16:04:38-05:00",
       "lastSeen": "2026-04-06T13:28:22.647Z",
@@ -2204,7 +2526,9 @@
       "title": "Functional Consultant",
       "company": "Isos Technology",
       "location": "Tempe, Arizona, United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "department": "Services : Shared",
       "type": "Full-Time",
       "url": "https://isostech.bamboohr.com/careers/241",
@@ -2219,7 +2543,9 @@
       "title": "Technical Consultant (Engineer)",
       "company": "Isos Technology",
       "location": "Tempe, Arizona, United States",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "department": "Services : Shared",
       "type": "Full-Time",
       "url": "https://isostech.bamboohr.com/careers/251",
@@ -2234,7 +2560,9 @@
       "title": "Customer Engagement Manager*in",
       "company": "Seibert Group",
       "location": "Germany",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://seibert.group/jobs/customer-engagement-manager/",
       "firstSeen": "2026-04-04T02:00:47.737Z",
       "lastSeen": "2026-04-06T13:28:34.115Z",
@@ -2247,7 +2575,9 @@
       "title": "Initiativbewerbung – Mitarbeiter*in in unserer Google Business Unit",
       "company": "Seibert Group",
       "location": "Germany",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://seibert.group/jobs/initiativbewerbung-mitarbeiterin-in-unserer-google-business-unit/",
       "firstSeen": "2026-04-04T02:00:47.737Z",
       "lastSeen": "2026-04-06T13:28:34.115Z",
@@ -2260,7 +2590,9 @@
       "title": "Inside Sales Specialist*",
       "company": "Seibert Group",
       "location": "Germany",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://seibert.group/jobs/inside-sales-manager/",
       "firstSeen": "2026-04-04T02:00:47.737Z",
       "lastSeen": "2026-04-06T13:28:34.115Z",
@@ -2273,7 +2605,9 @@
       "title": "Team Assistant Atlassian Partner Program Manager*in (Studi)",
       "company": "Seibert Group",
       "location": "Germany",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://seibert.group/jobs/team-assistant-atlassian-partner-program-manager-studi/",
       "firstSeen": "2026-04-04T02:00:47.737Z",
       "lastSeen": "2026-04-06T13:28:34.115Z",
@@ -2286,7 +2620,9 @@
       "title": "Web-Developer*in Atlassian Cloud Apps (React und Node)",
       "company": "Seibert Group",
       "location": "Germany",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://seibert.group/jobs/web-developer-atlassian-cloud-apps-react-und-node/",
       "firstSeen": "2026-04-04T02:00:47.737Z",
       "lastSeen": "2026-04-06T13:28:34.115Z",
@@ -2299,7 +2635,9 @@
       "title": "Product Marketing Manager",
       "company": "Deviniti",
       "location": "Poland",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://deviniti.com/job/product-marketing-manager/",
       "firstSeen": "2026-04-04T02:14:12.127Z",
       "lastSeen": "2026-04-06T13:28:35.514Z",
@@ -2312,7 +2650,9 @@
       "title": "Senior Account Manager",
       "company": "Deviniti",
       "location": "Poland",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://deviniti.com/job/senior-account-manager/",
       "firstSeen": "2026-04-04T02:14:12.127Z",
       "lastSeen": "2026-04-06T13:28:35.514Z",
@@ -2325,7 +2665,9 @@
       "title": "Senior Fullstack Developer (Java + Angular)",
       "company": "Deviniti",
       "location": "Poland",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://deviniti.com/job/senior-fullstack-developer-java-angular/",
       "firstSeen": "2026-04-04T02:14:12.127Z",
       "lastSeen": "2026-04-06T13:28:35.514Z",
@@ -2338,7 +2680,9 @@
       "title": "Atlassian Cloud Migration Specialist",
       "company": "Deviniti",
       "location": "Poland",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://deviniti.com/job/atlassian-cloud-migration-specialist/",
       "firstSeen": "2026-04-04T02:14:12.127Z",
       "lastSeen": "2026-04-06T13:28:35.514Z",
@@ -2351,7 +2695,9 @@
       "title": "Senior/Lead Flutter Developer",
       "company": "Deviniti",
       "location": "Poland",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://deviniti.com/job/senior-lead-flutter-developer/",
       "firstSeen": "2026-04-04T02:14:12.127Z",
       "lastSeen": "2026-04-06T13:28:35.514Z",
@@ -2364,7 +2710,9 @@
       "title": "Senior Business Analyst",
       "company": "Deviniti",
       "location": "Poland",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://deviniti.com/job/senior-business-analyst/",
       "firstSeen": "2026-04-04T02:14:12.127Z",
       "lastSeen": "2026-04-06T13:28:35.514Z",
@@ -2377,7 +2725,9 @@
       "title": "Head of Growth",
       "company": "Deviniti",
       "location": "Poland",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://deviniti.com/job/head-of-growth/",
       "firstSeen": "2026-04-04T02:14:12.127Z",
       "lastSeen": "2026-04-06T13:28:35.514Z",
@@ -2390,7 +2740,9 @@
       "title": "Senior Product Manager",
       "company": "Deviniti",
       "location": "Poland",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://deviniti.com/job/senior-product-manager/",
       "firstSeen": "2026-04-04T02:14:12.127Z",
       "lastSeen": "2026-04-06T13:28:35.514Z",
@@ -2403,7 +2755,9 @@
       "title": "Technical Trainer",
       "company": "GLINtech",
       "location": "Australia",
-      "locationNormalised": "australia",
+      "locationNormalised": [
+        "australia"
+      ],
       "url": "https://www.glintech.com/about/careers/technical-trainer/",
       "firstSeen": "2026-04-04T02:14:14.217Z",
       "lastSeen": "2026-04-06T13:28:37.681Z",
@@ -2416,7 +2770,9 @@
       "title": "ITSM Consultant",
       "company": "GLINtech",
       "location": "Australia",
-      "locationNormalised": "australia",
+      "locationNormalised": [
+        "australia"
+      ],
       "url": "https://www.glintech.com/about/careers/itsm-consultant/",
       "firstSeen": "2026-04-04T02:14:14.217Z",
       "lastSeen": "2026-04-06T13:28:37.681Z",
@@ -2429,7 +2785,9 @@
       "title": "Licence Expert",
       "company": "iDalko (Exalate)",
       "location": "Belgium",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://idalko.com/job-list/licence-expert",
       "firstSeen": "2026-04-04T02:27:19.913Z",
       "lastSeen": "2026-04-06T13:28:40.992Z",
@@ -2442,7 +2800,9 @@
       "title": "Business Developer",
       "company": "iDalko (Exalate)",
       "location": "Belgium",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://idalko.com/job-list/business-developer",
       "firstSeen": "2026-04-04T02:27:19.913Z",
       "lastSeen": "2026-04-06T13:28:40.992Z",
@@ -2455,7 +2815,9 @@
       "title": "Competence Lead Technical",
       "company": "iDalko (Exalate)",
       "location": "Belgium",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://idalko.com/job-list/competence-lead-tech",
       "firstSeen": "2026-04-04T02:27:19.913Z",
       "lastSeen": "2026-04-06T13:28:40.992Z",
@@ -2468,7 +2830,9 @@
       "title": "Project Manager",
       "company": "iDalko (Exalate)",
       "location": "Belgium",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://idalko.com/job-list/project-manager",
       "firstSeen": "2026-04-04T02:27:19.913Z",
       "lastSeen": "2026-04-06T13:28:40.992Z",
@@ -2481,7 +2845,9 @@
       "title": "Enterprise Portfolio &amp; Data Analytics Engineer",
       "company": "catworkx",
       "location": "Germany",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://www.catworkx.com/stellenangebote/catworkx/enterprise-portfolio-and-data-analytics-engineer",
       "firstSeen": "2026-04-04T02:27:21.198Z",
       "lastSeen": "2026-04-06T13:28:42.328Z",
@@ -2494,7 +2860,9 @@
       "title": "Lead Atlassian Migration Architect",
       "company": "catworkx",
       "location": "USA",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://www.catworkx.com/stellenangebote/catworkx/lead-atlassian-migration-architect",
       "firstSeen": "2026-04-04T02:27:21.198Z",
       "lastSeen": "2026-04-06T13:28:42.328Z",
@@ -2507,7 +2875,9 @@
       "title": "Lead Jira Engineer",
       "company": "catworkx",
       "location": "Germany",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://www.catworkx.com/stellenangebote/catworkx/lead-jira-engineer",
       "firstSeen": "2026-04-04T02:27:21.198Z",
       "lastSeen": "2026-04-06T13:28:42.328Z",
@@ -2520,7 +2890,10 @@
       "title": "Principal Engineer (ESM Focus)",
       "company": "Contegix",
       "location": "Remote, USA",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "remote",
+        "usa"
+      ],
       "url": "https://jobs.jobvite.com/contegix/job/oa9Szfwu",
       "firstSeen": "2026-04-04T02:27:23.009Z",
       "lastSeen": "2026-04-06T13:28:44.404Z",
@@ -2533,7 +2906,9 @@
       "title": "Junior Technical Consultant",
       "company": "Spectrum Groupe",
       "location": "CAIRO / EGYPT",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "other"
+      ],
       "url": "https://spectrumgroupe.fr/en/job/junior-technical-consultant-2/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
       "lastSeen": "2026-04-06T13:28:46.163Z",
@@ -2546,7 +2921,9 @@
       "title": "Senior Technical Consultant",
       "company": "Spectrum Groupe",
       "location": "CAIRO / EGYPT",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "other"
+      ],
       "url": "https://spectrumgroupe.fr/en/job/senior-technical-consultant-2/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
       "lastSeen": "2026-04-06T13:28:46.163Z",
@@ -2559,7 +2936,9 @@
       "title": "Marketing Assistant / Office Admin",
       "company": "Spectrum Groupe",
       "location": "CAIRO / EGYPT",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "other"
+      ],
       "url": "https://spectrumgroupe.fr/en/job/marketing-assistant-office-admin-3/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
       "lastSeen": "2026-04-06T13:28:46.163Z",
@@ -2572,7 +2951,9 @@
       "title": "Technical Delivery Manager",
       "company": "Spectrum Groupe",
       "location": "CAIRO / EGYPT",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "other"
+      ],
       "url": "https://spectrumgroupe.fr/en/job/technical-delivery-manager-2/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
       "lastSeen": "2026-04-06T13:28:46.163Z",
@@ -2585,7 +2966,9 @@
       "title": "Marketing Assistant / Office Admin",
       "company": "Spectrum Groupe",
       "location": "DUBAI / UAE",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "other"
+      ],
       "url": "https://spectrumgroupe.fr/en/job/marketing-assistant-office-admin-4/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
       "lastSeen": "2026-04-06T13:28:46.163Z",
@@ -2598,7 +2981,9 @@
       "title": "Stages d-été - Graphic Designer",
       "company": "Spectrum Groupe",
       "location": "France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://spectrumgroupe.fr/en/job/stages-dete-graphic-designer-2/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
       "lastSeen": "2026-04-06T13:28:46.163Z",
@@ -2611,7 +2996,9 @@
       "title": "Software Tester (s)",
       "company": "Spectrum Groupe",
       "location": "France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://spectrumgroupe.fr/en/job/software-tester-s/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
       "lastSeen": "2026-04-06T13:28:46.163Z",
@@ -2624,7 +3011,9 @@
       "title": "Administrateur Systèmes et réseaux",
       "company": "Spectrum Groupe",
       "location": "France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://spectrumgroupe.fr/en/job/administrateur-systemes-et-reseaux-2/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
       "lastSeen": "2026-04-06T13:28:46.163Z",
@@ -2637,7 +3026,9 @@
       "title": "Consultant technico-fonctionnel outils Atlassian",
       "company": "Spectrum Groupe",
       "location": "France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://spectrumgroupe.fr/en/job/consultant-technico-fonctionnel-outils-atlassian-2/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
       "lastSeen": "2026-04-06T13:28:46.163Z",
@@ -2650,7 +3041,9 @@
       "title": "Account Manager",
       "company": "Spectrum Groupe",
       "location": "France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://spectrumgroupe.fr/en/job/account-manager/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
       "lastSeen": "2026-04-06T13:28:46.163Z",
@@ -2663,7 +3056,9 @@
       "title": "Product Marketing Manager",
       "company": "Spectrum Groupe",
       "location": "France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://spectrumgroupe.fr/en/job/product-marketing-manager-3/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
       "lastSeen": "2026-04-06T13:28:46.163Z",
@@ -2676,7 +3071,9 @@
       "title": "Software Engineering Manager",
       "company": "Spectrum Groupe",
       "location": "France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://spectrumgroupe.fr/en/job/software-engineering-manager-2/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
       "lastSeen": "2026-04-06T13:28:46.163Z",
@@ -2689,7 +3086,9 @@
       "title": "Technical Consultant Atlassian Tools",
       "company": "Spectrum Groupe",
       "location": "France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://spectrumgroupe.fr/en/job/technical-consultant-atlassian-tools/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
       "lastSeen": "2026-04-06T13:28:46.163Z",
@@ -2702,7 +3101,9 @@
       "title": "Odoo Developer",
       "company": "Spectrum Groupe",
       "location": "France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://spectrumgroupe.fr/en/job/odoo-developer/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
       "lastSeen": "2026-04-06T13:28:46.163Z",
@@ -2715,7 +3116,9 @@
       "title": "Atlassian Solution Engineer",
       "company": "Modus Create",
       "location": "United States of America (USA)",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://moduscreate.com/careers/7685244003?gh_jid=7685244003",
       "firstSeen": "2026-04-01T12:27:32-04:00",
       "lastSeen": "2026-04-06T13:28:22.934Z",
@@ -2728,7 +3131,9 @@
       "title": "Director, Partnerships",
       "company": "Modus Create",
       "location": "United States of America (USA)",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://moduscreate.com/careers/7581435003?gh_jid=7581435003",
       "firstSeen": "2026-02-04T15:51:31-05:00",
       "lastSeen": "2026-04-06T13:28:22.934Z",
@@ -2741,7 +3146,9 @@
       "title": "Experience Design Strategist",
       "company": "Modus Create",
       "location": "United States of America (USA)",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://moduscreate.com/careers/7687888003?gh_jid=7687888003",
       "firstSeen": "2026-04-03T16:16:57-04:00",
       "lastSeen": "2026-04-06T13:28:22.934Z",
@@ -2754,7 +3161,9 @@
       "title": "Licensing Lead (Atlassian)",
       "company": "Modus Create",
       "location": "United States of America (USA)",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://moduscreate.com/careers/7674972003?gh_jid=7674972003",
       "firstSeen": "2026-03-22T10:51:41-04:00",
       "lastSeen": "2026-04-06T13:28:22.934Z",
@@ -2767,7 +3176,9 @@
       "title": "Licensing Lead (Atlassian)",
       "company": "Modus Create",
       "location": "Latam",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://moduscreate.com/careers/7674500003?gh_jid=7674500003",
       "firstSeen": "2026-03-22T10:50:20-04:00",
       "lastSeen": "2026-04-06T13:28:22.934Z",
@@ -2780,7 +3191,9 @@
       "title": "Senior AI/ML Engineer",
       "company": "Modus Create",
       "location": "United States of America (USA)",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://moduscreate.com/careers/7629054003?gh_jid=7629054003",
       "firstSeen": "2026-02-23T11:51:20-05:00",
       "lastSeen": "2026-04-06T13:28:22.934Z",
@@ -2793,7 +3206,9 @@
       "title": "Senior AI/ML Engineer",
       "company": "Modus Create",
       "location": "Latam",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://moduscreate.com/careers/7652509003?gh_jid=7652509003",
       "firstSeen": "2026-03-04T11:24:38-05:00",
       "lastSeen": "2026-04-06T13:28:22.934Z",
@@ -2806,7 +3221,9 @@
       "title": "Senior AI/ML Engineer",
       "company": "Modus Create",
       "location": "Europe",
-      "locationNormalised": "europe",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://moduscreate.com/careers/7641401003?gh_jid=7641401003",
       "firstSeen": "2026-02-23T15:20:27-05:00",
       "lastSeen": "2026-04-06T13:28:22.934Z",
@@ -2819,7 +3236,9 @@
       "title": "Senior Atlassian Consultant ",
       "company": "Modus Create",
       "location": "Latam",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://moduscreate.com/careers/7660851003?gh_jid=7660851003",
       "firstSeen": "2026-03-12T09:16:13-04:00",
       "lastSeen": "2026-04-06T13:28:22.934Z",
@@ -2832,7 +3251,9 @@
       "title": "Senior Atlassian Consultant ",
       "company": "Modus Create",
       "location": "United States of America (USA)",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://moduscreate.com/careers/7662644003?gh_jid=7662644003",
       "firstSeen": "2026-03-12T09:17:21-04:00",
       "lastSeen": "2026-04-06T13:28:22.934Z",
@@ -2845,7 +3266,9 @@
       "title": "Senior Bazel Engineer",
       "company": "Modus Create",
       "location": "Europe",
-      "locationNormalised": "europe",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://moduscreate.com/careers/7675373003?gh_jid=7675373003",
       "firstSeen": "2026-03-26T13:53:32-04:00",
       "lastSeen": "2026-04-06T13:28:22.934Z",
@@ -2858,7 +3281,9 @@
       "title": "Senior Customer Data Platform Engineer (Snowflake) ",
       "company": "Modus Create",
       "location": "Latam",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://moduscreate.com/careers/7680690003?gh_jid=7680690003",
       "firstSeen": "2026-03-26T18:37:17-04:00",
       "lastSeen": "2026-04-06T13:28:22.934Z",
@@ -2871,7 +3296,9 @@
       "title": "Senior Director - Data Engineering & Machine Learning",
       "company": "Modus Create",
       "location": "United States of America (USA)",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://moduscreate.com/careers/7636532003?gh_jid=7636532003",
       "firstSeen": "2026-02-26T07:56:13-05:00",
       "lastSeen": "2026-04-06T13:28:22.934Z",
@@ -2884,7 +3311,9 @@
       "title": "Senior Human Resources Business Partner",
       "company": "Modus Create",
       "location": "United States of America (USA)",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://moduscreate.com/careers/7655854003?gh_jid=7655854003",
       "firstSeen": "2026-03-06T13:56:55-05:00",
       "lastSeen": "2026-04-06T13:28:22.934Z",
@@ -2897,7 +3326,9 @@
       "title": "Senior Product Designer (Mobile, Web, Consumer Commerce & Product)",
       "company": "Modus Create",
       "location": "United States of America (USA)",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://moduscreate.com/careers/7673508003?gh_jid=7673508003",
       "firstSeen": "2026-03-23T14:49:50-04:00",
       "lastSeen": "2026-04-06T13:28:22.934Z",
@@ -2910,7 +3341,9 @@
       "title": "Senior Product Designer (Mobile, Web, Consumer Commerce & Product)",
       "company": "Modus Create",
       "location": "Latam",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://moduscreate.com/careers/7676108003?gh_jid=7676108003",
       "firstSeen": "2026-03-23T14:51:01-04:00",
       "lastSeen": "2026-04-06T13:28:22.934Z",
@@ -2923,7 +3356,9 @@
       "title": "Accounts Receivable Analyst",
       "company": "Lucid",
       "location": "Raleigh, NC",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5832000004",
       "firstSeen": "2026-03-18T20:18:39-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -2936,7 +3371,9 @@
       "title": "Accounts Receivable Analyst",
       "company": "Lucid",
       "location": "Salt Lake City, UT",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5831992004",
       "firstSeen": "2026-03-18T20:18:40-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -2949,7 +3386,9 @@
       "title": "APAC Corporate New Logo Account Executive",
       "company": "Lucid",
       "location": "Melbourne, Victoria, AUS",
-      "locationNormalised": "australia",
+      "locationNormalised": [
+        "australia"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5075811004",
       "firstSeen": "2024-02-15T17:45:40-05:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -2962,7 +3401,9 @@
       "title": "APAC SMB New Logo Account Executive ",
       "company": "Lucid",
       "location": "Melbourne, Victoria, AUS",
-      "locationNormalised": "australia",
+      "locationNormalised": [
+        "australia"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5486168004",
       "firstSeen": "2025-03-26T18:36:40-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -2975,7 +3416,9 @@
       "title": "Associate Payroll Manager",
       "company": "Lucid",
       "location": "Remote, US",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5839923004",
       "firstSeen": "2026-03-27T16:41:46-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -2988,7 +3431,9 @@
       "title": "Data Analyst ",
       "company": "Lucid",
       "location": "Raleigh, NC",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5844984004",
       "firstSeen": "2026-04-03T14:58:07-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3001,7 +3446,9 @@
       "title": "Data Analyst ",
       "company": "Lucid",
       "location": "Salt Lake City, UT",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5844982004",
       "firstSeen": "2026-04-03T14:58:06-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3014,7 +3461,9 @@
       "title": "Deal Strategy Analyst, EMEA",
       "company": "Lucid",
       "location": "Amsterdam, NL",
-      "locationNormalised": "europe",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5465796004",
       "firstSeen": "2025-02-28T18:05:29-05:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3027,7 +3476,9 @@
       "title": "Director of Public Sector Sales",
       "company": "Lucid",
       "location": "Remote, US",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5830503004",
       "firstSeen": "2026-03-27T16:43:40-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3040,7 +3491,9 @@
       "title": "Director of Public Sector Sales",
       "company": "Lucid",
       "location": "Salt Lake City, UT",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5830504004",
       "firstSeen": "2026-03-27T16:43:41-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3053,7 +3506,9 @@
       "title": "EMEA Enterprise New Logo Account Executive",
       "company": "Lucid",
       "location": "Amsterdam, NL",
-      "locationNormalised": "europe",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5822317004",
       "firstSeen": "2026-03-09T14:46:39-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3066,7 +3521,9 @@
       "title": "EMEA  Mid Market Expansion Account Executive ",
       "company": "Lucid",
       "location": "Amsterdam, NL",
-      "locationNormalised": "europe",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5035148004",
       "firstSeen": "2023-12-07T10:40:41-05:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3079,7 +3536,9 @@
       "title": "EMEA SMB Expansion Account Executive",
       "company": "Lucid",
       "location": "Amsterdam, NL",
-      "locationNormalised": "europe",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/4938861004",
       "firstSeen": "2023-07-24T18:23:32-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3092,7 +3551,9 @@
       "title": "EMEA SMB New Logo Account Executive",
       "company": "Lucid",
       "location": "Amsterdam, NL",
-      "locationNormalised": "europe",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/4910160004",
       "firstSeen": "2023-07-05T15:47:46-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3105,7 +3566,9 @@
       "title": "General Application",
       "company": "Lucid",
       "location": "Salt Lake City, UT",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5561256004",
       "firstSeen": "2025-06-10T12:56:20-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3118,7 +3581,9 @@
       "title": "HRIS Analyst ",
       "company": "Lucid",
       "location": "Raleigh, NC",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5820378004",
       "firstSeen": "2026-03-09T13:20:35-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3131,7 +3596,9 @@
       "title": "HRIS Analyst ",
       "company": "Lucid",
       "location": "Salt Lake City, UT",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5820161004",
       "firstSeen": "2026-03-09T13:20:34-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3144,7 +3611,9 @@
       "title": "Manager, EMEA SMB Expansion Sales",
       "company": "Lucid",
       "location": "Amsterdam, NL",
-      "locationNormalised": "europe",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5795959004",
       "firstSeen": "2026-02-06T07:10:27-05:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3157,7 +3626,9 @@
       "title": "NA Corporate Expansion Sr. Account Executive",
       "company": "Lucid",
       "location": "Remote, US",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5498211004",
       "firstSeen": "2025-04-08T16:55:01-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3170,7 +3641,9 @@
       "title": "NA Corporate New Logo Account Executive",
       "company": "Lucid",
       "location": "Salt Lake City, UT",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5476717004",
       "firstSeen": "2025-03-14T13:02:13-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3183,7 +3656,9 @@
       "title": "NA Corporate New Logo Account Executive",
       "company": "Lucid",
       "location": "Remote, US",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5825078004",
       "firstSeen": "2026-03-11T16:15:13-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3196,7 +3671,9 @@
       "title": "NA Corporate New Logo Account Executive",
       "company": "Lucid",
       "location": "Raleigh, NC",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5822540004",
       "firstSeen": "2026-03-09T17:27:02-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3209,7 +3686,9 @@
       "title": "NA Emerging Enterprise Expansion Sr. Account Executive",
       "company": "Lucid",
       "location": "Raleigh, NC",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5498213004",
       "firstSeen": "2025-06-17T12:00:27-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3222,7 +3701,9 @@
       "title": "NA Emerging Enterprise Expansion Sr. Account Executive",
       "company": "Lucid",
       "location": "Salt Lake City, UT",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5498210004",
       "firstSeen": "2025-04-08T16:54:59-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3235,7 +3716,9 @@
       "title": "NA Emerging Enterprise New Logo Account Executive",
       "company": "Lucid",
       "location": "Salt Lake City, UT",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5476716004",
       "firstSeen": "2025-03-14T13:02:10-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3248,7 +3731,9 @@
       "title": "NA Emerging Enterprise New Logo Account Executive",
       "company": "Lucid",
       "location": "Raleigh, NC",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5476719004",
       "firstSeen": "2025-03-14T13:02:26-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3261,7 +3746,9 @@
       "title": "NA Mid-Market Expansion Account Executive",
       "company": "Lucid",
       "location": "Raleigh, NC",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5802785004",
       "firstSeen": "2026-02-12T09:52:29-05:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3274,7 +3761,9 @@
       "title": "NA Mid-Market Expansion Account Executive",
       "company": "Lucid",
       "location": "Salt Lake City, UT",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5802776004",
       "firstSeen": "2026-02-12T09:51:35-05:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3287,7 +3776,9 @@
       "title": "NA Mid-Market New Logo Account Executive",
       "company": "Lucid",
       "location": "Salt Lake City, UT",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5841153004",
       "firstSeen": "2026-03-30T16:57:42-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3300,7 +3791,9 @@
       "title": "NA Mid-Market New Logo Account Executive",
       "company": "Lucid",
       "location": "Raleigh, NC",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5841152004",
       "firstSeen": "2026-03-30T16:57:18-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3313,7 +3806,9 @@
       "title": "NA Sales Development Representative",
       "company": "Lucid",
       "location": "Salt Lake City, UT",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5661506004",
       "firstSeen": "2025-09-29T11:27:07-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3326,7 +3821,9 @@
       "title": "NA SMB Expansion Account Executive ",
       "company": "Lucid",
       "location": "Salt Lake City, UT",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5802789004",
       "firstSeen": "2026-02-12T09:56:42-05:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3339,7 +3836,9 @@
       "title": "NA SMB Expansion Account Executive ",
       "company": "Lucid",
       "location": "Raleigh, NC",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5802792004",
       "firstSeen": "2026-02-12T09:57:51-05:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3352,7 +3851,9 @@
       "title": " NA SMB New Logo Account Executive ",
       "company": "Lucid",
       "location": "Salt Lake City, UT",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5817017004",
       "firstSeen": "2026-03-02T15:25:23-05:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3365,7 +3866,9 @@
       "title": "NA SMB New Logo Account Executive ",
       "company": "Lucid",
       "location": "Raleigh, NC",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5817018004",
       "firstSeen": "2026-03-02T15:25:53-05:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3378,7 +3881,9 @@
       "title": "Product Support Specialist",
       "company": "Lucid",
       "location": "Salt Lake City, UT",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5844865004",
       "firstSeen": "2026-04-02T14:56:39-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3391,7 +3896,9 @@
       "title": "Scaled Account Specialist",
       "company": "Lucid",
       "location": "Salt Lake City, UT",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5811256004",
       "firstSeen": "2026-02-23T21:46:04-05:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3404,7 +3911,9 @@
       "title": "Scaled Account Specialist",
       "company": "Lucid",
       "location": "Raleigh, NC",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5811260004",
       "firstSeen": "2026-02-23T21:46:05-05:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3417,7 +3926,9 @@
       "title": "Sr. International Digital Marketing Specialist",
       "company": "Lucid",
       "location": "Remote, US",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5848334004",
       "firstSeen": "2026-04-03T12:41:02-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3430,7 +3941,9 @@
       "title": "Sr. International Digital Marketing Specialist",
       "company": "Lucid",
       "location": "Amsterdam, NL",
-      "locationNormalised": "europe",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5848338004",
       "firstSeen": "2026-04-03T12:41:04-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3443,7 +3956,9 @@
       "title": "Sr. Manager, Payments",
       "company": "Lucid",
       "location": "Salt Lake City, UT",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5837533004",
       "firstSeen": "2026-04-03T17:35:08-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3456,7 +3971,9 @@
       "title": "Sr. Manager, Security Analytics",
       "company": "Lucid",
       "location": "Raleigh, NC",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5833481004",
       "firstSeen": "2026-03-20T15:15:18-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3469,7 +3986,9 @@
       "title": "Sr. Manager, Security Analytics",
       "company": "Lucid",
       "location": "Salt Lake City, UT",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5833472004",
       "firstSeen": "2026-03-20T15:15:17-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3482,7 +4001,9 @@
       "title": "Sr. Payroll Specialist",
       "company": "Lucid",
       "location": "Remote, US",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5798528004",
       "firstSeen": "2026-02-09T18:23:44-05:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3495,7 +4016,9 @@
       "title": "Sr. Project Manager, AI ",
       "company": "Lucid",
       "location": "Remote, US",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5832283004",
       "firstSeen": "2026-03-19T19:45:25-04:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3508,7 +4031,9 @@
       "title": "UX Designer",
       "company": "Lucid",
       "location": "Salt Lake City, UT",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5812414004",
       "firstSeen": "2026-03-02T18:30:47-05:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3521,7 +4046,9 @@
       "title": "UX Designer",
       "company": "Lucid",
       "location": "Raleigh, NC",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5817343004",
       "firstSeen": "2026-03-02T18:30:47-05:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3534,7 +4061,9 @@
       "title": "UX Design Internship 2026 ",
       "company": "Lucid",
       "location": "Salt Lake City, UT",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5632618004",
       "firstSeen": "2026-02-23T16:57:10-05:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3547,7 +4076,9 @@
       "title": "UX Design Internship 2026 ",
       "company": "Lucid",
       "location": "Raleigh, NC",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5811103004",
       "firstSeen": "2026-02-23T16:57:11-05:00",
       "lastSeen": "2026-04-06T13:28:23.705Z",
@@ -3560,7 +4091,9 @@
       "title": "Sales Junior - secteur Luxe",
       "company": "Devoteam",
       "location": "Levallois-Perret, IDF, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Sales & Pre-Sales",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000118611457",
@@ -3575,7 +4108,9 @@
       "title": "Business Analyst - secteur bancaire F/H",
       "company": "Devoteam",
       "location": "Lyon, Auvergne-Rhône-Alpes, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Business Processes",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000118438680",
@@ -3590,7 +4125,9 @@
       "title": "Développeur Senior Full Stack (Java/React) H/F",
       "company": "Devoteam",
       "location": "Casablanca, , Morocco",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "other"
+      ],
       "department": "Development",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000118421982",
@@ -3605,7 +4142,9 @@
       "title": "Senior / Lead Data Engineer (24x7 Data & AI Factory)",
       "company": "Devoteam",
       "location": "Kraków, , Poland",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Data",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000118364908",
@@ -3620,7 +4159,9 @@
       "title": "Data Engineer (Jun/Mid, 24x7 Data & AI Factory)",
       "company": "Devoteam",
       "location": "Kraków, , Poland",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Data",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000118365247",
@@ -3635,7 +4176,9 @@
       "title": "Sales Manager - secteur bancaire",
       "company": "Devoteam",
       "location": "Levallois-Perret, IDF, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Support Functions",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000118349747",
@@ -3650,7 +4193,9 @@
       "title": "Product Designer H/F",
       "company": "Devoteam",
       "location": "Levallois-Perret, IDF, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "UX, UI & products",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000118349137",
@@ -3665,7 +4210,9 @@
       "title": "Sales Senior (H/F) - secteur Défense ",
       "company": "Devoteam",
       "location": "Levallois-Perret, IDF, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Support Functions",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000118349117",
@@ -3680,7 +4227,9 @@
       "title": "Sales Senior - secteur Energie",
       "company": "Devoteam",
       "location": "Levallois-Perret, IDF, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Support Functions",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000118347687",
@@ -3695,7 +4244,9 @@
       "title": "Senior Cloud Consultant – Devoteam M Cloud Belgium ",
       "company": "Devoteam",
       "location": "Machelen, Vlaanderen, Belgium",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Cloud",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000118214978",
@@ -3710,7 +4261,9 @@
       "title": "Consultant en Transformation Digitale – Projets & Agilité H/F",
       "company": "Devoteam",
       "location": "Marseille, Provence-Alpes-Côte d'Azur, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "IT Strategy & PM",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000118187067",
@@ -3725,7 +4278,9 @@
       "title": "Talent Acquisition Intern ",
       "company": "Devoteam",
       "location": "Machelen, Vlaanderen, Belgium",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Support Functions",
       "type": "Intern",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000118177357",
@@ -3740,7 +4295,9 @@
       "title": "Architecte Data Snowflake F/H",
       "company": "Devoteam",
       "location": "Lille, Hauts-de-France, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Data",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000118143747",
@@ -3755,7 +4312,9 @@
       "title": "Nearshore Sector | FinOps Lead MultiCloud",
       "company": "Devoteam",
       "location": "Lisboa, Lisboa, Portugal",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Development",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000118142077",
@@ -3770,7 +4329,10 @@
       "title": "ES- Analista Funcional Strategy",
       "company": "Devoteam",
       "location": "Madrid, MD, Spain",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa",
+        "europe"
+      ],
       "department": "Development",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000118118017",
@@ -3785,7 +4347,9 @@
       "title": "Banking Sector | Quality Assurance Academy (French speakers)",
       "company": "Devoteam",
       "location": "Lisboa, Lisboa, Portugal",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Development",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000118100772",
@@ -3800,7 +4364,9 @@
       "title": "Développeur Java/Angular H/F",
       "company": "Devoteam",
       "location": "Lyon, Auvergne-Rhône-Alpes, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Development",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000118093047",
@@ -3815,7 +4381,9 @@
       "title": "Stage Intelligence Artificielle & Transformation Digitale – H/F",
       "company": "Devoteam",
       "location": "Levallois-Perret, IDF, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Support Functions",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000118089697",
@@ -3830,7 +4398,9 @@
       "title": "Creative Tech | Digital Analytics - GA4, GTM, Looker Studio",
       "company": "Devoteam",
       "location": "Lisboa, Lisboa, Portugal",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Data",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117911135",
@@ -3845,7 +4415,9 @@
       "title": "Retail & E-Commerce | DBA Admin - Postgres",
       "company": "Devoteam",
       "location": "Remote",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote"
+      ],
       "department": "Data",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117910867",
@@ -3860,7 +4432,10 @@
       "title": "GCP Data Engineer- Banca",
       "company": "Devoteam",
       "location": "Madrid, MD, Spain",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa",
+        "europe"
+      ],
       "department": "Data",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117908676",
@@ -3875,7 +4450,9 @@
       "title": "Ingénieur Réseau Sécurité H/F",
       "company": "Devoteam",
       "location": "Toulouse, Occitanie, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Trust & Cybersecurity",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117896586",
@@ -3890,7 +4467,10 @@
       "title": "GCP DevOps Engineer",
       "company": "Devoteam",
       "location": "Madrid, MD, Spain",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa",
+        "europe"
+      ],
       "department": "Cloud",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117895186",
@@ -3905,7 +4485,9 @@
       "title": "(Senior) Consultant Cyber Security (m/w/d)",
       "company": "Devoteam",
       "location": "München, BY, Germany",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Trust & Cybersecurity",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117869837",
@@ -3920,7 +4502,9 @@
       "title": "Senior Cloud engineer ",
       "company": "Devoteam",
       "location": "Lille, Hauts-de-France, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Cloud",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117865748",
@@ -3935,7 +4519,9 @@
       "title": "Senior Data engineer H/F",
       "company": "Devoteam",
       "location": "Lille, Hauts-de-France, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Data",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117864785",
@@ -3950,7 +4536,9 @@
       "title": "Change Lead for Digital Transformation / Google Solutions",
       "company": "Devoteam",
       "location": "Machelen, Vlaanderen, Belgium",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "IT Strategy & PM",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117864338",
@@ -3965,7 +4553,9 @@
       "title": "Senior PMO (Project Management Officer) (H/F)",
       "company": "Devoteam",
       "location": "Casablanca, , Morocco",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "other"
+      ],
       "department": "IT Strategy & PM",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117841167",
@@ -3980,7 +4570,9 @@
       "title": "Senior Cloud & DevOps Engineer H/F",
       "company": "Devoteam",
       "location": "Lille, Hauts-de-France, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Cloud",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117827907",
@@ -3995,7 +4587,9 @@
       "title": "Distributed Cloud | Kubernetes Database Engineer",
       "company": "Devoteam",
       "location": "Porto, Porto, Portugal",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Cloud",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117817368",
@@ -4010,7 +4604,9 @@
       "title": "Ingénieur Système et Réseau Sénior F/H",
       "company": "Devoteam",
       "location": "Dijon, Bourgogne-Franche-Comté, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Trust & Cybersecurity",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117811924",
@@ -4025,7 +4621,9 @@
       "title": "Senior Data Engineer Databricks H/F",
       "company": "Devoteam",
       "location": "Lyon, Auvergne-Rhône-Alpes, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Data",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117811448",
@@ -4040,7 +4638,9 @@
       "title": "Architecte Infrastructure H/F",
       "company": "Devoteam",
       "location": "Lyon, Auvergne-Rhône-Alpes, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Business Processes",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117811414",
@@ -4055,7 +4655,9 @@
       "title": "Chef de projet technique Infrastructure / Cloud H/F",
       "company": "Devoteam",
       "location": "Lyon, Auvergne-Rhône-Alpes, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "IT Strategy & PM",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117807357",
@@ -4070,7 +4672,9 @@
       "title": "Project Manager Officer (PMO IT) F/H",
       "company": "Devoteam",
       "location": "Lyon, Auvergne-Rhône-Alpes, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "IT Strategy & PM",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117805514",
@@ -4085,7 +4689,9 @@
       "title": "Architecte Cloud Azure F/H",
       "company": "Devoteam",
       "location": "Lyon, Auvergne-Rhône-Alpes, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Cloud",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117686147",
@@ -4100,7 +4706,9 @@
       "title": "Cloud Ingénieur Azure F/H",
       "company": "Devoteam",
       "location": "Lyon, Auvergne-Rhône-Alpes, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Cloud",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117684039",
@@ -4115,7 +4723,9 @@
       "title": "Architecte Cloud AWS F/H",
       "company": "Devoteam",
       "location": "Lyon, Auvergne-Rhône-Alpes, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Cloud",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117681917",
@@ -4130,7 +4740,9 @@
       "title": "Senior Cloud Engineer AWS F/H",
       "company": "Devoteam",
       "location": "Lyon, Auvergne-Rhône-Alpes, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Cloud",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117680937",
@@ -4145,7 +4757,9 @@
       "title": "Expert Active Directory H/F",
       "company": "Devoteam",
       "location": "Marseille, Provence-Alpes-Côte d'Azur, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Cloud",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117668134",
@@ -4160,7 +4774,9 @@
       "title": "Scrum Master H/F",
       "company": "Devoteam",
       "location": "Lyon, Auvergne-Rhône-Alpes, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "IT Strategy & PM",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117644527",
@@ -4175,7 +4791,9 @@
       "title": "Telecom Sector | API Developer/Integration Engineer",
       "company": "Devoteam",
       "location": "Lisboa, Lisboa, Portugal",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Development",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117622007",
@@ -4190,7 +4808,9 @@
       "title": "Creative Tech | Fullstack Tech Lead",
       "company": "Devoteam",
       "location": "Remote",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote"
+      ],
       "department": "Development",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117608617",
@@ -4205,7 +4825,9 @@
       "title": "DSM H/F",
       "company": "Devoteam",
       "location": "Levallois-Perret, IDF, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "IT Strategy & PM",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117599747",
@@ -4220,7 +4842,9 @@
       "title": " Internship in AI/ML 2026",
       "company": "Devoteam",
       "location": "Machelen, Vlaams Gewest, Belgium",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Data",
       "type": "Intern",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117592328",
@@ -4235,7 +4859,9 @@
       "title": "Auditeur(trice) Sécurité Organisationnelle & Physique Senior (H/F)",
       "company": "Devoteam",
       "location": "Levallois Perret, Île-de-France, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Trust & Cybersecurity",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117592277",
@@ -4250,7 +4876,9 @@
       "title": "Cloud Developer Azure H/F",
       "company": "Devoteam",
       "location": "Levallois-Perret, IDF, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Cloud",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117585378",
@@ -4265,7 +4893,9 @@
       "title": "Cloud Engineer",
       "company": "Devoteam",
       "location": "Remote",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote"
+      ],
       "department": "Cloud",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117583977",
@@ -4280,7 +4910,10 @@
       "title": "Young Graduates – Google Cloud, Data & AI",
       "company": "Devoteam",
       "location": "Amsterdam, NH, Netherlands",
-      "locationNormalised": "europe",
+      "locationNormalised": [
+        "usa",
+        "europe"
+      ],
       "department": "Data",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117577139",
@@ -4295,7 +4928,9 @@
       "title": "Nearshore Sector | IT Network Engineer (Cisco)",
       "company": "Devoteam",
       "location": "Remote",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote"
+      ],
       "department": "Development",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117369817",
@@ -4310,7 +4945,9 @@
       "title": "Creative Tech | Tech Lead QA Engineer",
       "company": "Devoteam",
       "location": "Remote",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote"
+      ],
       "department": "Development",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117347130",
@@ -4325,7 +4962,9 @@
       "title": "Digital Workplace Consultant ",
       "company": "Devoteam",
       "location": "Remote",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote"
+      ],
       "department": "Business Processes",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117299848",
@@ -4340,7 +4979,9 @@
       "title": "Développeur Servicenow H/F ",
       "company": "Devoteam",
       "location": "Rabat, Rabat-Salé-Kénitra, Morocco",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "other"
+      ],
       "department": "Development",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117259717",
@@ -4355,7 +4996,9 @@
       "title": "Studerende/Juniorkonsulent søges til spændende rolle",
       "company": "Devoteam",
       "location": "Aarhus, , Denmark",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "IT Strategy & PM",
       "type": "Part-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117254777",
@@ -4370,7 +5013,9 @@
       "title": "Squad Leader - Microsoft Data Engineering (Azure & Fabric)",
       "company": "Devoteam",
       "location": "Levallois-Perret, IDF, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Data",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117232178",
@@ -4385,7 +5030,9 @@
       "title": "Ingénieur Poste de travail H/F",
       "company": "Devoteam",
       "location": "Remote",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote"
+      ],
       "department": "IT Strategy & PM",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117008862",
@@ -4400,7 +5047,9 @@
       "title": "Marketing Trainee",
       "company": "Devoteam",
       "location": "Lisboa, Lisboa, Portugal",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Support Functions",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000117000177",
@@ -4415,7 +5064,9 @@
       "title": "Senior AI / MLOps Engineer AWS - H/F",
       "company": "Devoteam",
       "location": "Toulouse, Occitanie, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Data",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116946952",
@@ -4430,7 +5081,9 @@
       "title": "Ingénieur Optimisation RF 5G (H/F)",
       "company": "Devoteam",
       "location": "Casablanca, Casablanca-Settat, Morocco",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "other"
+      ],
       "department": "Trust & Cybersecurity",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116945307",
@@ -4445,7 +5098,10 @@
       "title": "Desarrollador/a React (con Inglés)",
       "company": "Devoteam",
       "location": "Madrid, MD, Spain",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa",
+        "europe"
+      ],
       "department": "Development",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116928028",
@@ -4460,7 +5116,10 @@
       "title": "Desarrollador Strategy  (MicroStrategy)",
       "company": "Devoteam",
       "location": "Madrid, MD, Spain",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa",
+        "europe"
+      ],
       "department": "Data",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116913498",
@@ -4475,7 +5134,9 @@
       "title": "Banking Sector | Atlassian Administrator",
       "company": "Devoteam",
       "location": "Lisboa, Lisboa, Portugal",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Cloud",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116905118",
@@ -4490,7 +5151,9 @@
       "title": "SysOps Engineer",
       "company": "Devoteam",
       "location": "Novi Sad, Vojvodina, Serbia",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Cloud",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116893584",
@@ -4505,7 +5168,9 @@
       "title": "Machine Learning /AI Engineer (Senior to Principal Level)",
       "company": "Devoteam",
       "location": "København, , Denmark",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Data",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116880887",
@@ -4520,7 +5185,9 @@
       "title": "Machine Learning /AI Engineer (Senior to Principal Level)",
       "company": "Devoteam",
       "location": "Sentrum, Oslo, Norway",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Data",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116880447",
@@ -4535,7 +5202,9 @@
       "title": "Machine Learning /AI Engineer (Senior to Principal Level)",
       "company": "Devoteam",
       "location": "Stockholm, Stockholms län, Sweden",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Data",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116879259",
@@ -4550,7 +5219,9 @@
       "title": "Full Stack developer Squad leader H/F",
       "company": "Devoteam",
       "location": "Toulouse, Occitanie, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Development",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116661822",
@@ -4565,7 +5236,9 @@
       "title": "Senior AI/ MLOps Engineer H/F",
       "company": "Devoteam",
       "location": "Nantes, Pays de la Loire, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Data",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116663696",
@@ -4580,7 +5253,9 @@
       "title": "Data Engineer Spark / Databricks H/F",
       "company": "Devoteam",
       "location": "Nantes, Pays de la Loire, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Data",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116662575",
@@ -4595,7 +5270,9 @@
       "title": "Cloud Data Engineer H/F",
       "company": "Devoteam",
       "location": "Nantes, Pays de la Loire, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Data",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116661507",
@@ -4610,7 +5287,9 @@
       "title": "Consultor/a Senior Ping Identity – Cyber IAM",
       "company": "Devoteam",
       "location": "Remote",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote"
+      ],
       "department": "Trust & Cybersecurity",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116647307",
@@ -4625,7 +5304,9 @@
       "title": "Business Analyst IAM  H/F",
       "company": "Devoteam",
       "location": "Marseille, Provence-Alpes-Côte d'Azur, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Trust & Cybersecurity",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116621714",
@@ -4640,7 +5321,9 @@
       "title": "Ingénieur Systèmes et Réseaux H/F",
       "company": "Devoteam",
       "location": "Levallois-Perret, IDF, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Cloud",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116621377",
@@ -4655,7 +5338,9 @@
       "title": "Data Scientist FREELANCE H/F",
       "company": "Devoteam",
       "location": "Marseille, Provence-Alpes-Côte d'Azur, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Data",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116617192",
@@ -4670,7 +5355,9 @@
       "title": "Azure / Fabric Data Engineer (Microsoft)",
       "company": "Devoteam",
       "location": "Levallois-Perret, IDF, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Data",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116618849",
@@ -4685,7 +5372,9 @@
       "title": "Consultant(e) DevOps F/H",
       "company": "Devoteam",
       "location": "Nantes, Pays de la Loire, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Cloud",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116617085",
@@ -4700,7 +5389,9 @@
       "title": "Chef de projet Infrastructure H/F",
       "company": "Devoteam",
       "location": "Toulouse, Occitanie, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "IT Strategy & PM",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116563094",
@@ -4715,7 +5406,9 @@
       "title": "Banking Sector I Agile Coach ",
       "company": "Devoteam",
       "location": "Lisboa, Lisboa, Portugal",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Business Processes",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116471892",
@@ -4730,7 +5423,9 @@
       "title": "Banking Sector I Agile Coach ",
       "company": "Devoteam",
       "location": "Porto, Porto, Portugal",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Business Processes",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116473142",
@@ -4745,7 +5440,9 @@
       "title": "Distributed Cloud | Machine Learning Engineer",
       "company": "Devoteam",
       "location": "Porto, Porto, Portugal",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Data",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116464017",
@@ -4760,7 +5457,9 @@
       "title": "Distributed Cloud | Machine Learning Engineer",
       "company": "Devoteam",
       "location": "Lisboa, Lisboa, Portugal",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Data",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116463457",
@@ -4775,7 +5474,9 @@
       "title": "Distributed Cloud | MLOps ",
       "company": "Devoteam",
       "location": "Porto, Porto, Portugal",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Data",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116463337",
@@ -4790,7 +5491,9 @@
       "title": "Distributed Cloud | MLOps ",
       "company": "Devoteam",
       "location": "Lisboa, Lisboa, Portugal",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Data",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116462592",
@@ -4805,7 +5508,9 @@
       "title": "Consultant fonctionnel Salesforce H/F - CDI -Paris - Creative Tech - C360",
       "company": "Devoteam",
       "location": "Levallois-Perret, IDF, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "IT Strategy & PM",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116456077",
@@ -4820,7 +5525,9 @@
       "title": "Distributed Cloud | Data Engineer",
       "company": "Devoteam",
       "location": "Porto, Porto, Portugal",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Cloud",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116453517",
@@ -4835,7 +5542,9 @@
       "title": "Distributed Cloud | Data Engineer",
       "company": "Devoteam",
       "location": "Lisboa, Lisboa, Portugal",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Cloud",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116451185",
@@ -4850,7 +5559,9 @@
       "title": "Distributed Cloud | French Speaker Data Engineer ",
       "company": "Devoteam",
       "location": "Porto, Porto, Portugal",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Cloud",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116451274",
@@ -4865,7 +5576,9 @@
       "title": "Distributed Cloud | AI Engineer",
       "company": "Devoteam",
       "location": "Porto, Porto, Portugal",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Data",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116451787",
@@ -4880,7 +5593,9 @@
       "title": "Distributed Cloud | AI Engineer",
       "company": "Devoteam",
       "location": "Lisboa, Lisboa, Portugal",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Data",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116450780",
@@ -4895,7 +5610,9 @@
       "title": "Creative Tech | Angular Developer",
       "company": "Devoteam",
       "location": "Lisboa, Lisboa, Portugal",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Development",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116444117",
@@ -4910,7 +5627,9 @@
       "title": "Data Engineer Principal Consultant ",
       "company": "Devoteam",
       "location": "København, , Denmark",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Data",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116429937",
@@ -4925,7 +5644,9 @@
       "title": "Energy| MERN Developer",
       "company": "Devoteam",
       "location": "Lisboa, Lisboa, Portugal",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Development",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116426388",
@@ -4940,7 +5661,9 @@
       "title": "ServiceNow Technical Referent Senior (H/F) ",
       "company": "Devoteam",
       "location": "Casablanca, , Morocco",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "other"
+      ],
       "department": "Development",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116421643",
@@ -4955,7 +5678,9 @@
       "title": "ES- QA con Azure DevOps + INGLÉS Y FRANCÉS",
       "company": "Devoteam",
       "location": "Remote",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote"
+      ],
       "department": "Development",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116417841",
@@ -4970,7 +5695,9 @@
       "title": "Distributed Cloud | API and Integration Architect",
       "company": "Devoteam",
       "location": "Porto, Porto, Portugal",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Development",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116416077",
@@ -4985,7 +5712,9 @@
       "title": "Distributed Cloud | Data Architect",
       "company": "Devoteam",
       "location": "Porto, Porto, Portugal",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Data",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116413752",
@@ -5000,7 +5729,9 @@
       "title": "Distributed Cloud | Data Scientist",
       "company": "Devoteam",
       "location": "Porto, Porto, Portugal",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Data",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116410988",
@@ -5015,7 +5746,9 @@
       "title": "Stage Sales Specialist CSP (Microsoft)",
       "company": "Devoteam",
       "location": "Levallois-Perret, IDF, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Sales & Pre-Sales",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116405241",
@@ -5030,7 +5763,9 @@
       "title": "Pflichtpraktikum - Business Development Representative (m/w/d)",
       "company": "Devoteam",
       "location": "Frankfurt am Main, HE, Germany",
-      "locationNormalised": "europe",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Sales & Pre-Sales",
       "type": "Intern",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000116405947",
@@ -5045,7 +5780,9 @@
       "title": "Customer Support Specialist (Customer Service Representative - CSR)",
       "company": "Cprime",
       "location": "Cincinatti, OH",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "usa"
+      ],
       "department": "Contract Service Opportunities-US",
       "type": "Contract-to-Hire",
       "description": "Cprime brings business into a new light—illuminating possibilities that once seemed hidden. For more than two decades, we’ve partnered with 2,500+ organizations worldwide, including over 300 of the Fortune 500, to help leaders see complexity with new clarity and rewire it into intelligent flow. With",
@@ -5061,7 +5798,9 @@
       "title": "Data Engineer ",
       "company": "Devoteam",
       "location": "Riyadh , , Saudi Arabia",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "other"
+      ],
       "department": "Data",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000118744757",
@@ -5076,7 +5815,9 @@
       "title": "Director of Operations",
       "company": "Oxalis Solutions",
       "location": "Petaluma, CA",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://amycelltalent.applytojob.com/apply/PLX8TLA9AJ/Director-Of-Operations",
       "firstSeen": "2026-04-06T06:33:20.299Z",
       "lastSeen": "2026-04-06T13:28:47.696Z",
@@ -5089,7 +5830,9 @@
       "title": "Prinicipal Consultant, Public Sector",
       "company": "Oxalis Solutions",
       "location": "San Francisco, CA",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://amycelltalent.applytojob.com/apply/gtMTUDU2mc/Principal-Consultant",
       "firstSeen": "2026-04-06T06:33:20.299Z",
       "lastSeen": "2026-04-06T13:28:47.696Z",
@@ -5102,7 +5845,9 @@
       "title": "Senior Consultant, Data Architect",
       "company": "Oxalis Solutions",
       "location": "Sacramento, CA",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://amycelltalent.applytojob.com/apply/kZzNkZzYgR/Senior-Consultant-Data-Architect",
       "firstSeen": "2026-04-06T06:33:20.299Z",
       "lastSeen": "2026-04-06T13:28:47.696Z",
@@ -5115,7 +5860,9 @@
       "title": "Senior Consultant, Atlassian Cloud Migration Specialist",
       "company": "Oxalis Solutions",
       "location": "Portland, OR",
-      "locationNormalised": "usa",
+      "locationNormalised": [
+        "usa"
+      ],
       "url": "https://amycelltalent.applytojob.com/apply/43Z2dQEt7w/Sr-Solutions-Consultant-Atlassian-Migration-Specialist",
       "firstSeen": "2026-04-06T06:33:20.299Z",
       "lastSeen": "2026-04-06T13:28:47.696Z",
@@ -5128,7 +5875,9 @@
       "title": "Consultant Atlassian expérimenté H.F",
       "company": "NSI",
       "location": "Marseille, FR",
-      "locationNormalised": "europe",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://careers.nsigroup.eu/o/consultant-atlassian-experimente-hf",
       "firstSeen": "2026-04-06T06:33:21.031Z",
       "lastSeen": "2026-04-06T13:28:48.983Z",
@@ -5141,7 +5890,9 @@
       "title": "Business Consultant Atlassian",
       "company": "NSI",
       "location": "Awans, BE",
-      "locationNormalised": "europe",
+      "locationNormalised": [
+        "other"
+      ],
       "url": "https://careers.nsigroup.eu/o/business-consultant-atlassian-nsi",
       "firstSeen": "2026-04-06T06:33:21.031Z",
       "lastSeen": "2026-04-06T13:28:48.983Z",
@@ -5154,7 +5905,9 @@
       "title": "Business Consultant Atlassian expérimenté – FR/AN",
       "company": "NSI",
       "location": "Esch-sur-Alzette, LU",
-      "locationNormalised": "europe",
+      "locationNormalised": [
+        "other"
+      ],
       "url": "https://careers.nsigroup.eu/o/nsi-business-consultant-atlassian-experimente-fr-an",
       "firstSeen": "2026-04-06T06:33:21.031Z",
       "lastSeen": "2026-04-06T13:28:48.983Z",
@@ -5167,7 +5920,10 @@
       "title": "Atlassian Engineer",
       "company": "Softgile",
       "location": "Remote, Europe",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote",
+        "europe"
+      ],
       "url": "https://softgile.com/en/vakansiyi/",
       "firstSeen": "2026-04-06T06:33:23.012Z",
       "lastSeen": "2026-04-06T13:28:51.185Z",
@@ -5180,7 +5936,9 @@
       "title": "Consulente Atlassian",
       "company": "GetConnected / Euris",
       "location": "Italy",
-      "locationNormalised": "europe",
+      "locationNormalised": [
+        "europe"
+      ],
       "url": "https://euris.altamiraweb.com/annunci-lavoro/job-details?JobID=261911796",
       "firstSeen": "2026-04-06T06:33:24.453Z",
       "lastSeen": "2026-04-06T13:28:53.318Z",
@@ -5193,7 +5951,9 @@
       "title": "Account Manager – TMT (Technology, Media & Telco)",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/bc042a4c-69b2-4140-8783-853193ae5d8f/account-manager-tmt-technology-media-and-telco",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-06T06:34:47.132Z",
@@ -5206,7 +5966,9 @@
       "title": "Analista de Marketing - Conteúdo",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/a19e2822-ae08-41ec-a245-42b03e1443d5/analista-de-marketing-conteudo",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-06T06:34:47.132Z",
@@ -5219,7 +5981,9 @@
       "title": "Analista de Suporte Pleno – Observabilidade",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/9d64f9d1-d503-4a04-92d2-234c2ab84de3/analista-de-suporte-pleno-observabilidade",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-06T06:34:47.132Z",
@@ -5232,7 +5996,9 @@
       "title": "Arquiteto de Soluções (Azure & AWS)",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/a60dc271-3ca4-4683-a652-723d2f97848d/arquiteto-de-solucoes-azure-and-aws",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-06T06:34:47.132Z",
@@ -5245,7 +6011,9 @@
       "title": "Arquiteto de Soluções Multi-Cloud (Pré-Vendas)",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/ca794009-b79a-4d0f-b7f5-b802ca031350/arquiteto-de-solucoes-multi-cloud-pre-vendas",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-06T06:34:47.132Z",
@@ -5258,7 +6026,9 @@
       "title": "Arquiteto de Soluções de Pré-Vendas  (Foco em Aplicações e Modernização)",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/5888f9ae-53ce-4aec-8449-b03a0f4fd33d/arquiteto-de-solucoes-de-pre-vendas-foco-em-aplicacoes-e-modernizacao",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-06T06:34:47.132Z",
@@ -5271,7 +6041,9 @@
       "title": "Business Advisor",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/e1312a73-467d-4628-8d73-ad3b1c3f92a2/business-advisor",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-06T06:34:47.132Z",
@@ -5284,7 +6056,9 @@
       "title": "Consultor Atlassian Pleno",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/d0c7d9bb-2cff-4497-9fff-6eb0c28fb398/consultor-atlassian-pleno",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-06T06:34:47.132Z",
@@ -5297,7 +6071,9 @@
       "title": "DevOps / SRE – Cloud Support Engineer",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/fa99eade-e649-4d6a-817f-90084f53a2e3/devops-sre-cloud-support-engineer",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-06T06:34:47.132Z",
@@ -5310,7 +6086,9 @@
       "title": "Gerente de Projetos",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/59357fad-1806-44d3-bc24-8afe3a36e052/gerente-de-projetos",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-06T06:34:47.132Z",
@@ -5323,7 +6101,9 @@
       "title": "HR Business Partner Senior",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/9a8363b1-808a-498f-ad04-c88d1f60cf62/hr-business-partner-senior",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-06T06:34:47.132Z",
@@ -5336,7 +6116,9 @@
       "title": "Key Account Manager - FSI (Financial Services Industry)",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/2b37007b-21ef-4d32-bd73-5dcdd67177e3/key-account-manager-fsi-financial-services-industry",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-06T06:34:47.132Z",
@@ -5349,7 +6131,9 @@
       "title": "Key Account Manager - Retail",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/e8fab56e-cf87-4c38-98d5-73da065a8add/key-account-manager-retail",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-06T06:34:47.132Z",
@@ -5362,7 +6146,9 @@
       "title": "Practice Leader",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/a4c58ef9-8fc0-4c83-b43f-c22baa109829/practice-leader",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-06T06:34:47.132Z",
@@ -5375,7 +6161,9 @@
       "title": "Senior Software Developer - Java",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/c9f323d4-3d81-42e5-aca7-d946bbafe3d8/senior-software-developer-java",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-06T06:34:47.132Z",
@@ -5388,7 +6176,9 @@
       "title": "Support Specialist - Microsoft Dynamics 365 (F&O / CE)",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/f9f05a98-364c-400c-abc3-5c7521e933cf/support-specialist-microsoft-dynamics-365-fando-ce",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-06T06:34:47.132Z",
@@ -5401,7 +6191,9 @@
       "title": "Talent Acquisition Partner - Mid-Level",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/66666371-133f-4309-845c-ca11cbd0af07/talent-acquisition-partner-mid-level",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-06T06:34:47.132Z",
@@ -5414,7 +6206,9 @@
       "title": "UX/UI & Web Designer",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/8f98a67f-55ae-4b45-b916-8ff8259ce53d/uxui-and-web-designer",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-06T06:34:47.132Z",
@@ -5427,7 +6221,9 @@
       "title": "Zendesk Administrator & AI Bot Specialist",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/e80466ed-51b1-4a32-9256-300eb341cbbb/zendesk-administrator-and-ai-bot-specialist",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-06T06:34:47.132Z",
@@ -5440,7 +6236,10 @@
       "title": "Atlassian Admin",
       "company": "Samsara",
       "location": "Remote - Calgary",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote",
+        "canada"
+      ],
       "url": "https://www.samsara.com/company/careers/roles/7714152?gh_jid=7714152",
       "firstSeen": "2026-03-12T17:50:27-04:00",
       "lastSeen": "2026-04-06T13:28:24.232Z",
@@ -5453,7 +6252,10 @@
       "title": "Atlassian Admin",
       "company": "Samsara",
       "location": "Remote - Canada",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote",
+        "canada"
+      ],
       "url": "https://www.samsara.com/company/careers/roles/7390971?gh_jid=7390971",
       "firstSeen": "2025-11-21T20:58:29-05:00",
       "lastSeen": "2026-04-06T13:28:24.232Z",
@@ -5466,7 +6268,10 @@
       "title": "Atlassian Admin",
       "company": "Samsara",
       "location": "Remote - Vancouver",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote",
+        "canada"
+      ],
       "url": "https://www.samsara.com/company/careers/roles/7714157?gh_jid=7714157",
       "firstSeen": "2026-03-12T17:50:29-04:00",
       "lastSeen": "2026-04-06T13:28:24.232Z",
@@ -5479,7 +6284,9 @@
       "title": "Atlassian Admin",
       "company": "Samsara",
       "location": "Remote - Edmonton",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote"
+      ],
       "url": "https://www.samsara.com/company/careers/roles/7714154?gh_jid=7714154",
       "firstSeen": "2026-03-12T17:50:28-04:00",
       "lastSeen": "2026-04-06T13:28:24.232Z",
@@ -5492,7 +6299,9 @@
       "title": "Consultor Atlassian (100% teletrabajo)",
       "company": "Devoteam",
       "location": "Remote",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote"
+      ],
       "department": "Development",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000105805806",
@@ -5507,7 +6316,10 @@
       "title": "Atlassian Consultant (Jira, Confluence, Bitbucket)",
       "company": "Devoteam",
       "location": "Amsterdam, NH, Netherlands",
-      "locationNormalised": "europe",
+      "locationNormalised": [
+        "usa",
+        "europe"
+      ],
       "department": "IT Strategy & PM",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000104650146",
@@ -5522,7 +6334,9 @@
       "title": "Digital Impulse | Solution Architect (Atlassian)",
       "company": "Devoteam",
       "location": "Porto, Porto, Portugal",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Development",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000103353261",
@@ -5537,7 +6351,9 @@
       "title": "Digital Impulse | Solution Architect (Atlassian)",
       "company": "Devoteam",
       "location": "Lisboa, Lisboa, Portugal",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "Development",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000103353175",
@@ -5552,7 +6368,9 @@
       "title": "Consultant Atlassian H/F",
       "company": "Devoteam",
       "location": "Levallois-Perret, IDF, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "IT Strategy & PM",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000099359006",
@@ -5567,7 +6385,9 @@
       "title": "Consultant Atlassian  H/F",
       "company": "Devoteam",
       "location": "Toulouse, Occitanie, France",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "europe"
+      ],
       "department": "IT Strategy & PM",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000099359299",
@@ -5582,7 +6402,9 @@
       "title": "Consultant.e Atlassian",
       "company": "Devoteam",
       "location": "Tunis, Tunis, Tunisia",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "other"
+      ],
       "department": "Development",
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000082248095",

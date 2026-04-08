@@ -5,7 +5,7 @@ export interface Job {
   title: string;
   company: string;
   location: string;
-  locationNormalised: string;
+  locationNormalised: string[];
   department?: string;
   type?: string;
   description?: string;
