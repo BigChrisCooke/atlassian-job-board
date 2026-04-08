@@ -41,20 +41,49 @@ const categories = ['developer', 'consultancy', 'marketing-sales', 'support', 'b
   (c) => activeJobs.some((j) => normaliseCategory(j.department, j.title) === c)
 );
 
-const jobPostings = activeJobs.map((j) => ({
-  '@type': 'JobPosting',
-  title: j.title,
-  description: j.description ?? `${j.title} position at ${j.company}.`,
-  datePosted: j.firstSeen,
-  validThrough: j.lastSeen,
-  hiringOrganization: { '@type': 'Organization', name: j.company },
-  jobLocation:
-    j.locationNormalised === 'remote'
-      ? { '@type': 'Place', address: { '@type': 'PostalAddress', addressCountry: 'AU' } }
-      : { '@type': 'Place', address: j.location },
-  ...(j.locationNormalised === 'remote' ? { jobLocationType: 'TELECOMMUTE' } : {}),
-  url: j.url,
-}));
+// Derive ISO 3166-1 alpha-2 country code from what we know about the job
+function countryCode(normalised: string, raw: string): string {
+  if (normalised !== 'remote' && normalised !== 'other') {
+    const map: Record<string, string> = {
+      australia: 'AU', 'new zealand': 'NZ', singapore: 'SG',
+      'hong kong': 'HK', usa: 'US', uk: 'GB', india: 'IN',
+    };
+    if (map[normalised]) return map[normalised];
+  }
+  const loc = raw.toLowerCase();
+  if (/australia|\(au\)/.test(loc))                    return 'AU';
+  if (/united states|[,( ]us(?:[^a-z]|$)|[,( ]usa/.test(loc)) return 'US';
+  if (/united kingdom|[,( ]uk[^a-z]/.test(loc))        return 'GB';
+  if (/germany|stuttgart|berlin|munich/.test(loc))      return 'DE';
+  if (/france/.test(loc))                               return 'FR';
+  if (/new zealand/.test(loc))                          return 'NZ';
+  if (/india/.test(loc))                                return 'IN';
+  if (/singapore/.test(loc))                            return 'SG';
+  return 'AU'; // fallback — Apwide is AU-based
+}
+
+const jobPostings = activeJobs.map((j) => {
+  const isRemote =
+    j.locationNormalised === 'remote' ||
+    j.location.toLowerCase().includes('remote');
+  const cc = countryCode(j.locationNormalised, j.location);
+
+  return {
+    '@type': 'JobPosting',
+    title: j.title,
+    description: j.description ?? `${j.title} position at ${j.company}.`,
+    datePosted: j.firstSeen,
+    validThrough: j.lastSeen,
+    hiringOrganization: { '@type': 'Organization', name: j.company },
+    jobLocation: {
+      '@type': 'Place',
+      address: { '@type': 'PostalAddress', addressCountry: cc, addressLocality: j.location },
+    },
+    ...(isRemote ? { jobLocationType: 'TELECOMMUTE' } : {}),
+    ...(isRemote ? { applicantLocationRequirements: { '@type': 'Country', name: cc } } : {}),
+    url: j.url,
+  };
+});
 ---
 
 <Layout
