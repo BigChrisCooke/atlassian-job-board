@@ -7,7 +7,7 @@ const GRACE_MS = 7 * 24 * 60 * 60 * 1000;
 const activeJobs = jobsData.jobs.filter(
   (j) => j.isActive || Date.now() - new Date(j.lastSeen).getTime() <= GRACE_MS
 );
-const locations = [...new Set(activeJobs.map((j) => j.locationNormalised))].sort();
+const locations = [...new Set(activeJobs.flatMap((j) => j.locationNormalised))].sort();
 
 const normaliseType = (t: string | undefined) => {
   if (!t) return '';
@@ -42,29 +42,30 @@ const categories = ['developer', 'consultancy', 'marketing-sales', 'support', 'b
 );
 
 // Derive ISO 3166-1 alpha-2 country code from what we know about the job
-function countryCode(normalised: string, raw: string): string {
-  if (normalised !== 'remote' && normalised !== 'other') {
-    const map: Record<string, string> = {
-      australia: 'AU', 'new zealand': 'NZ', singapore: 'SG',
-      'hong kong': 'HK', usa: 'US', uk: 'GB', india: 'IN',
-    };
-    if (map[normalised]) return map[normalised];
+// locationNormalised is an array — try specific entries before falling back to raw string
+function countryCode(normalised: string[], raw: string): string {
+  const map: Record<string, string> = {
+    australia: 'AU', 'new zealand': 'NZ', singapore: 'SG',
+    'hong kong': 'HK', usa: 'US', uk: 'GB', india: 'IN',
+  };
+  for (const n of normalised) {
+    if (n !== 'remote' && n !== 'other' && map[n]) return map[n];
   }
   const loc = raw.toLowerCase();
-  if (/australia|\(au\)/.test(loc))                    return 'AU';
-  if (/united states|[,( ]us(?:[^a-z]|$)|[,( ]usa/.test(loc)) return 'US';
-  if (/united kingdom|[,( ]uk[^a-z]/.test(loc))        return 'GB';
-  if (/germany|stuttgart|berlin|munich/.test(loc))      return 'DE';
-  if (/france/.test(loc))                               return 'FR';
-  if (/new zealand/.test(loc))                          return 'NZ';
-  if (/india/.test(loc))                                return 'IN';
-  if (/singapore/.test(loc))                            return 'SG';
+  if (/australia|\(au\)/.test(loc))                              return 'AU';
+  if (/united states|[,( ]us(?:[^a-z]|$)|[,( ]usa/.test(loc))  return 'US';
+  if (/united kingdom|[,( ]uk(?:[^a-z]|$)/.test(loc))           return 'GB';
+  if (/germany|stuttgart|berlin|munich/.test(loc))               return 'DE';
+  if (/france/.test(loc))                                        return 'FR';
+  if (/new zealand/.test(loc))                                   return 'NZ';
+  if (/india/.test(loc))                                         return 'IN';
+  if (/singapore/.test(loc))                                     return 'SG';
   return 'AU'; // fallback — Apwide is AU-based
 }
 
 const jobPostings = activeJobs.map((j) => {
   const isRemote =
-    j.locationNormalised === 'remote' ||
+    j.locationNormalised.includes('remote') ||
     j.location.toLowerCase().includes('remote');
   const cc = countryCode(j.locationNormalised, j.location);
 
@@ -118,6 +119,10 @@ const jobPostings = activeJobs.map((j) => {
         Also hiring directly: <a href="https://www.atlassian.com/company/careers/all-jobs" target="_blank" rel="noopener noreferrer">Atlassian careers →</a>
       </p>
 
+      <p class="jobs-seo-intro">
+        Find <strong>Jira administrator</strong>, <strong>Atlassian consultant</strong>, and <strong>Confluence specialist</strong> roles across the Atlassian ecosystem — including Jira Service Management, ScriptRunner, Atlassian Cloud migration, and Marketplace app development positions at leading Solution Partners and ISVs worldwide.
+      </p>
+
       <div class="jobs-filters">
         <input
           id="filter-title"
@@ -158,8 +163,8 @@ const jobPostings = activeJobs.map((j) => {
         {activeJobs.map((job) => (
           <article
             class="job-card"
-            data-title={`${job.title.toLowerCase()} ${job.company.toLowerCase()} ${(job.type ?? '').toLowerCase()} ${job.location.toLowerCase()} ${job.locationNormalised.toLowerCase()}`}
-            data-location={job.locationNormalised}
+            data-title={`${job.title.toLowerCase()} ${job.company.toLowerCase()} ${(job.type ?? '').toLowerCase()} ${job.location.toLowerCase()} ${job.locationNormalised.join(' ')}`}
+            data-location={job.locationNormalised.join(' ')}
             data-type={normaliseType(job.type)}
             data-category={normaliseCategory(job.department, job.title)}
           >
@@ -201,7 +206,7 @@ const jobPostings = activeJobs.map((j) => {
 
     cards.forEach((card) => {
       const matchesTitle = !q || (card.dataset.title ?? '').includes(q);
-      const matchesLocation = !loc || card.dataset.location === loc;
+      const matchesLocation = !loc || (card.dataset.location ?? '').split(' ').includes(loc);
       const matchesType = !type || card.dataset.type === type;
       const matchesCategory = !cat || card.dataset.category === cat;
       card.hidden = !(matchesTitle && matchesLocation && matchesType && matchesCategory);
