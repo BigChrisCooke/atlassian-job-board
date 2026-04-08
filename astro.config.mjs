@@ -3,5 +3,5 @@ import { defineConfig } from 'astro/config';
 
 export default defineConfig({
   output: 'static',
-  site: 'https://atlassian-job-board.vercel.app',
+  site: 'https://jobs.apwide.com',
 });

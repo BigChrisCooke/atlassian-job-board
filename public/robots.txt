@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://atlassian-job-board.vercel.app/sitemap.xml
+Sitemap: https://jobs.apwide.com/sitemap.xml
