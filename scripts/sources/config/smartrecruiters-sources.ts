@@ -7,8 +7,8 @@ export const SMARTRECRUITERS_SOURCES: SmartRecruitersSource[] = [
     name: 'Devoteam',
     queries: [
       { q: 'atlassian' },
-      { q: 'jira', titleContains: 'jira admin' },
-      { q: 'jira', titleContains: 'jira migration' },
+      { q: 'jira' },
+      { q: 'confluence' },
     ],
   },
 ];

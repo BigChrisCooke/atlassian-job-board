@@ -2,110 +2,103 @@ import { chromium } from 'playwright';
 import type { Job } from '../../types.js';
 import { buildJobId, normaliseLocation } from '../../utils/normalise.js';
 
-const CAREERS_URL = 'https://xpand-it.com/en/careers/';
-const BASE_URL = 'https://xpand-it.com';
+// The English careers page is blocked by Cloudflare WAF, but the
+// Portuguese opportunities page loads fine and lists all jobs.
+const CAREERS_URL = 'https://xpand-it.com/pt-pt/carreiras/oportunidades-emprego/';
 
 export async function scrapeXpandIt(): Promise<Job[]> {
-  const browser = await chromium.launch({ headless: true });
+  const browser = await chromium.launch({
+    headless: true,
+    args: ['--disable-blink-features=AutomationControlled'],
+  });
 
   try {
-    const page = await browser.newPage();
-
-    // Don't block resources — Cloudflare bot detection may check for full browser behaviour
-    await page.goto(CAREERS_URL, {
-      waitUntil: 'networkidle',
-      timeout: 60_000,
+    const context = await browser.newContext({
+      userAgent:
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+      viewport: { width: 1920, height: 1080 },
+      locale: 'pt-PT',
+    });
+    const page = await context.newPage();
+    await page.addInitScript(() => {
+      Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
     });
 
-    // Retry once if the page failed to settle
-    const url = page.url();
-    if (url.includes('challenge') || url.includes('captcha')) {
-      await page.waitForTimeout(5_000);
-      await page.reload({ waitUntil: 'networkidle', timeout: 60_000 });
+    await page.goto(CAREERS_URL, { waitUntil: 'domcontentloaded', timeout: 120_000 });
+    // Wait for job links to appear (the page keeps loading resources)
+    try {
+      await page.waitForSelector('a[href*="/oportunidades-emprego/"]', { timeout: 60_000 });
+    } catch {
+      // Links may already be in the static HTML
+    }
+    await page.waitForTimeout(3_000);
+    console.log(`  [xpandit] loaded: ${page.url()}`);
+
+    // Dismiss cookie banner if present
+    try {
+      await page.click('text=Aceitar Todos', { timeout: 5_000 });
+      await page.waitForTimeout(2_000);
+    } catch {
+      /* no banner */
     }
 
-    console.log(`  [xpandit] landed on: ${page.url()}`);
-
-    // Cloudflare serves block pages at the original URL — detect via page content
+    // Check for Cloudflare block
     const bodyText = await page.evaluate(() => document.body?.innerText ?? '');
-    if (bodyText.toLowerCase().includes('cloudflare') && /\b(error|blocked|checking)\b/i.test(bodyText)) {
+    if (bodyText.includes('Sorry, you have been blocked')) {
       throw new Error('Blocked by Cloudflare — skipping to preserve existing job data');
     }
 
-    // Try multiple URL patterns — Portuguese companies sometimes use /jobs/, /vagas/, or /en/careers/
-    const selectors = [
-      'a[href*="/careers/"]',
-      'a[href*="/jobs/"]',
-      'a[href*="/vagas/"]',
-      'a[href*="/job/"]',
-      'a[href*="/oferta/"]',
-    ];
-
-    let rawJobs: { href: string; title: string; location: string }[] = [];
-
-    for (const sel of selectors) {
-      const found = await page.$$eval(sel, (anchors) =>
-        (anchors as HTMLAnchorElement[]).map((a) => {
-          const h3 = a.querySelector('h3');
-          const h4 = a.querySelector('h4');
-          const heading = h3 ?? h4;
-          const title =
-            heading?.textContent?.trim() ??
-            a.querySelector('[class*="title"], [class*="position"]')?.textContent?.trim() ??
-            a.textContent?.trim() ??
-            '';
-          const location =
-            a.querySelector('p, [class*="location"], [class*="place"]')?.textContent?.trim() ?? '';
-          return { href: a.href, title, location };
-        })
-      ).catch(() => []);
-
-      // Filter out root pages and nav links
-      const listings = found.filter((j) => {
-        const clean = j.href.replace(/\/$/, '');
-        const isRoot = ['careers', 'jobs', 'vagas', 'job', 'oferta'].some(
-          (p) => clean.endsWith(`/${p}`) || clean.endsWith(`/en/${p}`)
-        );
-        return !isRoot && j.title.length > 1;
-      });
-
-      if (listings.length > 0) {
-        rawJobs = listings;
-        console.log(`  [xpandit] found ${listings.length} jobs via selector: ${sel}`);
-        break;
+    // Extract job links — they follow the pattern /pt-pt/oportunidades-emprego/{dept}/{slug}/
+    const rawJobs = await page.$$eval(
+      'a[href*="/oportunidades-emprego/"]',
+      (anchors) => {
+        const seen = new Set<string>();
+        const jobs: { href: string; title: string }[] = [];
+        for (const a of anchors as HTMLAnchorElement[]) {
+          const href = a.href.replace(/\/$/, '');
+          // Only keep deep links (dept/slug), not the listing page itself
+          const parts = href.split('/oportunidades-emprego/')[1]?.split('/').filter(Boolean);
+          if (!parts || parts.length < 2) continue;
+          if (seen.has(href)) continue;
+          seen.add(href);
+          // Title from link text or slug
+          const text = a.textContent?.trim() ?? '';
+          const title = text.length > 3 ? text : parts[parts.length - 1].replace(/-/g, ' ');
+          jobs.push({ href, title });
+        }
+        return jobs;
       }
-    }
+    );
 
-    if (rawJobs.length === 0) {
-      // Log all hrefs on the page to help diagnose
-      const allLinks = await page.$$eval('a[href]', (as) =>
-        (as as HTMLAnchorElement[]).map((a) => a.href)
-      );
-      console.log(`  [xpandit] 0 jobs found. Sample page links:\n    ${allLinks.slice(0, 15).join('\n    ')}`);
-    }
+    console.log(`  [xpandit] found ${rawJobs.length} jobs on careers page`);
 
     const now = new Date().toISOString();
-    const seen = new Set<string>();
 
-    return rawJobs
-      .filter((j) => {
-        if (seen.has(j.href)) return false;
-        seen.add(j.href);
-        return true;
-      })
-      .map((j) => ({
-        id: buildJobId('xpandit', j.title, j.location),
+    return rawJobs.map((j) => {
+      // Convert Portuguese URL to English for end users
+      const englishUrl = j.href
+        .replace('/pt-pt/oportunidades-emprego/', '/en/careers/find-opportunities/');
+
+      // Title-case the title
+      const title = j.title
+        .split(' ')
+        .map((w) => (w.length > 2 ? w.charAt(0).toUpperCase() + w.slice(1) : w))
+        .join(' ');
+
+      return {
+        id: buildJobId('xpandit', title, 'Portugal'),
         sourceId: j.href.split('/').filter(Boolean).pop() ?? j.href,
         source: 'Xpand IT',
-        title: j.title,
+        title,
         company: 'Xpand IT',
-        location: j.location,
-        locationNormalised: normaliseLocation(j.location),
-        url: j.href.startsWith('http') ? j.href : `${BASE_URL}${j.href}`,
+        location: 'Portugal',
+        locationNormalised: normaliseLocation('Portugal'),
+        url: englishUrl,
         firstSeen: now,
         lastSeen: now,
         isActive: true,
-      }));
+      };
+    });
   } finally {
     await browser.close();
   }
