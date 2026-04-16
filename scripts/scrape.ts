@@ -27,6 +27,7 @@ import { scrapeRemoteOK } from './sources/custom/remoteok.js';
 import { scrapeSalto } from './sources/custom/salto.js';
 import { scrapeXpandIt } from './sources/custom/xpandit.js';
 import { scrapeElements } from './sources/custom/elements.js';
+import { scrapeDecadis } from './sources/custom/decadis.js';
 import {
   LEVER_SOURCES,
   ASHBY_SOURCES,
@@ -304,6 +305,15 @@ async function main() {
   try {
     process.stdout.write('  Elements... ');
     const jobs = await scrapeElements();
+    allFresh.push(...jobs);
+    console.log(`${jobs.length} jobs`);
+  } catch (err) {
+    console.error(`FAILED — ${(err as Error).message}`);
+  }
+  await sleep(1500);
+  try {
+    process.stdout.write('  Decadis... ');
+    const jobs = await scrapeDecadis();
     allFresh.push(...jobs);
     console.log(`${jobs.length} jobs`);
   } catch (err) {
