@@ -41,12 +41,30 @@ import {
 
 const sleep = (ms: number) => new Promise<void>((r) => setTimeout(r, ms));
 
+// --only decadis,salto  →  only scrape those sources, leave everything else untouched
+const onlyArg = process.argv.find((a) => a.startsWith('--only=') || a === '--only');
+const onlyNext = onlyArg === '--only' ? process.argv[process.argv.indexOf('--only') + 1] : undefined;
+const onlyRaw = onlyArg?.startsWith('--only=') ? onlyArg.slice(7) : onlyNext;
+const onlyFilters: string[] = onlyRaw ? onlyRaw.split(',').map((s) => s.trim().toLowerCase()) : [];
+const filterMode = onlyFilters.length > 0;
+
+function matches(name: string): boolean {
+  if (!filterMode) return true;
+  const n = name.toLowerCase();
+  return onlyFilters.some((f) => n.includes(f) || f.includes(n));
+}
+
+function filterSources<T extends { name: string }>(sources: T[]): T[] {
+  return filterMode ? sources.filter((s) => matches(s.name)) : sources;
+}
+
 async function main() {
+  if (filterMode) console.log(`\n[scrape] --only mode: ${onlyFilters.join(', ')}`);
   const allFresh: Job[] = [];
 
   // --- Lever sources ---
   console.log('\n[scrape] Group 1 — Lever');
-  for (const source of LEVER_SOURCES) {
+  for (const source of filterSources(LEVER_SOURCES)) {
     try {
       process.stdout.write(`  ${source.name}... `);
       const jobs = await scrapeLeaver(source);
@@ -60,7 +78,7 @@ async function main() {
 
   // --- Ashby sources ---
   console.log('\n[scrape] Group 2 — Ashby');
-  for (const source of ASHBY_SOURCES) {
+  for (const source of filterSources(ASHBY_SOURCES)) {
     try {
       process.stdout.write(`  ${source.name}... `);
       const jobs = await scrapeAshby(source);
@@ -74,7 +92,7 @@ async function main() {
 
   // --- Greenhouse sources ---
   console.log('\n[scrape] Group 3 — Greenhouse');
-  for (const source of GREENHOUSE_SOURCES) {
+  for (const source of filterSources(GREENHOUSE_SOURCES)) {
     try {
       process.stdout.write(`  ${source.name}... `);
       const jobs = await scrapeGreenhouse(source);
@@ -88,7 +106,7 @@ async function main() {
 
   // --- SmartRecruiters sources ---
   console.log('\n[scrape] Group 4 — SmartRecruiters');
-  for (const source of SMARTRECRUITERS_SOURCES) {
+  for (const source of filterSources(SMARTRECRUITERS_SOURCES)) {
     try {
       process.stdout.write(`  ${source.name}... `);
       const jobs = await scrapeSmartRecruiters(source);
@@ -102,7 +120,7 @@ async function main() {
 
   // --- Teamtailor sources ---
   console.log('\n[scrape] Group 5 — Teamtailor');
-  for (const source of TEAMTAILOR_SOURCES) {
+  for (const source of filterSources(TEAMTAILOR_SOURCES)) {
     try {
       process.stdout.write(`  ${source.name}... `);
       const jobs = await scrapeTeamtailor(source);
@@ -116,7 +134,7 @@ async function main() {
 
   // --- Personio sources ---
   console.log('\n[scrape] Group 6 — Personio');
-  for (const source of PERSONIO_SOURCES) {
+  for (const source of filterSources(PERSONIO_SOURCES)) {
     try {
       process.stdout.write(`  ${source.name}... `);
       const jobs = await scrapePersonio(source);
@@ -130,7 +148,7 @@ async function main() {
 
   // --- BambooHR sources ---
   console.log('\n[scrape] Group 7 — BambooHR');
-  for (const source of BAMBOOHR_SOURCES) {
+  for (const source of filterSources(BAMBOOHR_SOURCES)) {
     try {
       process.stdout.write(`  ${source.name}... `);
       const jobs = await scrapeBambooHR(source);
@@ -144,7 +162,7 @@ async function main() {
 
   // --- Workable sources ---
   console.log('\n[scrape] Group 8 — Workable');
-  for (const source of WORKABLE_SOURCES) {
+  for (const source of filterSources(WORKABLE_SOURCES)) {
     try {
       process.stdout.write(`  ${source.name}... `);
       const jobs = await scrapeWorkable(source);
@@ -158,170 +176,42 @@ async function main() {
 
   // --- Custom scrapers ---
   console.log('\n[scrape] Group 9 — Custom');
-  try {
-    process.stdout.write('  Communardo... ');
-    const jobs = await scrapeCommunardo();
-    allFresh.push(...jobs);
-    console.log(`${jobs.length} jobs`);
-  } catch (err) {
-    console.error(`FAILED — ${(err as Error).message}`);
-  }
-  await sleep(1500);
-  try {
-    process.stdout.write('  Seibert Group... ');
-    const jobs = await scrapeSeibert();
-    allFresh.push(...jobs);
-    console.log(`${jobs.length} jobs`);
-  } catch (err) {
-    console.error(`FAILED — ${(err as Error).message}`);
-  }
-  await sleep(1500);
-  try {
-    process.stdout.write('  Deviniti... ');
-    const jobs = await scrapeDeviniti();
-    allFresh.push(...jobs);
-    console.log(`${jobs.length} jobs`);
-  } catch (err) {
-    console.error(`FAILED — ${(err as Error).message}`);
-  }
-  await sleep(1500);
-  try {
-    process.stdout.write('  GLINtech... ');
-    const jobs = await scrapeGlintech();
-    allFresh.push(...jobs);
-    console.log(`${jobs.length} jobs`);
-  } catch (err) {
-    console.error(`FAILED — ${(err as Error).message}`);
-  }
-  await sleep(1500);
-  try {
-    process.stdout.write('  iDalko (Exalate)... ');
-    const jobs = await scrapeIdalko();
-    allFresh.push(...jobs);
-    console.log(`${jobs.length} jobs`);
-  } catch (err) {
-    console.error(`FAILED — ${(err as Error).message}`);
-  }
-  await sleep(1500);
-  try {
-    process.stdout.write('  catworkx... ');
-    const jobs = await scrapeCatworkx();
-    allFresh.push(...jobs);
-    console.log(`${jobs.length} jobs`);
-  } catch (err) {
-    console.error(`FAILED — ${(err as Error).message}`);
-  }
-  await sleep(1500);
-  try {
-    process.stdout.write('  Contegix... ');
-    const jobs = await scrapeContegix();
-    allFresh.push(...jobs);
-    console.log(`${jobs.length} jobs`);
-  } catch (err) {
-    console.error(`FAILED — ${(err as Error).message}`);
-  }
-  await sleep(1500);
-  try {
-    process.stdout.write('  Spectrum Groupe... ');
-    const jobs = await scrapeSpectrumGroupe();
-    allFresh.push(...jobs);
-    console.log(`${jobs.length} jobs`);
-  } catch (err) {
-    console.error(`FAILED — ${(err as Error).message}`);
-  }
-  await sleep(1500);
-  try {
-    process.stdout.write('  Oxalis Solutions... ');
-    const jobs = await scrapeOxalis();
-    allFresh.push(...jobs);
-    console.log(`${jobs.length} jobs`);
-  } catch (err) {
-    console.error(`FAILED — ${(err as Error).message}`);
-  }
-  await sleep(1500);
-  try {
-    process.stdout.write('  NSI... ');
-    const jobs = await scrapeNsi();
-    allFresh.push(...jobs);
-    console.log(`${jobs.length} jobs`);
-  } catch (err) {
-    console.error(`FAILED — ${(err as Error).message}`);
-  }
-  await sleep(1500);
-  try {
-    process.stdout.write('  Softgile... ');
-    const jobs = await scrapeSoftgile();
-    allFresh.push(...jobs);
-    console.log(`${jobs.length} jobs`);
-  } catch (err) {
-    console.error(`FAILED — ${(err as Error).message}`);
-  }
-  await sleep(1500);
-  try {
-    process.stdout.write('  GetConnected / Euris... ');
-    const jobs = await scrapeEuris();
-    allFresh.push(...jobs);
-    console.log(`${jobs.length} jobs`);
-  } catch (err) {
-    console.error(`FAILED — ${(err as Error).message}`);
-  }
-  await sleep(1500);
-  try {
-    process.stdout.write('  e-core... ');
-    const jobs = await scrapeEcore();
-    allFresh.push(...jobs);
-    console.log(`${jobs.length} jobs`);
-  } catch (err) {
-    console.error(`FAILED — ${(err as Error).message}`);
-  }
-  await sleep(1500);
-  try {
-    process.stdout.write('  Remote OK... ');
-    const jobs = await scrapeRemoteOK();
-    allFresh.push(...jobs);
-    console.log(`${jobs.length} jobs`);
-  } catch (err) {
-    console.error(`FAILED — ${(err as Error).message}`);
-  }
-  await sleep(1500);
-  try {
-    process.stdout.write('  Salto... ');
-    const jobs = await scrapeSalto();
-    allFresh.push(...jobs);
-    console.log(`${jobs.length} jobs`);
-  } catch (err) {
-    console.error(`FAILED — ${(err as Error).message}`);
-  }
-  await sleep(1500);
-  try {
-    process.stdout.write('  Xpand IT... ');
-    const jobs = await scrapeXpandIt();
-    allFresh.push(...jobs);
-    console.log(`${jobs.length} jobs`);
-  } catch (err) {
-    console.error(`FAILED — ${(err as Error).message}`);
-  }
-  await sleep(1500);
-  try {
-    process.stdout.write('  Elements... ');
-    const jobs = await scrapeElements();
-    allFresh.push(...jobs);
-    console.log(`${jobs.length} jobs`);
-  } catch (err) {
-    console.error(`FAILED — ${(err as Error).message}`);
-  }
-  await sleep(1500);
-  try {
-    process.stdout.write('  Decadis... ');
-    const jobs = await scrapeDecadis();
-    allFresh.push(...jobs);
-    console.log(`${jobs.length} jobs`);
-  } catch (err) {
-    console.error(`FAILED — ${(err as Error).message}`);
+  const custom: Array<[string, () => Promise<Job[]>]> = [
+    ['Communardo',          scrapeCommunardo],
+    ['Seibert Group',       scrapeSeibert],
+    ['Deviniti',            scrapeDeviniti],
+    ['GLINtech',            scrapeGlintech],
+    ['iDalko',              scrapeIdalko],
+    ['catworkx',            scrapeCatworkx],
+    ['Contegix',            scrapeContegix],
+    ['Spectrum Groupe',     scrapeSpectrumGroupe],
+    ['Oxalis Solutions',    scrapeOxalis],
+    ['NSI',                 scrapeNsi],
+    ['Softgile',            scrapeSoftgile],
+    ['Euris',               scrapeEuris],
+    ['e-core',              scrapeEcore],
+    ['Remote OK',           scrapeRemoteOK],
+    ['Salto',               scrapeSalto],
+    ['Xpand IT',            scrapeXpandIt],
+    ['Elements',            scrapeElements],
+    ['Decadis',             scrapeDecadis],
+  ];
+
+  for (const [name, fn] of custom) {
+    if (!matches(name)) continue;
+    try {
+      process.stdout.write(`  ${name}... `);
+      const jobs = await fn();
+      allFresh.push(...jobs);
+      console.log(`${jobs.length} jobs`);
+    } catch (err) {
+      console.error(`FAILED — ${(err as Error).message}`);
+    }
+    await sleep(1500);
   }
 
   // --- Merge with previous run & deduplicate ---
-  const merged = deduplicateAndMerge(allFresh);
+  const merged = deduplicateAndMerge(allFresh, filterMode ? onlyFilters : undefined);
   const active = merged.filter((j) => j.isActive);
 
   const output: JobsDataFile = {

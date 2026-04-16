@@ -5,7 +5,7 @@ import type { Job, JobsDataFile } from './types.js';
 const DATA_PATH = path.resolve('src/data/jobs.json');
 const INACTIVE_PRUNE_DAYS = 21;
 
-export function deduplicateAndMerge(freshJobs: Job[]): Job[] {
+export function deduplicateAndMerge(freshJobs: Job[], onlyFilters?: string[]): Job[] {
   let existing: Job[] = [];
 
   if (existsSync(DATA_PATH)) {
@@ -30,11 +30,17 @@ export function deduplicateAndMerge(freshJobs: Job[]): Job[] {
     });
   }
 
-  // Mark jobs not seen this run as inactive
+  // Mark jobs not seen this run as inactive — but in --only mode,
+  // only do this for the sources we actually scraped
   for (const [id, job] of existingMap) {
-    if (!freshIds.has(id) && job.isActive) {
-      existingMap.set(id, { ...job, isActive: false });
+    if (freshIds.has(id)) continue;
+    if (!job.isActive) continue;
+    if (onlyFilters) {
+      const src = job.source.toLowerCase();
+      const inScope = onlyFilters.some((f) => src.includes(f) || f.includes(src));
+      if (!inScope) continue; // leave other companies untouched
     }
+    existingMap.set(id, { ...job, isActive: false });
   }
 
   // Prune jobs inactive for more than INACTIVE_PRUNE_DAYS
