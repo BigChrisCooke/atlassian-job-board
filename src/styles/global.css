@@ -112,7 +112,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ===== Jobs Page ===== */
 .jobs-hero {
-  padding: 48px 0 32px;
+  padding-top: 48px;
+  padding-bottom: 32px;
 }
 
 .jobs-hero h1 {
