@@ -28,6 +28,7 @@ import { scrapeSalto } from './sources/custom/salto.js';
 import { scrapeXpandIt } from './sources/custom/xpandit.js';
 import { scrapeElements } from './sources/custom/elements.js';
 import { scrapeDecadis } from './sources/custom/decadis.js';
+import { scrapeMBition } from './sources/custom/mbition.js';
 import {
   LEVER_SOURCES,
   ASHBY_SOURCES,
@@ -195,6 +196,7 @@ async function main() {
     ['Xpand IT',            scrapeXpandIt],
     ['Elements',            scrapeElements],
     ['Decadis',             scrapeDecadis],
+    ['MBition',             scrapeMBition],
   ];
 
   for (const [name, fn] of custom) {
