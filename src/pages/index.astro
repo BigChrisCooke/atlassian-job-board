@@ -4,6 +4,15 @@ import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 
 const GRACE_MS = 7 * 24 * 60 * 60 * 1000;
+
+// Deterministic 32-bit string hash so same-batch jobs from different companies
+// interleave instead of clumping by scrape order.
+function hashId(s: string): number {
+  let h = 5381;
+  for (let i = 0; i < s.length; i++) h = ((h << 5) + h) ^ s.charCodeAt(i);
+  return h >>> 0;
+}
+
 const activeJobs = jobsData.jobs
   .filter((j) => j.isActive || Date.now() - new Date(j.lastSeen).getTime() <= GRACE_MS)
   .map((j) => ({
@@ -11,7 +20,13 @@ const activeJobs = jobsData.jobs
     locationNormalised: Array.isArray(j.locationNormalised)
       ? j.locationNormalised
       : [j.locationNormalised],
-  }));
+  }))
+  .sort((a, b) => {
+    const ta = new Date(a.firstSeen).getTime();
+    const tb = new Date(b.firstSeen).getTime();
+    if (tb !== ta) return tb - ta;
+    return hashId(a.id) - hashId(b.id);
+  });
 const locations = [...new Set(activeJobs.flatMap((j) => j.locationNormalised))].sort();
 
 const normaliseType = (t: string | undefined) => {
