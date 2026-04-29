@@ -5906,7 +5906,10 @@
       "title": "Atlassian Engineer",
       "company": "Softgile",
       "location": "Remote, Europe",
-      "locationNormalised": "remote",
+      "locationNormalised": [
+        "remote",
+        "europe"
+      ],
       "url": "https://softgile.com/en/vakansiyi/",
       "firstSeen": "2026-04-06T06:33:23.012Z",
       "lastSeen": "2026-04-20T04:59:25.377Z",
@@ -5932,7 +5935,9 @@
       "title": "Account Manager – TMT (Technology, Media & Telco)",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/bc042a4c-69b2-4140-8783-853193ae5d8f",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-20T04:59:30.245Z",
@@ -5945,7 +5950,9 @@
       "title": "Analista de Marketing - Conteúdo",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/a19e2822-ae08-41ec-a245-42b03e1443d5",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-20T04:59:30.245Z",
@@ -5958,7 +5965,9 @@
       "title": "Analista de Suporte Pleno – Observabilidade",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/9d64f9d1-d503-4a04-92d2-234c2ab84de3",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-20T04:59:30.245Z",
@@ -5971,7 +5980,9 @@
       "title": "Arquiteto de Soluções (Azure & AWS)",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/a60dc271-3ca4-4683-a652-723d2f97848d",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-20T04:59:30.245Z",
@@ -5984,7 +5995,9 @@
       "title": "Arquiteto de Soluções Multi-Cloud (Pré-Vendas)",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/ca794009-b79a-4d0f-b7f5-b802ca031350",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-20T04:59:30.245Z",
@@ -5997,7 +6010,9 @@
       "title": "Arquiteto de Soluções de Pré-Vendas  (Foco em Aplicações e Modernização)",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/5888f9ae-53ce-4aec-8449-b03a0f4fd33d",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-20T04:59:30.245Z",
@@ -6010,7 +6025,9 @@
       "title": "Business Advisor",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/e1312a73-467d-4628-8d73-ad3b1c3f92a2",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-20T04:59:30.245Z",
@@ -6023,7 +6040,9 @@
       "title": "Consultor Atlassian Pleno",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/d0c7d9bb-2cff-4497-9fff-6eb0c28fb398",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-20T04:59:30.245Z",
@@ -6036,7 +6055,9 @@
       "title": "DevOps / SRE – Cloud Support Engineer",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/fa99eade-e649-4d6a-817f-90084f53a2e3",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-20T04:59:30.245Z",
@@ -6049,7 +6070,9 @@
       "title": "Gerente de Projetos",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/59357fad-1806-44d3-bc24-8afe3a36e052",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-20T04:59:30.245Z",
@@ -6062,7 +6085,9 @@
       "title": "HR Business Partner Senior",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/9a8363b1-808a-498f-ad04-c88d1f60cf62",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-13T12:08:22.246Z",
@@ -6075,7 +6100,9 @@
       "title": "Key Account Manager - FSI (Financial Services Industry)",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/2b37007b-21ef-4d32-bd73-5dcdd67177e3",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-20T04:59:30.245Z",
@@ -6088,7 +6115,9 @@
       "title": "Key Account Manager - Retail",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/e8fab56e-cf87-4c38-98d5-73da065a8add",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-20T04:59:30.245Z",
@@ -6116,7 +6145,9 @@
       "title": "Senior Software Developer - Java",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/c9f323d4-3d81-42e5-aca7-d946bbafe3d8",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-20T04:59:30.245Z",
@@ -6129,7 +6160,9 @@
       "title": "Support Specialist - Microsoft Dynamics 365 (F&O / CE)",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/f9f05a98-364c-400c-abc3-5c7521e933cf",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-20T04:59:30.245Z",
@@ -6142,7 +6175,9 @@
       "title": "Talent Acquisition Partner - Mid-Level",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/66666371-133f-4309-845c-ca11cbd0af07",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-13T12:08:22.246Z",
@@ -6155,7 +6190,9 @@
       "title": "UX/UI & Web Designer",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/8f98a67f-55ae-4b45-b916-8ff8259ce53d",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-13T12:08:22.246Z",
@@ -6168,7 +6205,9 @@
       "title": "Zendesk Administrator & AI Bot Specialist",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/e80466ed-51b1-4a32-9256-300eb341cbbb",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-04-20T04:59:30.245Z",
@@ -6804,7 +6843,9 @@
       "title": "Analista de SalesOps",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/70dac8c4-9901-4c5c-a521-5bde673d87cd",
       "firstSeen": "2026-04-13T05:00:19.809Z",
       "lastSeen": "2026-04-13T12:08:22.246Z",
@@ -6817,7 +6858,9 @@
       "title": "Support Analyst II",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/643c7500-0c33-4e62-a8f0-a44c00d63b8f",
       "firstSeen": "2026-04-13T05:00:19.809Z",
       "lastSeen": "2026-04-20T04:59:30.245Z",
@@ -7856,7 +7899,9 @@
       "title": "PowerBI Specialist",
       "company": "e-core",
       "location": "Brazil",
-      "locationNormalised": "other",
+      "locationNormalised": [
+        "latam"
+      ],
       "url": "https://ecore.inhire.app/vagas/ae0e2f83-ffb4-4cbc-a518-2cf8afd8ea98",
       "firstSeen": "2026-04-20T04:59:30.245Z",
       "lastSeen": "2026-04-20T04:59:30.245Z",
@@ -7870,7 +7915,7 @@
       "company": "Decadis",
       "location": "Koblenz",
       "locationNormalised": [
-        "other"
+        "europe"
       ],
       "url": "https://www.decadis.de/jobs/atlassian-cloud-solution-consultant-m-w-d",
       "firstSeen": "2026-04-20T05:00:48.385Z",
@@ -7885,7 +7930,7 @@
       "company": "Decadis",
       "location": "Koblenz",
       "locationNormalised": [
-        "other"
+        "europe"
       ],
       "url": "https://www.decadis.de/jobs/atlassian-technical-consultant-m-w-d",
       "firstSeen": "2026-04-20T05:00:48.385Z",
