@@ -100,11 +100,12 @@ export interface BraveContext {
 export interface Anomaly {
   source: string;
   kind: AnomalyKind;
-  message: string;          // plain-English
+  message: string;          // plain-English, deterministic
   count: number;
   prevCount?: number;
   error?: string;
   context?: BraveContext;   // attached by the optional Brave pass
+  synthesis?: string;       // attached by the optional GitHub Models pass
 }
 
 export interface ScrapeReport {

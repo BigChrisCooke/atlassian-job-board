@@ -16,25 +16,30 @@ Live at **https://jobs.apwide.com** (deployed on Vercel, auto-deploys on push to
 
 ```
 src/
-  pages/index.astro        — Main (and only) page: job board with filters + JSON-LD schema
+  pages/index.astro        — Main page: job board with filters + JSON-LD schema
+  pages/scrape-report.astro — Weekly health report (noindex, public URL)
   pages/sitemap.xml.ts     — Dynamic sitemap
   layouts/Layout.astro     — HTML shell (head, analytics, favicon)
   components/              — Header, SEO, etc.
   styles/global.css        — All styles (brand purple: #6900c4)
   data/jobs.json           — Scraped job data (committed by CI, do not hand-edit)
+  data/scrape-report.json  — Per-source counts + flagged anomalies (committed by CI)
 
 scripts/
-  scrape.ts                — Main scraper entry point: runs all sources, merges, writes jobs.json
+  scrape.ts                — Main scraper entry point: runs all sources, merges, writes jobs.json + scrape-report.json
   dedupe.ts                — Deduplication + merge logic (21-day grace period for dropped jobs)
-  types.ts                 — Job interface and ATS source types
+  report.ts                — Health rules + scrape-report.json builder
+  summarize.ts             — Optional GitHub Models pass: 1-paragraph synthesis per anomaly
+  types.ts                 — Job interface, ATS source types, report types
   sources/
+    braveSearch.ts         — Optional Brave Search pass: top-3 snippets per anomaly
     engines/               — Generic ATS scrapers (reusable per-company):
       lever.ts, ashby.ts, greenhouse.ts, smartrecruiters.ts,
       teamtailor.ts, workable.ts, personio.ts, bamboohr.ts
     custom/                — Company-specific scrapers:
       communardo, seibert, deviniti, glintech, idalko, catworkx,
       contegix, spectrumgroupe, oxalis, nsi, softgile, euris, ecore,
-      remoteok, salto, xpandit, elements
+      remoteok, salto, xpandit, elements, decadis, mbition
     config/                — Source lists (company slugs/URLs) for each engine
     index.ts               — Re-exports all source config arrays
 
@@ -81,6 +86,32 @@ Some scrapers use Playwright (headless Chromium) for JS-rendered pages:
 - JSON-LD `JobPosting` schema is generated for all active jobs
 - Remote jobs get `jobLocationType: 'TELECOMMUTE'` + `applicantLocationRequirements` (required by Google)
 - 7-day grace period: recently-seen inactive jobs still display
+
+## Scrape health report (`/scrape-report`)
+
+A second page on the live site that renders `src/data/scrape-report.json` —
+written by every scrape run alongside `jobs.json`. Public URL, `noindex` so
+it doesn't appear in search results. Share the link with anyone who needs
+visibility without GitHub access.
+
+What it shows:
+- Active job count + week-over-week delta
+- Per-source table grouped by ATS engine (count, prev count, Δ, duration, status)
+- **Anomalies** flagged automatically:
+  - `failed` — scraper threw an error
+  - `silent_zero` — returned 0 jobs but had >0 last run (likely scraper bug, not real)
+  - `huge_drop` — halved or worse vs last run
+  - `runaway` — >2× growth (possible duplicate scrape)
+  - `cooldown` — auto-skipped after 3 consecutive failures (avoids hammering blocked sites)
+  - `duplicate_ids` — same id emitted twice in one run
+
+Optional anomaly enrichment (both free, both no-op when secret is missing):
+- **Brave Search** snippets — top 3 web results per anomaly to sanity-check
+  whether the company is still hiring. Set `BRAVE_SEARCH_API_KEY` as a GitHub
+  Actions secret (free tier from api.search.brave.com, 2k queries/month).
+- **GitHub Models** synthesis — uses GitHub's free LLM access to turn the
+  Brave snippets into a 1-paragraph plain-English retrospective per anomaly.
+  Requires `permissions: models: read` in the workflow (already set).
 
 ## Deployment
 

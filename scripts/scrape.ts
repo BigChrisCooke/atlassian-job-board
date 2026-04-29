@@ -46,6 +46,7 @@ import {
   loadPreviousReport,
 } from './report.js';
 import { annotateAnomalies } from './sources/braveSearch.js';
+import { synthesizeAnomalies } from './summarize.js';
 
 const sleep = (ms: number) => new Promise<void>((r) => setTimeout(r, ms));
 
@@ -234,6 +235,10 @@ async function main() {
   // Optional Brave Search context for flagged anomalies. No-op if BRAVE_SEARCH_API_KEY
   // is unset — keeps local runs and CI without the secret working unchanged.
   await annotateAnomalies(report);
+
+  // Optional GitHub Models synthesis: 1-paragraph plain-English retrospective
+  // per anomaly, using the Brave snippets as grounding. No-op without GITHUB_TOKEN.
+  await synthesizeAnomalies(report);
 
   writeFileSync(REPORT_PATH, JSON.stringify(report, null, 2));
 
