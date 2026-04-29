@@ -155,6 +155,34 @@ placeholder — say so and tell them to wait for the next Monday cron.
 - **Analytics**: Vercel Analytics + Google Analytics (G-NQ4BSEGLYS)
 - **CI scrape**: GitHub Actions, weekly Monday 02:00 UTC (or manual trigger)
 
+## Operating defaults
+
+These apply to every Claude Code session on this repo.
+
+### Act with current tools before designing systems
+
+For one-off questions ("how's the scrape?", "is X still hiring?", "did anything break?"), use the tools available *right now* — `Read` for files, `Bash` for git/log inspection, `WebSearch` for live verification, GitHub MCP for commits/PRs. **Don't punt verification to a future CI run.** If the user asks "is Samsara still hiring?", run a `WebSearch` and answer it; don't propose a weekly cron job.
+
+Build automation only when explicitly asked ("can we make this recurring?", "let's build a report for this every week"). One question ≠ one feature.
+
+### Don't stop at limitations
+
+If one tool can't reach something (e.g. no GitHub Actions log access), state the limitation in one sentence then route around it. Examples:
+
+- Can't read Actions logs → fall back to `git log src/data/jobs.json` to see what changed since last run.
+- Can't fetch a URL from sandbox → `WebSearch` instead, or compare cached versions.
+- Can't access a private API → check whether public alternatives exist.
+
+### Cost defaults
+
+This project's maintainer prefers free options.
+
+- For LLM-in-CI features: default to **GitHub Models** (free for personal accounts, auth via `GITHUB_TOKEN`). Don't recommend the Anthropic API or OpenAI API as a default — that's a separate billing relationship the maintainer doesn't currently have.
+- For search/data APIs: default to **Brave Search free tier** (2k queries/month) over paid alternatives.
+- The maintainer is on Claude Max — that quota covers interactive Claude sessions, NOT scheduled CI runs. Any LLM in CI must use a free path.
+
+If a free option doesn't exist for a given task, say so explicitly before recommending paid.
+
 ## Brand
 
 - **Apwide purple**: `#6900c4` (primary), `#f0e6ff` (light), `#5200a0` (dark)
