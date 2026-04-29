@@ -1524,7 +1524,8 @@
       "company": "Adaptavist",
       "location": "Remote, , Malaysia",
       "locationNormalised": [
-        "remote"
+        "remote",
+        "asia"
       ],
       "department": "Work Management",
       "type": "Full-time",
@@ -2907,7 +2908,7 @@
       "company": "Spectrum Groupe",
       "location": "CAIRO / EGYPT",
       "locationNormalised": [
-        "other"
+        "africa"
       ],
       "url": "https://spectrumgroupe.fr/en/job/junior-technical-consultant-2/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
@@ -2922,7 +2923,7 @@
       "company": "Spectrum Groupe",
       "location": "CAIRO / EGYPT",
       "locationNormalised": [
-        "other"
+        "africa"
       ],
       "url": "https://spectrumgroupe.fr/en/job/senior-technical-consultant-2/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
@@ -2937,7 +2938,7 @@
       "company": "Spectrum Groupe",
       "location": "CAIRO / EGYPT",
       "locationNormalised": [
-        "other"
+        "africa"
       ],
       "url": "https://spectrumgroupe.fr/en/job/marketing-assistant-office-admin-3/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
@@ -2952,7 +2953,7 @@
       "company": "Spectrum Groupe",
       "location": "CAIRO / EGYPT",
       "locationNormalised": [
-        "other"
+        "africa"
       ],
       "url": "https://spectrumgroupe.fr/en/job/technical-delivery-manager-2/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
@@ -2967,7 +2968,7 @@
       "company": "Spectrum Groupe",
       "location": "DUBAI / UAE",
       "locationNormalised": [
-        "other"
+        "asia"
       ],
       "url": "https://spectrumgroupe.fr/en/job/marketing-assistant-office-admin-4/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
@@ -4126,7 +4127,7 @@
       "company": "Devoteam",
       "location": "Casablanca, , Morocco",
       "locationNormalised": [
-        "other"
+        "africa"
       ],
       "department": "Development",
       "type": "Full-time",
@@ -4554,7 +4555,7 @@
       "company": "Devoteam",
       "location": "Casablanca, , Morocco",
       "locationNormalised": [
-        "other"
+        "africa"
       ],
       "department": "IT Strategy & PM",
       "type": "Full-time",
@@ -4980,7 +4981,7 @@
       "company": "Devoteam",
       "location": "Rabat, Rabat-Salé-Kénitra, Morocco",
       "locationNormalised": [
-        "other"
+        "africa"
       ],
       "department": "Development",
       "type": "Full-time",
@@ -5082,7 +5083,7 @@
       "company": "Devoteam",
       "location": "Casablanca, Casablanca-Settat, Morocco",
       "locationNormalised": [
-        "other"
+        "africa"
       ],
       "department": "Trust & Cybersecurity",
       "type": "Full-time",
@@ -5662,7 +5663,7 @@
       "company": "Devoteam",
       "location": "Casablanca, , Morocco",
       "locationNormalised": [
-        "other"
+        "africa"
       ],
       "department": "Development",
       "type": "Full-time",
@@ -5799,7 +5800,7 @@
       "company": "Devoteam",
       "location": "Riyadh , , Saudi Arabia",
       "locationNormalised": [
-        "other"
+        "asia"
       ],
       "department": "Data",
       "type": "Full-time",
@@ -6387,7 +6388,7 @@
       "company": "Devoteam",
       "location": "Tunis, Tunis, Tunisia",
       "locationNormalised": [
-        "other"
+        "africa"
       ],
       "department": "Development",
       "type": "Full-time",
@@ -6476,7 +6477,7 @@
       "company": "ServiceRocket",
       "location": "Metro Manila, Philippines",
       "locationNormalised": [
-        "other"
+        "asia"
       ],
       "department": "Service Delivery",
       "type": "Contract",
@@ -6494,7 +6495,7 @@
       "company": "ServiceRocket",
       "location": "Kuala Lumpur, Malaysia",
       "locationNormalised": [
-        "other"
+        "asia"
       ],
       "department": "Service Delivery",
       "type": "Contract",
@@ -6938,7 +6939,7 @@
       "company": "Devoteam",
       "location": "Casablanca, , Morocco",
       "locationNormalised": [
-        "other"
+        "africa"
       ],
       "department": "Development",
       "type": "Full-time",
@@ -7125,7 +7126,7 @@
       "company": "Devoteam",
       "location": "Rabat, Rabat-Salé-Kénitra, Morocco",
       "locationNormalised": [
-        "other"
+        "africa"
       ],
       "department": "Development",
       "type": "Full-time",
@@ -7142,7 +7143,7 @@
       "company": "Devoteam",
       "location": "Tunis, Tunis, Tunisia",
       "locationNormalised": [
-        "other"
+        "africa"
       ],
       "department": "IT Strategy & PM",
       "type": "Full-time",
@@ -7176,7 +7177,7 @@
       "company": "Devoteam",
       "location": "Tunis, Tunis, Tunisia",
       "locationNormalised": [
-        "other"
+        "africa"
       ],
       "department": "Cloud",
       "type": "Full-time",
@@ -7193,7 +7194,7 @@
       "company": "Devoteam",
       "location": "Tunis, Tunis, Tunisia",
       "locationNormalised": [
-        "other"
+        "africa"
       ],
       "department": "Development",
       "type": "Full-time",

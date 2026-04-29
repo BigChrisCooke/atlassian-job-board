@@ -21,6 +21,10 @@ export function normaliseLocation(raw: string): string[] {
   const isIndia = /india|bangalore|bengaluru|hyderabad|pune|mumbai|chennai|ahmedabad/.test(s);
   const isEurope = /europe|amsterdam|berlin|munich|münchen|stuttgart|sindelfingen|koblenz|paris|frankfurt|cologne|köln|brussels|madrid|barcelona|stockholm|gothenburg|helsinki|oslo|copenhagen|københavn|zürich|zurich|vienna|wien|warsaw|wrocław|krakow|kraków|prague|budapest|bucharest|sofia|lisbon|lisboa|porto|lyon|toulouse|marseille|nantes|lille|dijon|levallois|strasbourg|bordeaux|luxembourg|esch-sur-alzette|awans|dublin|galway|ireland|germany|france|spain|italy|netherlands|belgium|sweden|norway|denmark|finland|switzerland|austria|poland|portugal|czech|hungary|romania|bulgaria|serbia|croatia|slovakia|ukraine|,\s*(be|lu|nl)\b|\/nl\b|idf|île-de-france|rhône|bretagne|occitanie|hauts-de-france|bourgogne|provence|normandy|vojvodina|vlaams|vlaanderen|lower silesian/.test(s);
   const isLatam = /latam|latin america|south america|brazil|brasil|argentina|colombia|chile|mexico|peru/.test(s);
+  // Asia bucket covers Asian markets without their own dedicated tag (Singapore,
+  // Hong Kong, India already have their own).
+  const isAsia = /\basia\b|philippines|manila|malaysia|kuala lumpur|indonesia|jakarta|thailand|bangkok|vietnam|hanoi|ho chi minh|japan|tokyo|south korea|seoul|taiwan|taipei|uae|united arab emirates|dubai|abu dhabi|saudi arabia|riyadh|qatar|doha|israel|tel aviv/.test(s);
+  const isAfrica = /africa|egypt|cairo|tunisia|tunis|morocco|casablanca|rabat|kenya|nairobi|nigeria|lagos|south africa|johannesburg|cape town|ghana|accra|ethiopia|addis ababa/.test(s);
 
   if (isRemote) tags.push('remote');
   if (isAustralia) tags.push('australia');
@@ -33,6 +37,8 @@ export function normaliseLocation(raw: string): string[] {
   if (isIndia) tags.push('india');
   if (isEurope) tags.push('europe');
   if (isLatam) tags.push('latam');
+  if (isAsia) tags.push('asia');
+  if (isAfrica) tags.push('africa');
 
   return tags.length > 0 ? tags : ['other'];
 }
