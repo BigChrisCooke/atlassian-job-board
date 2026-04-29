@@ -8,6 +8,12 @@ on:
 jobs:
   scrape-and-deploy:
     runs-on: ubuntu-latest
+    # `models: read` lets the scraper call GitHub Models for the optional
+    # plain-English anomaly synthesis. Free for personal accounts.
+    permissions:
+      contents: write
+      models: read
+      issues: write
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
@@ -29,9 +35,16 @@ jobs:
 
       - name: Run scraper
         timeout-minutes: 30
+        env:
+          # Optional — if set, anomalies in the report get top-3 web search
+          # snippets attached as a sanity-check signal. No-op when missing.
+          BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
+          # GITHUB_TOKEN is provided automatically; passing explicitly so the
+          # GitHub Models synthesis step can authenticate.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run scrape
 
-      - name: Commit updated jobs data (if changed)
+      - name: Commit updated jobs data and report (if changed)
         id: commit
         run: |
           git config user.name "github-actions[bot]"
@@ -39,13 +52,28 @@ jobs:
           git stash
           git pull --rebase origin master
           git stash pop
-          git add src/data/jobs.json
+          git add src/data/jobs.json src/data/scrape-report.json
           if git diff --staged --quiet; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             git commit -m "chore: weekly job data refresh [skip ci]"
             git push
             echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      # Opens a GitHub issue when this run flagged any anomalies, so the
+      # maintainer gets a notification without watching the report URL.
+      - name: Open issue if anomalies were flagged
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          COUNT=$(node -e "console.log(require('./src/data/scrape-report.json').anomalies.length)")
+          if [ "$COUNT" -gt 0 ]; then
+            DATE=$(date -u +"%Y-%m-%d")
+            npx tsx scripts/anomaly-issue-body.ts > /tmp/issue-body.md
+            gh issue create \
+              --title "Scrape anomalies: $COUNT flagged ($DATE)" \
+              --body-file /tmp/issue-body.md
           fi
 
       # Netlify paused — re-enable when plan upgraded or credits resume

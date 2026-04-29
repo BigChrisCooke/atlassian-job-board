@@ -1,6 +1,6 @@
 import { writeFileSync } from 'fs';
 import path from 'path';
-import type { Job, JobsDataFile } from './types.js';
+import type { Job, JobsDataFile, SourceResult, ScrapeReport } from './types.js';
 import { deduplicateAndMerge } from './dedupe.js';
 import { scrapeLeaver } from './sources/engines/lever.js';
 import { scrapeAshby } from './sources/engines/ashby.js';
@@ -28,6 +28,7 @@ import { scrapeSalto } from './sources/custom/salto.js';
 import { scrapeXpandIt } from './sources/custom/xpandit.js';
 import { scrapeElements } from './sources/custom/elements.js';
 import { scrapeDecadis } from './sources/custom/decadis.js';
+import { scrapeMBition } from './sources/custom/mbition.js';
 import {
   LEVER_SOURCES,
   ASHBY_SOURCES,
@@ -38,6 +39,14 @@ import {
   BAMBOOHR_SOURCES,
   WORKABLE_SOURCES,
 } from './sources/index.js';
+import {
+  COOLDOWN_THRESHOLD,
+  REPORT_PATH,
+  buildReport,
+  loadPreviousReport,
+} from './report.js';
+import { annotateAnomalies } from './sources/braveSearch.js';
+import { synthesizeAnomalies } from './summarize.js';
 
 const sleep = (ms: number) => new Promise<void>((r) => setTimeout(r, ms));
 
@@ -59,154 +68,145 @@ function filterSources<T extends { name: string }>(sources: T[]): T[] {
 }
 
 async function main() {
+  const startedAt = Date.now();
   if (filterMode) console.log(`\n[scrape] --only mode: ${onlyFilters.join(', ')}`);
   const allFresh: Job[] = [];
+  const sourceResults: SourceResult[] = [];
+  const prevReport = loadPreviousReport();
+  const prevByName = new Map(prevReport?.sources.map((s) => [s.name, s]) ?? []);
 
-  // --- Lever sources ---
+  // Wraps each source: looks up previous state, applies cooldown, captures
+  // count/duration/error into sourceResults so we can render a health report
+  // without scraping the GitHub Actions log.
+  async function runSource<T extends { name: string }>(
+    group: string,
+    source: T,
+    scrapeFn: (s: T) => Promise<Job[]>,
+  ): Promise<void> {
+    const prev = prevByName.get(source.name);
+    const prevCount = prev?.count;
+    const consecutiveFailures = prev?.consecutiveFailures ?? 0;
+
+    if (consecutiveFailures >= COOLDOWN_THRESHOLD) {
+      console.log(`  ${source.name}... skipped (cooldown after ${consecutiveFailures} failures)`);
+      sourceResults.push({
+        name: source.name,
+        group,
+        count: 0,
+        prevCount,
+        durationMs: 0,
+        status: 'skipped-cooldown',
+        consecutiveFailures,
+      });
+      return;
+    }
+
+    const start = Date.now();
+    process.stdout.write(`  ${source.name}... `);
+    try {
+      const jobs = await scrapeFn(source);
+      console.log(`${jobs.length} jobs`);
+      allFresh.push(...jobs);
+      sourceResults.push({
+        name: source.name,
+        group,
+        count: jobs.length,
+        prevCount,
+        durationMs: Date.now() - start,
+        status: 'ok',
+        consecutiveFailures: 0,
+      });
+    } catch (err) {
+      const msg = (err as Error).message;
+      console.error(`FAILED — ${msg}`);
+      sourceResults.push({
+        name: source.name,
+        group,
+        count: 0,
+        prevCount,
+        durationMs: Date.now() - start,
+        status: 'failed',
+        error: msg,
+        consecutiveFailures: consecutiveFailures + 1,
+      });
+    }
+  }
+
   console.log('\n[scrape] Group 1 — Lever');
   for (const source of filterSources(LEVER_SOURCES)) {
-    try {
-      process.stdout.write(`  ${source.name}... `);
-      const jobs = await scrapeLeaver(source);
-      allFresh.push(...jobs);
-      console.log(`${jobs.length} jobs`);
-    } catch (err) {
-      console.error(`FAILED — ${(err as Error).message}`);
-    }
+    await runSource('Lever', source, scrapeLeaver);
     await sleep(1500);
   }
 
-  // --- Ashby sources ---
   console.log('\n[scrape] Group 2 — Ashby');
   for (const source of filterSources(ASHBY_SOURCES)) {
-    try {
-      process.stdout.write(`  ${source.name}... `);
-      const jobs = await scrapeAshby(source);
-      allFresh.push(...jobs);
-      console.log(`${jobs.length} jobs`);
-    } catch (err) {
-      console.error(`FAILED — ${(err as Error).message}`);
-    }
+    await runSource('Ashby', source, scrapeAshby);
     await sleep(1500);
   }
 
-  // --- Greenhouse sources ---
   console.log('\n[scrape] Group 3 — Greenhouse');
   for (const source of filterSources(GREENHOUSE_SOURCES)) {
-    try {
-      process.stdout.write(`  ${source.name}... `);
-      const jobs = await scrapeGreenhouse(source);
-      allFresh.push(...jobs);
-      console.log(`${jobs.length} jobs`);
-    } catch (err) {
-      console.error(`FAILED — ${(err as Error).message}`);
-    }
+    await runSource('Greenhouse', source, scrapeGreenhouse);
     await sleep(1500);
   }
 
-  // --- SmartRecruiters sources ---
   console.log('\n[scrape] Group 4 — SmartRecruiters');
   for (const source of filterSources(SMARTRECRUITERS_SOURCES)) {
-    try {
-      process.stdout.write(`  ${source.name}... `);
-      const jobs = await scrapeSmartRecruiters(source);
-      allFresh.push(...jobs);
-      console.log(`${jobs.length} jobs`);
-    } catch (err) {
-      console.error(`FAILED — ${(err as Error).message}`);
-    }
+    await runSource('SmartRecruiters', source, scrapeSmartRecruiters);
     await sleep(1500);
   }
 
-  // --- Teamtailor sources ---
   console.log('\n[scrape] Group 5 — Teamtailor');
   for (const source of filterSources(TEAMTAILOR_SOURCES)) {
-    try {
-      process.stdout.write(`  ${source.name}... `);
-      const jobs = await scrapeTeamtailor(source);
-      allFresh.push(...jobs);
-      console.log(`${jobs.length} jobs`);
-    } catch (err) {
-      console.error(`FAILED — ${(err as Error).message}`);
-    }
+    await runSource('Teamtailor', source, scrapeTeamtailor);
     await sleep(1500);
   }
 
-  // --- Personio sources ---
   console.log('\n[scrape] Group 6 — Personio');
   for (const source of filterSources(PERSONIO_SOURCES)) {
-    try {
-      process.stdout.write(`  ${source.name}... `);
-      const jobs = await scrapePersonio(source);
-      allFresh.push(...jobs);
-      console.log(`${jobs.length} jobs`);
-    } catch (err) {
-      console.error(`FAILED — ${(err as Error).message}`);
-    }
+    await runSource('Personio', source, scrapePersonio);
     await sleep(1500);
   }
 
-  // --- BambooHR sources ---
   console.log('\n[scrape] Group 7 — BambooHR');
   for (const source of filterSources(BAMBOOHR_SOURCES)) {
-    try {
-      process.stdout.write(`  ${source.name}... `);
-      const jobs = await scrapeBambooHR(source);
-      allFresh.push(...jobs);
-      console.log(`${jobs.length} jobs`);
-    } catch (err) {
-      console.error(`FAILED — ${(err as Error).message}`);
-    }
+    await runSource('BambooHR', source, scrapeBambooHR);
     await sleep(1500);
   }
 
-  // --- Workable sources ---
   console.log('\n[scrape] Group 8 — Workable');
   for (const source of filterSources(WORKABLE_SOURCES)) {
-    try {
-      process.stdout.write(`  ${source.name}... `);
-      const jobs = await scrapeWorkable(source);
-      allFresh.push(...jobs);
-      console.log(`${jobs.length} jobs`);
-    } catch (err) {
-      console.error(`FAILED — ${(err as Error).message}`);
-    }
+    await runSource('Workable', source, scrapeWorkable);
     await sleep(1500);
   }
 
-  // --- Custom scrapers ---
   console.log('\n[scrape] Group 9 — Custom');
-  const custom: Array<[string, () => Promise<Job[]>]> = [
-    ['Communardo',          scrapeCommunardo],
-    ['Seibert Group',       scrapeSeibert],
-    ['Deviniti',            scrapeDeviniti],
-    ['GLINtech',            scrapeGlintech],
-    ['iDalko',              scrapeIdalko],
-    ['catworkx',            scrapeCatworkx],
-    ['Contegix',            scrapeContegix],
-    ['Spectrum Groupe',     scrapeSpectrumGroupe],
-    ['Oxalis Solutions',    scrapeOxalis],
-    ['NSI',                 scrapeNsi],
-    ['Softgile',            scrapeSoftgile],
-    ['Euris',               scrapeEuris],
-    ['e-core',              scrapeEcore],
-    ['Remote OK',           scrapeRemoteOK],
-    ['Salto',               scrapeSalto],
-    ['Xpand IT',            scrapeXpandIt],
-    ['Elements',            scrapeElements],
-    ['Decadis',             scrapeDecadis],
+  const custom: Array<{ name: string; fn: () => Promise<Job[]> }> = [
+    { name: 'Communardo',      fn: scrapeCommunardo },
+    { name: 'Seibert Group',   fn: scrapeSeibert },
+    { name: 'Deviniti',        fn: scrapeDeviniti },
+    { name: 'GLINtech',        fn: scrapeGlintech },
+    { name: 'iDalko',          fn: scrapeIdalko },
+    { name: 'catworkx',        fn: scrapeCatworkx },
+    { name: 'Contegix',        fn: scrapeContegix },
+    { name: 'Spectrum Groupe', fn: scrapeSpectrumGroupe },
+    { name: 'Oxalis Solutions',fn: scrapeOxalis },
+    { name: 'NSI',             fn: scrapeNsi },
+    { name: 'Softgile',        fn: scrapeSoftgile },
+    { name: 'Euris',           fn: scrapeEuris },
+    { name: 'e-core',          fn: scrapeEcore },
+    { name: 'Remote OK',       fn: scrapeRemoteOK },
+    { name: 'Salto',           fn: scrapeSalto },
+    { name: 'Xpand IT',        fn: scrapeXpandIt },
+    { name: 'Elements',        fn: scrapeElements },
+    { name: 'Decadis',         fn: scrapeDecadis },
+    { name: 'MBition',         fn: scrapeMBition },
   ];
 
-  for (const [name, fn] of custom) {
+  for (const { name, fn } of custom) {
     if (!matches(name)) continue;
-    try {
-      process.stdout.write(`  ${name}... `);
-      const jobs = await fn();
-      allFresh.push(...jobs);
-      console.log(`${jobs.length} jobs`);
-    } catch (err) {
-      console.error(`FAILED — ${(err as Error).message}`);
-    }
+    // Wrap in a fake "source" object so runSource's type signature is happy.
+    await runSource('Custom', { name }, async () => fn());
     await sleep(1500);
   }
 
@@ -223,7 +223,26 @@ async function main() {
   const outPath = path.resolve('src/data/jobs.json');
   writeFileSync(outPath, JSON.stringify(output, null, 2));
 
-  console.log(`\n[done] ${active.length} active jobs written to src/data/jobs.json`);
+  // --- Build & persist scrape report ---
+  const report: ScrapeReport = buildReport({
+    startedAt,
+    sources: sourceResults,
+    freshJobs: allFresh,
+    totalActive: active.length,
+    prevTotalActive: prevReport?.totalActive,
+  });
+
+  // Optional Brave Search context for flagged anomalies. No-op if BRAVE_SEARCH_API_KEY
+  // is unset — keeps local runs and CI without the secret working unchanged.
+  await annotateAnomalies(report);
+
+  // Optional GitHub Models synthesis: 1-paragraph plain-English retrospective
+  // per anomaly, using the Brave snippets as grounding. No-op without GITHUB_TOKEN.
+  await synthesizeAnomalies(report);
+
+  writeFileSync(REPORT_PATH, JSON.stringify(report, null, 2));
+
+  console.log(`\n[done] ${active.length} active jobs · ${report.anomalies.length} anomalies · report: src/data/scrape-report.json`);
 }
 
 main().catch((err) => {

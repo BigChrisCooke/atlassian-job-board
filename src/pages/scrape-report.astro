@@ -1,0 +1,298 @@
+---
+import report from '../data/scrape-report.json';
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+
+const generatedDate = new Date(report.generatedAt);
+const hasData = generatedDate.getFullYear() > 1970;
+
+const fmtDate = (iso: string) => {
+  const d = new Date(iso);
+  if (d.getFullYear() <= 1970) return '—';
+  return d.toLocaleString('en-GB', {
+    weekday: 'short',
+    day: 'numeric',
+    month: 'short',
+    year: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    timeZone: 'UTC',
+    timeZoneName: 'short',
+  });
+};
+
+const sourcesByGroup: Record<string, typeof report.sources> = {};
+for (const s of report.sources) {
+  (sourcesByGroup[s.group] ??= []).push(s);
+}
+
+const groupOrder = [
+  'Lever', 'Ashby', 'Greenhouse', 'SmartRecruiters', 'Teamtailor',
+  'Personio', 'BambooHR', 'Workable', 'Custom',
+];
+
+const statusBadge = (status: string) => {
+  if (status === 'ok') return { label: 'OK', cls: 'badge--ok' };
+  if (status === 'failed') return { label: 'FAILED', cls: 'badge--fail' };
+  if (status === 'skipped-cooldown') return { label: 'COOLDOWN', cls: 'badge--cooldown' };
+  return { label: status, cls: 'badge--muted' };
+};
+
+const kindLabel = (kind: string) => {
+  switch (kind) {
+    case 'failed':         return 'Scraper failed';
+    case 'silent_zero':    return 'Silent zero';
+    case 'runaway':        return 'Unexpected jump';
+    case 'huge_drop':      return 'Big drop';
+    case 'cooldown':       return 'Skipped (cooldown)';
+    case 'duplicate_ids':  return 'Duplicate ids';
+    default:               return kind;
+  }
+};
+
+const totalDelta = report.prevTotalActive !== undefined
+  ? report.totalActive - report.prevTotalActive
+  : null;
+---
+
+<Layout
+  title="Scrape Report | Apwide Atlassian Jobs"
+  description="Weekly health report for the Atlassian ecosystem job scrapers."
+  noindex
+>
+  <Header />
+
+  <main>
+    <section class="jobs-hero container">
+      <h1>Scrape Report</h1>
+      <p class="jobs-meta">
+        {hasData
+          ? `Generated ${fmtDate(report.generatedAt)} · run took ${(report.durationMs / 1000).toFixed(1)}s`
+          : 'No scrape has run since this page was added — the next weekly run will populate it.'}
+      </p>
+    </section>
+
+    {hasData && (
+      <section class="container report-section">
+        <div class="stat-grid">
+          <div class="stat-card">
+            <div class="stat-label">Active jobs</div>
+            <div class="stat-value">{report.totalActive}</div>
+            {totalDelta !== null && (
+              <div class={`stat-delta ${totalDelta >= 0 ? 'stat-delta--up' : 'stat-delta--down'}`}>
+                {totalDelta >= 0 ? '+' : ''}{totalDelta} vs last run
+              </div>
+            )}
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Sources scraped</div>
+            <div class="stat-value">{report.sources.filter(s => s.status === 'ok').length}</div>
+            <div class="stat-delta stat-delta--muted">of {report.sources.length} total</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Anomalies flagged</div>
+            <div class={`stat-value ${report.anomalies.length === 0 ? 'stat-value--ok' : 'stat-value--warn'}`}>
+              {report.anomalies.length}
+            </div>
+            <div class="stat-delta stat-delta--muted">
+              {report.duplicateIds.length} duplicate id{report.duplicateIds.length === 1 ? '' : 's'}
+            </div>
+          </div>
+        </div>
+      </section>
+    )}
+
+    {hasData && report.anomalies.length > 0 && (
+      <section class="container report-section">
+        <h2>Flagged this run</h2>
+        {report.anomalies.map((a) => (
+          <article class={`anomaly anomaly--${a.kind}`}>
+            <div class="anomaly__head">
+              <span class="anomaly__kind">{kindLabel(a.kind)}</span>
+              <span class="anomaly__source">{a.source}</span>
+            </div>
+            <p class="anomaly__msg">{a.message}</p>
+            {a.error && <pre class="anomaly__error">{a.error}</pre>}
+            {a.synthesis && (
+              <div class="anomaly__synthesis">
+                <span class="anomaly__synthesis-label">Sanity check</span>
+                <p>{a.synthesis}</p>
+              </div>
+            )}
+            {a.context && a.context.results.length > 0 && (
+              <details class="anomaly__context">
+                <summary>Search results for "{a.context.query}"</summary>
+                <ul>
+                  {a.context.results.map((r) => (
+                    <li>
+                      <a href={r.url} target="_blank" rel="noopener noreferrer">{r.title}</a>
+                      {r.description && <p>{r.description}</p>}
+                    </li>
+                  ))}
+                </ul>
+              </details>
+            )}
+          </article>
+        ))}
+      </section>
+    )}
+
+    {hasData && report.anomalies.length === 0 && (
+      <section class="container report-section">
+        <p class="all-clear">All clear — every scraper ran successfully and counts look healthy.</p>
+      </section>
+    )}
+
+    {hasData && (
+      <section class="container report-section" style="padding-bottom: 80px;">
+        <h2>Per-source detail</h2>
+        {groupOrder.map((g) =>
+          sourcesByGroup[g] && sourcesByGroup[g].length > 0 ? (
+            <div class="group">
+              <h3>{g}</h3>
+              <table class="report-table">
+                <thead>
+                  <tr>
+                    <th>Source</th>
+                    <th>Count</th>
+                    <th>Prev</th>
+                    <th>Δ</th>
+                    <th>Duration</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {sourcesByGroup[g].map((s) => {
+                    const badge = statusBadge(s.status);
+                    const delta = s.prevCount !== undefined ? s.count - s.prevCount : null;
+                    return (
+                      <tr>
+                        <td>{s.name}</td>
+                        <td>{s.count}</td>
+                        <td>{s.prevCount ?? '—'}</td>
+                        <td class={delta === null ? '' : delta >= 0 ? 'delta-up' : 'delta-down'}>
+                          {delta === null ? '—' : delta >= 0 ? `+${delta}` : delta}
+                        </td>
+                        <td>{(s.durationMs / 1000).toFixed(1)}s</td>
+                        <td><span class={`badge ${badge.cls}`}>{badge.label}</span></td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+          ) : null
+        )}
+      </section>
+    )}
+  </main>
+</Layout>
+
+<style>
+  .report-section { padding-top: 16px; padding-bottom: 16px; }
+  .report-section h2 { font-size: 1.4rem; margin: 24px 0 12px; }
+  .report-section h3 { font-size: 1.05rem; margin: 16px 0 8px; color: #5200a0; }
+
+  .stat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+    margin: 16px 0 24px;
+  }
+  .stat-card {
+    background: #f8f5fc;
+    border: 1px solid #e6dcf5;
+    border-radius: 8px;
+    padding: 16px;
+  }
+  .stat-label { font-size: 0.85rem; color: #666; text-transform: uppercase; letter-spacing: 0.04em; }
+  .stat-value { font-size: 2.2rem; font-weight: 600; color: #6900c4; line-height: 1.1; margin-top: 4px; }
+  .stat-value--ok { color: #1a7f3c; }
+  .stat-value--warn { color: #c46f00; }
+  .stat-delta { font-size: 0.85rem; margin-top: 4px; }
+  .stat-delta--up { color: #1a7f3c; }
+  .stat-delta--down { color: #b8000a; }
+  .stat-delta--muted { color: #888; }
+
+  .anomaly {
+    border-left: 4px solid #c46f00;
+    background: #fffaf0;
+    padding: 12px 16px;
+    margin-bottom: 12px;
+    border-radius: 0 6px 6px 0;
+  }
+  .anomaly--failed { border-left-color: #b8000a; background: #fff5f5; }
+  .anomaly--cooldown { border-left-color: #5e6a8c; background: #f4f5fa; }
+  .anomaly--silent_zero { border-left-color: #b8000a; background: #fff5f5; }
+  .anomaly--duplicate_ids { border-left-color: #5e6a8c; background: #f4f5fa; }
+  .anomaly__head { display: flex; gap: 12px; align-items: baseline; margin-bottom: 6px; }
+  .anomaly__kind { font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: #555; }
+  .anomaly__source { font-weight: 600; }
+  .anomaly__msg { margin: 4px 0; }
+  .anomaly__error {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 0.85rem;
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 6px 8px;
+    border-radius: 4px;
+    white-space: pre-wrap;
+    word-break: break-word;
+    margin-top: 6px;
+  }
+  .anomaly__synthesis {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: #f0e6ff;
+    border-radius: 4px;
+  }
+  .anomaly__synthesis-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #5200a0;
+  }
+  .anomaly__synthesis p { margin: 4px 0 0; font-style: italic; }
+  .anomaly__context { margin-top: 8px; font-size: 0.9rem; }
+  .anomaly__context summary { cursor: pointer; color: #5200a0; }
+  .anomaly__context ul { margin: 8px 0 0 16px; padding: 0; }
+  .anomaly__context li { margin-bottom: 8px; }
+  .anomaly__context li p { margin: 2px 0; color: #555; font-size: 0.85rem; }
+
+  .all-clear {
+    background: #ecfaef;
+    border-left: 4px solid #1a7f3c;
+    padding: 12px 16px;
+    border-radius: 0 6px 6px 0;
+    color: #14592c;
+  }
+
+  .report-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.92rem;
+  }
+  .report-table th, .report-table td {
+    text-align: left;
+    padding: 6px 10px;
+    border-bottom: 1px solid #eee;
+  }
+  .report-table th { font-weight: 600; color: #555; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.04em; }
+  .delta-up { color: #1a7f3c; }
+  .delta-down { color: #b8000a; }
+
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .badge--ok { background: #ecfaef; color: #14592c; }
+  .badge--fail { background: #fff5f5; color: #b8000a; }
+  .badge--cooldown { background: #f4f5fa; color: #5e6a8c; }
+  .badge--muted { background: #f0f0f0; color: #555; }
+</style>
