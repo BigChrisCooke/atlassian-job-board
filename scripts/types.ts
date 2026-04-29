@@ -69,6 +69,55 @@ export interface JobsDataFile {
   jobs: Job[];
 }
 
+// --- Scrape report types ---
+
+export type SourceStatus = 'ok' | 'failed' | 'skipped-cooldown';
+
+export interface SourceResult {
+  name: string;
+  group: string;
+  count: number;
+  prevCount?: number;
+  durationMs: number;
+  status: SourceStatus;
+  error?: string;
+  consecutiveFailures: number;
+}
+
+export type AnomalyKind =
+  | 'failed'
+  | 'silent_zero'
+  | 'runaway'
+  | 'huge_drop'
+  | 'cooldown'
+  | 'duplicate_ids';
+
+export interface BraveContext {
+  query: string;
+  results: Array<{ title: string; url: string; description: string }>;
+}
+
+export interface Anomaly {
+  source: string;
+  kind: AnomalyKind;
+  message: string;          // plain-English
+  count: number;
+  prevCount?: number;
+  error?: string;
+  context?: BraveContext;   // attached by the optional Brave pass
+}
+
+export interface ScrapeReport {
+  generatedAt: string;
+  durationMs: number;
+  totalFresh: number;          // sum of jobs.length across all 'ok' sources this run
+  totalActive: number;         // active jobs in jobs.json after merge
+  prevTotalActive?: number;
+  sources: SourceResult[];
+  anomalies: Anomaly[];
+  duplicateIds: string[];      // ids that appeared more than once in fresh batch
+}
+
 // Raw shapes returned by each ATS
 
 export interface LeverPosting {
