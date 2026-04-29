@@ -113,6 +113,41 @@ Optional anomaly enrichment (both free, both no-op when secret is missing):
   Brave snippets into a 1-paragraph plain-English retrospective per anomaly.
   Requires `permissions: models: read` in the workflow (already set).
 
+## Playbook: "How did the latest scrape go?"
+
+When the user asks for a recap of the most recent scrape (any phrasing —
+"how'd the scrape go", "any updates", "recap this week", etc.), don't dig
+through GitHub Actions logs. Read these two files and synthesise:
+
+1. `src/data/scrape-report.json` — the canonical health report:
+   - `generatedAt` — when it ran
+   - `totalActive` and `prevTotalActive` — week-over-week delta
+   - `sources[]` — per-source `count`, `prevCount`, `status`,
+     `consecutiveFailures`, `error`
+   - `anomalies[]` — already-flagged issues with plain-English `message`,
+     optional `synthesis` (LLM paragraph) and `context` (Brave snippets)
+   - `duplicateIds[]` — id collisions inside the run
+
+2. `src/data/jobs.json` — only if you need company-level breakdowns
+   (e.g. "who hired the most this week") that aren't in the report.
+
+What a good summary contains, in this order:
+
+- Headline: when it ran, total active jobs + delta, count of anomalies
+- Anomalies (if any): one bullet each, lead with the source name. If
+  `synthesis` is present, quote/paraphrase it. If `context` results
+  exist, mention them as "external evidence suggests..."
+- Quick per-source roll-up: top 3 companies adding roles, top 3 closing
+- Mention the live URL: `https://jobs.apwide.com/scrape-report`
+
+Style: plain English, no jargon, table for tabular data, ⚠ emoji only
+for genuine anomalies. If the user is on a fresh device with no prior
+session context, do not assume they remember what `silent_zero` means —
+explain inline.
+
+If `scrape-report.json` has `generatedAt: "1970-01-01..."`, it's the
+placeholder — say so and tell them to wait for the next Monday cron.
+
 ## Deployment
 
 - **Hosting**: Vercel (auto-deploy on push to `master`)
