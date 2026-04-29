@@ -1,5 +1,5 @@
 import type { Job, TeamtailorSource } from '../../types.js';
-import { buildJobId, normaliseLocation } from '../../utils/normalise.js';
+import { buildJobId, decodeEntities, normaliseLocation } from '../../utils/normalise.js';
 
 export async function scrapeTeamtailor(source: TeamtailorSource): Promise<Job[]> {
   const rssUrl = `${source.baseUrl}/jobs.rss`;
@@ -16,9 +16,10 @@ export async function scrapeTeamtailor(source: TeamtailorSource): Promise<Job[]>
   const items = xml.match(/<item>[\s\S]*?<\/item>/g) ?? [];
 
   return items.map((item) => {
-    const title = item.match(/<title><!\[CDATA\[(.*?)\]\]><\/title>/)?.[1]
+    const rawTitle = item.match(/<title><!\[CDATA\[(.*?)\]\]><\/title>/)?.[1]
       ?? item.match(/<title>(.*?)<\/title>/)?.[1]
       ?? '';
+    const title = decodeEntities(rawTitle);
     const link = item.match(/<link>(.*?)<\/link>/)?.[1] ?? '';
     const city = item.match(/<tt:city>(.*?)<\/tt:city>/)?.[1] ?? '';
     const country = item.match(/<tt:country>(.*?)<\/tt:country>/)?.[1] ?? '';

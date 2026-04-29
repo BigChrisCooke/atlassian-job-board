@@ -4,6 +4,21 @@ export function buildJobId(sourceSlug: string, title: string, location: string):
   return `${slug(sourceSlug)}-${slug(title)}-${slug(location)}`.slice(0, 120);
 }
 
+// Scrapers that read text from HTML attributes (og:title, etc.) get raw entity
+// references like "&amp;" — Astro then re-escapes them, so the rendered card
+// shows the literal "&amp;" and substring search across the ampersand fails.
+export function decodeEntities(s: string): string {
+  return s
+    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCharCode(parseInt(n, 16)))
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&apos;/g, "'")
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&amp;/g, '&'); // last, otherwise "&amp;lt;" → "<"
+}
+
 export function normaliseLocation(raw: string): string[] {
   const s = raw.toLowerCase().trim();
   if (!s) return ['other'];

@@ -1,5 +1,5 @@
 import type { Job } from '../../types.js';
-import { buildJobId, normaliseLocation } from '../../utils/normalise.js';
+import { buildJobId, decodeEntities, normaliseLocation } from '../../utils/normalise.js';
 
 const BASE_URL = 'https://www.catworkx.com';
 const LIST_URL = `${BASE_URL}/en/karriere/stellenangebote`;
@@ -39,7 +39,7 @@ export async function scrapeCatworkx(): Promise<Job[]> {
         // og:title format: "Job Title | Job opening"
         const ogMatch = pageHtml.match(/property="og:title"\s+content="([^"]+)"/);
         const rawTitle = ogMatch ? ogMatch[1] : slug.replace(/-/g, ' ');
-        const title = rawTitle.replace(/\s*\|.*$/, '').trim();
+        const title = decodeEntities(rawTitle.replace(/\s*\|.*$/, '').trim());
 
         // Try to extract location from title (e.g. "... USA")
         const locMatch = title.match(/\b(USA|Germany|Austria|Switzerland|DACH|Europe|Remote)\b/i);
