@@ -28,6 +28,7 @@ export interface AshbySource {
 export interface PersonioSource {
   slug: string;
   name: string;
+  titleFilter?: RegExp;  // if set, only include jobs whose title matches
 }
 
 export interface GreenhouseSource {
