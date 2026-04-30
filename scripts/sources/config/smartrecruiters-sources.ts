@@ -11,4 +11,13 @@ export const SMARTRECRUITERS_SOURCES: SmartRecruitersSource[] = [
       { q: 'confluence' },
     ],
   },
+  {
+    companyId: 'AXIANS',
+    name: 'Axians',
+    queries: [
+      { q: 'atlassian' },
+      { q: 'jira' },
+      { q: 'confluence' },
+    ],
+  },
 ];
