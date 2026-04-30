@@ -10,7 +10,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "scrape": "tsx scripts/scrape.ts"
+    "scrape": "tsx scripts/scrape.ts",
+    "discover-partners": "tsx scripts/discover-partners.ts"
   },
   "dependencies": {
     "@fontsource/fira-sans": "^5.2.7",
