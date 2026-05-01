@@ -1,9 +1,38 @@
 {
-  "generatedAt": "1970-01-01T00:00:00.000Z",
-  "durationMs": 0,
-  "totalFresh": 0,
-  "totalActive": 0,
-  "sources": [],
+  "generatedAt": "2026-05-01T19:34:14.576Z",
+  "durationMs": 7170,
+  "totalFresh": 2,
+  "totalActive": 307,
+  "prevTotalActive": 307,
+  "sources": [
+    {
+      "name": "Kalles Group",
+      "group": "Greenhouse",
+      "count": 0,
+      "prevCount": 0,
+      "durationMs": 918,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Axians",
+      "group": "SmartRecruiters",
+      "count": 0,
+      "prevCount": 0,
+      "durationMs": 832,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "K15t",
+      "group": "Personio",
+      "count": 2,
+      "prevCount": 2,
+      "durationMs": 882,
+      "status": "ok",
+      "consecutiveFailures": 0
+    }
+  ],
   "anomalies": [],
   "duplicateIds": []
 }
