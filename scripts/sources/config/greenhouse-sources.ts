@@ -9,5 +9,6 @@ export const GREENHOUSE_SOURCES: GreenhouseSource[] = [
   { slug: 'moduscreate',    name: 'Modus Create' },
   { slug: 'lucidsoftware',  name: 'Lucid' },
   // Non-partner companies — filter to Atlassian-relevant titles only
-  { slug: 'samsara',        name: 'Samsara',  titleFilter: ATLASSIAN_TITLE_FILTER },
+  { slug: 'samsara',        name: 'Samsara',     titleFilter: ATLASSIAN_TITLE_FILTER },
+  { slug: 'kallesgroup',    name: 'Kalles Group', titleFilter: ATLASSIAN_TITLE_FILTER },
 ];

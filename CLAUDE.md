@@ -10,6 +10,7 @@ Live at **https://jobs.apwide.com** (deployed on Vercel, auto-deploys on push to
 | `npm run dev` | Start local dev server |
 | `npm run build` | Build the static site |
 | `npm run scrape` | Run all scrapers, update `src/data/jobs.json` |
+| `npm run discover-partners` | One-time crawl of partnerdirectory.atlassian.com → `src/data/candidate-partners.json` (gitignored). Use to find new partners to wire into the weekly scrape. |
 | `npx playwright install chromium --with-deps` | Install browser for Playwright scrapers (needed before `npm run scrape` on a fresh machine) |
 
 ## Project structure
@@ -70,6 +71,34 @@ Add the company to the relevant config file in `scripts/sources/config/`.
 1. Create `scripts/sources/custom/companyname.ts` exporting `scrapeCompanyName(): Promise<Job[]>`
 2. Import and call it in `scripts/scrape.ts` (in the "Custom scrapers" section)
 3. Use Playwright for JS-heavy pages, `fetch` + regex/cheerio for simple HTML
+
+### Finding new Atlassian Solution Partners to add
+
+We have two complementary techniques — pick whichever the situation allows.
+
+**Technique A — `npm run discover-partners`** (Playwright crawl)
+
+Crawls `partnerdirectory.atlassian.com` page-by-page and writes
+`src/data/candidate-partners.json` (gitignored). Each entry has name, slug,
+detail URL, and best-effort tier/location parsed from the card text. Run it
+locally — Cloudflare may block headless Chromium in some environments; the
+script detects the challenge page and exits with a clear error if so.
+
+**Technique B — WebSearch with `site:partnerdirectory.atlassian.com`**
+
+If Technique A is blocked, Google's site-search surfaces partner pages directly.
+Useful queries: `site:partnerdirectory.atlassian.com platinum`,
+`site:partnerdirectory.atlassian.com gold`, etc. Each result URL slug is the
+partner's directory page (e.g. `…/cprime-inc`).
+
+**After you have a candidate partner**, find their ATS:
+1. WebSearch `"<Company Name>" careers greenhouse lever workable ashby` — the
+   ATS usually appears as a hostname in one of the result URLs.
+2. If you get a hit like `boards.greenhouse.io/<slug>` → add to
+   `greenhouse-sources.ts` with `titleFilter: ATLASSIAN_TITLE_FILTER` (unless
+   they're a pure Atlassian shop, in which case scrape all roles).
+3. If they use a custom careers page, write a custom scraper under
+   `scripts/sources/custom/`.
 
 ### Playwright scrapers
 
