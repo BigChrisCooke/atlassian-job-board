@@ -1,5 +1,5 @@
 import type { Job } from '../../types.js';
-import { buildJobId, normaliseLocation } from '../../utils/normalise.js';
+import { buildStableJobId, normaliseLocation } from '../../utils/normalise.js';
 
 // NSI uses Recruitee (company slug: nsiit). We filter for Atlassian-related roles only.
 const API_URL = 'https://nsiit.recruitee.com/api/offers/?live=true';
@@ -36,7 +36,7 @@ export async function scrapeNsi(): Promise<Job[]> {
     .map((o) => {
       const location = [o.city, o.country_code].filter(Boolean).join(', ') || 'Europe';
       return {
-        id: buildJobId('nsi', o.title, location),
+        id: buildStableJobId('nsi', String(o.id)),
         sourceId: String(o.id),
         source: 'NSI',
         title: o.title,

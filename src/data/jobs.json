@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-01T19:34:14.573Z",
-  "totalActive": 307,
+  "generatedAt": "2026-05-03T14:20:54.626Z",
+  "totalActive": 297,
   "jobs": [
     {
-      "id": "cprime-atlassian-solution-architect-chennai-tamil-nadu",
+      "id": "cprime-67b77768-4972-457d-8113-798ec51b302b",
       "sourceId": "67b77768-4972-457d-8113-798ec51b302b",
       "source": "Cprime",
       "title": "Atlassian Solution Architect",
@@ -21,7 +21,7 @@
       "isActive": true
     },
     {
-      "id": "cprime-atlassian-technical-consultant-chennai-tamil-nadu",
+      "id": "cprime-26ef9491-c5ec-414c-bac8-37fb03033da8",
       "sourceId": "26ef9491-c5ec-414c-bac8-37fb03033da8",
       "source": "Cprime",
       "title": "Atlassian Technical Consultant",
@@ -39,7 +39,7 @@
       "isActive": true
     },
     {
-      "id": "cprime-atp-implementation-consultant-india",
+      "id": "cprime-f06601f7-c0d7-47e4-bd25-8b670269690e",
       "sourceId": "f06601f7-c0d7-47e4-bd25-8b670269690e",
       "source": "Cprime",
       "title": "ATP Implementation Consultant",
@@ -57,7 +57,7 @@
       "isActive": true
     },
     {
-      "id": "cprime-engagement-director-london-uk",
+      "id": "cprime-57581585-f035-424c-a702-408ded4f4d88",
       "sourceId": "57581585-f035-424c-a702-408ded4f4d88",
       "source": "Cprime",
       "title": "Engagement Director",
@@ -75,7 +75,7 @@
       "isActive": true
     },
     {
-      "id": "cprime-enterprise-agility-organizational-effectiveness-coach-hyderabad-india",
+      "id": "cprime-0d080089-8fa3-4591-8668-c6d5026e1c55",
       "sourceId": "0d080089-8fa3-4591-8668-c6d5026e1c55",
       "source": "Cprime",
       "title": "Enterprise Agility & Organizational Effectiveness Coach",
@@ -93,7 +93,7 @@
       "isActive": true
     },
     {
-      "id": "cprime-expression-of-interest-delivery-and-technology-opportunities-melbourne",
+      "id": "cprime-3afdf93e-403f-424f-9883-be0bcad9cd99",
       "sourceId": "3afdf93e-403f-424f-9883-be0bcad9cd99",
       "source": "Cprime",
       "title": "Expression of Interest – ( Delivery and Technology Opportunities)",
@@ -111,7 +111,7 @@
       "isActive": true
     },
     {
-      "id": "cprime-front-end-developer-chennai",
+      "id": "cprime-e5fd1d68-34c3-4120-b247-e6ac94c2c339",
       "sourceId": "e5fd1d68-34c3-4120-b247-e6ac94c2c339",
       "source": "Cprime",
       "title": "Front End Developer",
@@ -129,7 +129,7 @@
       "isActive": true
     },
     {
-      "id": "cprime-servicenow-sales-executive-dallas-tx",
+      "id": "cprime-71dd20f9-b596-478c-90a0-4806545f5bd5",
       "sourceId": "71dd20f9-b596-478c-90a0-4806545f5bd5",
       "source": "Cprime",
       "title": "ServiceNow Sales Executive",
@@ -147,7 +147,7 @@
       "isActive": true
     },
     {
-      "id": "cprime-servicenow-technical-consultant-hrsd-hyderabad-india",
+      "id": "cprime-52671824-4354-4804-b507-f8c26291686a",
       "sourceId": "52671824-4354-4804-b507-f8c26291686a",
       "source": "Cprime",
       "title": "ServiceNow Technical Consultant - HRSD",
@@ -165,7 +165,7 @@
       "isActive": true
     },
     {
-      "id": "cprime-solutions-advisory-director-united-states",
+      "id": "cprime-97679668-cc77-4976-9e8f-e1765d0f2255",
       "sourceId": "97679668-cc77-4976-9e8f-e1765d0f2255",
       "source": "Cprime",
       "title": "Solutions Advisory Director",
@@ -183,7 +183,7 @@
       "isActive": true
     },
     {
-      "id": "cprime-sr-consultant-itam-cmdb-aiops-hyderabad-india",
+      "id": "cprime-cfe31ddf-e6b5-4469-817b-4a50c281abb5",
       "sourceId": "cfe31ddf-e6b5-4469-817b-4a50c281abb5",
       "source": "Cprime",
       "title": "Sr Consultant – ITAM, CMDB & AIOps",
@@ -201,7 +201,7 @@
       "isActive": true
     },
     {
-      "id": "cprime-sr-servicenow-developer-cmdb-and-itsm-hyderabad-india",
+      "id": "cprime-80cf91f9-53dd-4a0c-be00-0ebeb8393d5e",
       "sourceId": "80cf91f9-53dd-4a0c-be00-0ebeb8393d5e",
       "source": "Cprime",
       "title": "Sr ServiceNow Developer (CMDB and ITSM )",
@@ -219,7 +219,7 @@
       "isActive": true
     },
     {
-      "id": "servicerocket-associate-solutions-architect-sydney-australia",
+      "id": "servicerocket-c93dbf07-5514-4fc0-b2dd-aea9273a5cd5",
       "sourceId": "c93dbf07-5514-4fc0-b2dd-aea9273a5cd5",
       "source": "ServiceRocket",
       "title": "Associate Solutions Architect",
@@ -237,7 +237,7 @@
       "isActive": true
     },
     {
-      "id": "servicerocket-client-solutions-project-manager-sydney-australia",
+      "id": "servicerocket-a7576d2a-9b57-4c98-bbb1-cf5268c1a383",
       "sourceId": "a7576d2a-9b57-4c98-bbb1-cf5268c1a383",
       "source": "ServiceRocket",
       "title": "Client Solutions Project Manager",
@@ -255,7 +255,7 @@
       "isActive": true
     },
     {
-      "id": "servicerocket-itsm-atlassian-consultant-remote-au-australia",
+      "id": "servicerocket-472f0615-aa47-416d-afc3-d75f1ae8d8da",
       "sourceId": "472f0615-aa47-416d-afc3-d75f1ae8d8da",
       "source": "ServiceRocket",
       "title": "ITSM Atlassian Consultant",
@@ -274,7 +274,7 @@
       "isActive": true
     },
     {
-      "id": "servicerocket-solutions-architect-enterprise-service-management-sydney-australia",
+      "id": "servicerocket-c209931b-8543-4d11-8af3-2b6bec61e9b9",
       "sourceId": "c209931b-8543-4d11-8af3-2b6bec61e9b9",
       "source": "ServiceRocket",
       "title": "Solutions Architect - Enterprise Service Management",
@@ -292,7 +292,7 @@
       "isActive": true
     },
     {
-      "id": "servicerocket-technology-consultant-sydney-australia",
+      "id": "servicerocket-ac155382-9359-4135-afe7-ceaf84ddbb63",
       "sourceId": "ac155382-9359-4135-afe7-ceaf84ddbb63",
       "source": "ServiceRocket",
       "title": "Technology Consultant",
@@ -310,7 +310,7 @@
       "isActive": true
     },
     {
-      "id": "valiantys-atlassian-consultant-cloud-practice-paris-le-de-france-france",
+      "id": "valiantys-5dd0330c-35f4-45b0-8edd-61814fea943b",
       "sourceId": "5dd0330c-35f4-45b0-8edd-61814fea943b",
       "source": "Valiantys",
       "title": "Atlassian Consultant - Cloud Practice",
@@ -328,7 +328,7 @@
       "isActive": false
     },
     {
-      "id": "valiantys-atlassian-lead-consultant-cloud-practice-paris-le-de-france-france",
+      "id": "valiantys-90ad901f-b392-48c2-b8cc-309c7dc89a84",
       "sourceId": "90ad901f-b392-48c2-b8cc-309c7dc89a84",
       "source": "Valiantys",
       "title": "Atlassian Lead Consultant - Cloud Practice",
@@ -346,7 +346,7 @@
       "isActive": false
     },
     {
-      "id": "valiantys-delivery-director-france-uk-remote-united-kingdom",
+      "id": "valiantys-b90e6b1f-e12d-4d38-9f2a-aa6f7879b63f",
       "sourceId": "b90e6b1f-e12d-4d38-9f2a-aa6f7879b63f",
       "source": "Valiantys",
       "title": "Delivery Director France & UK",
@@ -365,7 +365,7 @@
       "isActive": false
     },
     {
-      "id": "valiantys-delivery-manager-paris-le-de-france-france",
+      "id": "valiantys-f6348a01-7886-4ab7-b5e2-34116be5ee08",
       "sourceId": "f6348a01-7886-4ab7-b5e2-34116be5ee08",
       "source": "Valiantys",
       "title": "Delivery Manager",
@@ -383,7 +383,7 @@
       "isActive": false
     },
     {
-      "id": "valiantys-devops-platform-developer-remote-france",
+      "id": "valiantys-36ad53c4-9f86-4f72-b2da-4cdb99afc149",
       "sourceId": "36ad53c4-9f86-4f72-b2da-4cdb99afc149",
       "source": "Valiantys",
       "title": "DevOps & Platform Developer",
@@ -402,7 +402,7 @@
       "isActive": false
     },
     {
-      "id": "valiantys-enterprise-growth-manager-strategic-sales-remote-north-america",
+      "id": "valiantys-6895566e-4323-49dd-b8e4-cb33e100e730",
       "sourceId": "6895566e-4323-49dd-b8e4-cb33e100e730",
       "source": "Valiantys",
       "title": "Enterprise Growth Manager - Strategic Sales",
@@ -421,7 +421,7 @@
       "isActive": false
     },
     {
-      "id": "valiantys-enterprise-sales-lead-paris-le-de-france-france",
+      "id": "valiantys-5a47905c-794c-4551-aa8c-5f2222b55162",
       "sourceId": "5a47905c-794c-4551-aa8c-5f2222b55162",
       "source": "Valiantys",
       "title": "Enterprise Sales Lead",
@@ -439,7 +439,7 @@
       "isActive": true
     },
     {
-      "id": "valiantys-enterprise-sales-lead-bern-bern-switzerland",
+      "id": "valiantys-5eb8811a-c954-4bde-9303-5f2caf629251",
       "sourceId": "5eb8811a-c954-4bde-9303-5f2caf629251",
       "source": "Valiantys",
       "title": "Enterprise Sales Lead",
@@ -457,7 +457,7 @@
       "isActive": true
     },
     {
-      "id": "valiantys-enterprise-sales-lead-london-england-united-kingdom",
+      "id": "valiantys-a0fcd87a-b617-4f51-9413-dd01206a9c73",
       "sourceId": "a0fcd87a-b617-4f51-9413-dd01206a9c73",
       "source": "Valiantys",
       "title": "Enterprise Sales Lead",
@@ -475,7 +475,7 @@
       "isActive": true
     },
     {
-      "id": "valiantys-enterprise-sales-lead-f-m-d-amsterdam",
+      "id": "valiantys-1fb15a44-dd34-460b-aa88-e6553d432c30",
       "sourceId": "1fb15a44-dd34-460b-aa88-e6553d432c30",
       "source": "Valiantys",
       "title": "Enterprise Sales Lead (f/m/d)",
@@ -493,7 +493,7 @@
       "isActive": true
     },
     {
-      "id": "valiantys-graphic-designer-f-m-d-remote-germany",
+      "id": "valiantys-bf93b17b-4afa-4240-bb5d-5571ca89fe3d",
       "sourceId": "bf93b17b-4afa-4240-bb5d-5571ca89fe3d",
       "source": "Valiantys",
       "title": "Graphic Designer (f/m/d)",
@@ -512,7 +512,7 @@
       "isActive": false
     },
     {
-      "id": "valiantys-principal-transformation-consultant-f-m-d-remote-united-kingdom",
+      "id": "valiantys-e7a6a4e3-38c0-4d6a-abe7-3f37b4a5b933",
       "sourceId": "e7a6a4e3-38c0-4d6a-abe7-3f37b4a5b933",
       "source": "Valiantys",
       "title": "Principal Transformation Consultant (f/m/d)",
@@ -530,7 +530,7 @@
       "isActive": true
     },
     {
-      "id": "valiantys-senior-technical-consultant-remote-north-america",
+      "id": "valiantys-7f726742-fe43-47bb-bb08-9728f7c4b59e",
       "sourceId": "7f726742-fe43-47bb-bb08-9728f7c4b59e",
       "source": "Valiantys",
       "title": "Senior Technical Consultant",
@@ -549,7 +549,7 @@
       "isActive": false
     },
     {
-      "id": "tempo-io-account-executive-spain",
+      "id": "tempo-io-e94d97cd-9fb7-4d9a-863b-3c6d35c4270f",
       "sourceId": "e94d97cd-9fb7-4d9a-863b-3c6d35c4270f",
       "source": "Tempo",
       "title": "Account Executive",
@@ -566,7 +566,7 @@
       "isActive": true
     },
     {
-      "id": "tempo-io-director-account-based-marketing-united-states",
+      "id": "tempo-io-3c427da4-3656-4b28-b707-af6275e306a7",
       "sourceId": "3c427da4-3656-4b28-b707-af6275e306a7",
       "source": "Tempo",
       "title": "Director, Account Based Marketing",
@@ -583,7 +583,7 @@
       "isActive": false
     },
     {
-      "id": "tempo-io-manager-site-reliability-engineering-canada",
+      "id": "tempo-io-b1aca505-6772-46ea-9d5d-54a4d11f816d",
       "sourceId": "b1aca505-6772-46ea-9d5d-54a4d11f816d",
       "source": "Tempo",
       "title": "Manager, Site Reliability Engineering",
@@ -600,7 +600,7 @@
       "isActive": true
     },
     {
-      "id": "tempo-io-partner-sales-manager-united-states",
+      "id": "tempo-io-94bfba40-72cf-4dea-9dad-083d133b8530",
       "sourceId": "94bfba40-72cf-4dea-9dad-083d133b8530",
       "source": "Tempo",
       "title": "Partner Sales Manager",
@@ -617,7 +617,7 @@
       "isActive": false
     },
     {
-      "id": "tempo-io-principal-product-manager-united-states",
+      "id": "tempo-io-b9310798-5832-4c5f-9a3a-85a261c1f0d7",
       "sourceId": "b9310798-5832-4c5f-9a3a-85a261c1f0d7",
       "source": "Tempo",
       "title": "Principal Product Manager",
@@ -634,7 +634,7 @@
       "isActive": true
     },
     {
-      "id": "tempo-io-senior-backend-developer-canada",
+      "id": "tempo-io-43426c88-282d-4e7e-973a-a067471a99e4",
       "sourceId": "43426c88-282d-4e7e-973a-a067471a99e4",
       "source": "Tempo",
       "title": "Senior Backend Developer ",
@@ -651,7 +651,7 @@
       "isActive": true
     },
     {
-      "id": "tempo-io-senior-backend-developer-cloud-canada",
+      "id": "tempo-io-2e3bfa48-72ac-4eaa-b5b3-18c1cb46dbd0",
       "sourceId": "2e3bfa48-72ac-4eaa-b5b3-18c1cb46dbd0",
       "source": "Tempo",
       "title": "Senior Backend Developer (Cloud)",
@@ -668,7 +668,7 @@
       "isActive": true
     },
     {
-      "id": "tempo-io-senior-community-influencer-manager-united-states",
+      "id": "tempo-io-aa919003-abfc-4975-a504-b06bb87a382f",
       "sourceId": "aa919003-abfc-4975-a504-b06bb87a382f",
       "source": "Tempo",
       "title": "Senior Community & Influencer Manager",
@@ -685,7 +685,7 @@
       "isActive": true
     },
     {
-      "id": "tempo-io-senior-financial-analyst-r-d-customer-success-united-states",
+      "id": "tempo-io-75d044fc-95ed-45bc-b6a9-ceb4c604f474",
       "sourceId": "75d044fc-95ed-45bc-b6a9-ceb4c604f474",
       "source": "Tempo",
       "title": "Senior Financial Analyst  (R&D/Customer Success)",
@@ -702,7 +702,7 @@
       "isActive": true
     },
     {
-      "id": "tempo-io-senior-frontend-developer-growth-south-america",
+      "id": "tempo-io-6d3eed11-3687-4627-a441-811892f9e3a2",
       "sourceId": "6d3eed11-3687-4627-a441-811892f9e3a2",
       "source": "Tempo",
       "title": "Senior Frontend Developer (Growth)",
@@ -719,7 +719,7 @@
       "isActive": true
     },
     {
-      "id": "tempo-io-senior-manager-customer-advocacy-united-states",
+      "id": "tempo-io-072a78d8-fdea-4f3e-b0b7-890467b5e147",
       "sourceId": "072a78d8-fdea-4f3e-b0b7-890467b5e147",
       "source": "Tempo",
       "title": "Senior Manager, Customer Advocacy",
@@ -736,7 +736,7 @@
       "isActive": false
     },
     {
-      "id": "tempo-io-senior-manager-product-cloud-security-canada",
+      "id": "tempo-io-4a674f6d-1944-4624-af97-3a4405da7510",
       "sourceId": "4a674f6d-1944-4624-af97-3a4405da7510",
       "source": "Tempo",
       "title": "Senior Manager, Product & Cloud Security",
@@ -753,7 +753,7 @@
       "isActive": true
     },
     {
-      "id": "tempo-io-senior-product-manager-insights-canada",
+      "id": "tempo-io-b963b7f3-83a1-4809-94ed-592129d848a6",
       "sourceId": "b963b7f3-83a1-4809-94ed-592129d848a6",
       "source": "Tempo",
       "title": "Senior Product Manager - Insights",
@@ -770,7 +770,7 @@
       "isActive": false
     },
     {
-      "id": "tempo-io-senior-software-developer-cloud-canada",
+      "id": "tempo-io-f643690c-42ff-4440-8bd6-e018d82e1349",
       "sourceId": "f643690c-42ff-4440-8bd6-e018d82e1349",
       "source": "Tempo",
       "title": "Senior Software Developer (Cloud) ",
@@ -787,7 +787,7 @@
       "isActive": true
     },
     {
-      "id": "appfire-corporate-counsel-united-states",
+      "id": "appfire-4662698005",
       "sourceId": "4662698005",
       "source": "Appfire",
       "title": "Corporate Counsel",
@@ -802,7 +802,7 @@
       "isActive": false
     },
     {
-      "id": "appfire-director-of-product-management-bulgaria",
+      "id": "appfire-4668226005",
       "sourceId": "4668226005",
       "source": "Appfire",
       "title": "Director of Product Management ",
@@ -817,7 +817,7 @@
       "isActive": true
     },
     {
-      "id": "appfire-director-of-product-management-spain",
+      "id": "appfire-4668228005",
       "sourceId": "4668228005",
       "source": "Appfire",
       "title": "Director of Product Management ",
@@ -832,7 +832,7 @@
       "isActive": true
     },
     {
-      "id": "appfire-global-payroll-lead-united-states",
+      "id": "appfire-4669634005",
       "sourceId": "4669634005",
       "source": "Appfire",
       "title": "Global Payroll Lead",
@@ -847,7 +847,7 @@
       "isActive": false
     },
     {
-      "id": "appfire-manager-customer-success-bulgaria-bulgaria",
+      "id": "appfire-4669853005",
       "sourceId": "4669853005",
       "source": "Appfire",
       "title": "Manager, Customer Success - Bulgaria",
@@ -862,7 +862,7 @@
       "isActive": true
     },
     {
-      "id": "appfire-manager-customer-success-poland-poland",
+      "id": "appfire-4669838005",
       "sourceId": "4669838005",
       "source": "Appfire",
       "title": "Manager, Customer Success - Poland",
@@ -877,7 +877,7 @@
       "isActive": true
     },
     {
-      "id": "appfire-manager-customer-success-spain-spain",
+      "id": "appfire-4668878005",
       "sourceId": "4668878005",
       "source": "Appfire",
       "title": "Manager, Customer Success - Spain",
@@ -892,7 +892,7 @@
       "isActive": true
     },
     {
-      "id": "appfire-manager-software-engineering-poland",
+      "id": "appfire-4633727005",
       "sourceId": "4633727005",
       "source": "Appfire",
       "title": "Manager, Software Engineering",
@@ -907,7 +907,7 @@
       "isActive": true
     },
     {
-      "id": "appfire-manager-software-engineering-bulgaria",
+      "id": "appfire-4641115005",
       "sourceId": "4641115005",
       "source": "Appfire",
       "title": "Manager, Software Engineering",
@@ -922,7 +922,7 @@
       "isActive": true
     },
     {
-      "id": "appfire-product-support-manager-poland",
+      "id": "appfire-4673043005",
       "sourceId": "4673043005",
       "source": "Appfire",
       "title": "Product Support Manager",
@@ -937,7 +937,7 @@
       "isActive": true
     },
     {
-      "id": "appfire-product-support-manager-bulgaria",
+      "id": "appfire-4673047005",
       "sourceId": "4673047005",
       "source": "Appfire",
       "title": "Product Support Manager",
@@ -952,7 +952,7 @@
       "isActive": true
     },
     {
-      "id": "appfire-senior-backend-java-developer-bulgaria",
+      "id": "appfire-4656919005",
       "sourceId": "4656919005",
       "source": "Appfire",
       "title": "Senior Backend Java Developer",
@@ -967,7 +967,7 @@
       "isActive": true
     },
     {
-      "id": "appfire-senior-fullstack-software-engineer-spain",
+      "id": "appfire-4637969005",
       "sourceId": "4637969005",
       "source": "Appfire",
       "title": "Senior Fullstack Software Engineer",
@@ -982,7 +982,7 @@
       "isActive": true
     },
     {
-      "id": "appfire-senior-fullstack-software-engineer-bulgaria",
+      "id": "appfire-4636509005",
       "sourceId": "4636509005",
       "source": "Appfire",
       "title": "Senior Fullstack Software Engineer ",
@@ -997,7 +997,7 @@
       "isActive": true
     },
     {
-      "id": "appfire-senior-it-automation-engineer-india",
+      "id": "appfire-4667233005",
       "sourceId": "4667233005",
       "source": "Appfire",
       "title": "Senior IT Automation Engineer",
@@ -1012,7 +1012,7 @@
       "isActive": false
     },
     {
-      "id": "appfire-senior-product-manager-bulgaria",
+      "id": "appfire-4664145005",
       "sourceId": "4664145005",
       "source": "Appfire",
       "title": "Senior Product Manager ",
@@ -1027,7 +1027,7 @@
       "isActive": true
     },
     {
-      "id": "appfire-senior-product-manager-poland",
+      "id": "appfire-4667238005",
       "sourceId": "4667238005",
       "source": "Appfire",
       "title": "Senior Product Manager ",
@@ -1042,7 +1042,7 @@
       "isActive": true
     },
     {
-      "id": "appfire-senior-product-manager-spain",
+      "id": "appfire-4660626005",
       "sourceId": "4660626005",
       "source": "Appfire",
       "title": "Senior Product Manager ",
@@ -1057,7 +1057,7 @@
       "isActive": true
     },
     {
-      "id": "appfire-senior-software-engineer-python-spain",
+      "id": "appfire-4659508005",
       "sourceId": "4659508005",
       "source": "Appfire",
       "title": "Senior Software Engineer (Python)",
@@ -1072,7 +1072,7 @@
       "isActive": false
     },
     {
-      "id": "appfire-senior-software-engineer-python-bulgaria",
+      "id": "appfire-4655908005",
       "sourceId": "4655908005",
       "source": "Appfire",
       "title": "Senior Software Engineer (Python)",
@@ -1087,7 +1087,7 @@
       "isActive": false
     },
     {
-      "id": "appfire-senior-technical-project-manager-spain",
+      "id": "appfire-4669651005",
       "sourceId": "4669651005",
       "source": "Appfire",
       "title": "Senior Technical Project Manager",
@@ -1102,7 +1102,7 @@
       "isActive": true
     },
     {
-      "id": "appfire-senior-technical-project-manager-bulgaria",
+      "id": "appfire-4672674005",
       "sourceId": "4672674005",
       "source": "Appfire",
       "title": "Senior Technical Project Manager",
@@ -1117,7 +1117,7 @@
       "isActive": true
     },
     {
-      "id": "appfire-technical-program-manager-tpm-spain",
+      "id": "appfire-4667742005",
       "sourceId": "4667742005",
       "source": "Appfire",
       "title": "Technical Program Manager (TPM)",
@@ -1132,7 +1132,7 @@
       "isActive": true
     },
     {
-      "id": "appfire-technical-program-manager-tpm-bulgaria",
+      "id": "appfire-4666151005",
       "sourceId": "4666151005",
       "source": "Appfire",
       "title": "Technical Program Manager (TPM)",
@@ -1147,7 +1147,7 @@
       "isActive": true
     },
     {
-      "id": "appfire-technical-program-manager-tpm-india",
+      "id": "appfire-4667724005",
       "sourceId": "4667724005",
       "source": "Appfire",
       "title": "Technical Program Manager (TPM)",
@@ -1162,7 +1162,7 @@
       "isActive": true
     },
     {
-      "id": "theadaptavistgroup-strategic-sales-manager-monday-com-maternity-cover-contrato-de-sustituci-n-remote",
+      "id": "theadaptavistgroup-744000119188427",
       "sourceId": "744000119188427",
       "source": "Adaptavist",
       "title": "Strategic Sales Manager (monday.com) - (Maternity Cover - Contrato de Sustitución)",
@@ -1179,7 +1179,7 @@
       "isActive": true
     },
     {
-      "id": "theadaptavistgroup-werkstudent-m-w-d-it-consulting-schwerpunkt-atlassian-cologne-north-rhine-westphalia-germany",
+      "id": "theadaptavistgroup-744000116416957",
       "sourceId": "744000116416957",
       "source": "Adaptavist",
       "title": "Werkstudent (m/w/d) IT Consulting - Schwerpunkt Atlassian",
@@ -1196,7 +1196,7 @@
       "isActive": true
     },
     {
-      "id": "theadaptavistgroup-business-consultant-monday-com-atlassian-remote",
+      "id": "theadaptavistgroup-744000112974447",
       "sourceId": "744000112974447",
       "source": "Adaptavist",
       "title": "Business Consultant - monday.com, Atlassian",
@@ -1213,7 +1213,7 @@
       "isActive": true
     },
     {
-      "id": "theadaptavistgroup-system-engineer-f-m-d-remote",
+      "id": "theadaptavistgroup-744000110219205",
       "sourceId": "744000110219205",
       "source": "Adaptavist",
       "title": "System Engineer (f/m/d)",
@@ -1230,7 +1230,7 @@
       "isActive": false
     },
     {
-      "id": "theadaptavistgroup-tax-accountant-remote",
+      "id": "theadaptavistgroup-744000109909005",
       "sourceId": "744000109909005",
       "source": "Adaptavist",
       "title": "Tax Accountant",
@@ -1247,7 +1247,7 @@
       "isActive": true
     },
     {
-      "id": "theadaptavistgroup-associate-service-desk-analyst-f-m-d-german-speaker-remote",
+      "id": "theadaptavistgroup-744000109264713",
       "sourceId": "744000109264713",
       "source": "Adaptavist",
       "title": "Associate Service Desk Analyst (f/m/d) (german speaker)",
@@ -1264,7 +1264,7 @@
       "isActive": false
     },
     {
-      "id": "theadaptavistgroup-technical-consultant-atlassian-remote-malaysia",
+      "id": "theadaptavistgroup-744000071982115",
       "sourceId": "744000071982115",
       "source": "Adaptavist",
       "title": "Technical Consultant (Atlassian)",
@@ -1282,7 +1282,7 @@
       "isActive": false
     },
     {
-      "id": "career-eficode-com-atlassian-consultant-z-rich-switzerland",
+      "id": "career-eficode-com-7471122-atlassian-consultant",
       "sourceId": "7471122-atlassian-consultant",
       "source": "Eficode",
       "title": "Atlassian Consultant",
@@ -1298,7 +1298,7 @@
       "isActive": true
     },
     {
-      "id": "career-eficode-com-devops-solutions-architect-github-transformations-helsinki-finland",
+      "id": "career-eficode-com-7425294-devops-solutions-architect-github-transformations",
       "sourceId": "7425294-devops-solutions-architect-github-transformations",
       "source": "Eficode",
       "title": "DevOps Solutions Architect (GitHub transformations)",
@@ -1314,7 +1314,7 @@
       "isActive": true
     },
     {
-      "id": "career-eficode-com-github-solutions-architect-gothenburg-sweden",
+      "id": "career-eficode-com-7319649-github-solutions-architect",
       "sourceId": "7319649-github-solutions-architect",
       "source": "Eficode",
       "title": "GitHub Solutions Architect",
@@ -1330,7 +1330,7 @@
       "isActive": true
     },
     {
-      "id": "career-eficode-com-senior-innovation-engineer-stockholm-sweden",
+      "id": "career-eficode-com-7197625-senior-innovation-engineer",
       "sourceId": "7197625-senior-innovation-engineer",
       "source": "Eficode",
       "title": "Senior Innovation Engineer",
@@ -1345,7 +1345,7 @@
       "isActive": true
     },
     {
-      "id": "career-eficode-com-open-application-philadelphia-us",
+      "id": "career-eficode-com-7001190-open-application",
       "sourceId": "7001190-open-application",
       "source": "Eficode",
       "title": "Open Application",
@@ -1360,7 +1360,7 @@
       "isActive": true
     },
     {
-      "id": "k15t-senior-front-end-engineer-m-w-d-stuttgart",
+      "id": "k15t-2527693",
       "sourceId": "2527693",
       "source": "K15t",
       "title": "(Senior) Front-End Engineer (m/w/d)",
@@ -1373,11 +1373,11 @@
       "type": "full-time",
       "url": "https://k15t.jobs.personio.com/job/2527693",
       "firstSeen": "2026-02-12T10:02:48+00:00",
-      "lastSeen": "2026-05-01T19:34:13.057Z",
+      "lastSeen": "2026-05-03T14:20:53.108Z",
       "isActive": true
     },
     {
-      "id": "k15t-choose-your-own-position-stuttgart-or-remote",
+      "id": "k15t-857940",
       "sourceId": "857940",
       "source": "K15t",
       "title": "Choose Your Own Position",
@@ -1390,11 +1390,11 @@
       "type": "full-or-part-time",
       "url": "https://k15t.jobs.personio.com/job/857940",
       "firstSeen": "2022-10-18T13:41:41+00:00",
-      "lastSeen": "2026-05-01T19:34:13.057Z",
+      "lastSeen": "2026-05-03T14:20:53.108Z",
       "isActive": true
     },
     {
-      "id": "communardo-people-operations-specialist-m-w-d-germany",
+      "id": "communardo-people-operations-specialist-m-w-d",
       "sourceId": "people-operations-specialist-m-w-d",
       "source": "Communardo",
       "title": "People Operations Specialist (m/w/d)",
@@ -1409,7 +1409,7 @@
       "isActive": true
     },
     {
-      "id": "communardo-chief-revenue-officer-m-f-d-germany",
+      "id": "communardo-chief-revenue-officer-m-f-d",
       "sourceId": "chief-revenue-officer-m-f-d",
       "source": "Communardo",
       "title": "Chief Revenue Officer (m/f/d)",
@@ -1424,7 +1424,7 @@
       "isActive": true
     },
     {
-      "id": "communardo-people-culture-business-partner-dach-w-m-d-germany",
+      "id": "communardo-people-culture-business-partner-dach-w-m-d",
       "sourceId": "people-culture-business-partner-dach-w-m-d",
       "source": "Communardo",
       "title": "People & Culture Business Partner DACH (w/m/d)",
@@ -1439,7 +1439,7 @@
       "isActive": true
     },
     {
-      "id": "communardo-vp-operations-f-m-d-germany",
+      "id": "communardo-vp-operations-f-m-d",
       "sourceId": "vp-operations-f-m-d",
       "source": "Communardo",
       "title": "VP Operations (f/m/d)",
@@ -1454,7 +1454,7 @@
       "isActive": false
     },
     {
-      "id": "communardo-senior-service-delivery-manager-modern-support-automation-m-w-d-germany",
+      "id": "communardo-senior-service-delivery-manager-modern-support-automation-m-w-d",
       "sourceId": "senior-service-delivery-manager-modern-support-automation-m-w-d",
       "source": "Communardo",
       "title": "Senior Service Delivery Manager – Modern Support & Automation (m/w/d)",
@@ -1469,7 +1469,7 @@
       "isActive": true
     },
     {
-      "id": "communardo-group-revenue-operations-lead-f-m-d-germany",
+      "id": "communardo-group-revenue-operations-lead-f-m-d",
       "sourceId": "group-revenue-operations-lead-f-m-d",
       "source": "Communardo",
       "title": "Group Revenue Operations Lead (f/m/d)",
@@ -1484,7 +1484,7 @@
       "isActive": true
     },
     {
-      "id": "communardo-lead-consultant-atlassian-cloud-transformation-m-w-d-germany",
+      "id": "communardo-lead-consultant-atlassian-cloud-transformation-m-w-d",
       "sourceId": "lead-consultant-atlassian-cloud-transformation-m-w-d",
       "source": "Communardo",
       "title": "Lead Consultant Atlassian Cloud Transformation (m/w/d)",
@@ -1499,7 +1499,7 @@
       "isActive": true
     },
     {
-      "id": "communardo-senior-projektleiter-in-atlassian-cloud-transformation-m-w-d-germany",
+      "id": "communardo-senior-projektleiterin-atlassian-cloud-transformation-m-w-d",
       "sourceId": "senior-projektleiterin-atlassian-cloud-transformation-m-w-d",
       "source": "Communardo",
       "title": "Senior Projektleiter*in Atlassian Cloud Transformation (m/w/d)",
@@ -1514,7 +1514,7 @@
       "isActive": true
     },
     {
-      "id": "communardo-professional-projektleiter-in-atlassian-cloud-transformation-m-w-d-germany",
+      "id": "communardo-professional-projektleiterin-atlassian-cloud-transformation-m-w-d",
       "sourceId": "professional-projektleiterin-atlassian-cloud-transformation-m-w-d",
       "source": "Communardo",
       "title": "Professional Projektleiter*in Atlassian Cloud Transformation (m/w/d)",
@@ -1529,7 +1529,7 @@
       "isActive": true
     },
     {
-      "id": "communardo-microsoft-ai-solution-consultant-m-w-d-germany",
+      "id": "communardo-microsoft-solution-consultant-m-w-d",
       "sourceId": "microsoft-solution-consultant-m-w-d",
       "source": "Communardo",
       "title": "Microsoft AI Solution Consultant (m/w/d)",
@@ -1544,7 +1544,7 @@
       "isActive": true
     },
     {
-      "id": "smartbear-accepting-applications-for-future-opportunities-renewals-specialist-somerville-massachusetts-united-states",
+      "id": "smartbear-7536798003",
       "sourceId": "7536798003",
       "source": "SmartBear",
       "title": "Accepting Applications for Future Opportunities - Renewals Specialist",
@@ -1559,7 +1559,7 @@
       "isActive": true
     },
     {
-      "id": "smartbear-accepting-applications-for-future-opportunities-sales-development-representative-somerville-massachusetts-unit",
+      "id": "smartbear-5905855003",
       "sourceId": "5905855003",
       "source": "SmartBear",
       "title": " Accepting Applications for Future Opportunities -Sales Development Representative",
@@ -1574,7 +1574,7 @@
       "isActive": true
     },
     {
-      "id": "smartbear-account-executive-galway-galway-ireland",
+      "id": "smartbear-7659639003",
       "sourceId": "7659639003",
       "source": "SmartBear",
       "title": "Account Executive",
@@ -1589,7 +1589,7 @@
       "isActive": true
     },
     {
-      "id": "smartbear-account-executive-ii-somerville-massachusetts-united-states",
+      "id": "smartbear-7620299003",
       "sourceId": "7620299003",
       "source": "SmartBear",
       "title": "Account Executive II ",
@@ -1604,7 +1604,7 @@
       "isActive": true
     },
     {
-      "id": "smartbear-account-executive-iii-somerville-massachusetts-united-states",
+      "id": "smartbear-7660734003",
       "sourceId": "7660734003",
       "source": "SmartBear",
       "title": "Account Executive III",
@@ -1619,7 +1619,7 @@
       "isActive": true
     },
     {
-      "id": "smartbear-backend-engineer-zephyr-enterprise-bengaluru-karnataka-india",
+      "id": "smartbear-7551629003",
       "sourceId": "7551629003",
       "source": "SmartBear",
       "title": "Backend Engineer - Zephyr Enterprise",
@@ -1634,7 +1634,7 @@
       "isActive": true
     },
     {
-      "id": "smartbear-bi-developer-wroc-aw-lower-silesian-voivodeship-poland",
+      "id": "smartbear-7645527003",
       "sourceId": "7645527003",
       "source": "SmartBear",
       "title": "BI Developer",
@@ -1649,7 +1649,7 @@
       "isActive": false
     },
     {
-      "id": "smartbear-customer-success-manager-galway-galway-ireland",
+      "id": "smartbear-7711704003",
       "sourceId": "7711704003",
       "source": "SmartBear",
       "title": "Customer Success Manager",
@@ -1664,7 +1664,7 @@
       "isActive": true
     },
     {
-      "id": "smartbear-director-of-it-enterprise-applications-somerville-massachusetts-united-states",
+      "id": "smartbear-7568505003",
       "sourceId": "7568505003",
       "source": "SmartBear",
       "title": "Director of IT Enterprise Applications",
@@ -1679,7 +1679,7 @@
       "isActive": true
     },
     {
-      "id": "smartbear-director-product-management-api-somerville-massachusetts-united-states",
+      "id": "smartbear-7595274003",
       "sourceId": "7595274003",
       "source": "SmartBear",
       "title": "Director, Product Management - API",
@@ -1694,7 +1694,7 @@
       "isActive": false
     },
     {
-      "id": "smartbear-engineering-manager-ai-services-bearq-somerville-massachusetts-united-states",
+      "id": "smartbear-7665351003",
       "sourceId": "7665351003",
       "source": "SmartBear",
       "title": "Engineering Manager - AI Services (BearQ) ",
@@ -1709,7 +1709,7 @@
       "isActive": true
     },
     {
-      "id": "smartbear-graphic-designer-wroc-aw-lower-silesian-voivodeship-poland",
+      "id": "smartbear-7665421003",
       "sourceId": "7665421003",
       "source": "SmartBear",
       "title": "Graphic Designer",
@@ -1724,7 +1724,7 @@
       "isActive": true
     },
     {
-      "id": "smartbear-junior-frontend-engineer-swagger-functional-testing-wroc-aw-lower-silesian-voivodeship-poland",
+      "id": "smartbear-7659607003",
       "sourceId": "7659607003",
       "source": "SmartBear",
       "title": "Junior Frontend Engineer - Swagger Functional Testing",
@@ -1739,7 +1739,7 @@
       "isActive": true
     },
     {
-      "id": "smartbear-junior-software-engineer-ai-ahmedabad-gujarat-india",
+      "id": "smartbear-7564677003",
       "sourceId": "7564677003",
       "source": "SmartBear",
       "title": "Junior Software Engineer - AI",
@@ -1754,7 +1754,7 @@
       "isActive": false
     },
     {
-      "id": "smartbear-junior-software-engineer-ai-services-ahmedabad-gujarat-india",
+      "id": "smartbear-7581326003",
       "sourceId": "7581326003",
       "source": "SmartBear",
       "title": "Junior Software Engineer - AI Services",
@@ -1769,7 +1769,7 @@
       "isActive": true
     },
     {
-      "id": "smartbear-junior-software-engineer-ze-bengaluru-karnataka-india",
+      "id": "smartbear-7667231003",
       "sourceId": "7667231003",
       "source": "SmartBear",
       "title": "Junior Software Engineer ZE",
@@ -1784,7 +1784,7 @@
       "isActive": true
     },
     {
-      "id": "smartbear-lead-software-engineer-bengaluru-karnataka-india",
+      "id": "smartbear-7665171003",
       "sourceId": "7665171003",
       "source": "SmartBear",
       "title": "Lead Software Engineer",
@@ -1799,7 +1799,7 @@
       "isActive": false
     },
     {
-      "id": "smartbear-major-account-executive-somerville-massachusetts-united-states",
+      "id": "smartbear-7629535003",
       "sourceId": "7629535003",
       "source": "SmartBear",
       "title": "Major Account Executive ",
@@ -1814,7 +1814,7 @@
       "isActive": true
     },
     {
-      "id": "smartbear-major-account-executive-ii-somerville-massachusetts-united-states",
+      "id": "smartbear-7656194003",
       "sourceId": "7656194003",
       "source": "SmartBear",
       "title": "Major Account Executive II",
@@ -1829,7 +1829,7 @@
       "isActive": true
     },
     {
-      "id": "smartbear-partner-program-manager-somerville-massachusetts-united-states",
+      "id": "smartbear-7607136003",
       "sourceId": "7607136003",
       "source": "SmartBear",
       "title": "Partner Program Manager",
@@ -1844,7 +1844,7 @@
       "isActive": true
     },
     {
-      "id": "smartbear-principal-product-manager-pricing-monetization-somerville-massachusetts-united-states",
+      "id": "smartbear-7665379003",
       "sourceId": "7665379003",
       "source": "SmartBear",
       "title": "Principal Product Manager – Pricing & Monetization",
@@ -1859,7 +1859,7 @@
       "isActive": true
     },
     {
-      "id": "smartbear-public-relations-manager-somerville-massachusetts-united-states",
+      "id": "smartbear-7663067003",
       "sourceId": "7663067003",
       "source": "SmartBear",
       "title": "Public Relations Manager",
@@ -1874,7 +1874,7 @@
       "isActive": false
     },
     {
-      "id": "smartbear-qa-engineer-readyapi-wroc-aw-lower-silesian-voivodeship-poland",
+      "id": "smartbear-7629262003",
       "sourceId": "7629262003",
       "source": "SmartBear",
       "title": "QA Engineer- ReadyAPI",
@@ -1889,7 +1889,7 @@
       "isActive": true
     },
     {
-      "id": "smartbear-renewals-advisor-ahmedabad-gujarat-india",
+      "id": "smartbear-7645752003",
       "sourceId": "7645752003",
       "source": "SmartBear",
       "title": "Renewals Advisor",
@@ -1904,7 +1904,7 @@
       "isActive": true
     },
     {
-      "id": "smartbear-sales-development-representative-galway-galway-ireland",
+      "id": "smartbear-7618410003",
       "sourceId": "7618410003",
       "source": "SmartBear",
       "title": "Sales Development Representative",
@@ -1919,7 +1919,7 @@
       "isActive": false
     },
     {
-      "id": "smartbear-senior-devops-engineer-wroc-aw-lower-silesian-voivodeship-poland",
+      "id": "smartbear-7635717003",
       "sourceId": "7635717003",
       "source": "SmartBear",
       "title": "Senior DevOps Engineer",
@@ -1934,7 +1934,7 @@
       "isActive": true
     },
     {
-      "id": "smartbear-senior-financial-analyst-somerville-massachusetts-united-states",
+      "id": "smartbear-7605609003",
       "sourceId": "7605609003",
       "source": "SmartBear",
       "title": "Senior Financial Analyst",
@@ -1949,7 +1949,7 @@
       "isActive": false
     },
     {
-      "id": "smartbear-senior-major-account-executive-ii-somerville-massachusetts-united-states",
+      "id": "smartbear-7682615003",
       "sourceId": "7682615003",
       "source": "SmartBear",
       "title": "Senior Major Account Executive II",
@@ -1964,7 +1964,7 @@
       "isActive": true
     },
     {
-      "id": "smartbear-senior-software-engineer-ahmedabad-gujarat-india",
+      "id": "smartbear-7678357003",
       "sourceId": "7678357003",
       "source": "SmartBear",
       "title": "Senior Software Engineer",
@@ -1979,7 +1979,7 @@
       "isActive": false
     },
     {
-      "id": "smartbear-solutions-engineer-i-api-somerville-massachusetts-united-states",
+      "id": "smartbear-7667858003",
       "sourceId": "7667858003",
       "source": "SmartBear",
       "title": "Solutions Engineer I, API",
@@ -1994,7 +1994,7 @@
       "isActive": false
     },
     {
-      "id": "smartbear-solutions-engineer-i-test-somerville-massachusetts-united-states",
+      "id": "smartbear-7635705003",
       "sourceId": "7635705003",
       "source": "SmartBear",
       "title": "Solutions Engineer I, Test",
@@ -2009,7 +2009,7 @@
       "isActive": false
     },
     {
-      "id": "smartbear-technical-lead-software-engineer-principle-engineer-ze-bengaluru-karnataka-india",
+      "id": "smartbear-7668635003",
       "sourceId": "7668635003",
       "source": "SmartBear",
       "title": "Technical Lead Software Engineer (Principle Engineer)ZE",
@@ -2024,7 +2024,7 @@
       "isActive": true
     },
     {
-      "id": "smartbear-vice-president-of-ai-ecosystem-partnerships-somerville-massachusetts-united-states",
+      "id": "smartbear-7545069003",
       "sourceId": "7545069003",
       "source": "SmartBear",
       "title": "Vice President of AI Ecosystem Partnerships",
@@ -2039,7 +2039,7 @@
       "isActive": true
     },
     {
-      "id": "isostech-functional-consultant-tempe-arizona-united-states",
+      "id": "isostech-241",
       "sourceId": "241",
       "source": "Isos Technology",
       "title": "Functional Consultant",
@@ -2056,7 +2056,7 @@
       "isActive": false
     },
     {
-      "id": "isostech-technical-consultant-engineer-tempe-arizona-united-states",
+      "id": "isostech-251",
       "sourceId": "251",
       "source": "Isos Technology",
       "title": "Technical Consultant (Engineer)",
@@ -2073,7 +2073,7 @@
       "isActive": false
     },
     {
-      "id": "seibert-customer-engagement-manager-in-germany",
+      "id": "seibert-customer-engagement-manager",
       "sourceId": "customer-engagement-manager",
       "source": "Seibert Group",
       "title": "Customer Engagement Manager*in",
@@ -2088,7 +2088,7 @@
       "isActive": false
     },
     {
-      "id": "seibert-initiativbewerbung-mitarbeiter-in-in-unserer-google-business-unit-germany",
+      "id": "seibert-initiativbewerbung-mitarbeiterin-in-unserer-google-business-unit",
       "sourceId": "initiativbewerbung-mitarbeiterin-in-unserer-google-business-unit",
       "source": "Seibert Group",
       "title": "Initiativbewerbung – Mitarbeiter*in in unserer Google Business Unit",
@@ -2103,7 +2103,7 @@
       "isActive": true
     },
     {
-      "id": "seibert-inside-sales-specialist-germany",
+      "id": "seibert-inside-sales-manager",
       "sourceId": "inside-sales-manager",
       "source": "Seibert Group",
       "title": "Inside Sales Specialist*",
@@ -2118,7 +2118,7 @@
       "isActive": false
     },
     {
-      "id": "seibert-web-developer-in-atlassian-cloud-apps-react-und-node-germany",
+      "id": "seibert-web-developer-atlassian-cloud-apps-react-und-node",
       "sourceId": "web-developer-atlassian-cloud-apps-react-und-node",
       "source": "Seibert Group",
       "title": "Web-Developer*in Atlassian Cloud Apps (React und Node)",
@@ -2133,7 +2133,7 @@
       "isActive": true
     },
     {
-      "id": "deviniti-product-marketing-manager-poland",
+      "id": "deviniti-product-marketing-manager",
       "sourceId": "product-marketing-manager",
       "source": "Deviniti",
       "title": "Product Marketing Manager",
@@ -2148,7 +2148,7 @@
       "isActive": true
     },
     {
-      "id": "deviniti-senior-account-manager-poland",
+      "id": "deviniti-senior-account-manager",
       "sourceId": "senior-account-manager",
       "source": "Deviniti",
       "title": "Senior Account Manager",
@@ -2163,7 +2163,7 @@
       "isActive": true
     },
     {
-      "id": "deviniti-senior-fullstack-developer-java-angular-poland",
+      "id": "deviniti-senior-fullstack-developer-java-angular",
       "sourceId": "senior-fullstack-developer-java-angular",
       "source": "Deviniti",
       "title": "Senior Fullstack Developer (Java + Angular)",
@@ -2178,7 +2178,7 @@
       "isActive": true
     },
     {
-      "id": "deviniti-atlassian-cloud-migration-specialist-poland",
+      "id": "deviniti-atlassian-cloud-migration-specialist",
       "sourceId": "atlassian-cloud-migration-specialist",
       "source": "Deviniti",
       "title": "Atlassian Cloud Migration Specialist",
@@ -2193,7 +2193,7 @@
       "isActive": true
     },
     {
-      "id": "deviniti-senior-lead-flutter-developer-poland",
+      "id": "deviniti-senior-lead-flutter-developer",
       "sourceId": "senior-lead-flutter-developer",
       "source": "Deviniti",
       "title": "Senior/Lead Flutter Developer",
@@ -2208,7 +2208,7 @@
       "isActive": true
     },
     {
-      "id": "deviniti-senior-business-analyst-poland",
+      "id": "deviniti-senior-business-analyst",
       "sourceId": "senior-business-analyst",
       "source": "Deviniti",
       "title": "Senior Business Analyst",
@@ -2223,7 +2223,7 @@
       "isActive": true
     },
     {
-      "id": "deviniti-head-of-growth-poland",
+      "id": "deviniti-head-of-growth",
       "sourceId": "head-of-growth",
       "source": "Deviniti",
       "title": "Head of Growth",
@@ -2238,7 +2238,7 @@
       "isActive": false
     },
     {
-      "id": "glintech-technical-trainer-australia",
+      "id": "glintech-technical-trainer",
       "sourceId": "technical-trainer",
       "source": "GLINtech",
       "title": "Technical Trainer",
@@ -2253,7 +2253,7 @@
       "isActive": true
     },
     {
-      "id": "glintech-itsm-consultant-australia",
+      "id": "glintech-itsm-consultant",
       "sourceId": "itsm-consultant",
       "source": "GLINtech",
       "title": "ITSM Consultant",
@@ -2268,7 +2268,7 @@
       "isActive": true
     },
     {
-      "id": "idalko-licence-expert-belgium",
+      "id": "idalko-licence-expert",
       "sourceId": "licence-expert",
       "source": "iDalko (Exalate)",
       "title": "Licence Expert",
@@ -2283,7 +2283,7 @@
       "isActive": false
     },
     {
-      "id": "idalko-business-developer-belgium",
+      "id": "idalko-business-developer",
       "sourceId": "business-developer",
       "source": "iDalko (Exalate)",
       "title": "Business Developer",
@@ -2298,7 +2298,7 @@
       "isActive": true
     },
     {
-      "id": "idalko-competence-lead-technical-belgium",
+      "id": "idalko-competence-lead-tech",
       "sourceId": "competence-lead-tech",
       "source": "iDalko (Exalate)",
       "title": "Competence Lead Technical",
@@ -2313,7 +2313,7 @@
       "isActive": true
     },
     {
-      "id": "idalko-project-manager-belgium",
+      "id": "idalko-project-manager",
       "sourceId": "project-manager",
       "source": "iDalko (Exalate)",
       "title": "Project Manager",
@@ -2328,7 +2328,7 @@
       "isActive": true
     },
     {
-      "id": "catworkx-enterprise-portfolio-data-analytics-engineer-germany",
+      "id": "catworkx-enterprise-portfolio-and-data-analytics-engineer",
       "sourceId": "enterprise-portfolio-and-data-analytics-engineer",
       "source": "catworkx",
       "title": "Enterprise Portfolio & Data Analytics Engineer",
@@ -2343,7 +2343,7 @@
       "isActive": true
     },
     {
-      "id": "catworkx-lead-atlassian-migration-architect-usa-usa",
+      "id": "catworkx-lead-atlassian-migration-architect",
       "sourceId": "lead-atlassian-migration-architect",
       "source": "catworkx",
       "title": "Lead Atlassian Migration Architect",
@@ -2358,7 +2358,7 @@
       "isActive": true
     },
     {
-      "id": "catworkx-lead-jira-engineer-germany",
+      "id": "catworkx-lead-jira-engineer",
       "sourceId": "lead-jira-engineer",
       "source": "catworkx",
       "title": "Lead Jira Engineer",
@@ -2373,7 +2373,7 @@
       "isActive": true
     },
     {
-      "id": "spectrumgroupe-junior-technical-consultant-cairo-egypt",
+      "id": "spectrumgroupe-junior-technical-consultant-2",
       "sourceId": "junior-technical-consultant-2",
       "source": "Spectrum Groupe",
       "title": "Junior Technical Consultant",
@@ -2388,7 +2388,7 @@
       "isActive": true
     },
     {
-      "id": "spectrumgroupe-senior-technical-consultant-cairo-egypt",
+      "id": "spectrumgroupe-senior-technical-consultant-2",
       "sourceId": "senior-technical-consultant-2",
       "source": "Spectrum Groupe",
       "title": "Senior Technical Consultant",
@@ -2403,7 +2403,7 @@
       "isActive": true
     },
     {
-      "id": "spectrumgroupe-marketing-assistant-office-admin-cairo-egypt",
+      "id": "spectrumgroupe-marketing-assistant-office-admin-3",
       "sourceId": "marketing-assistant-office-admin-3",
       "source": "Spectrum Groupe",
       "title": "Marketing Assistant / Office Admin",
@@ -2418,7 +2418,7 @@
       "isActive": true
     },
     {
-      "id": "spectrumgroupe-technical-delivery-manager-cairo-egypt",
+      "id": "spectrumgroupe-technical-delivery-manager-2",
       "sourceId": "technical-delivery-manager-2",
       "source": "Spectrum Groupe",
       "title": "Technical Delivery Manager",
@@ -2433,7 +2433,7 @@
       "isActive": true
     },
     {
-      "id": "spectrumgroupe-marketing-assistant-office-admin-dubai-uae",
+      "id": "spectrumgroupe-marketing-assistant-office-admin-4",
       "sourceId": "marketing-assistant-office-admin-4",
       "source": "Spectrum Groupe",
       "title": "Marketing Assistant / Office Admin",
@@ -2448,7 +2448,7 @@
       "isActive": true
     },
     {
-      "id": "spectrumgroupe-stages-d-t-graphic-designer-france",
+      "id": "spectrumgroupe-stages-dete-graphic-designer-2",
       "sourceId": "stages-dete-graphic-designer-2",
       "source": "Spectrum Groupe",
       "title": "Stages d-été - Graphic Designer",
@@ -2463,7 +2463,7 @@
       "isActive": true
     },
     {
-      "id": "spectrumgroupe-software-tester-s-france",
+      "id": "spectrumgroupe-software-tester-s",
       "sourceId": "software-tester-s",
       "source": "Spectrum Groupe",
       "title": "Software Tester (s)",
@@ -2478,7 +2478,7 @@
       "isActive": true
     },
     {
-      "id": "spectrumgroupe-administrateur-syst-mes-et-r-seaux-france",
+      "id": "spectrumgroupe-administrateur-systemes-et-reseaux-2",
       "sourceId": "administrateur-systemes-et-reseaux-2",
       "source": "Spectrum Groupe",
       "title": "Administrateur Systèmes et réseaux",
@@ -2493,7 +2493,7 @@
       "isActive": true
     },
     {
-      "id": "spectrumgroupe-consultant-technico-fonctionnel-outils-atlassian-france",
+      "id": "spectrumgroupe-consultant-technico-fonctionnel-outils-atlassian-2",
       "sourceId": "consultant-technico-fonctionnel-outils-atlassian-2",
       "source": "Spectrum Groupe",
       "title": "Consultant technico-fonctionnel outils Atlassian",
@@ -2508,7 +2508,7 @@
       "isActive": true
     },
     {
-      "id": "spectrumgroupe-account-manager-france",
+      "id": "spectrumgroupe-account-manager",
       "sourceId": "account-manager",
       "source": "Spectrum Groupe",
       "title": "Account Manager",
@@ -2523,7 +2523,7 @@
       "isActive": true
     },
     {
-      "id": "spectrumgroupe-product-marketing-manager-france",
+      "id": "spectrumgroupe-product-marketing-manager-3",
       "sourceId": "product-marketing-manager-3",
       "source": "Spectrum Groupe",
       "title": "Product Marketing Manager",
@@ -2538,7 +2538,7 @@
       "isActive": true
     },
     {
-      "id": "spectrumgroupe-software-engineering-manager-france",
+      "id": "spectrumgroupe-software-engineering-manager-2",
       "sourceId": "software-engineering-manager-2",
       "source": "Spectrum Groupe",
       "title": "Software Engineering Manager",
@@ -2553,7 +2553,7 @@
       "isActive": true
     },
     {
-      "id": "spectrumgroupe-technical-consultant-atlassian-tools-france",
+      "id": "spectrumgroupe-technical-consultant-atlassian-tools",
       "sourceId": "technical-consultant-atlassian-tools",
       "source": "Spectrum Groupe",
       "title": "Technical Consultant Atlassian Tools",
@@ -2568,7 +2568,7 @@
       "isActive": true
     },
     {
-      "id": "spectrumgroupe-odoo-developer-france",
+      "id": "spectrumgroupe-odoo-developer",
       "sourceId": "odoo-developer",
       "source": "Spectrum Groupe",
       "title": "Odoo Developer",
@@ -2583,7 +2583,7 @@
       "isActive": true
     },
     {
-      "id": "moduscreate-atlassian-solution-engineer-united-states-of-america-usa",
+      "id": "moduscreate-7685244003",
       "sourceId": "7685244003",
       "source": "Modus Create",
       "title": "Atlassian Solution Engineer",
@@ -2598,7 +2598,7 @@
       "isActive": false
     },
     {
-      "id": "moduscreate-director-partnerships-united-states-of-america-usa",
+      "id": "moduscreate-7581435003",
       "sourceId": "7581435003",
       "source": "Modus Create",
       "title": "Director, Partnerships",
@@ -2613,7 +2613,7 @@
       "isActive": true
     },
     {
-      "id": "moduscreate-experience-design-strategist-united-states-of-america-usa",
+      "id": "moduscreate-7687888003",
       "sourceId": "7687888003",
       "source": "Modus Create",
       "title": "Experience Design Strategist",
@@ -2628,7 +2628,7 @@
       "isActive": true
     },
     {
-      "id": "moduscreate-licensing-lead-atlassian-united-states-of-america-usa",
+      "id": "moduscreate-7674972003",
       "sourceId": "7674972003",
       "source": "Modus Create",
       "title": "Licensing Lead (Atlassian)",
@@ -2643,7 +2643,7 @@
       "isActive": false
     },
     {
-      "id": "moduscreate-licensing-lead-atlassian-latam",
+      "id": "moduscreate-7674500003",
       "sourceId": "7674500003",
       "source": "Modus Create",
       "title": "Licensing Lead (Atlassian)",
@@ -2658,7 +2658,7 @@
       "isActive": false
     },
     {
-      "id": "moduscreate-senior-ai-ml-engineer-united-states-of-america-usa",
+      "id": "moduscreate-7629054003",
       "sourceId": "7629054003",
       "source": "Modus Create",
       "title": "Senior AI/ML Engineer",
@@ -2673,7 +2673,7 @@
       "isActive": true
     },
     {
-      "id": "moduscreate-senior-ai-ml-engineer-latam",
+      "id": "moduscreate-7652509003",
       "sourceId": "7652509003",
       "source": "Modus Create",
       "title": "Senior AI/ML Engineer",
@@ -2688,7 +2688,7 @@
       "isActive": true
     },
     {
-      "id": "moduscreate-senior-ai-ml-engineer-europe",
+      "id": "moduscreate-7641401003",
       "sourceId": "7641401003",
       "source": "Modus Create",
       "title": "Senior AI/ML Engineer",
@@ -2703,7 +2703,7 @@
       "isActive": true
     },
     {
-      "id": "moduscreate-senior-atlassian-consultant-latam",
+      "id": "moduscreate-7660851003",
       "sourceId": "7660851003",
       "source": "Modus Create",
       "title": "Senior Atlassian Consultant ",
@@ -2718,7 +2718,7 @@
       "isActive": true
     },
     {
-      "id": "moduscreate-senior-atlassian-consultant-united-states-of-america-usa",
+      "id": "moduscreate-7662644003",
       "sourceId": "7662644003",
       "source": "Modus Create",
       "title": "Senior Atlassian Consultant ",
@@ -2733,7 +2733,7 @@
       "isActive": true
     },
     {
-      "id": "moduscreate-senior-bazel-engineer-europe",
+      "id": "moduscreate-7675373003",
       "sourceId": "7675373003",
       "source": "Modus Create",
       "title": "Senior Bazel Engineer",
@@ -2748,7 +2748,7 @@
       "isActive": false
     },
     {
-      "id": "moduscreate-senior-customer-data-platform-engineer-snowflake-latam",
+      "id": "moduscreate-7680690003",
       "sourceId": "7680690003",
       "source": "Modus Create",
       "title": "Senior Customer Data Platform Engineer (Snowflake) ",
@@ -2763,7 +2763,7 @@
       "isActive": true
     },
     {
-      "id": "moduscreate-senior-director-data-engineering-machine-learning-united-states-of-america-usa",
+      "id": "moduscreate-7636532003",
       "sourceId": "7636532003",
       "source": "Modus Create",
       "title": "Senior Director - Data Engineering & Machine Learning",
@@ -2778,7 +2778,7 @@
       "isActive": true
     },
     {
-      "id": "moduscreate-senior-human-resources-business-partner-united-states-of-america-usa",
+      "id": "moduscreate-7655854003",
       "sourceId": "7655854003",
       "source": "Modus Create",
       "title": "Senior Human Resources Business Partner",
@@ -2793,7 +2793,7 @@
       "isActive": false
     },
     {
-      "id": "lucidsoftware-accounts-receivable-analyst-raleigh-nc",
+      "id": "lucidsoftware-5832000004",
       "sourceId": "5832000004",
       "source": "Lucid",
       "title": "Accounts Receivable Analyst",
@@ -2808,7 +2808,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-accounts-receivable-analyst-salt-lake-city-ut",
+      "id": "lucidsoftware-5831992004",
       "sourceId": "5831992004",
       "source": "Lucid",
       "title": "Accounts Receivable Analyst",
@@ -2823,7 +2823,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-apac-corporate-new-logo-account-executive-melbourne-victoria-aus",
+      "id": "lucidsoftware-5075811004",
       "sourceId": "5075811004",
       "source": "Lucid",
       "title": "APAC Corporate New Logo Account Executive",
@@ -2838,7 +2838,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-apac-smb-new-logo-account-executive-melbourne-victoria-aus",
+      "id": "lucidsoftware-5486168004",
       "sourceId": "5486168004",
       "source": "Lucid",
       "title": "APAC SMB New Logo Account Executive ",
@@ -2853,7 +2853,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-data-analyst-raleigh-nc",
+      "id": "lucidsoftware-5844984004",
       "sourceId": "5844984004",
       "source": "Lucid",
       "title": "Data Analyst ",
@@ -2868,7 +2868,7 @@
       "isActive": false
     },
     {
-      "id": "lucidsoftware-data-analyst-salt-lake-city-ut",
+      "id": "lucidsoftware-5844982004",
       "sourceId": "5844982004",
       "source": "Lucid",
       "title": "Data Analyst ",
@@ -2883,7 +2883,7 @@
       "isActive": false
     },
     {
-      "id": "lucidsoftware-deal-strategy-analyst-emea-amsterdam-nl",
+      "id": "lucidsoftware-5465796004",
       "sourceId": "5465796004",
       "source": "Lucid",
       "title": "Deal Strategy Analyst, EMEA",
@@ -2898,7 +2898,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-director-of-public-sector-sales-remote-us",
+      "id": "lucidsoftware-5830503004",
       "sourceId": "5830503004",
       "source": "Lucid",
       "title": "Director of Public Sector Sales",
@@ -2913,7 +2913,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-director-of-public-sector-sales-salt-lake-city-ut",
+      "id": "lucidsoftware-5830504004",
       "sourceId": "5830504004",
       "source": "Lucid",
       "title": "Director of Public Sector Sales",
@@ -2928,7 +2928,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-emea-mid-market-expansion-account-executive-amsterdam-nl",
+      "id": "lucidsoftware-5035148004",
       "sourceId": "5035148004",
       "source": "Lucid",
       "title": "EMEA  Mid Market Expansion Account Executive ",
@@ -2943,7 +2943,7 @@
       "isActive": false
     },
     {
-      "id": "lucidsoftware-emea-smb-expansion-account-executive-amsterdam-nl",
+      "id": "lucidsoftware-4938861004",
       "sourceId": "4938861004",
       "source": "Lucid",
       "title": "EMEA SMB Expansion Account Executive",
@@ -2958,7 +2958,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-emea-smb-new-logo-account-executive-amsterdam-nl",
+      "id": "lucidsoftware-4910160004",
       "sourceId": "4910160004",
       "source": "Lucid",
       "title": "EMEA SMB New Logo Account Executive",
@@ -2973,7 +2973,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-general-application-salt-lake-city-ut",
+      "id": "lucidsoftware-5561256004",
       "sourceId": "5561256004",
       "source": "Lucid",
       "title": "General Application",
@@ -2988,7 +2988,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-hris-analyst-raleigh-nc",
+      "id": "lucidsoftware-5820378004",
       "sourceId": "5820378004",
       "source": "Lucid",
       "title": "HRIS Analyst ",
@@ -3003,7 +3003,7 @@
       "isActive": false
     },
     {
-      "id": "lucidsoftware-hris-analyst-salt-lake-city-ut",
+      "id": "lucidsoftware-5820161004",
       "sourceId": "5820161004",
       "source": "Lucid",
       "title": "HRIS Analyst ",
@@ -3018,7 +3018,7 @@
       "isActive": false
     },
     {
-      "id": "lucidsoftware-na-corporate-expansion-sr-account-executive-remote-us",
+      "id": "lucidsoftware-5498211004",
       "sourceId": "5498211004",
       "source": "Lucid",
       "title": "NA Corporate Expansion Sr. Account Executive",
@@ -3033,7 +3033,7 @@
       "isActive": false
     },
     {
-      "id": "lucidsoftware-na-corporate-new-logo-account-executive-salt-lake-city-ut",
+      "id": "lucidsoftware-5476717004",
       "sourceId": "5476717004",
       "source": "Lucid",
       "title": "NA Corporate New Logo Account Executive",
@@ -3048,7 +3048,7 @@
       "isActive": false
     },
     {
-      "id": "lucidsoftware-na-corporate-new-logo-account-executive-remote-us",
+      "id": "lucidsoftware-5825078004",
       "sourceId": "5825078004",
       "source": "Lucid",
       "title": "NA Corporate New Logo Account Executive",
@@ -3063,7 +3063,7 @@
       "isActive": false
     },
     {
-      "id": "lucidsoftware-na-corporate-new-logo-account-executive-raleigh-nc",
+      "id": "lucidsoftware-5822540004",
       "sourceId": "5822540004",
       "source": "Lucid",
       "title": "NA Corporate New Logo Account Executive",
@@ -3078,7 +3078,7 @@
       "isActive": false
     },
     {
-      "id": "lucidsoftware-na-emerging-enterprise-expansion-sr-account-executive-raleigh-nc",
+      "id": "lucidsoftware-5498213004",
       "sourceId": "5498213004",
       "source": "Lucid",
       "title": "NA Emerging Enterprise Expansion Sr. Account Executive",
@@ -3093,7 +3093,7 @@
       "isActive": false
     },
     {
-      "id": "lucidsoftware-na-emerging-enterprise-expansion-sr-account-executive-salt-lake-city-ut",
+      "id": "lucidsoftware-5498210004",
       "sourceId": "5498210004",
       "source": "Lucid",
       "title": "NA Emerging Enterprise Expansion Sr. Account Executive",
@@ -3108,7 +3108,7 @@
       "isActive": false
     },
     {
-      "id": "lucidsoftware-na-emerging-enterprise-new-logo-account-executive-salt-lake-city-ut",
+      "id": "lucidsoftware-5476716004",
       "sourceId": "5476716004",
       "source": "Lucid",
       "title": "NA Emerging Enterprise New Logo Account Executive",
@@ -3123,7 +3123,7 @@
       "isActive": false
     },
     {
-      "id": "lucidsoftware-na-emerging-enterprise-new-logo-account-executive-raleigh-nc",
+      "id": "lucidsoftware-5476719004",
       "sourceId": "5476719004",
       "source": "Lucid",
       "title": "NA Emerging Enterprise New Logo Account Executive",
@@ -3138,7 +3138,7 @@
       "isActive": false
     },
     {
-      "id": "lucidsoftware-na-mid-market-expansion-account-executive-raleigh-nc",
+      "id": "lucidsoftware-5970817004",
       "sourceId": "5970817004",
       "source": "Lucid",
       "title": "NA Mid-Market Expansion Account Executive",
@@ -3153,7 +3153,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-na-mid-market-expansion-account-executive-salt-lake-city-ut",
+      "id": "lucidsoftware-5970814004",
       "sourceId": "5970814004",
       "source": "Lucid",
       "title": "NA Mid-Market Expansion Account Executive",
@@ -3168,7 +3168,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-na-mid-market-new-logo-account-executive-salt-lake-city-ut",
+      "id": "lucidsoftware-5841153004",
       "sourceId": "5841153004",
       "source": "Lucid",
       "title": "NA Mid-Market New Logo Account Executive",
@@ -3183,7 +3183,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-na-mid-market-new-logo-account-executive-raleigh-nc",
+      "id": "lucidsoftware-5841152004",
       "sourceId": "5841152004",
       "source": "Lucid",
       "title": "NA Mid-Market New Logo Account Executive",
@@ -3198,7 +3198,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-na-sales-development-representative-salt-lake-city-ut",
+      "id": "lucidsoftware-5661506004",
       "sourceId": "5661506004",
       "source": "Lucid",
       "title": "NA Sales Development Representative",
@@ -3213,7 +3213,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-na-smb-expansion-account-executive-salt-lake-city-ut",
+      "id": "lucidsoftware-5802789004",
       "sourceId": "5802789004",
       "source": "Lucid",
       "title": "NA SMB Expansion Account Executive ",
@@ -3228,7 +3228,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-na-smb-expansion-account-executive-raleigh-nc",
+      "id": "lucidsoftware-5802792004",
       "sourceId": "5802792004",
       "source": "Lucid",
       "title": "NA SMB Expansion Account Executive ",
@@ -3243,7 +3243,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-na-smb-new-logo-account-executive-salt-lake-city-ut",
+      "id": "lucidsoftware-5817017004",
       "sourceId": "5817017004",
       "source": "Lucid",
       "title": " NA SMB New Logo Account Executive ",
@@ -3258,7 +3258,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-na-smb-new-logo-account-executive-raleigh-nc",
+      "id": "lucidsoftware-5817018004",
       "sourceId": "5817018004",
       "source": "Lucid",
       "title": "NA SMB New Logo Account Executive ",
@@ -3273,7 +3273,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-product-support-specialist-salt-lake-city-ut",
+      "id": "lucidsoftware-5844865004",
       "sourceId": "5844865004",
       "source": "Lucid",
       "title": "Product Support Specialist",
@@ -3288,7 +3288,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-scaled-account-specialist-salt-lake-city-ut",
+      "id": "lucidsoftware-5811256004",
       "sourceId": "5811256004",
       "source": "Lucid",
       "title": "Scaled Account Specialist",
@@ -3303,7 +3303,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-scaled-account-specialist-raleigh-nc",
+      "id": "lucidsoftware-5811260004",
       "sourceId": "5811260004",
       "source": "Lucid",
       "title": "Scaled Account Specialist",
@@ -3318,7 +3318,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-sr-international-digital-marketing-specialist-remote-us",
+      "id": "lucidsoftware-5848334004",
       "sourceId": "5848334004",
       "source": "Lucid",
       "title": "Sr. International Digital Marketing Specialist",
@@ -3333,7 +3333,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-sr-international-digital-marketing-specialist-amsterdam-nl",
+      "id": "lucidsoftware-5848338004",
       "sourceId": "5848338004",
       "source": "Lucid",
       "title": "Sr. International Digital Marketing Specialist",
@@ -3348,7 +3348,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-sr-manager-security-analytics-raleigh-nc",
+      "id": "lucidsoftware-5833481004",
       "sourceId": "5833481004",
       "source": "Lucid",
       "title": "Sr. Manager, Security Analytics",
@@ -3363,7 +3363,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-sr-manager-security-analytics-salt-lake-city-ut",
+      "id": "lucidsoftware-5833472004",
       "sourceId": "5833472004",
       "source": "Lucid",
       "title": "Sr. Manager, Security Analytics",
@@ -3378,7 +3378,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-sr-project-manager-ai-remote-us",
+      "id": "lucidsoftware-5832283004",
       "sourceId": "5832283004",
       "source": "Lucid",
       "title": "Sr. Project Manager, AI ",
@@ -3393,7 +3393,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-ux-designer-salt-lake-city-ut",
+      "id": "lucidsoftware-5812414004",
       "sourceId": "5812414004",
       "source": "Lucid",
       "title": "UX Designer",
@@ -3408,7 +3408,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-ux-designer-raleigh-nc",
+      "id": "lucidsoftware-5817343004",
       "sourceId": "5817343004",
       "source": "Lucid",
       "title": "UX Designer",
@@ -3423,7 +3423,7 @@
       "isActive": true
     },
     {
-      "id": "devoteam-banking-sector-atlassian-administrator-lisboa-lisboa-portugal",
+      "id": "devoteam-744000120992600",
       "sourceId": "744000120992600",
       "source": "Devoteam",
       "title": "Banking Sector | Atlassian Administrator",
@@ -3440,7 +3440,7 @@
       "isActive": true
     },
     {
-      "id": "devoteam-es-qa-con-azure-devops-ingl-s-y-franc-s-remote",
+      "id": "devoteam-744000116417841",
       "sourceId": "744000116417841",
       "source": "Devoteam",
       "title": "ES- QA con Azure DevOps + INGLÉS Y FRANCÉS",
@@ -3457,7 +3457,7 @@
       "isActive": true
     },
     {
-      "id": "cprime-customer-support-specialist-customer-service-representative-csr-cincinatti-oh",
+      "id": "cprime-0ef115b1-a4df-4707-9d52-7e729a15fe35",
       "sourceId": "0ef115b1-a4df-4707-9d52-7e729a15fe35",
       "source": "Cprime",
       "title": "Customer Support Specialist (Customer Service Representative - CSR)",
@@ -3475,7 +3475,7 @@
       "isActive": true
     },
     {
-      "id": "oxalis-director-of-operations-petaluma-ca",
+      "id": "oxalis-director-of-operations",
       "sourceId": "Director-Of-Operations",
       "source": "Oxalis Solutions",
       "title": "Director of Operations",
@@ -3488,7 +3488,7 @@
       "isActive": true
     },
     {
-      "id": "oxalis-prinicipal-consultant-public-sector-san-francisco-ca",
+      "id": "oxalis-principal-consultant",
       "sourceId": "Principal-Consultant",
       "source": "Oxalis Solutions",
       "title": "Prinicipal Consultant, Public Sector",
@@ -3501,7 +3501,7 @@
       "isActive": true
     },
     {
-      "id": "oxalis-senior-consultant-data-architect-sacramento-ca",
+      "id": "oxalis-senior-consultant-data-architect",
       "sourceId": "Senior-Consultant-Data-Architect",
       "source": "Oxalis Solutions",
       "title": "Senior Consultant, Data Architect",
@@ -3514,7 +3514,7 @@
       "isActive": true
     },
     {
-      "id": "oxalis-senior-consultant-atlassian-cloud-migration-specialist-portland-or",
+      "id": "oxalis-sr-solutions-consultant-atlassian-migration-specialist",
       "sourceId": "Sr-Solutions-Consultant-Atlassian-Migration-Specialist",
       "source": "Oxalis Solutions",
       "title": "Senior Consultant, Atlassian Cloud Migration Specialist",
@@ -3527,7 +3527,7 @@
       "isActive": true
     },
     {
-      "id": "nsi-consultant-atlassian-exp-riment-h-f-marseille-fr",
+      "id": "nsi-2549147",
       "sourceId": "2549147",
       "source": "NSI",
       "title": "Consultant Atlassian expérimenté H.F",
@@ -3540,7 +3540,7 @@
       "isActive": true
     },
     {
-      "id": "nsi-business-consultant-atlassian-awans-be",
+      "id": "nsi-2441475",
       "sourceId": "2441475",
       "source": "NSI",
       "title": "Business Consultant Atlassian",
@@ -3553,7 +3553,7 @@
       "isActive": false
     },
     {
-      "id": "nsi-business-consultant-atlassian-exp-riment-fr-an-esch-sur-alzette-lu",
+      "id": "nsi-2330370",
       "sourceId": "2330370",
       "source": "NSI",
       "title": "Business Consultant Atlassian expérimenté – FR/AN",
@@ -3566,7 +3566,7 @@
       "isActive": true
     },
     {
-      "id": "softgile-atlassian-engineer-europe",
+      "id": "softgile-atlassian-engineer",
       "sourceId": "atlassian-engineer",
       "source": "Softgile",
       "title": "Atlassian Engineer",
@@ -3582,7 +3582,7 @@
       "isActive": true
     },
     {
-      "id": "euris-consulente-atlassian-italy",
+      "id": "euris-261911796",
       "sourceId": "261911796",
       "source": "GetConnected / Euris",
       "title": "Consulente Atlassian",
@@ -3595,7 +3595,7 @@
       "isActive": true
     },
     {
-      "id": "ecore-account-manager-tmt-technology-media-telco-brazil",
+      "id": "ecore-bc042a4c-69b2-4140-8783-853193ae5d8f",
       "sourceId": "bc042a4c-69b2-4140-8783-853193ae5d8f",
       "source": "e-core",
       "title": "Account Manager – TMT (Technology, Media & Telco)",
@@ -3610,7 +3610,7 @@
       "isActive": true
     },
     {
-      "id": "ecore-analista-de-marketing-conte-do-brazil",
+      "id": "ecore-a19e2822-ae08-41ec-a245-42b03e1443d5",
       "sourceId": "a19e2822-ae08-41ec-a245-42b03e1443d5",
       "source": "e-core",
       "title": "Analista de Marketing - Conteúdo",
@@ -3625,7 +3625,7 @@
       "isActive": false
     },
     {
-      "id": "ecore-analista-de-suporte-pleno-observabilidade-brazil",
+      "id": "ecore-9d64f9d1-d503-4a04-92d2-234c2ab84de3",
       "sourceId": "9d64f9d1-d503-4a04-92d2-234c2ab84de3",
       "source": "e-core",
       "title": "Analista de Suporte Pleno – Observabilidade",
@@ -3640,7 +3640,7 @@
       "isActive": true
     },
     {
-      "id": "ecore-arquiteto-de-solu-es-azure-aws-brazil",
+      "id": "ecore-a60dc271-3ca4-4683-a652-723d2f97848d",
       "sourceId": "a60dc271-3ca4-4683-a652-723d2f97848d",
       "source": "e-core",
       "title": "Arquiteto de Soluções (Azure & AWS)",
@@ -3655,7 +3655,7 @@
       "isActive": true
     },
     {
-      "id": "ecore-arquiteto-de-solu-es-multi-cloud-pr-vendas-brazil",
+      "id": "ecore-ca794009-b79a-4d0f-b7f5-b802ca031350",
       "sourceId": "ca794009-b79a-4d0f-b7f5-b802ca031350",
       "source": "e-core",
       "title": "Arquiteto de Soluções Multi-Cloud (Pré-Vendas)",
@@ -3670,7 +3670,7 @@
       "isActive": true
     },
     {
-      "id": "ecore-arquiteto-de-solu-es-de-pr-vendas-foco-em-aplica-es-e-moderniza-o-brazil",
+      "id": "ecore-5888f9ae-53ce-4aec-8449-b03a0f4fd33d",
       "sourceId": "5888f9ae-53ce-4aec-8449-b03a0f4fd33d",
       "source": "e-core",
       "title": "Arquiteto de Soluções de Pré-Vendas  (Foco em Aplicações e Modernização)",
@@ -3685,7 +3685,7 @@
       "isActive": true
     },
     {
-      "id": "ecore-business-advisor-brazil",
+      "id": "ecore-e1312a73-467d-4628-8d73-ad3b1c3f92a2",
       "sourceId": "e1312a73-467d-4628-8d73-ad3b1c3f92a2",
       "source": "e-core",
       "title": "Business Advisor",
@@ -3700,7 +3700,7 @@
       "isActive": true
     },
     {
-      "id": "ecore-consultor-atlassian-pleno-brazil",
+      "id": "ecore-d0c7d9bb-2cff-4497-9fff-6eb0c28fb398",
       "sourceId": "d0c7d9bb-2cff-4497-9fff-6eb0c28fb398",
       "source": "e-core",
       "title": "Consultor Atlassian Pleno",
@@ -3715,7 +3715,7 @@
       "isActive": true
     },
     {
-      "id": "ecore-devops-sre-cloud-support-engineer-brazil",
+      "id": "ecore-fa99eade-e649-4d6a-817f-90084f53a2e3",
       "sourceId": "fa99eade-e649-4d6a-817f-90084f53a2e3",
       "source": "e-core",
       "title": "DevOps / SRE – Cloud Support Engineer",
@@ -3730,7 +3730,7 @@
       "isActive": true
     },
     {
-      "id": "ecore-gerente-de-projetos-brazil",
+      "id": "ecore-59357fad-1806-44d3-bc24-8afe3a36e052",
       "sourceId": "59357fad-1806-44d3-bc24-8afe3a36e052",
       "source": "e-core",
       "title": "Gerente de Projetos",
@@ -3745,7 +3745,7 @@
       "isActive": true
     },
     {
-      "id": "ecore-hr-business-partner-senior-brazil",
+      "id": "ecore-9a8363b1-808a-498f-ad04-c88d1f60cf62",
       "sourceId": "9a8363b1-808a-498f-ad04-c88d1f60cf62",
       "source": "e-core",
       "title": "HR Business Partner Senior",
@@ -3760,7 +3760,7 @@
       "isActive": false
     },
     {
-      "id": "ecore-key-account-manager-fsi-financial-services-industry-brazil",
+      "id": "ecore-2b37007b-21ef-4d32-bd73-5dcdd67177e3",
       "sourceId": "2b37007b-21ef-4d32-bd73-5dcdd67177e3",
       "source": "e-core",
       "title": "Key Account Manager - FSI (Financial Services Industry)",
@@ -3775,7 +3775,7 @@
       "isActive": true
     },
     {
-      "id": "ecore-key-account-manager-retail-brazil",
+      "id": "ecore-e8fab56e-cf87-4c38-98d5-73da065a8add",
       "sourceId": "e8fab56e-cf87-4c38-98d5-73da065a8add",
       "source": "e-core",
       "title": "Key Account Manager - Retail",
@@ -3790,7 +3790,7 @@
       "isActive": false
     },
     {
-      "id": "ecore-senior-software-developer-java-brazil",
+      "id": "ecore-c9f323d4-3d81-42e5-aca7-d946bbafe3d8",
       "sourceId": "c9f323d4-3d81-42e5-aca7-d946bbafe3d8",
       "source": "e-core",
       "title": "Senior Software Developer - Java",
@@ -3805,7 +3805,7 @@
       "isActive": false
     },
     {
-      "id": "ecore-support-specialist-microsoft-dynamics-365-f-o-ce-brazil",
+      "id": "ecore-f9f05a98-364c-400c-abc3-5c7521e933cf",
       "sourceId": "f9f05a98-364c-400c-abc3-5c7521e933cf",
       "source": "e-core",
       "title": "Support Specialist - Microsoft Dynamics 365 (F&O / CE)",
@@ -3820,7 +3820,7 @@
       "isActive": true
     },
     {
-      "id": "ecore-talent-acquisition-partner-mid-level-brazil",
+      "id": "ecore-66666371-133f-4309-845c-ca11cbd0af07",
       "sourceId": "66666371-133f-4309-845c-ca11cbd0af07",
       "source": "e-core",
       "title": "Talent Acquisition Partner - Mid-Level",
@@ -3835,7 +3835,7 @@
       "isActive": false
     },
     {
-      "id": "ecore-ux-ui-web-designer-brazil",
+      "id": "ecore-8f98a67f-55ae-4b45-b916-8ff8259ce53d",
       "sourceId": "8f98a67f-55ae-4b45-b916-8ff8259ce53d",
       "source": "e-core",
       "title": "UX/UI & Web Designer",
@@ -3850,7 +3850,7 @@
       "isActive": false
     },
     {
-      "id": "ecore-zendesk-administrator-ai-bot-specialist-brazil",
+      "id": "ecore-e80466ed-51b1-4a32-9256-300eb341cbbb",
       "sourceId": "e80466ed-51b1-4a32-9256-300eb341cbbb",
       "source": "e-core",
       "title": "Zendesk Administrator & AI Bot Specialist",
@@ -3865,7 +3865,7 @@
       "isActive": false
     },
     {
-      "id": "samsara-atlassian-admin-remote-calgary",
+      "id": "samsara-7714152",
       "sourceId": "7714152",
       "source": "Samsara",
       "title": "Atlassian Admin",
@@ -3881,7 +3881,7 @@
       "isActive": false
     },
     {
-      "id": "samsara-atlassian-admin-remote-canada",
+      "id": "samsara-7390971",
       "sourceId": "7390971",
       "source": "Samsara",
       "title": "Atlassian Admin",
@@ -3897,7 +3897,7 @@
       "isActive": false
     },
     {
-      "id": "samsara-atlassian-admin-remote-vancouver",
+      "id": "samsara-7714157",
       "sourceId": "7714157",
       "source": "Samsara",
       "title": "Atlassian Admin",
@@ -3913,7 +3913,7 @@
       "isActive": false
     },
     {
-      "id": "samsara-atlassian-admin-remote-edmonton",
+      "id": "samsara-7714154",
       "sourceId": "7714154",
       "source": "Samsara",
       "title": "Atlassian Admin",
@@ -3928,7 +3928,7 @@
       "isActive": false
     },
     {
-      "id": "devoteam-consultor-atlassian-100-teletrabajo-remote",
+      "id": "devoteam-744000105805806",
       "sourceId": "744000105805806",
       "source": "Devoteam",
       "title": "Consultor Atlassian (100% teletrabajo)",
@@ -3945,7 +3945,7 @@
       "isActive": true
     },
     {
-      "id": "devoteam-atlassian-consultant-jira-confluence-bitbucket-amsterdam-nh-netherlands",
+      "id": "devoteam-744000104650146",
       "sourceId": "744000104650146",
       "source": "Devoteam",
       "title": "Atlassian Consultant (Jira, Confluence, Bitbucket)",
@@ -3963,7 +3963,7 @@
       "isActive": true
     },
     {
-      "id": "devoteam-digital-impulse-solution-architect-atlassian-porto-porto-portugal",
+      "id": "devoteam-744000103353261",
       "sourceId": "744000103353261",
       "source": "Devoteam",
       "title": "Digital Impulse | Solution Architect (Atlassian)",
@@ -3980,7 +3980,7 @@
       "isActive": true
     },
     {
-      "id": "devoteam-digital-impulse-solution-architect-atlassian-lisboa-lisboa-portugal",
+      "id": "devoteam-744000103353175",
       "sourceId": "744000103353175",
       "source": "Devoteam",
       "title": "Digital Impulse | Solution Architect (Atlassian)",
@@ -3997,7 +3997,7 @@
       "isActive": true
     },
     {
-      "id": "devoteam-consultant-atlassian-h-f-levallois-perret-idf-france",
+      "id": "devoteam-744000099359006",
       "sourceId": "744000099359006",
       "source": "Devoteam",
       "title": "Consultant Atlassian H/F",
@@ -4014,7 +4014,7 @@
       "isActive": true
     },
     {
-      "id": "devoteam-consultant-atlassian-h-f-toulouse-occitanie-france",
+      "id": "devoteam-744000099359299",
       "sourceId": "744000099359299",
       "source": "Devoteam",
       "title": "Consultant Atlassian  H/F",
@@ -4031,7 +4031,7 @@
       "isActive": true
     },
     {
-      "id": "devoteam-consultant-e-atlassian-tunis-tunis-tunisia",
+      "id": "devoteam-744000082248095",
       "sourceId": "744000082248095",
       "source": "Devoteam",
       "title": "Consultant.e Atlassian",
@@ -4048,7 +4048,7 @@
       "isActive": true
     },
     {
-      "id": "cprime-customer-support-specialist-cincinatti-oh",
+      "id": "cprime-2ccbfad1-be7e-4627-a10a-a4dcdc212639",
       "sourceId": "2ccbfad1-be7e-4627-a10a-a4dcdc212639",
       "source": "Cprime",
       "title": "Customer Support Specialist",
@@ -4065,7 +4065,7 @@
       "isActive": true
     },
     {
-      "id": "cprime-senior-cloud-engineer-chennai-tamil-nadu",
+      "id": "cprime-444e60d7-32ff-42ff-9746-63958d25bbf6",
       "sourceId": "444e60d7-32ff-42ff-9746-63958d25bbf6",
       "source": "Cprime",
       "title": "Senior Cloud Engineer",
@@ -4083,7 +4083,7 @@
       "isActive": false
     },
     {
-      "id": "cprime-sr-developer-hp-nonstop-tandem-scobol-india",
+      "id": "cprime-de9bfa1c-8884-4a85-9e71-22d9d45a159c",
       "sourceId": "de9bfa1c-8884-4a85-9e71-22d9d45a159c",
       "source": "Cprime",
       "title": "Sr Developer (HP NONSTOP ,TANDEM, SCOBOL)",
@@ -4101,7 +4101,7 @@
       "isActive": true
     },
     {
-      "id": "servicerocket-atlassian-learning-solutions-specialist-remote-au-australia",
+      "id": "servicerocket-5ad4ef9d-9b40-45e8-91ec-a194fa969c62",
       "sourceId": "5ad4ef9d-9b40-45e8-91ec-a194fa969c62",
       "source": "ServiceRocket",
       "title": "Atlassian Learning Solutions Specialist",
@@ -4120,7 +4120,7 @@
       "isActive": true
     },
     {
-      "id": "servicerocket-atlassian-learning-solutions-specialist-metro-manila-philippines",
+      "id": "servicerocket-ef2eb035-76c1-46df-a2d9-e34201759087",
       "sourceId": "ef2eb035-76c1-46df-a2d9-e34201759087",
       "source": "ServiceRocket",
       "title": "Atlassian Learning Solutions Specialist",
@@ -4138,7 +4138,7 @@
       "isActive": true
     },
     {
-      "id": "servicerocket-atlassian-learning-solutions-specialist-kuala-lumpur-malaysia",
+      "id": "servicerocket-f2f9ac4f-ddb7-4bd7-b36a-4911a7c46043",
       "sourceId": "f2f9ac4f-ddb7-4bd7-b36a-4911a7c46043",
       "source": "ServiceRocket",
       "title": "Atlassian Learning Solutions Specialist",
@@ -4156,7 +4156,7 @@
       "isActive": true
     },
     {
-      "id": "valiantys-emea-delivery-excellence-manager-remote-france",
+      "id": "valiantys-1ce8132c-d709-4236-a01b-74577b6cc180",
       "sourceId": "1ce8132c-d709-4236-a01b-74577b6cc180",
       "source": "Valiantys",
       "title": "EMEA Delivery Excellence Manager",
@@ -4175,7 +4175,7 @@
       "isActive": false
     },
     {
-      "id": "valiantys-head-of-industry-sales-north-america-remote-north-america",
+      "id": "valiantys-d864e6b6-69a9-476f-bd8a-0ec11ca83e67",
       "sourceId": "d864e6b6-69a9-476f-bd8a-0ec11ca83e67",
       "source": "Valiantys",
       "title": "Head Of Industry Sales, North America",
@@ -4194,7 +4194,7 @@
       "isActive": false
     },
     {
-      "id": "rewind-account-manager-ontario",
+      "id": "rewind-c512d98b-1ca6-4e13-802e-5aa4b3de12be",
       "sourceId": "c512d98b-1ca6-4e13-802e-5aa4b3de12be",
       "source": "Rewind",
       "title": "Account Manager",
@@ -4211,7 +4211,7 @@
       "isActive": true
     },
     {
-      "id": "appfire-senior-enterprise-apps-partner-atlassian-specialist-india",
+      "id": "appfire-4682011005",
       "sourceId": "4682011005",
       "source": "Appfire",
       "title": "Senior Enterprise Apps Partner - Atlassian Specialist",
@@ -4226,7 +4226,7 @@
       "isActive": false
     },
     {
-      "id": "smartbear-customer-success-manager-atlassian-ahmedabad-gujarat-india",
+      "id": "smartbear-7689107003",
       "sourceId": "7689107003",
       "source": "SmartBear",
       "title": "Customer Success Manager - Atlassian",
@@ -4241,7 +4241,7 @@
       "isActive": true
     },
     {
-      "id": "smartbear-major-account-executive-i-latam-somerville-massachusetts-united-states",
+      "id": "smartbear-7689605003",
       "sourceId": "7689605003",
       "source": "SmartBear",
       "title": "Major Account Executive I - LATAM",
@@ -4256,7 +4256,7 @@
       "isActive": true
     },
     {
-      "id": "smartbear-senior-software-engineer-ai-ahmedabad-gujarat-india",
+      "id": "smartbear-7675316003",
       "sourceId": "7675316003",
       "source": "SmartBear",
       "title": "Senior Software Engineer - AI",
@@ -4271,7 +4271,7 @@
       "isActive": true
     },
     {
-      "id": "moduscreate-experience-design-strategist-costa-rica",
+      "id": "moduscreate-7695181003",
       "sourceId": "7695181003",
       "source": "Modus Create",
       "title": "Experience Design Strategist",
@@ -4286,7 +4286,7 @@
       "isActive": true
     },
     {
-      "id": "moduscreate-product-manager-aha-latam",
+      "id": "moduscreate-7692226003",
       "sourceId": "7692226003",
       "source": "Modus Create",
       "title": "Product Manager (Aha!)",
@@ -4301,7 +4301,7 @@
       "isActive": false
     },
     {
-      "id": "moduscreate-product-manager-aha-united-states-of-america-usa",
+      "id": "moduscreate-7692616003",
       "sourceId": "7692616003",
       "source": "Modus Create",
       "title": "Product Manager (Aha!)",
@@ -4316,7 +4316,7 @@
       "isActive": false
     },
     {
-      "id": "moduscreate-product-manager-aha-europe",
+      "id": "moduscreate-7692615003",
       "sourceId": "7692615003",
       "source": "Modus Create",
       "title": "Product Manager (Aha!)",
@@ -4331,7 +4331,7 @@
       "isActive": false
     },
     {
-      "id": "lucidsoftware-apac-business-development-representative-melbourne-victoria-aus",
+      "id": "lucidsoftware-5076057004",
       "sourceId": "5076057004",
       "source": "Lucid",
       "title": "APAC Business Development Representative",
@@ -4346,7 +4346,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-apac-smb-expansion-account-executive-melbourne-victoria-aus",
+      "id": "lucidsoftware-5710227004",
       "sourceId": "5710227004",
       "source": "Lucid",
       "title": "APAC SMB Expansion Account Executive",
@@ -4361,7 +4361,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-emea-enterprise-expansion-account-executive-remote-uk",
+      "id": "lucidsoftware-5888823004",
       "sourceId": "5888823004",
       "source": "Lucid",
       "title": "EMEA Enterprise Expansion Account Executive ",
@@ -4377,7 +4377,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-senior-enablement-manager-of-new-hire-onboarding-customer-success-salt-lake-city-ut",
+      "id": "lucidsoftware-5916229004",
       "sourceId": "5916229004",
       "source": "Lucid",
       "title": "Senior Enablement Manager of New Hire Onboarding & Customer Success",
@@ -4392,7 +4392,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-sr-payments-manager-salt-lake-city-ut",
+      "id": "lucidsoftware-5837533004",
       "sourceId": "5837533004",
       "source": "Lucid",
       "title": "Sr. Payments Manager",
@@ -4407,7 +4407,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-sr-security-analyst-emea-amsterdam-nl",
+      "id": "lucidsoftware-5803417004",
       "sourceId": "5803417004",
       "source": "Lucid",
       "title": "Sr. Security Analyst, EMEA",
@@ -4422,7 +4422,7 @@
       "isActive": false
     },
     {
-      "id": "career-eficode-com-solution-architect-github-devops-platforms-germany-remote-hybrid",
+      "id": "career-eficode-com-7447693-solution-architect-github-devops-platforms",
       "sourceId": "7447693-solution-architect-github-devops-platforms",
       "source": "Eficode",
       "title": "Solution Architect (GitHub & DevOps Platforms)",
@@ -4439,7 +4439,7 @@
       "isActive": true
     },
     {
-      "id": "isostech-director-shared-consulting-services-tempe-arizona-united-states",
+      "id": "isostech-252",
       "sourceId": "252",
       "source": "Isos Technology",
       "title": "Director, Shared Consulting Services",
@@ -4456,7 +4456,7 @@
       "isActive": true
     },
     {
-      "id": "isostech-partner-manager-tempe-arizona-united-states",
+      "id": "isostech-253",
       "sourceId": "253",
       "source": "Isos Technology",
       "title": "Partner Manager",
@@ -4473,7 +4473,7 @@
       "isActive": false
     },
     {
-      "id": "deviniti-atlassian-consultant-poland",
+      "id": "deviniti-atlassian-consultant",
       "sourceId": "atlassian-consultant",
       "source": "Deviniti",
       "title": "Atlassian Consultant",
@@ -4488,7 +4488,7 @@
       "isActive": true
     },
     {
-      "id": "ecore-analista-de-salesops-brazil",
+      "id": "ecore-70dac8c4-9901-4c5c-a521-5bde673d87cd",
       "sourceId": "70dac8c4-9901-4c5c-a521-5bde673d87cd",
       "source": "e-core",
       "title": "Analista de SalesOps",
@@ -4503,7 +4503,7 @@
       "isActive": false
     },
     {
-      "id": "ecore-support-analyst-ii-brazil",
+      "id": "ecore-643c7500-0c33-4e62-a8f0-a44c00d63b8f",
       "sourceId": "643c7500-0c33-4e62-a8f0-a44c00d63b8f",
       "source": "e-core",
       "title": "Support Analyst II",
@@ -4533,7 +4533,7 @@
       "isActive": true
     },
     {
-      "id": "salto-product-manager-",
+      "id": "salto-product-manager",
       "sourceId": "product-manager",
       "source": "Salto",
       "title": "Product Manager",
@@ -4548,7 +4548,7 @@
       "isActive": true
     },
     {
-      "id": "salto-regional-sales-manager-",
+      "id": "salto-regional-sales-manager-5",
       "sourceId": "regional-sales-manager-5",
       "source": "Salto",
       "title": "Regional Sales Manager",
@@ -4563,7 +4563,7 @@
       "isActive": true
     },
     {
-      "id": "valiantys-delivery-director-remote-switzerland",
+      "id": "valiantys-763b79c8-1097-404a-9f36-3f841f98bb1d",
       "sourceId": "763b79c8-1097-404a-9f36-3f841f98bb1d",
       "source": "Valiantys",
       "title": "Delivery Director",
@@ -4582,7 +4582,7 @@
       "isActive": true
     },
     {
-      "id": "devoteam-senior-consultant-qa-automation-h-f-casablanca-morocco",
+      "id": "devoteam-744000112666958",
       "sourceId": "744000112666958",
       "source": "Devoteam",
       "title": "Senior Consultant QA Automation (H/F)",
@@ -4599,7 +4599,7 @@
       "isActive": true
     },
     {
-      "id": "devoteam-technicien-support-vip-comex-h-f-levallois-perret-idf-france",
+      "id": "devoteam-744000109478485",
       "sourceId": "744000109478485",
       "source": "Devoteam",
       "title": "Technicien Support VIP / COMEX H/F",
@@ -4616,7 +4616,7 @@
       "isActive": true
     },
     {
-      "id": "devoteam-distributed-cloud-presales-engineer-cloud-ai-data-lisboa-lisboa-portugal",
+      "id": "devoteam-744000109281817",
       "sourceId": "744000109281817",
       "source": "Devoteam",
       "title": "Distributed Cloud | Presales Engineer (Cloud, AI & Data)",
@@ -4633,7 +4633,7 @@
       "isActive": true
     },
     {
-      "id": "devoteam-support-digital-workplace-h-f-levallois-perret-idf-france",
+      "id": "devoteam-744000109184521",
       "sourceId": "744000109184521",
       "source": "Devoteam",
       "title": "Support Digital Workplace H/F",
@@ -4650,7 +4650,7 @@
       "isActive": true
     },
     {
-      "id": "devoteam-python-devops-developer-h-f-levallois-perret-idf-france",
+      "id": "devoteam-744000102290325",
       "sourceId": "744000102290325",
       "source": "Devoteam",
       "title": "Python DevOps Developer H/F",
@@ -4667,7 +4667,7 @@
       "isActive": true
     },
     {
-      "id": "devoteam-banking-sector-business-analyst-french-speaker-lisboa-lisboa-portugal",
+      "id": "devoteam-744000100372376",
       "sourceId": "744000100372376",
       "source": "Devoteam",
       "title": "Banking Sector | Business Analyst (French Speaker)",
@@ -4684,7 +4684,7 @@
       "isActive": true
     },
     {
-      "id": "devoteam-banking-sector-business-analyst-french-porto-porto-portugal",
+      "id": "devoteam-744000100373325",
       "sourceId": "744000100373325",
       "source": "Devoteam",
       "title": "Banking Sector | Business Analyst (French)",
@@ -4701,7 +4701,7 @@
       "isActive": true
     },
     {
-      "id": "devoteam-banking-sector-business-analyst-lisboa-lisboa-portugal",
+      "id": "devoteam-744000100371991",
       "sourceId": "744000100371991",
       "source": "Devoteam",
       "title": "Banking Sector | Business Analyst",
@@ -4718,7 +4718,7 @@
       "isActive": true
     },
     {
-      "id": "devoteam-banking-sector-business-analyst-porto-porto-portugal",
+      "id": "devoteam-744000100372845",
       "sourceId": "744000100372845",
       "source": "Devoteam",
       "title": "Banking Sector | Business Analyst",
@@ -4735,7 +4735,7 @@
       "isActive": true
     },
     {
-      "id": "devoteam-incident-manager-h-f-levallois-perret-idf-france",
+      "id": "devoteam-744000070580035",
       "sourceId": "744000070580035",
       "source": "Devoteam",
       "title": "Incident Manager H/F",
@@ -4752,7 +4752,7 @@
       "isActive": true
     },
     {
-      "id": "devoteam-service-delivery-manager-h-f-levallois-perret-idf-france",
+      "id": "devoteam-744000070579025",
       "sourceId": "744000070579025",
       "source": "Devoteam",
       "title": "Service Delivery Manager H/F",
@@ -4769,7 +4769,7 @@
       "isActive": true
     },
     {
-      "id": "devoteam-qa-automation-h-f-exp-riment-applications-mobiles-rabat-rabat-sal-k-nitra-morocco",
+      "id": "devoteam-744000046950099",
       "sourceId": "744000046950099",
       "source": "Devoteam",
       "title": "QA Automation (H/F) Expérimenté applications mobiles",
@@ -4786,7 +4786,7 @@
       "isActive": true
     },
     {
-      "id": "devoteam-chef-fe-de-projet-senior-salesforce-tunis-tunis-tunisia",
+      "id": "devoteam-744000045128008",
       "sourceId": "744000045128008",
       "source": "Devoteam",
       "title": "Chef.fe de Projet Senior Salesforce",
@@ -4803,7 +4803,7 @@
       "isActive": true
     },
     {
-      "id": "devoteam-senior-qa-automation-karat-playwright-remote",
+      "id": "devoteam-744000039583940",
       "sourceId": "744000039583940",
       "source": "Devoteam",
       "title": "Senior QA Automation ( Karaté / Playwright)",
@@ -4820,7 +4820,7 @@
       "isActive": true
     },
     {
-      "id": "devoteam-ing-nieur-syst-me-tunis-tunis-tunisia",
+      "id": "devoteam-744000037672166",
       "sourceId": "744000037672166",
       "source": "Devoteam",
       "title": "Ingénieur Systéme",
@@ -4837,7 +4837,7 @@
       "isActive": true
     },
     {
-      "id": "devoteam-d-veloppeur-full-stack-nestjs-react-tunis-tunis-tunisia",
+      "id": "devoteam-744000036102672",
       "sourceId": "744000036102672",
       "source": "Devoteam",
       "title": "Développeur full stack (NestJS React)",
@@ -4854,7 +4854,7 @@
       "isActive": true
     },
     {
-      "id": "xpandit-sales-administrative-portugal",
+      "id": "xpandit-sales-administrative",
       "sourceId": "sales-administrative",
       "source": "Xpand IT",
       "title": "Sales Administrative",
@@ -4869,7 +4869,7 @@
       "isActive": true
     },
     {
-      "id": "xpandit-learning-development-specialist-portugal",
+      "id": "xpandit-learning-development-specialist",
       "sourceId": "learning-development-specialist",
       "source": "Xpand IT",
       "title": "Learning & Development Specialist",
@@ -4884,7 +4884,7 @@
       "isActive": true
     },
     {
-      "id": "xpandit-senior-software-engineer-portugal",
+      "id": "xpandit-senior-software-engineer",
       "sourceId": "senior-software-engineer",
       "source": "Xpand IT",
       "title": "Senior Software Engineer",
@@ -4899,7 +4899,7 @@
       "isActive": true
     },
     {
-      "id": "xpandit-senior-net-developer-portugal",
+      "id": "xpandit-senior-net-developer",
       "sourceId": "senior-net-developer",
       "source": "Xpand IT",
       "title": "Senior .NET Developer",
@@ -4914,7 +4914,7 @@
       "isActive": true
     },
     {
-      "id": "xpandit-mid-level-software-engineer-portugal",
+      "id": "xpandit-mid-level-software-engineer",
       "sourceId": "mid-level-software-engineer",
       "source": "Xpand IT",
       "title": "Mid-level Software Engineer",
@@ -4929,7 +4929,7 @@
       "isActive": true
     },
     {
-      "id": "xpandit-mid-level-net-developer-portugal",
+      "id": "xpandit-mid-level-net-developer",
       "sourceId": "mid-level-net-developer",
       "source": "Xpand IT",
       "title": "Mid-level .NET Developer",
@@ -4944,7 +4944,7 @@
       "isActive": true
     },
     {
-      "id": "xpandit-junior-software-engineer-portugal",
+      "id": "xpandit-junior-software-engineer",
       "sourceId": "junior-software-engineer",
       "source": "Xpand IT",
       "title": "Junior Software Engineer",
@@ -4959,7 +4959,7 @@
       "isActive": true
     },
     {
-      "id": "xpandit-junior-net-developer-portugal",
+      "id": "xpandit-junior-net-developer",
       "sourceId": "junior-net-developer",
       "source": "Xpand IT",
       "title": "Junior .NET Developer",
@@ -4974,7 +4974,7 @@
       "isActive": true
     },
     {
-      "id": "xpandit-ai-engineer-portugal",
+      "id": "xpandit-ai-engineer",
       "sourceId": "ai-engineer",
       "source": "Xpand IT",
       "title": "AI Engineer",
@@ -4989,7 +4989,7 @@
       "isActive": true
     },
     {
-      "id": "xpandit-junior-ai-engineer-portugal",
+      "id": "xpandit-junior-ai-engineer",
       "sourceId": "junior-ai-engineer",
       "source": "Xpand IT",
       "title": "Junior AI Engineer",
@@ -5004,7 +5004,7 @@
       "isActive": true
     },
     {
-      "id": "cprime-it-applications-integrations-spoc-hyderabad-india",
+      "id": "cprime-0cfe0bc5-8647-41a3-ae19-5d987667afc3",
       "sourceId": "0cfe0bc5-8647-41a3-ae19-5d987667afc3",
       "source": "Cprime",
       "title": "IT Applications & Integrations SPOC",
@@ -5022,7 +5022,7 @@
       "isActive": true
     },
     {
-      "id": "cprime-sales-operations-director-chennai-tamil-nadu",
+      "id": "cprime-7de8bfaa-2a41-4cc2-acef-a320c13f5262",
       "sourceId": "7de8bfaa-2a41-4cc2-acef-a320c13f5262",
       "source": "Cprime",
       "title": "Sales Operations Director",
@@ -5040,7 +5040,7 @@
       "isActive": true
     },
     {
-      "id": "cprime-senior-devops-engineer-budapest",
+      "id": "cprime-8e71ccc5-ce1b-44c7-a05f-ede30367c19e",
       "sourceId": "8e71ccc5-ce1b-44c7-a05f-ede30367c19e",
       "source": "Cprime",
       "title": "Senior DevOps Engineer",
@@ -5058,26 +5058,7 @@
       "isActive": true
     },
     {
-      "id": "valiantys-atlassian-consultant-cloud-practice-remote-france",
-      "sourceId": "5dd0330c-35f4-45b0-8edd-61814fea943b",
-      "source": "Valiantys",
-      "title": "Atlassian Consultant - Cloud Practice",
-      "company": "Valiantys",
-      "location": "Remote, France",
-      "locationNormalised": [
-        "remote",
-        "europe"
-      ],
-      "department": "Delivery Consulting",
-      "type": "Full Time Permanent",
-      "description": "Valiantys transforms how organizations work by delivering expert solutions that increase enterprise and team agility. Valiantys unlocks the full value of Atlassian’s System of Work, helping customers revolutionize product development, streamline enterprise service management (ESM), and accelerate cl",
-      "url": "https://jobs.lever.co/valiantys/5dd0330c-35f4-45b0-8edd-61814fea943b",
-      "firstSeen": "2026-04-20T04:58:26.181Z",
-      "lastSeen": "2026-04-27T05:24:08.742Z",
-      "isActive": true
-    },
-    {
-      "id": "valiantys-atlassian-consultant-f-m-d-remote-germany",
+      "id": "valiantys-b96f90ef-21b7-4ecf-b570-2c29f855642f",
       "sourceId": "b96f90ef-21b7-4ecf-b570-2c29f855642f",
       "source": "Valiantys",
       "title": "Atlassian Consultant (f/m/d)",
@@ -5096,26 +5077,7 @@
       "isActive": true
     },
     {
-      "id": "valiantys-atlassian-lead-consultant-cloud-practice-remote-france",
-      "sourceId": "90ad901f-b392-48c2-b8cc-309c7dc89a84",
-      "source": "Valiantys",
-      "title": "Atlassian Lead Consultant - Cloud Practice",
-      "company": "Valiantys",
-      "location": "Remote, France",
-      "locationNormalised": [
-        "remote",
-        "europe"
-      ],
-      "department": "Delivery Consulting",
-      "type": "Full Time Permanent",
-      "description": "Valiantys transforms how organizations work by delivering expert solutions that increase enterprise and team agility. Valiantys unlocks the full value of Atlassian’s System of Work, helping customers revolutionize product development, streamline enterprise service management (ESM), and accelerate cl",
-      "url": "https://jobs.lever.co/valiantys/90ad901f-b392-48c2-b8cc-309c7dc89a84",
-      "firstSeen": "2026-04-20T04:58:26.181Z",
-      "lastSeen": "2026-04-27T05:24:08.742Z",
-      "isActive": true
-    },
-    {
-      "id": "valiantys-delivery-manager-remote-germany",
+      "id": "valiantys-9a1df4ab-7107-44c7-8c85-066e23a44d41",
       "sourceId": "9a1df4ab-7107-44c7-8c85-066e23a44d41",
       "source": "Valiantys",
       "title": "Delivery Manager",
@@ -5134,43 +5096,7 @@
       "isActive": false
     },
     {
-      "id": "valiantys-enterprise-growth-manager-strategic-sales-remote",
-      "sourceId": "6895566e-4323-49dd-b8e4-cb33e100e730",
-      "source": "Valiantys",
-      "title": "Enterprise Growth Manager - Strategic Sales",
-      "company": "Valiantys",
-      "location": "Remote",
-      "locationNormalised": [
-        "remote"
-      ],
-      "department": "Sales",
-      "type": "Full Time Permanent",
-      "description": "About Valiantys\nValiantys is the leading global consulting and services firm dedicated to Atlassian. We accelerate business transformation by digitizing processes and modernizing teamwork, using the best Agile methods and tools. Our Atlassian technical expertise is unparalleled and we support our cu",
-      "url": "https://jobs.lever.co/valiantys/6895566e-4323-49dd-b8e4-cb33e100e730",
-      "firstSeen": "2026-04-20T04:58:26.181Z",
-      "lastSeen": "2026-04-27T05:24:08.742Z",
-      "isActive": true
-    },
-    {
-      "id": "valiantys-head-of-industry-sales-north-america-remote",
-      "sourceId": "d864e6b6-69a9-476f-bd8a-0ec11ca83e67",
-      "source": "Valiantys",
-      "title": "Head Of Industry Sales, North America",
-      "company": "Valiantys",
-      "location": "Remote",
-      "locationNormalised": [
-        "remote"
-      ],
-      "department": "Sales",
-      "type": "Full Time Permanent",
-      "description": "About Valiantys\nJoin Valiantys and be part of something extraordinary!\nWe're the pioneers in delivering cutting-edge team collaboration and productivity tools. Think of us as the rocket fuel that powers organizations, propelling them to unparalleled heights of success and efficiency!\nValiantys is an",
-      "url": "https://jobs.lever.co/valiantys/d864e6b6-69a9-476f-bd8a-0ec11ca83e67",
-      "firstSeen": "2026-04-20T04:58:26.181Z",
-      "lastSeen": "2026-04-27T05:24:08.742Z",
-      "isActive": true
-    },
-    {
-      "id": "tempo-io-senior-director-brand-corporate-marketing-united-states",
+      "id": "tempo-io-67dfe327-3dcf-4651-88b6-1d48b4b2624d",
       "sourceId": "67dfe327-3dcf-4651-88b6-1d48b4b2624d",
       "source": "Tempo",
       "title": "Senior Director, Brand & Corporate Marketing",
@@ -5187,7 +5113,7 @@
       "isActive": true
     },
     {
-      "id": "tempo-io-senior-product-manager-growth-united-states",
+      "id": "tempo-io-21cdd8e1-9146-4d5e-bc13-fa9d03664f09",
       "sourceId": "21cdd8e1-9146-4d5e-bc13-fa9d03664f09",
       "source": "Tempo",
       "title": "Senior Product Manager, Growth",
@@ -5204,7 +5130,7 @@
       "isActive": true
     },
     {
-      "id": "tempo-io-software-development-manager-canada",
+      "id": "tempo-io-e0447ab1-097d-4348-8f90-ec27ba50057a",
       "sourceId": "e0447ab1-097d-4348-8f90-ec27ba50057a",
       "source": "Tempo",
       "title": "Software Development Manager",
@@ -5221,7 +5147,7 @@
       "isActive": true
     },
     {
-      "id": "tempo-io-vp-product-united-states",
+      "id": "tempo-io-f82c4127-adb4-4495-9e3e-973ba7ab42e4",
       "sourceId": "f82c4127-adb4-4495-9e3e-973ba7ab42e4",
       "source": "Tempo",
       "title": "VP, Product",
@@ -5238,7 +5164,7 @@
       "isActive": true
     },
     {
-      "id": "rewind-enterprise-customer-success-manager-canada-remote",
+      "id": "rewind-dae5f6d5-7ec3-4dc4-8b2e-2494cd7d65b7",
       "sourceId": "dae5f6d5-7ec3-4dc4-8b2e-2494cd7d65b7",
       "source": "Rewind",
       "title": "Enterprise Customer Success Manager",
@@ -5256,7 +5182,7 @@
       "isActive": true
     },
     {
-      "id": "appfire-associate-product-support-engineer-india",
+      "id": "appfire-4663366005",
       "sourceId": "4663366005",
       "source": "Appfire",
       "title": "Associate Product Support Engineer ",
@@ -5271,7 +5197,7 @@
       "isActive": true
     },
     {
-      "id": "appfire-senior-customer-success-manager-bulgaria",
+      "id": "appfire-4684721005",
       "sourceId": "4684721005",
       "source": "Appfire",
       "title": "Senior Customer Success Manager",
@@ -5286,7 +5212,7 @@
       "isActive": true
     },
     {
-      "id": "appfire-senior-customer-success-manager-spain",
+      "id": "appfire-4684717005",
       "sourceId": "4684717005",
       "source": "Appfire",
       "title": "Senior Customer Success Manager",
@@ -5301,7 +5227,7 @@
       "isActive": true
     },
     {
-      "id": "appfire-senior-customer-success-manager-poland",
+      "id": "appfire-4684719005",
       "sourceId": "4684719005",
       "source": "Appfire",
       "title": "Senior Customer Success Manager",
@@ -5316,7 +5242,7 @@
       "isActive": true
     },
     {
-      "id": "appfire-talent-acquisition-partner-3-month-contract-poland",
+      "id": "appfire-4685131005",
       "sourceId": "4685131005",
       "source": "Appfire",
       "title": "Talent Acquisition Partner  - 3 month contract",
@@ -5331,7 +5257,7 @@
       "isActive": false
     },
     {
-      "id": "appfire-talent-acquisition-partner-3-month-contract-bulgaria-spain",
+      "id": "appfire-4684926005",
       "sourceId": "4684926005",
       "source": "Appfire",
       "title": "Talent Acquisition Partner  - 3 month contract",
@@ -5346,7 +5272,7 @@
       "isActive": false
     },
     {
-      "id": "lucidsoftware-campus-talent-specialist-salt-lake-city-ut",
+      "id": "lucidsoftware-5971043004",
       "sourceId": "5971043004",
       "source": "Lucid",
       "title": "Campus Talent Specialist",
@@ -5361,7 +5287,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-emea-enterprise-expansion-account-executive-amsterdam-nl",
+      "id": "lucidsoftware-5969693004",
       "sourceId": "5969693004",
       "source": "Lucid",
       "title": "EMEA Enterprise Expansion Account Executive ",
@@ -5376,7 +5302,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-product-manager-raleigh-nc",
+      "id": "lucidsoftware-5968802004",
       "sourceId": "5968802004",
       "source": "Lucid",
       "title": "Product Manager",
@@ -5391,7 +5317,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-product-manager-salt-lake-city-ut",
+      "id": "lucidsoftware-5968786004",
       "sourceId": "5968786004",
       "source": "Lucid",
       "title": "Product Manager",
@@ -5406,7 +5332,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-sr-customer-success-manager-cloud-raleigh-nc",
+      "id": "lucidsoftware-5972634004",
       "sourceId": "5972634004",
       "source": "Lucid",
       "title": "Sr. Customer Success Manager, Cloud",
@@ -5421,7 +5347,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-sr-customer-success-manager-cloud-salt-lake-city-ut",
+      "id": "lucidsoftware-5972631004",
       "sourceId": "5972631004",
       "source": "Lucid",
       "title": "Sr. Customer Success Manager, Cloud",
@@ -5436,7 +5362,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-technical-account-manger-cloud-salt-lake-city-ut",
+      "id": "lucidsoftware-5972625004",
       "sourceId": "5972625004",
       "source": "Lucid",
       "title": "Technical Account Manger, Cloud",
@@ -5451,7 +5377,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-technical-account-manger-cloud-raleigh-nc",
+      "id": "lucidsoftware-5972626004",
       "sourceId": "5972626004",
       "source": "Lucid",
       "title": "Technical Account Manger, Cloud",
@@ -5466,7 +5392,7 @@
       "isActive": true
     },
     {
-      "id": "career-eficode-com-licensing-specialist-southampton-uk",
+      "id": "career-eficode-com-7565498-licensing-specialist",
       "sourceId": "7565498-licensing-specialist",
       "source": "Eficode",
       "title": "Licensing Specialist",
@@ -5482,7 +5408,7 @@
       "isActive": true
     },
     {
-      "id": "isostech-senior-program-manager-tempe-arizona-united-states",
+      "id": "isostech-254",
       "sourceId": "254",
       "source": "Isos Technology",
       "title": "Senior Program Manager",
@@ -5499,7 +5425,7 @@
       "isActive": true
     },
     {
-      "id": "deviniti-digital-ai-transformation-advisor-poland",
+      "id": "deviniti-digital-ai-transformation-advisor",
       "sourceId": "digital-ai-transformation-advisor",
       "source": "Deviniti",
       "title": "Digital & AI Transformation Advisor",
@@ -5514,7 +5440,7 @@
       "isActive": true
     },
     {
-      "id": "deviniti-senior-it-project-manager-atlassian-poland",
+      "id": "deviniti-senior-it-project-manager-atlassian",
       "sourceId": "senior-it-project-manager-atlassian",
       "source": "Deviniti",
       "title": "Senior IT Project Manager (Atlassian)",
@@ -5529,7 +5455,7 @@
       "isActive": true
     },
     {
-      "id": "idalko-seniorconsultantbe-belgium",
+      "id": "idalko-seniorconsultantbe",
       "sourceId": "seniorconsultantbe",
       "source": "iDalko (Exalate)",
       "title": "Seniorconsultantbe",
@@ -5544,7 +5470,7 @@
       "isActive": true
     },
     {
-      "id": "ecore-powerbi-specialist-brazil",
+      "id": "ecore-ae0e2f83-ffb4-4cbc-a518-2cf8afd8ea98",
       "sourceId": "ae0e2f83-ffb4-4cbc-a518-2cf8afd8ea98",
       "source": "e-core",
       "title": "PowerBI Specialist",
@@ -5559,7 +5485,7 @@
       "isActive": true
     },
     {
-      "id": "decadis-atlassian-cloud-solution-consultant-m-w-d-koblenz",
+      "id": "decadis-jobs-atlassian-cloud-solution-consultant-m-w-d",
       "sourceId": "/jobs/atlassian-cloud-solution-consultant-m-w-d",
       "source": "Decadis",
       "title": "Atlassian Cloud Solution Consultant (m/w/d)",
@@ -5574,7 +5500,7 @@
       "isActive": true
     },
     {
-      "id": "decadis-atlassian-technical-consultant-m-w-d-koblenz",
+      "id": "decadis-jobs-atlassian-technical-consultant-m-w-d",
       "sourceId": "/jobs/atlassian-technical-consultant-m-w-d",
       "source": "Decadis",
       "title": "Atlassian Technical Consultant (m/w/d)",
@@ -5589,7 +5515,7 @@
       "isActive": true
     },
     {
-      "id": "tempo-io-director-product-marketing-united-states",
+      "id": "tempo-io-de7c2ad5-0723-4519-b3be-bb9b78530fa8",
       "sourceId": "de7c2ad5-0723-4519-b3be-bb9b78530fa8",
       "source": "Tempo",
       "title": "Director, Product Marketing",
@@ -5606,7 +5532,7 @@
       "isActive": true
     },
     {
-      "id": "tempo-io-fp-a-product-lead-financial-planning-platform-united-states",
+      "id": "tempo-io-deeabf16-f5e0-404d-a29f-a32fb0ad7ac7",
       "sourceId": "deeabf16-f5e0-404d-a29f-a32fb0ad7ac7",
       "source": "Tempo",
       "title": "FP&A Product Lead, Financial Planning Platform",
@@ -5623,7 +5549,7 @@
       "isActive": true
     },
     {
-      "id": "tempo-io-product-lead-capacity-resource-optimization-united-states",
+      "id": "tempo-io-5e927ff4-19e8-4dd2-b635-456dde5ec1df",
       "sourceId": "5e927ff4-19e8-4dd2-b635-456dde5ec1df",
       "source": "Tempo",
       "title": "Product Lead, Capacity & Resource Optimization",
@@ -5640,7 +5566,7 @@
       "isActive": true
     },
     {
-      "id": "tempo-io-product-manager-competitive-intelligence-marketing-analytics-united-states",
+      "id": "tempo-io-d68c2416-6b22-453f-a149-94f9facc4acf",
       "sourceId": "d68c2416-6b22-453f-a149-94f9facc4acf",
       "source": "Tempo",
       "title": "Product Manager, Competitive Intelligence & Marketing Analytics",
@@ -5657,7 +5583,7 @@
       "isActive": true
     },
     {
-      "id": "tempo-io-qa-analyst-argentina",
+      "id": "tempo-io-c65b12aa-79df-414e-a98f-11c0f9837f92",
       "sourceId": "c65b12aa-79df-414e-a98f-11c0f9837f92",
       "source": "Tempo",
       "title": "QA Analyst ",
@@ -5674,7 +5600,7 @@
       "isActive": true
     },
     {
-      "id": "tempo-io-sales-development-representative-enterprise-united-states",
+      "id": "tempo-io-1ec412de-57ba-4738-8daf-54d50ab0abe3",
       "sourceId": "1ec412de-57ba-4738-8daf-54d50ab0abe3",
       "source": "Tempo",
       "title": "Sales Development Representative, Enterprise",
@@ -5691,7 +5617,7 @@
       "isActive": true
     },
     {
-      "id": "tempo-io-senior-frontend-developer-canada",
+      "id": "tempo-io-41115cce-b31e-46b2-8d22-184cb7233e4c",
       "sourceId": "41115cce-b31e-46b2-8d22-184cb7233e4c",
       "source": "Tempo",
       "title": "Senior Frontend Developer",
@@ -5708,7 +5634,7 @@
       "isActive": true
     },
     {
-      "id": "tempo-io-senior-software-engineer-canada",
+      "id": "tempo-io-a5c3ac09-bc73-4e94-9e24-a8cbd11241f5",
       "sourceId": "a5c3ac09-bc73-4e94-9e24-a8cbd11241f5",
       "source": "Tempo",
       "title": "Senior Software Engineer",
@@ -5725,7 +5651,7 @@
       "isActive": true
     },
     {
-      "id": "tempo-io-software-engineer-structure-canada",
+      "id": "tempo-io-97df5e1b-b438-4def-bf23-d1e237e0f6b4",
       "sourceId": "97df5e1b-b438-4def-bf23-d1e237e0f6b4",
       "source": "Tempo",
       "title": "Software Engineer (Structure)",
@@ -5742,7 +5668,7 @@
       "isActive": true
     },
     {
-      "id": "rewind-senior-tier-2-technical-support-specialist-canada-remote",
+      "id": "rewind-a4620e56-510f-47fd-823c-c88c90435692",
       "sourceId": "a4620e56-510f-47fd-823c-c88c90435692",
       "source": "Rewind",
       "title": "Senior Tier 2 Technical Support Specialist",
@@ -5760,7 +5686,7 @@
       "isActive": true
     },
     {
-      "id": "appfire-lead-software-engineer-bulgaria",
+      "id": "appfire-4637089005",
       "sourceId": "4637089005",
       "source": "Appfire",
       "title": "Lead Software Engineer",
@@ -5775,7 +5701,7 @@
       "isActive": true
     },
     {
-      "id": "appfire-lead-software-engineer-poland",
+      "id": "appfire-4638824005",
       "sourceId": "4638824005",
       "source": "Appfire",
       "title": "Lead Software Engineer",
@@ -5790,52 +5716,7 @@
       "isActive": true
     },
     {
-      "id": "appfire-senior-ai-automation-engineer-india",
-      "sourceId": "4667233005",
-      "source": "Appfire",
-      "title": "Senior AI Automation Engineer",
-      "company": "Appfire",
-      "location": "India",
-      "locationNormalised": [
-        "india"
-      ],
-      "url": "https://job-boards.greenhouse.io/appfire/jobs/4667233005",
-      "firstSeen": "2026-03-04T04:31:58-05:00",
-      "lastSeen": "2026-04-27T05:24:17.347Z",
-      "isActive": true
-    },
-    {
-      "id": "appfire-senior-software-engineer-bulgaria",
-      "sourceId": "4655908005",
-      "source": "Appfire",
-      "title": "Senior Software Engineer ",
-      "company": "Appfire",
-      "location": "Bulgaria",
-      "locationNormalised": [
-        "europe"
-      ],
-      "url": "https://job-boards.greenhouse.io/appfire/jobs/4655908005",
-      "firstSeen": "2026-02-09T15:05:37-05:00",
-      "lastSeen": "2026-04-27T05:24:17.347Z",
-      "isActive": true
-    },
-    {
-      "id": "appfire-senior-software-engineer-spain",
-      "sourceId": "4659508005",
-      "source": "Appfire",
-      "title": "Senior Software Engineer ",
-      "company": "Appfire",
-      "location": "Spain",
-      "locationNormalised": [
-        "europe"
-      ],
-      "url": "https://job-boards.greenhouse.io/appfire/jobs/4659508005",
-      "firstSeen": "2026-02-09T15:14:54-05:00",
-      "lastSeen": "2026-04-27T05:24:17.347Z",
-      "isActive": true
-    },
-    {
-      "id": "appfire-senior-technical-project-manager-poland",
+      "id": "appfire-4688118005",
       "sourceId": "4688118005",
       "source": "Appfire",
       "title": "Senior Technical Project Manager",
@@ -5850,7 +5731,7 @@
       "isActive": true
     },
     {
-      "id": "smartbear-sales-development-representative-somerville-massachusetts-united-states",
+      "id": "smartbear-7698980003",
       "sourceId": "7698980003",
       "source": "SmartBear",
       "title": "Sales Development Representative",
@@ -5865,7 +5746,7 @@
       "isActive": true
     },
     {
-      "id": "moduscreate-back-end-engineer-python-aws-llm-global",
+      "id": "moduscreate-7704434003",
       "sourceId": "7704434003",
       "source": "Modus Create",
       "title": "Back End Engineer (Python,AWS,LLM)",
@@ -5880,22 +5761,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-emea-mid-market-expansion-account-executive-dach-amsterdam-nl",
-      "sourceId": "5035148004",
-      "source": "Lucid",
-      "title": "EMEA  Mid Market Expansion Account Executive (DACH)",
-      "company": "Lucid",
-      "location": "Amsterdam, NL",
-      "locationNormalised": [
-        "europe"
-      ],
-      "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5035148004",
-      "firstSeen": "2023-12-07T10:40:41-05:00",
-      "lastSeen": "2026-04-27T05:24:22.068Z",
-      "isActive": true
-    },
-    {
-      "id": "lucidsoftware-information-security-officer-amsterdam-nl",
+      "id": "lucidsoftware-5980333004",
       "sourceId": "5980333004",
       "source": "Lucid",
       "title": "Information Security Officer",
@@ -5910,22 +5776,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-sr-security-trust-assurance-specialist-amsterdam-nl",
-      "sourceId": "5803417004",
-      "source": "Lucid",
-      "title": "Sr. Security Trust & Assurance Specialist",
-      "company": "Lucid",
-      "location": "Amsterdam, NL",
-      "locationNormalised": [
-        "europe"
-      ],
-      "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5803417004",
-      "firstSeen": "2026-03-09T18:06:50-04:00",
-      "lastSeen": "2026-04-27T05:24:22.068Z",
-      "isActive": true
-    },
-    {
-      "id": "lucidsoftware-sr-technical-project-manager-salt-lake-city-ut",
+      "id": "lucidsoftware-5977136004",
       "sourceId": "5977136004",
       "source": "Lucid",
       "title": "Sr. Technical Project Manager",
@@ -5940,7 +5791,7 @@
       "isActive": true
     },
     {
-      "id": "lucidsoftware-sr-technical-project-manager-raleigh-nc",
+      "id": "lucidsoftware-5977910004",
       "sourceId": "5977910004",
       "source": "Lucid",
       "title": "Sr. Technical Project Manager",
@@ -5955,7 +5806,7 @@
       "isActive": true
     },
     {
-      "id": "devoteam-consultant-product-ops-h-f-marseille-provence-alpes-c-te-d-azur-france",
+      "id": "devoteam-744000121968267",
       "sourceId": "744000121968267",
       "source": "Devoteam",
       "title": "Consultant Product Ops H/F",
@@ -5972,24 +5823,7 @@
       "isActive": true
     },
     {
-      "id": "isostech-technical-consultant-engineer-contingent-upon-award-in-early-june-tempe-arizona-united-states",
-      "sourceId": "251",
-      "source": "Isos Technology",
-      "title": "Technical Consultant (Engineer) - Contingent upon award in early June",
-      "company": "Isos Technology",
-      "location": "Tempe, Arizona, United States",
-      "locationNormalised": [
-        "usa"
-      ],
-      "department": "Services : Shared",
-      "type": "Full-Time",
-      "url": "https://isostech.bamboohr.com/careers/251",
-      "firstSeen": "2026-04-27T05:24:36.840Z",
-      "lastSeen": "2026-04-27T05:24:36.840Z",
-      "isActive": true
-    },
-    {
-      "id": "isostech-functional-consultant-contingent-upon-award-in-early-june-tempe-arizona-united-states",
+      "id": "isostech-255",
       "sourceId": "255",
       "source": "Isos Technology",
       "title": "Functional Consultant (Contingent upon award in early June)",
@@ -6006,7 +5840,7 @@
       "isActive": true
     },
     {
-      "id": "communardo-team-lead-technical-consultant-m-w-d-germany",
+      "id": "communardo-team-lead-technical-consultant-m-w-d",
       "sourceId": "team-lead-technical-consultant-m-w-d",
       "source": "Communardo",
       "title": "Team Lead & Technical Consultant (m/w/d)",
@@ -6021,7 +5855,7 @@
       "isActive": true
     },
     {
-      "id": "deviniti-demand-generation-manager-poland",
+      "id": "deviniti-demand-generation-manager",
       "sourceId": "demand-generation-manager",
       "source": "Deviniti",
       "title": "Demand Generation Manager",
@@ -6036,7 +5870,7 @@
       "isActive": true
     },
     {
-      "id": "deviniti-engineering-manager-poland",
+      "id": "deviniti-engineering-manager",
       "sourceId": "engineering-manager",
       "source": "Deviniti",
       "title": "Engineering Manager",
@@ -6051,7 +5885,7 @@
       "isActive": true
     },
     {
-      "id": "glintech-atlassian-consultant-australia",
+      "id": "glintech-atlassian-consultant",
       "sourceId": "atlassian-consultant",
       "source": "GLINtech",
       "title": "Atlassian Consultant",
@@ -6066,7 +5900,7 @@
       "isActive": true
     },
     {
-      "id": "ecore-it-project-manager-infrastructure-network-brazil",
+      "id": "ecore-2b6bde03-800b-421e-b819-81b9d0510c48",
       "sourceId": "2b6bde03-800b-421e-b819-81b9d0510c48",
       "source": "e-core",
       "title": "IT Project Manager - Infrastructure & Network",
@@ -6079,7 +5913,7 @@
       "isActive": true
     },
     {
-      "id": "ecore-pleno-account-executive-team-licensing-brazil",
+      "id": "ecore-1b2c672c-4814-45d1-a46b-dd882a40c51a",
       "sourceId": "1b2c672c-4814-45d1-a46b-dd882a40c51a",
       "source": "e-core",
       "title": "Pleno Account Executive - Team Licensing",
@@ -6092,7 +5926,7 @@
       "isActive": true
     },
     {
-      "id": "ecore-senior-account-executive-team-licensing-brazil",
+      "id": "ecore-f88194c0-ef6a-4b6f-8a5c-6d4e701f2f9a",
       "sourceId": "f88194c0-ef6a-4b6f-8a5c-6d4e701f2f9a",
       "source": "e-core",
       "title": "Senior Account Executive - Team Licensing",

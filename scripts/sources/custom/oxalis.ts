@@ -1,5 +1,5 @@
 import type { Job } from '../../types.js';
-import { buildJobId, normaliseLocation } from '../../utils/normalise.js';
+import { buildStableJobId, normaliseLocation } from '../../utils/normalise.js';
 
 const CAREERS_URL = 'https://oxalis.io/careers/';
 
@@ -38,7 +38,7 @@ export async function scrapeOxalis(): Promise<Job[]> {
     const location = locationRaw || 'USA';
 
     jobs.push({
-      id: buildJobId('oxalis', title, location),
+      id: buildStableJobId('oxalis', url.split('/').pop() ?? url),
       sourceId: url.split('/').pop() ?? url,
       source: 'Oxalis Solutions',
       title,

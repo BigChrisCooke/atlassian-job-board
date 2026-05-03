@@ -1,5 +1,5 @@
 import type { Job, WorkableSource } from '../../types.js';
-import { buildJobId, normaliseLocation } from '../../utils/normalise.js';
+import { buildStableJobId, normaliseLocation } from '../../utils/normalise.js';
 
 interface WorkableJob {
   shortcode: string;
@@ -39,7 +39,7 @@ export async function scrapeWorkable(source: WorkableSource): Promise<Job[]> {
     const applyUrl = j.url ?? `https://apply.workable.com/${source.slug}/j/${j.shortcode}/`;
 
     return {
-      id: buildJobId(source.slug, j.title, location),
+      id: buildStableJobId(source.slug, j.shortcode),
       sourceId: j.shortcode,
       source: source.name,
       title: j.title,

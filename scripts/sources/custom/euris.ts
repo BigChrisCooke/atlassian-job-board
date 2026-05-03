@@ -1,5 +1,5 @@
 import type { Job } from '../../types.js';
-import { buildJobId } from '../../utils/normalise.js';
+import { buildStableJobId } from '../../utils/normalise.js';
 
 // GetConnected (Italy) and Gruppo Euris share this Altamira ATS portal.
 // We scrape all visible listings and filter for Atlassian-relevant roles.
@@ -33,7 +33,7 @@ export async function scrapeEuris(): Promise<Job[]> {
     seen.add(jobId);
 
     jobs.push({
-      id: buildJobId('euris', title, 'italy'),
+      id: buildStableJobId('euris', jobId),
       sourceId: jobId,
       source: 'GetConnected / Euris',
       title,

@@ -1,5 +1,5 @@
 import type { Job, BambooHRSource } from '../../types.js';
-import { buildJobId, normaliseLocation } from '../../utils/normalise.js';
+import { buildStableJobId, normaliseLocation } from '../../utils/normalise.js';
 
 interface BambooHRJob {
   id: string;
@@ -39,7 +39,7 @@ export async function scrapeBambooHR(source: BambooHRSource): Promise<Job[]> {
         : [loc?.city, loc?.state, loc?.country].filter(Boolean).join(', ');
 
       return {
-        id: buildJobId(source.slug, j.jobOpeningName, location),
+        id: buildStableJobId(source.slug, j.id),
         sourceId: j.id,
         source: source.name,
         title: j.jobOpeningName,

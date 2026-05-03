@@ -1,5 +1,5 @@
 import type { Job } from '../../types.js';
-import { buildJobId, normaliseLocation } from '../../utils/normalise.js';
+import { buildStableJobId, normaliseLocation } from '../../utils/normalise.js';
 
 const LIST_URL = 'https://spectrumgroupe.fr/en/jobs/discover-all-our-offers/';
 
@@ -34,7 +34,7 @@ export async function scrapeSpectrumGroupe(): Promise<Job[]> {
     const title = rawTitle.replace(/\s*[–-]\s*[A-Z][A-Z/ ]+$/, '').trim();
 
     jobs.push({
-      id: buildJobId('spectrumgroupe', title, location),
+      id: buildStableJobId('spectrumgroupe', url.split('/').filter(Boolean).pop() ?? url),
       sourceId: url.split('/').filter(Boolean).pop() ?? url,
       source: 'Spectrum Groupe',
       title,

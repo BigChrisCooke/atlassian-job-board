@@ -1,5 +1,5 @@
 import type { Job } from '../../types.js';
-import { buildJobId, normaliseLocation } from '../../utils/normalise.js';
+import { buildStableJobId, normaliseLocation } from '../../utils/normalise.js';
 
 const LIST_URL = 'https://www.decadis.de/atlassian-solutions/jobs';
 const BASE_URL = 'https://www.decadis.de';
@@ -52,7 +52,7 @@ export async function scrapeDecadis(): Promise<Job[]> {
     const rawLocation = locationMatch ? locationMatch[0] : 'Koblenz, Germany';
 
     jobs.push({
-      id: buildJobId('decadis', title, rawLocation),
+      id: buildStableJobId('decadis', path),
       sourceId: path,
       source: 'Decadis',
       title,

@@ -1,5 +1,5 @@
 import type { Job } from '../../types.js';
-import { buildJobId, normaliseLocation } from '../../utils/normalise.js';
+import { buildStableJobId, normaliseLocation } from '../../utils/normalise.js';
 
 const LIST_URL = 'https://jobs.jobvite.com/contegix/jobs';
 
@@ -27,7 +27,7 @@ export async function scrapeContegix(): Promise<Job[]> {
     seen.add(path);
 
     jobs.push({
-      id: buildJobId('contegix', title, 'usa'),
+      id: buildStableJobId('contegix', path.split('/').pop() ?? path),
       sourceId: path.split('/').pop() ?? path,
       source: 'Contegix',
       title,

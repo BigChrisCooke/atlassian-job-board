@@ -1,5 +1,5 @@
 import type { Job, LeverSource, LeverPosting } from '../../types.js';
-import { buildJobId, normaliseLocation } from '../../utils/normalise.js';
+import { buildStableJobId, normaliseLocation } from '../../utils/normalise.js';
 
 export async function scrapeLeaver(source: LeverSource): Promise<Job[]> {
   const url = `https://api.lever.co/v0/postings/${source.slug}?mode=json`;
@@ -21,7 +21,7 @@ export async function scrapeLeaver(source: LeverSource): Promise<Job[]> {
       '';
 
     return {
-      id: buildJobId(source.slug, p.text, location),
+      id: buildStableJobId(source.slug, p.id),
       sourceId: p.id,
       source: source.name,
       title: p.text,

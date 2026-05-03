@@ -1,5 +1,5 @@
 import type { Job } from '../../types.js';
-import { buildJobId, normaliseLocation } from '../../utils/normalise.js';
+import { buildStableJobId, normaliseLocation } from '../../utils/normalise.js';
 
 const BASE_URL = 'https://mbition.io';
 const LIST_URL = `${BASE_URL}/career/`;
@@ -53,7 +53,7 @@ export async function scrapeMBition(): Promise<Job[]> {
     if (!ATLASSIAN_TITLE_FILTER.test(title) && !ATLASSIAN_TITLE_FILTER.test(slug)) continue;
 
     jobs.push({
-      id: buildJobId('mbition', title, rawLocation),
+      id: buildStableJobId('mbition', slug),
       sourceId: slug,
       source: 'MBition',
       title,

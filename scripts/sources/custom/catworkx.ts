@@ -1,5 +1,5 @@
 import type { Job } from '../../types.js';
-import { buildJobId, decodeEntities, normaliseLocation } from '../../utils/normalise.js';
+import { buildStableJobId, decodeEntities, normaliseLocation } from '../../utils/normalise.js';
 
 const BASE_URL = 'https://www.catworkx.com';
 const LIST_URL = `${BASE_URL}/en/karriere/stellenangebote`;
@@ -46,7 +46,7 @@ export async function scrapeCatworkx(): Promise<Job[]> {
         const location = locMatch ? locMatch[1] : 'Germany';
 
         return {
-          id: buildJobId('catworkx', title, location),
+          id: buildStableJobId('catworkx', slug),
           sourceId: slug,
           source: 'catworkx',
           title: title.replace(/\s+(USA|Germany|Austria|Switzerland|DACH|Europe|Remote)\s*$/i, '').trim(),

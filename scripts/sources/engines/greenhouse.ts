@@ -1,5 +1,5 @@
 import type { Job, GreenhouseSource } from '../../types.js';
-import { buildJobId, normaliseLocation } from '../../utils/normalise.js';
+import { buildStableJobId, normaliseLocation } from '../../utils/normalise.js';
 
 interface GreenhouseJob {
   id: number;
@@ -27,7 +27,7 @@ export async function scrapeGreenhouse(source: GreenhouseSource): Promise<Job[]>
   const now = new Date().toISOString();
 
   return jobs.map((j) => ({
-    id: buildJobId(source.slug, j.title, j.location?.name ?? ''),
+    id: buildStableJobId(source.slug, String(j.id)),
     sourceId: String(j.id),
     source: source.name,
     title: j.title,

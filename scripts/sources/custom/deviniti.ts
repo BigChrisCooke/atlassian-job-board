@@ -1,5 +1,5 @@
 import type { Job } from '../../types.js';
-import { buildJobId, decodeEntities, normaliseLocation } from '../../utils/normalise.js';
+import { buildStableJobId, decodeEntities, normaliseLocation } from '../../utils/normalise.js';
 
 const BASE_URL = 'https://deviniti.com';
 const LIST_URL = `${BASE_URL}/jobs/`;
@@ -40,7 +40,7 @@ export async function scrapeDeviniti(): Promise<Job[]> {
         const title = decodeEntities(titleMatch ? titleMatch[1].trim() : slug.replace(/-/g, ' '));
 
         return {
-          id: buildJobId('deviniti', title, 'poland'),
+          id: buildStableJobId('deviniti', slug),
           sourceId: slug,
           source: 'Deviniti',
           title,

@@ -1,7 +1,11 @@
-export function buildJobId(sourceSlug: string, title: string, location: string): string {
+// Stable-ID dedup key: `<namespace>-<slug(sourceId)>`. Use whichever ID the
+// ATS itself assigns (Greenhouse numeric id, Lever uuid, URL slug for custom
+// pages). When a company renames a role its title-slug would change but the
+// underlying ID does not — preserves firstSeen across renames.
+export function buildStableJobId(namespace: string, sourceId: string): string {
   const slug = (s: string) =>
     s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-  return `${slug(sourceSlug)}-${slug(title)}-${slug(location)}`.slice(0, 120);
+  return `${slug(namespace)}-${slug(sourceId)}`.slice(0, 160);
 }
 
 // Scrapers that read text from HTML attributes (og:title, etc.) get raw entity

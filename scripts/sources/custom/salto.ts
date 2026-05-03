@@ -1,5 +1,5 @@
 import type { Job } from '../../types.js';
-import { buildJobId, normaliseLocation } from '../../utils/normalise.js';
+import { buildStableJobId, normaliseLocation } from '../../utils/normalise.js';
 
 const BASE_URL = 'https://www.salto.io';
 const CAREERS_URL = `${BASE_URL}/careers`;
@@ -41,7 +41,7 @@ export async function scrapeSalto(): Promise<Job[]> {
     const location = locationMatch ? strip(locationMatch[1]) : '';
 
     jobs.push({
-      id: buildJobId('salto', title, location),
+      id: buildStableJobId('salto', slug),
       sourceId: slug,
       source: 'Salto',
       title,

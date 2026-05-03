@@ -1,6 +1,6 @@
 import { chromium } from 'playwright';
 import type { Job } from '../../types.js';
-import { buildJobId, normaliseLocation } from '../../utils/normalise.js';
+import { buildStableJobId, normaliseLocation } from '../../utils/normalise.js';
 
 const CAREERS_URL = 'https://elements-apps.com/careers/';
 const BASE_URL = 'https://elements-apps.com';
@@ -71,7 +71,7 @@ export async function scrapeElements(): Promise<Job[]> {
         return true;
       })
       .map((j) => ({
-        id: buildJobId('elements', j.title, j.location),
+        id: buildStableJobId('elements', j.href.split('/').filter(Boolean).pop() ?? j.href),
         sourceId: j.href.split('/').filter(Boolean).pop() ?? j.href,
         source: 'Elements',
         title: j.title,

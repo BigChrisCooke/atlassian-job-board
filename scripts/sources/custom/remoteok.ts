@@ -1,5 +1,5 @@
 import type { Job } from '../../types.js';
-import { normaliseLocation } from '../../utils/normalise.js';
+import { buildStableJobId, normaliseLocation } from '../../utils/normalise.js';
 
 const API_BASE = 'https://remoteok.com/api';
 const TAGS = ['atlassian', 'jira'];
@@ -44,7 +44,7 @@ export async function scrapeRemoteOK(): Promise<Job[]> {
       seen.add(j.slug);
 
       results.push({
-        id: `remoteok-${j.slug}`,
+        id: buildStableJobId('remoteok', j.slug),
         sourceId: j.slug,
         source: 'Remote OK',
         title: j.position,

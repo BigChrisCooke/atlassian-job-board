@@ -1,6 +1,6 @@
 import { chromium } from 'playwright';
 import type { Job } from '../../types.js';
-import { buildJobId, normaliseLocation } from '../../utils/normalise.js';
+import { buildStableJobId, normaliseLocation } from '../../utils/normalise.js';
 
 // The English careers page is blocked by Cloudflare WAF, but the
 // Portuguese opportunities page loads fine and lists all jobs.
@@ -86,7 +86,7 @@ export async function scrapeXpandIt(): Promise<Job[]> {
         .join(' ');
 
       return {
-        id: buildJobId('xpandit', title, 'Portugal'),
+        id: buildStableJobId('xpandit', j.href.split('/').filter(Boolean).pop() ?? j.href),
         sourceId: j.href.split('/').filter(Boolean).pop() ?? j.href,
         source: 'Xpand IT',
         title,

@@ -1,5 +1,5 @@
 import type { Job } from '../../types.js';
-import { buildJobId, normaliseLocation } from '../../utils/normalise.js';
+import { buildStableJobId, normaliseLocation } from '../../utils/normalise.js';
 
 const LIST_URL = 'https://idalko.com/job-list';
 
@@ -36,7 +36,7 @@ export async function scrapeIdalko(): Promise<Job[]> {
       .replace(/\bTech\b/, 'Technical');
 
     return {
-      id: buildJobId('idalko', title, 'belgium'),
+      id: buildStableJobId('idalko', slug),
       sourceId: slug,
       source: 'iDalko (Exalate)',
       title,

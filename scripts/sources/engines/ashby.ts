@@ -1,6 +1,6 @@
 import { chromium } from 'playwright';
 import type { Job, AshbySource, AshbyPosting } from '../../types.js';
-import { buildJobId, normaliseLocation } from '../../utils/normalise.js';
+import { buildStableJobId, normaliseLocation } from '../../utils/normalise.js';
 
 export async function scrapeAshby(source: AshbySource): Promise<Job[]> {
   const browser = await chromium.launch({ headless: true });
@@ -47,7 +47,7 @@ export async function scrapeAshby(source: AshbySource): Promise<Job[]> {
     const now = new Date().toISOString();
 
     return postings.map((p) => ({
-      id: buildJobId(source.slug, p.title, p.locationName ?? ''),
+      id: buildStableJobId(source.slug, p.id),
       sourceId: p.id,
       source: source.name,
       title: p.title,

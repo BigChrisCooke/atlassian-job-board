@@ -1,5 +1,5 @@
 import type { Job } from '../../types.js';
-import { buildJobId, normaliseLocation } from '../../utils/normalise.js';
+import { buildStableJobId, normaliseLocation } from '../../utils/normalise.js';
 
 const BASE_URL = 'https://www.communardo.de';
 const LIST_URL = `${BASE_URL}/karriere/?limit=all`;
@@ -34,7 +34,7 @@ export async function scrapeCommunardo(): Promise<Job[]> {
     const slug = path.split('/').filter(Boolean).pop() ?? path;
 
     jobs.push({
-      id: buildJobId('communardo', title, 'germany'),
+      id: buildStableJobId('communardo', slug),
       sourceId: slug,
       source: 'Communardo',
       title,

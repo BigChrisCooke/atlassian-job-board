@@ -1,5 +1,5 @@
 import type { Job, SmartRecruitersSource, SmartRecruitersQuery } from '../../types.js';
-import { buildJobId, normaliseLocation } from '../../utils/normalise.js';
+import { buildStableJobId, normaliseLocation } from '../../utils/normalise.js';
 
 interface SRPosting {
   id: string;
@@ -42,7 +42,7 @@ export async function scrapeSmartRecruiters(source: SmartRecruitersSource): Prom
       : p.location?.fullLocation ?? p.location?.city ?? '';
 
     return {
-      id: buildJobId(source.companyId, p.name, location),
+      id: buildStableJobId(source.companyId, p.id),
       sourceId: p.id,
       source: source.name,
       title: p.name,

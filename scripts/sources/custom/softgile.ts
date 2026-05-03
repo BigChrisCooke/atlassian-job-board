@@ -1,5 +1,5 @@
 import type { Job } from '../../types.js';
-import { buildJobId } from '../../utils/normalise.js';
+import { buildStableJobId } from '../../utils/normalise.js';
 
 const VACANCIES_URL = 'https://softgile.com/en/vakansiyi/';
 
@@ -25,9 +25,12 @@ export async function scrapeSoftgile(): Promise<Job[]> {
     if (!title || seen.has(title)) continue;
     seen.add(title);
 
+    // Softgile's accordion has no per-job IDs/URLs, so the title-derived
+    // sourceId is the most stable identifier we can extract here.
+    const titleSlug = title.toLowerCase().replace(/[^a-z0-9]+/g, '-');
     jobs.push({
-      id: buildJobId('softgile', title, 'europe'),
-      sourceId: title.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
+      id: buildStableJobId('softgile', titleSlug),
+      sourceId: titleSlug,
       source: 'Softgile',
       title,
       company: 'Softgile',

@@ -1,5 +1,5 @@
 import type { Job, TeamtailorSource } from '../../types.js';
-import { buildJobId, decodeEntities, normaliseLocation } from '../../utils/normalise.js';
+import { buildStableJobId, decodeEntities, normaliseLocation } from '../../utils/normalise.js';
 
 export async function scrapeTeamtailor(source: TeamtailorSource): Promise<Job[]> {
   const rssUrl = `${source.baseUrl}/jobs.rss`;
@@ -30,7 +30,7 @@ export async function scrapeTeamtailor(source: TeamtailorSource): Promise<Job[]>
     const jobSlug = link.split('/').pop() ?? link;
 
     return {
-      id: buildJobId(new URL(source.baseUrl).hostname, title, location),
+      id: buildStableJobId(new URL(source.baseUrl).hostname, jobSlug),
       sourceId: jobSlug,
       source: source.name,
       title,

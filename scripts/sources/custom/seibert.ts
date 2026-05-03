@@ -1,5 +1,5 @@
 import type { Job } from '../../types.js';
-import { buildJobId, normaliseLocation } from '../../utils/normalise.js';
+import { buildStableJobId, normaliseLocation } from '../../utils/normalise.js';
 
 const BASE_URL = 'https://seibert.group';
 const LIST_URL = `${BASE_URL}/offene-stellen/`;
@@ -30,7 +30,7 @@ export async function scrapeSeibert(): Promise<Job[]> {
     const slug = url.split('/').filter(Boolean).pop() ?? url;
 
     jobs.push({
-      id: buildJobId('seibert', title, 'germany'),
+      id: buildStableJobId('seibert', slug),
       sourceId: slug,
       source: 'Seibert Group',
       title,

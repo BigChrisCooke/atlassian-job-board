@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-01T19:34:14.576Z",
-  "durationMs": 7170,
+  "generatedAt": "2026-05-03T14:20:54.628Z",
+  "durationMs": 7412,
   "totalFresh": 2,
-  "totalActive": 307,
+  "totalActive": 297,
   "prevTotalActive": 307,
   "sources": [
     {
@@ -10,7 +10,7 @@
       "group": "Greenhouse",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 918,
+      "durationMs": 898,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -19,7 +19,7 @@
       "group": "SmartRecruiters",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 832,
+      "durationMs": 882,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -28,7 +28,7 @@
       "group": "Personio",
       "count": 2,
       "prevCount": 2,
-      "durationMs": 882,
+      "durationMs": 1102,
       "status": "ok",
       "consecutiveFailures": 0
     }

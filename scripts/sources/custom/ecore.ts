@@ -1,5 +1,5 @@
 import type { Job } from '../../types.js';
-import { buildJobId } from '../../utils/normalise.js';
+import { buildStableJobId } from '../../utils/normalise.js';
 
 // InHire public API — no Playwright needed
 const API_URL = 'https://api.inhire.app/job-posts/public/pages';
@@ -33,7 +33,7 @@ export async function scrapeEcore(): Promise<Job[]> {
   return jobs
     .filter((j) => j.jobId && j.displayName)
     .map((j) => ({
-      id: buildJobId('ecore', j.displayName, 'brazil'),
+      id: buildStableJobId('ecore', j.jobId),
       sourceId: j.jobId,
       source: 'e-core',
       title: j.displayName,

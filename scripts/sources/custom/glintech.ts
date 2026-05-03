@@ -1,5 +1,5 @@
 import type { Job } from '../../types.js';
-import { buildJobId, normaliseLocation } from '../../utils/normalise.js';
+import { buildStableJobId, normaliseLocation } from '../../utils/normalise.js';
 
 const BASE_URL = 'https://www.glintech.com';
 const LIST_URL = `${BASE_URL}/about/careers/`;
@@ -42,7 +42,7 @@ export async function scrapeGlintech(): Promise<Job[]> {
         const title = rawTitle.replace(/\s+at\s+GLi?NTECH.*$/i, '').trim();
 
         return {
-          id: buildJobId('glintech', title, 'australia'),
+          id: buildStableJobId('glintech', slug),
           sourceId: slug,
           source: 'GLINtech',
           title,

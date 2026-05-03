@@ -1,5 +1,5 @@
 import type { Job, PersonioSource } from '../../types.js';
-import { buildJobId, normaliseLocation } from '../../utils/normalise.js';
+import { buildStableJobId, normaliseLocation } from '../../utils/normalise.js';
 
 export async function scrapePersonio(source: PersonioSource): Promise<Job[]> {
   // Personio tenants are reachable on either .com or .de — German customers
@@ -37,7 +37,7 @@ export async function scrapePersonio(source: PersonioSource): Promise<Job[]> {
       const createdAt = block.match(/<createdAt>([^<]+)<\/createdAt>/)?.[1] ?? now;
 
       return {
-        id: buildJobId(source.slug, title, office),
+        id: buildStableJobId(source.slug, id),
         sourceId: id,
         source: source.name,
         title,
