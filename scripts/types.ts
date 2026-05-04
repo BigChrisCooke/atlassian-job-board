@@ -57,6 +57,7 @@ export interface SmartRecruitersSource {
 export interface TeamtailorSource {
   baseUrl: string;
   name: string;
+  titleFilter?: RegExp;
 }
 
 export interface BambooHRSource {

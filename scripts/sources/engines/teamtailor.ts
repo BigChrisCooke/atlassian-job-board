@@ -15,11 +15,12 @@ export async function scrapeTeamtailor(source: TeamtailorSource): Promise<Job[]>
   // Extract <item> blocks
   const items = xml.match(/<item>[\s\S]*?<\/item>/g) ?? [];
 
-  return items.map((item) => {
+  return items.flatMap((item) => {
     const rawTitle = item.match(/<title><!\[CDATA\[(.*?)\]\]><\/title>/)?.[1]
       ?? item.match(/<title>(.*?)<\/title>/)?.[1]
       ?? '';
     const title = decodeEntities(rawTitle);
+    if (source.titleFilter && !source.titleFilter.test(title)) return [];
     const link = item.match(/<link>(.*?)<\/link>/)?.[1] ?? '';
     const city = item.match(/<tt:city>(.*?)<\/tt:city>/)?.[1] ?? '';
     const country = item.match(/<tt:country>(.*?)<\/tt:country>/)?.[1] ?? '';
@@ -29,7 +30,7 @@ export async function scrapeTeamtailor(source: TeamtailorSource): Promise<Job[]>
     const location = locationName || (city && country ? `${city}, ${country}` : city || country || '');
     const jobSlug = link.split('/').pop() ?? link;
 
-    return {
+    return [{
       id: buildStableJobId(new URL(source.baseUrl).hostname, jobSlug),
       sourceId: jobSlug,
       source: source.name,
@@ -42,6 +43,6 @@ export async function scrapeTeamtailor(source: TeamtailorSource): Promise<Job[]>
       firstSeen: now,
       lastSeen: now,
       isActive: true,
-    };
+    }];
   });
 }
