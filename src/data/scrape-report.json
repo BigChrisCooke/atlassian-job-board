@@ -1,16 +1,120 @@
 {
-  "generatedAt": "2026-05-03T14:20:54.628Z",
-  "durationMs": 7412,
-  "totalFresh": 2,
-  "totalActive": 297,
-  "prevTotalActive": 307,
+  "generatedAt": "2026-05-04T05:37:53.706Z",
+  "durationMs": 160713,
+  "totalFresh": 283,
+  "totalActive": 283,
+  "prevTotalActive": 297,
   "sources": [
+    {
+      "name": "Cprime",
+      "group": "Lever",
+      "count": 18,
+      "durationMs": 1211,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "ServiceRocket",
+      "group": "Lever",
+      "count": 8,
+      "durationMs": 533,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Valiantys",
+      "group": "Lever",
+      "count": 13,
+      "durationMs": 439,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Easy Agile",
+      "group": "Lever",
+      "count": 0,
+      "durationMs": 105,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Tempo",
+      "group": "Ashby",
+      "count": 26,
+      "durationMs": 1510,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Rewind",
+      "group": "Ashby",
+      "count": 3,
+      "durationMs": 283,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Appfire",
+      "group": "Greenhouse",
+      "count": 22,
+      "durationMs": 267,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "SmartBear",
+      "group": "Greenhouse",
+      "count": 22,
+      "durationMs": 36,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Modus Create",
+      "group": "Greenhouse",
+      "count": 9,
+      "durationMs": 29,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Lucid",
+      "group": "Greenhouse",
+      "count": 38,
+      "durationMs": 35,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Samsara",
+      "group": "Greenhouse",
+      "count": 0,
+      "durationMs": 35,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
     {
       "name": "Kalles Group",
       "group": "Greenhouse",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 898,
+      "durationMs": 32,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Adaptavist",
+      "group": "SmartRecruiters",
+      "count": 6,
+      "durationMs": 538,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Devoteam",
+      "group": "SmartRecruiters",
+      "count": 24,
+      "durationMs": 2829,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -19,7 +123,23 @@
       "group": "SmartRecruiters",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 882,
+      "durationMs": 2246,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Eficode",
+      "group": "Teamtailor",
+      "count": 7,
+      "durationMs": 440,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Refined",
+      "group": "Teamtailor",
+      "count": 0,
+      "durationMs": 161,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -28,7 +148,199 @@
       "group": "Personio",
       "count": 2,
       "prevCount": 2,
-      "durationMs": 1102,
+      "durationMs": 983,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Isos Technology",
+      "group": "BambooHR",
+      "count": 4,
+      "durationMs": 366,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Nimaworks",
+      "group": "Workable",
+      "count": 0,
+      "durationMs": 166,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Praecipio",
+      "group": "Workable",
+      "count": 0,
+      "durationMs": 39,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Cententia",
+      "group": "Workable",
+      "count": 0,
+      "durationMs": 50,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Mastek",
+      "group": "Workable",
+      "count": 0,
+      "durationMs": 51,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Communardo",
+      "group": "Custom",
+      "count": 10,
+      "durationMs": 680,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Seibert Group",
+      "group": "Custom",
+      "count": 2,
+      "durationMs": 652,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Deviniti",
+      "group": "Custom",
+      "count": 10,
+      "durationMs": 1630,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "GLINtech",
+      "group": "Custom",
+      "count": 1,
+      "durationMs": 984,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "iDalko",
+      "group": "Custom",
+      "count": 4,
+      "durationMs": 141,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "catworkx",
+      "group": "Custom",
+      "count": 3,
+      "durationMs": 1313,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Contegix",
+      "group": "Custom",
+      "count": 0,
+      "durationMs": 256,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Spectrum Groupe",
+      "group": "Custom",
+      "count": 14,
+      "durationMs": 1587,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Oxalis Solutions",
+      "group": "Custom",
+      "count": 3,
+      "durationMs": 542,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "NSI",
+      "group": "Custom",
+      "count": 2,
+      "durationMs": 522,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Softgile",
+      "group": "Custom",
+      "count": 1,
+      "durationMs": 1824,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Euris",
+      "group": "Custom",
+      "count": 1,
+      "durationMs": 1197,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "e-core",
+      "group": "Custom",
+      "count": 15,
+      "durationMs": 502,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Remote OK",
+      "group": "Custom",
+      "count": 1,
+      "durationMs": 804,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Salto",
+      "group": "Custom",
+      "count": 2,
+      "durationMs": 267,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Xpand IT",
+      "group": "Custom",
+      "count": 10,
+      "durationMs": 68382,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Elements",
+      "group": "Custom",
+      "count": 0,
+      "durationMs": 1492,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Decadis",
+      "group": "Custom",
+      "count": 2,
+      "durationMs": 1359,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "MBition",
+      "group": "Custom",
+      "count": 0,
+      "durationMs": 1147,
       "status": "ok",
       "consecutiveFailures": 0
     }
