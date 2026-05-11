@@ -1,15 +1,152 @@
 {
-  "generatedAt": "2026-05-04T12:24:59.590Z",
-  "durationMs": 6233,
-  "totalFresh": 1,
-  "totalActive": 298,
-  "prevTotalActive": 297,
+  "generatedAt": "2026-05-11T06:01:55.107Z",
+  "durationMs": 162582,
+  "totalFresh": 282,
+  "totalActive": 282,
+  "prevTotalActive": 298,
   "sources": [
+    {
+      "name": "Cprime",
+      "group": "Lever",
+      "count": 13,
+      "durationMs": 752,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "ServiceRocket",
+      "group": "Lever",
+      "count": 9,
+      "durationMs": 405,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Valiantys",
+      "group": "Lever",
+      "count": 13,
+      "durationMs": 466,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Easy Agile",
+      "group": "Lever",
+      "count": 0,
+      "durationMs": 87,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Tempo",
+      "group": "Ashby",
+      "count": 25,
+      "durationMs": 502,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Rewind",
+      "group": "Ashby",
+      "count": 3,
+      "durationMs": 297,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Appfire",
+      "group": "Greenhouse",
+      "count": 30,
+      "durationMs": 139,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "SmartBear",
+      "group": "Greenhouse",
+      "count": 23,
+      "durationMs": 47,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Modus Create",
+      "group": "Greenhouse",
+      "count": 13,
+      "durationMs": 43,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Lucid",
+      "group": "Greenhouse",
+      "count": 34,
+      "durationMs": 46,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Samsara",
+      "group": "Greenhouse",
+      "count": 0,
+      "durationMs": 93,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Kalles Group",
+      "group": "Greenhouse",
+      "count": 0,
+      "durationMs": 43,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Adaptavist",
+      "group": "SmartRecruiters",
+      "count": 3,
+      "durationMs": 473,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Devoteam",
+      "group": "SmartRecruiters",
+      "count": 23,
+      "durationMs": 1184,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Axians",
+      "group": "SmartRecruiters",
+      "count": 0,
+      "durationMs": 1074,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Eficode",
+      "group": "Teamtailor",
+      "count": 9,
+      "durationMs": 375,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Refined",
+      "group": "Teamtailor",
+      "count": 0,
+      "durationMs": 283,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
     {
       "name": "knowmad mood",
       "group": "Teamtailor",
       "count": 0,
-      "durationMs": 1736,
+      "prevCount": 0,
+      "durationMs": 1327,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -17,11 +154,222 @@
       "name": "Directio",
       "group": "Teamtailor",
       "count": 1,
-      "durationMs": 1472,
+      "prevCount": 1,
+      "durationMs": 1064,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "K15t",
+      "group": "Personio",
+      "count": 2,
+      "durationMs": 938,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Isos Technology",
+      "group": "BambooHR",
+      "count": 4,
+      "durationMs": 358,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Nimaworks",
+      "group": "Workable",
+      "count": 0,
+      "durationMs": 176,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Praecipio",
+      "group": "Workable",
+      "count": 0,
+      "durationMs": 58,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Cententia",
+      "group": "Workable",
+      "count": 0,
+      "durationMs": 61,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Mastek",
+      "group": "Workable",
+      "count": 0,
+      "durationMs": 55,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Communardo",
+      "group": "Custom",
+      "count": 10,
+      "durationMs": 781,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Seibert Group",
+      "group": "Custom",
+      "count": 2,
+      "durationMs": 762,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Deviniti",
+      "group": "Custom",
+      "count": 11,
+      "durationMs": 1731,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "GLINtech",
+      "group": "Custom",
+      "count": 1,
+      "durationMs": 507,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "iDalko",
+      "group": "Custom",
+      "count": 4,
+      "durationMs": 197,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "catworkx",
+      "group": "Custom",
+      "count": 3,
+      "durationMs": 1408,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Contegix",
+      "group": "Custom",
+      "count": 0,
+      "durationMs": 147,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Spectrum Groupe",
+      "group": "Custom",
+      "count": 14,
+      "durationMs": 1860,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Oxalis Solutions",
+      "group": "Custom",
+      "count": 0,
+      "durationMs": 459,
+      "status": "failed",
+      "error": "Oxalis: HTTP 404",
+      "consecutiveFailures": 1
+    },
+    {
+      "name": "NSI",
+      "group": "Custom",
+      "count": 2,
+      "durationMs": 501,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Softgile",
+      "group": "Custom",
+      "count": 1,
+      "durationMs": 1774,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Euris",
+      "group": "Custom",
+      "count": 1,
+      "durationMs": 1970,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "e-core",
+      "group": "Custom",
+      "count": 13,
+      "durationMs": 526,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Remote OK",
+      "group": "Custom",
+      "count": 1,
+      "durationMs": 887,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Salto",
+      "group": "Custom",
+      "count": 2,
+      "durationMs": 221,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Xpand IT",
+      "group": "Custom",
+      "count": 10,
+      "durationMs": 68308,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Elements",
+      "group": "Custom",
+      "count": 0,
+      "durationMs": 2628,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Decadis",
+      "group": "Custom",
+      "count": 2,
+      "durationMs": 433,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "MBition",
+      "group": "Custom",
+      "count": 0,
+      "durationMs": 1090,
       "status": "ok",
       "consecutiveFailures": 0
     }
   ],
-  "anomalies": [],
+  "anomalies": [
+    {
+      "source": "Oxalis Solutions",
+      "kind": "failed",
+      "message": "Oxalis Solutions threw an error during scraping (1 consecutive failure).",
+      "count": 0,
+      "error": "Oxalis: HTTP 404",
+      "synthesis": "Based on the HTTP 404 error, it seems that the scraper encountered a page that no longer exists or is currently unavailable, which suggests a scraper failure rather than a genuine change at Oxalis Solutions. Without additional context, it's unclear if they are still hiring for Atlassian-related roles. The next step should be to verify the URL being scraped to ensure it is correct and active."
+    }
+  ],
   "duplicateIds": []
 }
