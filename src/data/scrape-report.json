@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-05-18T06:17:21.781Z",
-  "durationMs": 165468,
-  "totalFresh": 277,
-  "totalActive": 277,
-  "prevTotalActive": 282,
+  "generatedAt": "2026-05-25T06:30:30.335Z",
+  "durationMs": 160597,
+  "totalFresh": 275,
+  "totalActive": 275,
+  "prevTotalActive": 277,
   "sources": [
     {
       "name": "Cprime",
       "group": "Lever",
-      "count": 14,
-      "prevCount": 13,
-      "durationMs": 263,
+      "count": 12,
+      "prevCount": 14,
+      "durationMs": 678,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -19,16 +19,16 @@
       "group": "Lever",
       "count": 9,
       "prevCount": 9,
-      "durationMs": 177,
+      "durationMs": 498,
       "status": "ok",
       "consecutiveFailures": 0
     },
     {
       "name": "Valiantys",
       "group": "Lever",
-      "count": 12,
-      "prevCount": 13,
-      "durationMs": 243,
+      "count": 14,
+      "prevCount": 12,
+      "durationMs": 653,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -37,61 +37,61 @@
       "group": "Lever",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 41,
+      "durationMs": 115,
       "status": "ok",
       "consecutiveFailures": 0
     },
     {
       "name": "Tempo",
       "group": "Ashby",
-      "count": 22,
-      "prevCount": 25,
-      "durationMs": 1965,
+      "count": 23,
+      "prevCount": 22,
+      "durationMs": 2079,
       "status": "ok",
       "consecutiveFailures": 0
     },
     {
       "name": "Rewind",
       "group": "Ashby",
-      "count": 3,
+      "count": 2,
       "prevCount": 3,
-      "durationMs": 311,
+      "durationMs": 255,
       "status": "ok",
       "consecutiveFailures": 0
     },
     {
       "name": "Appfire",
       "group": "Greenhouse",
-      "count": 21,
-      "prevCount": 30,
-      "durationMs": 122,
+      "count": 23,
+      "prevCount": 21,
+      "durationMs": 230,
       "status": "ok",
       "consecutiveFailures": 0
     },
     {
       "name": "SmartBear",
       "group": "Greenhouse",
-      "count": 23,
+      "count": 19,
       "prevCount": 23,
-      "durationMs": 82,
+      "durationMs": 474,
       "status": "ok",
       "consecutiveFailures": 0
     },
     {
       "name": "Modus Create",
       "group": "Greenhouse",
-      "count": 14,
-      "prevCount": 13,
-      "durationMs": 82,
+      "count": 15,
+      "prevCount": 14,
+      "durationMs": 238,
       "status": "ok",
       "consecutiveFailures": 0
     },
     {
       "name": "Lucid",
       "group": "Greenhouse",
-      "count": 38,
-      "prevCount": 34,
-      "durationMs": 87,
+      "count": 36,
+      "prevCount": 38,
+      "durationMs": 27,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -100,7 +100,7 @@
       "group": "Greenhouse",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 94,
+      "durationMs": 41,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -109,16 +109,16 @@
       "group": "Greenhouse",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 81,
+      "durationMs": 27,
       "status": "ok",
       "consecutiveFailures": 0
     },
     {
       "name": "Adaptavist",
       "group": "SmartRecruiters",
-      "count": 4,
-      "prevCount": 3,
-      "durationMs": 515,
+      "count": 5,
+      "prevCount": 4,
+      "durationMs": 557,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -126,8 +126,8 @@
       "name": "Devoteam",
       "group": "SmartRecruiters",
       "count": 24,
-      "prevCount": 23,
-      "durationMs": 1324,
+      "prevCount": 24,
+      "durationMs": 1225,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -136,7 +136,7 @@
       "group": "SmartRecruiters",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 1209,
+      "durationMs": 1058,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -144,8 +144,8 @@
       "name": "Eficode",
       "group": "Teamtailor",
       "count": 8,
-      "prevCount": 9,
-      "durationMs": 174,
+      "prevCount": 8,
+      "durationMs": 408,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -154,7 +154,7 @@
       "group": "Teamtailor",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 342,
+      "durationMs": 372,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -163,7 +163,7 @@
       "group": "Teamtailor",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 1360,
+      "durationMs": 1108,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -171,8 +171,8 @@
       "name": "Directio",
       "group": "Teamtailor",
       "count": 0,
-      "prevCount": 1,
-      "durationMs": 1115,
+      "prevCount": 0,
+      "durationMs": 808,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -181,16 +181,16 @@
       "group": "Personio",
       "count": 2,
       "prevCount": 2,
-      "durationMs": 593,
+      "durationMs": 557,
       "status": "ok",
       "consecutiveFailures": 0
     },
     {
       "name": "Isos Technology",
       "group": "BambooHR",
-      "count": 5,
-      "prevCount": 4,
-      "durationMs": 450,
+      "count": 4,
+      "prevCount": 5,
+      "durationMs": 366,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -199,7 +199,7 @@
       "group": "Workable",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 142,
+      "durationMs": 150,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -208,7 +208,7 @@
       "group": "Workable",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 165,
+      "durationMs": 41,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -217,7 +217,7 @@
       "group": "Workable",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 116,
+      "durationMs": 36,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -226,7 +226,7 @@
       "group": "Workable",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 110,
+      "durationMs": 34,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -235,7 +235,7 @@
       "group": "Custom",
       "count": 10,
       "prevCount": 10,
-      "durationMs": 1042,
+      "durationMs": 704,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -244,16 +244,16 @@
       "group": "Custom",
       "count": 2,
       "prevCount": 2,
-      "durationMs": 1003,
+      "durationMs": 650,
       "status": "ok",
       "consecutiveFailures": 0
     },
     {
       "name": "Deviniti",
       "group": "Custom",
-      "count": 11,
+      "count": 10,
       "prevCount": 11,
-      "durationMs": 2211,
+      "durationMs": 1673,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -262,7 +262,7 @@
       "group": "Custom",
       "count": 1,
       "prevCount": 1,
-      "durationMs": 471,
+      "durationMs": 622,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -271,7 +271,7 @@
       "group": "Custom",
       "count": 4,
       "prevCount": 4,
-      "durationMs": 153,
+      "durationMs": 65,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -280,7 +280,7 @@
       "group": "Custom",
       "count": 3,
       "prevCount": 3,
-      "durationMs": 1397,
+      "durationMs": 1223,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -289,7 +289,7 @@
       "group": "Custom",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 188,
+      "durationMs": 155,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -298,7 +298,7 @@
       "group": "Custom",
       "count": 14,
       "prevCount": 14,
-      "durationMs": 1749,
+      "durationMs": 1825,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -307,17 +307,17 @@
       "group": "Custom",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 183,
+      "durationMs": 379,
       "status": "failed",
       "error": "Oxalis: HTTP 404",
-      "consecutiveFailures": 2
+      "consecutiveFailures": 3
     },
     {
       "name": "NSI",
       "group": "Custom",
       "count": 2,
       "prevCount": 2,
-      "durationMs": 585,
+      "durationMs": 520,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -326,7 +326,7 @@
       "group": "Custom",
       "count": 1,
       "prevCount": 1,
-      "durationMs": 1940,
+      "durationMs": 1846,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -335,16 +335,16 @@
       "group": "Custom",
       "count": 1,
       "prevCount": 1,
-      "durationMs": 1546,
+      "durationMs": 972,
       "status": "ok",
       "consecutiveFailures": 0
     },
     {
       "name": "e-core",
       "group": "Custom",
-      "count": 13,
+      "count": 15,
       "prevCount": 13,
-      "durationMs": 199,
+      "durationMs": 95,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -353,7 +353,7 @@
       "group": "Custom",
       "count": 1,
       "prevCount": 1,
-      "durationMs": 1049,
+      "durationMs": 717,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -362,7 +362,7 @@
       "group": "Custom",
       "count": 2,
       "prevCount": 2,
-      "durationMs": 59,
+      "durationMs": 75,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -371,7 +371,7 @@
       "group": "Custom",
       "count": 10,
       "prevCount": 10,
-      "durationMs": 69232,
+      "durationMs": 67625,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -380,7 +380,7 @@
       "group": "Custom",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 2933,
+      "durationMs": 1985,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -388,8 +388,8 @@
       "name": "Decadis",
       "group": "Custom",
       "count": 3,
-      "prevCount": 2,
-      "durationMs": 688,
+      "prevCount": 3,
+      "durationMs": 413,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -398,28 +398,20 @@
       "group": "Custom",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 1628,
+      "durationMs": 985,
       "status": "ok",
       "consecutiveFailures": 0
     }
   ],
   "anomalies": [
     {
-      "source": "Directio",
-      "kind": "silent_zero",
-      "message": "Directio returned 0 jobs but had 1 last run — the scraper may have silently broken (HTML changed, selectors stale, soft block). Worth verifying.",
-      "count": 0,
-      "prevCount": 1,
-      "synthesis": "The anomaly indicates that Directio returned no jobs despite having one in the previous run, suggesting a potential issue with the scraper rather than a genuine change in hiring. Since there are no web snippets to confirm ongoing hiring for Atlassian-related roles, it’s prudent to investigate the scraper’s functionality. The next step should be to verify selectors to ensure they are still accurate and functioning properly."
-    },
-    {
       "source": "Oxalis Solutions",
       "kind": "failed",
-      "message": "Oxalis Solutions threw an error during scraping (2 consecutive failures).",
+      "message": "Oxalis Solutions threw an error during scraping (3 consecutive failures).",
       "count": 0,
       "prevCount": 0,
       "error": "Oxalis: HTTP 404",
-      "synthesis": "Based on the HTTP 404 error, it seems that the scraper encountered a page that no longer exists, which could indicate a scraper failure rather than a change at Oxalis Solutions. Without any web search snippets to confirm current hiring practices, it's unclear if they are still hiring for Atlassian-related roles. The next step should be to verify the URL being scraped to ensure it is correct and active."
+      "synthesis": "The HTTP 404 error indicates that the Oxalis Solutions page could not be found, which suggests a potential issue with the scraper rather than a change in the company's hiring status. Without additional context, it's unclear if the company is still hiring for Atlassian-related roles. The next step should be to verify the URL being scraped to ensure it is correct and accessible."
     }
   ],
   "duplicateIds": []
