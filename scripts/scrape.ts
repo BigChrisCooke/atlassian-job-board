@@ -33,6 +33,8 @@ import { scrapeAtlasBench } from './sources/custom/atlasbench.js';
 import { scrapeXalt } from './sources/custom/xalt.js';
 import { scrapeAriel } from './sources/custom/ariel.js';
 import { scrapeParseq } from './sources/custom/parseq.js';
+import { scrapeEmpyra } from './sources/custom/empyra.js';
+import { scrapeSngular } from './sources/custom/sngular.js';
 import {
   LEVER_SOURCES,
   ASHBY_SOURCES,
@@ -209,6 +211,8 @@ async function main() {
     { name: 'XALT',            fn: scrapeXalt },
     { name: 'Ariel Partners',  fn: scrapeAriel },
     { name: 'Parseq',          fn: scrapeParseq },
+    { name: 'Empyra',          fn: scrapeEmpyra },
+    { name: 'Sngular',         fn: scrapeSngular },
   ];
 
   for (const { name, fn } of custom) {

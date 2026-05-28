@@ -12,4 +12,6 @@ export const GREENHOUSE_SOURCES: GreenhouseSource[] = [
   { slug: 'samsara',        name: 'Samsara',     titleFilter: ATLASSIAN_TITLE_FILTER },
   { slug: 'kallesgroup',    name: 'Kalles Group', titleFilter: ATLASSIAN_TITLE_FILTER },
   { slug: 'betsson',        name: 'Betsson Group', titleFilter: ATLASSIAN_TITLE_FILTER },
+  // Partner with broad consulting roster — filter to Atlassian-relevant titles
+  { slug: 'appnovation',    name: 'Appnovation Technologies', titleFilter: ATLASSIAN_TITLE_FILTER },
 ];
