@@ -8,7 +8,10 @@ export async function scrapeOxalis(): Promise<Job[]> {
     headers: { 'User-Agent': 'ApwideJobBot/1.0' },
   });
 
-  if (!res.ok) throw new Error(`Oxalis: HTTP ${res.status}`);
+  if (!res.ok) {
+    console.warn(`Oxalis: HTTP ${res.status} — returning empty`);
+    return [];
+  }
 
   const html = await res.text();
   const now = new Date().toISOString();
