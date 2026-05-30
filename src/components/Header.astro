@@ -1,27 +1,40 @@
 ---
+// UTM tags so apwide.com's GA4 can attribute traffic this board sends back to
+// the product site (and which link drove it). See CLAUDE.md SEO notes.
+const UTM = 'utm_source=jobs.apwide.com&utm_medium=referral&utm_campaign=jobsboard';
+const withUtm = (url: string) => `${url}${url.includes('?') ? '&' : '?'}${UTM}`;
+
+const navLinks = [
+  { label: 'Home', href: 'https://www.apwide.com/' },
+  { label: 'Solutions', href: 'https://www.apwide.com/solutions-features/' },
+  { label: 'Integrations', href: 'https://www.apwide.com/golive-integrations/' },
+  { label: 'Pricing', href: 'https://www.apwide.com/golive-jira-app-pricing/' },
+  { label: 'Partners', href: 'https://www.apwide.com/trusted-partners-network/' },
+  { label: 'Support', href: 'https://www.apwide.com/support-documentation/' },
+  { label: 'Blog', href: 'https://www.apwide.com/blog/' },
+];
+
+const logoHref = withUtm('https://www.apwide.com/');
+const ctaHref = withUtm('https://marketplace.atlassian.com/apps/1212239/golive-release-test-environment-management');
 ---
 
 <header class="header" id="site-header">
   <div class="header__inner container">
-    <a href="https://www.apwide.com/" class="header__logo" target="_blank" rel="noopener noreferrer">
+    <a href={logoHref} class="header__logo" target="_blank" rel="noopener noreferrer">
       <img src="/images/logo.svg" alt="Apwide" class="logo-img" />
     </a>
 
     <nav class="nav-desktop">
       <ul class="nav-desktop__list">
-        <li><a href="https://www.apwide.com/" target="_blank" rel="noopener noreferrer">Home</a></li>
-        <li><a href="https://www.apwide.com/solutions-features/" target="_blank" rel="noopener noreferrer">Solutions</a></li>
-        <li><a href="https://www.apwide.com/golive-integrations/" target="_blank" rel="noopener noreferrer">Integrations</a></li>
-        <li><a href="https://www.apwide.com/golive-jira-app-pricing/" target="_blank" rel="noopener noreferrer">Pricing</a></li>
-        <li><a href="https://www.apwide.com/trusted-partners-network/" target="_blank" rel="noopener noreferrer">Partners</a></li>
-        <li><a href="https://www.apwide.com/support-documentation/" target="_blank" rel="noopener noreferrer">Support</a></li>
-        <li><a href="https://www.apwide.com/blog/" target="_blank" rel="noopener noreferrer">Blog</a></li>
+        {navLinks.map((link) => (
+          <li><a href={withUtm(link.href)} target="_blank" rel="noopener noreferrer">{link.label}</a></li>
+        ))}
         <li><a href="/">Jobs</a></li>
       </ul>
     </nav>
 
     <div class="nav-secondary">
-      <a href="https://marketplace.atlassian.com/apps/1212239/golive-release-test-environment-management" target="_blank" rel="noopener noreferrer" class="nav-cta">Try GOLIVE</a>
+      <a href={ctaHref} target="_blank" rel="noopener noreferrer" class="nav-cta">Try GOLIVE</a>
     </div>
 
     <button class="mobile-menu-btn" aria-label="Toggle menu">
@@ -35,15 +48,11 @@
   <div class="mobile-panel" id="mobile-panel">
     <div class="mobile-panel__inner">
       <div class="mobile-nav-group">
-        <a href="https://www.apwide.com/" class="mobile-nav-link" target="_blank" rel="noopener noreferrer">Home</a>
-        <a href="https://www.apwide.com/solutions-features/" class="mobile-nav-link" target="_blank" rel="noopener noreferrer">Solutions</a>
-        <a href="https://www.apwide.com/golive-integrations/" class="mobile-nav-link" target="_blank" rel="noopener noreferrer">Integrations</a>
-        <a href="https://www.apwide.com/golive-jira-app-pricing/" class="mobile-nav-link" target="_blank" rel="noopener noreferrer">Pricing</a>
-        <a href="https://www.apwide.com/trusted-partners-network/" class="mobile-nav-link" target="_blank" rel="noopener noreferrer">Partners</a>
-        <a href="https://www.apwide.com/support-documentation/" class="mobile-nav-link" target="_blank" rel="noopener noreferrer">Support</a>
-        <a href="https://www.apwide.com/blog/" class="mobile-nav-link" target="_blank" rel="noopener noreferrer">Blog</a>
+        {navLinks.map((link) => (
+          <a href={withUtm(link.href)} class="mobile-nav-link" target="_blank" rel="noopener noreferrer">{link.label}</a>
+        ))}
         <a href="/" class="mobile-nav-link">Jobs</a>
-        <a href="https://marketplace.atlassian.com/apps/1212239/golive-release-test-environment-management" class="mobile-nav-link mobile-nav-cta" target="_blank" rel="noopener noreferrer">Try GOLIVE</a>
+        <a href={ctaHref} class="mobile-nav-link mobile-nav-cta" target="_blank" rel="noopener noreferrer">Try GOLIVE</a>
       </div>
     </div>
   </div>
