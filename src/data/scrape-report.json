@@ -1,15 +1,24 @@
 {
-  "generatedAt": "2026-06-02T13:11:08.078Z",
-  "durationMs": 23196,
-  "totalFresh": 16,
-  "totalActive": 286,
-  "prevTotalActive": 269,
+  "generatedAt": "2026-06-02T13:32:14.535Z",
+  "durationMs": 34064,
+  "totalFresh": 21,
+  "totalActive": 291,
+  "prevTotalActive": 286,
   "sources": [
     {
       "name": "Betsson Group",
       "group": "Greenhouse",
       "count": 0,
-      "durationMs": 457,
+      "prevCount": 0,
+      "durationMs": 1529,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Appnovation Technologies",
+      "group": "Greenhouse",
+      "count": 1,
+      "durationMs": 286,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -17,7 +26,8 @@
       "name": "Automation Consultants",
       "group": "Personio",
       "count": 8,
-      "durationMs": 1279,
+      "prevCount": 8,
+      "durationMs": 985,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -25,7 +35,8 @@
       "name": "Atlas Bench",
       "group": "Custom",
       "count": 1,
-      "durationMs": 7957,
+      "prevCount": 1,
+      "durationMs": 11942,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -33,7 +44,8 @@
       "name": "XALT",
       "group": "Custom",
       "count": 7,
-      "durationMs": 1682,
+      "prevCount": 7,
+      "durationMs": 1216,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -41,7 +53,8 @@
       "name": "Ariel Partners",
       "group": "Custom",
       "count": 0,
-      "durationMs": 1593,
+      "prevCount": 0,
+      "durationMs": 1652,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -49,7 +62,24 @@
       "name": "Parseq",
       "group": "Custom",
       "count": 0,
-      "durationMs": 1174,
+      "prevCount": 0,
+      "durationMs": 1446,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Empyra",
+      "group": "Custom",
+      "count": 4,
+      "durationMs": 575,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Sngular",
+      "group": "Custom",
+      "count": 0,
+      "durationMs": 861,
       "status": "ok",
       "consecutiveFailures": 0
     }
