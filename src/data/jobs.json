@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-02T09:54:23.668Z",
-  "totalActive": 270,
+  "generatedAt": "2026-06-02T13:11:08.076Z",
+  "totalActive": 286,
   "jobs": [
     {
       "id": "cprime-67b77768-4972-457d-8113-798ec51b302b",
@@ -5485,6 +5485,268 @@
       "url": "https://jobs.gusto.com/postings/omg-tech-partners-atlassian-solutions-engineer-72a9fc66-43eb-4679-a5ba-7c56365bc797",
       "firstSeen": "2026-06-02T09:54:23.668Z",
       "lastSeen": "2026-06-02T09:54:23.668Z",
+      "isActive": true
+    },
+    {
+      "id": "automation-consultants-ltd-2314929",
+      "sourceId": "2314929",
+      "source": "Automation Consultants",
+      "title": "Business Development Manager",
+      "company": "Automation Consultants",
+      "location": "Hybrid",
+      "locationNormalised": [
+        "other"
+      ],
+      "department": "Sales",
+      "type": "full-time",
+      "url": "https://automation-consultants-ltd.jobs.personio.com/job/2314929",
+      "firstSeen": "2025-08-27T11:05:11+00:00",
+      "lastSeen": "2026-06-02T13:10:48.127Z",
+      "isActive": true
+    },
+    {
+      "id": "automation-consultants-ltd-1437054",
+      "sourceId": "1437054",
+      "source": "Automation Consultants",
+      "title": "Finance Assistant   Part time - 22.5 hrs per week (Flexible working)",
+      "company": "Automation Consultants",
+      "location": "Reading",
+      "locationNormalised": [
+        "other"
+      ],
+      "department": "Finance",
+      "type": "part-time",
+      "url": "https://automation-consultants-ltd.jobs.personio.com/job/1437054",
+      "firstSeen": "2024-02-22T16:14:03+00:00",
+      "lastSeen": "2026-06-02T13:10:48.127Z",
+      "isActive": true
+    },
+    {
+      "id": "automation-consultants-ltd-1754080",
+      "sourceId": "1754080",
+      "source": "Automation Consultants",
+      "title": "Graduate Consultant - Hybrid Working",
+      "company": "Automation Consultants",
+      "location": "Hybrid",
+      "locationNormalised": [
+        "other"
+      ],
+      "department": "Consultancy",
+      "type": "full-time",
+      "url": "https://automation-consultants-ltd.jobs.personio.com/job/1754080",
+      "firstSeen": "2024-09-25T15:35:02+00:00",
+      "lastSeen": "2026-06-02T13:10:48.127Z",
+      "isActive": true
+    },
+    {
+      "id": "automation-consultants-ltd-1754087",
+      "sourceId": "1754087",
+      "source": "Automation Consultants",
+      "title": "Graduate Marketing Associate",
+      "company": "Automation Consultants",
+      "location": "Hybrid",
+      "locationNormalised": [
+        "other"
+      ],
+      "department": "Marketing",
+      "type": "full-time",
+      "url": "https://automation-consultants-ltd.jobs.personio.com/job/1754087",
+      "firstSeen": "2024-09-25T15:40:51+00:00",
+      "lastSeen": "2026-06-02T13:10:48.127Z",
+      "isActive": true
+    },
+    {
+      "id": "automation-consultants-ltd-2602811",
+      "sourceId": "2602811",
+      "source": "Automation Consultants",
+      "title": "Head of Consultancy",
+      "company": "Automation Consultants",
+      "location": "Hybrid",
+      "locationNormalised": [
+        "other"
+      ],
+      "department": "Consultancy",
+      "type": "full-time",
+      "url": "https://automation-consultants-ltd.jobs.personio.com/job/2602811",
+      "firstSeen": "2026-04-15T15:37:21+00:00",
+      "lastSeen": "2026-06-02T13:10:48.127Z",
+      "isActive": true
+    },
+    {
+      "id": "automation-consultants-ltd-2599264",
+      "sourceId": "2599264",
+      "source": "Automation Consultants",
+      "title": "Product Marketing Executive",
+      "company": "Automation Consultants",
+      "location": "Remote",
+      "locationNormalised": [
+        "remote"
+      ],
+      "department": "Product Development",
+      "type": "full-time",
+      "url": "https://automation-consultants-ltd.jobs.personio.com/job/2599264",
+      "firstSeen": "2026-04-13T11:24:32+00:00",
+      "lastSeen": "2026-06-02T13:10:48.127Z",
+      "isActive": true
+    },
+    {
+      "id": "automation-consultants-ltd-2632485",
+      "sourceId": "2632485",
+      "source": "Automation Consultants",
+      "title": "Product Marketing Manager",
+      "company": "Automation Consultants",
+      "location": "Hybrid",
+      "locationNormalised": [
+        "other"
+      ],
+      "department": "Product Development",
+      "type": "full-time",
+      "url": "https://automation-consultants-ltd.jobs.personio.com/job/2632485",
+      "firstSeen": "2026-05-12T15:49:49+00:00",
+      "lastSeen": "2026-06-02T13:10:48.127Z",
+      "isActive": true
+    },
+    {
+      "id": "automation-consultants-ltd-616255",
+      "sourceId": "616255",
+      "source": "Automation Consultants",
+      "title": "Software Consultant",
+      "company": "Automation Consultants",
+      "location": "Hybrid",
+      "locationNormalised": [
+        "other"
+      ],
+      "department": "Consultancy",
+      "type": "full-time",
+      "url": "https://automation-consultants-ltd.jobs.personio.com/job/616255",
+      "firstSeen": "2022-03-08T10:55:43+00:00",
+      "lastSeen": "2026-06-02T13:10:48.127Z",
+      "isActive": true
+    },
+    {
+      "id": "atlas-bench-614246000004468242",
+      "sourceId": "614246000004468242",
+      "source": "Atlas Bench",
+      "title": "Principal Full Stack Developer (Node, TypeScript, React) *Global*",
+      "company": "Atlas Bench",
+      "location": "",
+      "locationNormalised": [
+        "other"
+      ],
+      "url": "https://atlas-bench.zohorecruit.com/jobs/Careers/614246000004468242/Principal-Full-Stack-Developer-Node-TypeScript-React-Global-?source=CareerSite",
+      "firstSeen": "2026-06-02T13:10:57.530Z",
+      "lastSeen": "2026-06-02T13:10:57.530Z",
+      "isActive": true
+    },
+    {
+      "id": "xalt-23881",
+      "sourceId": "23881",
+      "source": "XALT",
+      "title": "Project manager digitization projects   (m/f/d)",
+      "company": "XALT",
+      "location": "leipzig, München, remote",
+      "locationNormalised": [
+        "remote",
+        "europe"
+      ],
+      "url": "https://www.xalt.de/en/projektmanager-m-w-d-digitalisierungsprojekte/",
+      "firstSeen": "2026-06-02T13:11:00.780Z",
+      "lastSeen": "2026-06-02T13:11:00.780Z",
+      "isActive": true
+    },
+    {
+      "id": "xalt-34117",
+      "sourceId": "34117",
+      "source": "XALT",
+      "title": "Atlassian AI Consultant   (m/f/d)",
+      "company": "XALT",
+      "location": "united states remote",
+      "locationNormalised": [
+        "remote",
+        "usa"
+      ],
+      "url": "https://www.xalt.de/en/atlassian-ai-consultant-m-f-d/",
+      "firstSeen": "2026-06-02T13:11:00.780Z",
+      "lastSeen": "2026-06-02T13:11:00.780Z",
+      "isActive": true
+    },
+    {
+      "id": "xalt-33445",
+      "sourceId": "33445",
+      "source": "XALT",
+      "title": "Consultant to the management - focus on consulting & DevOps   (m/f/d)",
+      "company": "XALT",
+      "location": "hybrid, München",
+      "locationNormalised": [
+        "europe"
+      ],
+      "url": "https://www.xalt.de/en/referent-der-geschaeftsfuehrung-m-w-d-fokus-auf-consulting-devops/",
+      "firstSeen": "2026-06-02T13:11:00.780Z",
+      "lastSeen": "2026-06-02T13:11:00.780Z",
+      "isActive": true
+    },
+    {
+      "id": "xalt-18922",
+      "sourceId": "18922",
+      "source": "XALT",
+      "title": "Lead Atlassian Consultant   (m/f/d)",
+      "company": "XALT",
+      "location": "leipzig, München, remote",
+      "locationNormalised": [
+        "remote",
+        "europe"
+      ],
+      "url": "https://www.xalt.de/en/lead-atlassian-consultant-m-w-d/",
+      "firstSeen": "2026-06-02T13:11:00.780Z",
+      "lastSeen": "2026-06-02T13:11:00.780Z",
+      "isActive": true
+    },
+    {
+      "id": "xalt-27373",
+      "sourceId": "27373",
+      "source": "XALT",
+      "title": "Senior Atlassian Consultant   (m/f/d)",
+      "company": "XALT",
+      "location": "leipzig, München, remote",
+      "locationNormalised": [
+        "remote",
+        "europe"
+      ],
+      "url": "https://www.xalt.de/en/senior-atlassian-consultant-m-w-d/",
+      "firstSeen": "2026-06-02T13:11:00.780Z",
+      "lastSeen": "2026-06-02T13:11:00.780Z",
+      "isActive": true
+    },
+    {
+      "id": "xalt-23602",
+      "sourceId": "23602",
+      "source": "XALT",
+      "title": "Administrator Jira/Confluence   (m/f/d)",
+      "company": "XALT",
+      "location": "leipzig, München, remote",
+      "locationNormalised": [
+        "remote",
+        "europe"
+      ],
+      "url": "https://www.xalt.de/en/administrator-m-w-d-jira-confluence/",
+      "firstSeen": "2026-06-02T13:11:00.780Z",
+      "lastSeen": "2026-06-02T13:11:00.780Z",
+      "isActive": true
+    },
+    {
+      "id": "xalt-29316",
+      "sourceId": "29316",
+      "source": "XALT",
+      "title": "Junior Atlassian Consultant   (m/f/d)",
+      "company": "XALT",
+      "location": "leipzig, München, remote",
+      "locationNormalised": [
+        "remote",
+        "europe"
+      ],
+      "url": "https://www.xalt.de/en/junior-atlassian-consultant-m-w-d/",
+      "firstSeen": "2026-06-02T13:11:00.780Z",
+      "lastSeen": "2026-06-02T13:11:00.780Z",
       "isActive": true
     }
   ]

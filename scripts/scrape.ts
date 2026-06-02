@@ -29,6 +29,10 @@ import { scrapeXpandIt } from './sources/custom/xpandit.js';
 import { scrapeElements } from './sources/custom/elements.js';
 import { scrapeDecadis } from './sources/custom/decadis.js';
 import { scrapeMBition } from './sources/custom/mbition.js';
+import { scrapeAtlasBench } from './sources/custom/atlasbench.js';
+import { scrapeXalt } from './sources/custom/xalt.js';
+import { scrapeAriel } from './sources/custom/ariel.js';
+import { scrapeParseq } from './sources/custom/parseq.js';
 import {
   LEVER_SOURCES,
   ASHBY_SOURCES,
@@ -201,6 +205,10 @@ async function main() {
     { name: 'Elements',        fn: scrapeElements },
     { name: 'Decadis',         fn: scrapeDecadis },
     { name: 'MBition',         fn: scrapeMBition },
+    { name: 'Atlas Bench',     fn: scrapeAtlasBench },
+    { name: 'XALT',            fn: scrapeXalt },
+    { name: 'Ariel Partners',  fn: scrapeAriel },
+    { name: 'Parseq',          fn: scrapeParseq },
   ];
 
   for (const { name, fn } of custom) {
