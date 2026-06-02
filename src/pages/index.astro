@@ -61,47 +61,82 @@ const categories = ['developer', 'consultancy', 'marketing-sales', 'support', 'b
   (c) => activeJobs.some((j) => normaliseCategory(j.department, j.title) === c)
 );
 
-// Derive ISO 3166-1 alpha-2 country code from what we know about the job
-// locationNormalised is an array — try specific entries before falling back to raw string
-function countryCode(normalised: string[], raw: string): string {
+// Derive ISO 3166-1 alpha-2 country code from what we know about the job.
+// Returns null when the location is too ambiguous to assign a country (e.g. "Europe", "LatAm").
+function countryCode(normalised: string[], raw: string): string | null {
   const map: Record<string, string> = {
     australia: 'AU', 'new zealand': 'NZ', singapore: 'SG',
-    'hong kong': 'HK', usa: 'US', uk: 'GB', india: 'IN',
+    'hong kong': 'HK', usa: 'US', uk: 'GB', india: 'IN', canada: 'CA',
   };
   for (const n of normalised) {
     if (n !== 'remote' && n !== 'other' && map[n]) return map[n];
   }
   const loc = raw.toLowerCase();
-  if (/australia|\(au\)/.test(loc))                              return 'AU';
-  if (/united states|[,( ]us(?:[^a-z]|$)|[,( ]usa/.test(loc))  return 'US';
-  if (/united kingdom|[,( ]uk(?:[^a-z]|$)/.test(loc))           return 'GB';
-  if (/germany|stuttgart|berlin|munich/.test(loc))               return 'DE';
-  if (/france/.test(loc))                                        return 'FR';
-  if (/new zealand/.test(loc))                                   return 'NZ';
-  if (/india/.test(loc))                                         return 'IN';
-  if (/singapore/.test(loc))                                     return 'SG';
-  return 'AU'; // fallback — Apwide is AU-based
+  if (/australia|\(au\)/.test(loc))                                  return 'AU';
+  if (/united states|[,( ]us(?:[^a-z]|$)|[,( ]usa/.test(loc))       return 'US';
+  if (/canada|ontario|vancouver|calgary|edmonton|toronto/.test(loc)) return 'CA';
+  if (/united kingdom|[,( ]uk(?:[^a-z]|$)/.test(loc))               return 'GB';
+  if (/germany|stuttgart|berlin|munich|koblenz/.test(loc))           return 'DE';
+  if (/france|paris|marseille/.test(loc))                            return 'FR';
+  if (/switzerland|z[üu]rich|bern/.test(loc))                        return 'CH';
+  if (/netherlands|amsterdam/.test(loc))                             return 'NL';
+  if (/belgium|awans/.test(loc))                                     return 'BE';
+  if (/luxembourg|esch-sur-alzette/.test(loc))                       return 'LU';
+  if (/ireland|galway|dublin/.test(loc))                             return 'IE';
+  if (/sweden|stockholm|gothenburg/.test(loc))                       return 'SE';
+  if (/finland|helsinki/.test(loc))                                  return 'FI';
+  if (/poland|wrocław|wroclaw|krakow|warsaw/.test(loc))              return 'PL';
+  if (/portugal|lisbon|lisboa|porto/.test(loc))                      return 'PT';
+  if (/\bspain\b|madrid|barcelona/.test(loc))                        return 'ES';
+  if (/\bitaly\b|rome|milan/.test(loc))                              return 'IT';
+  if (/bulgaria/.test(loc))                                          return 'BG';
+  if (/hungary|budapest/.test(loc))                                  return 'HU';
+  if (/new zealand/.test(loc))                                       return 'NZ';
+  if (/india/.test(loc))                                             return 'IN';
+  if (/singapore/.test(loc))                                         return 'SG';
+  if (/morocco|casablanca|rabat/.test(loc))                          return 'MA';
+  if (/tunisia|tunis/.test(loc))                                     return 'TN';
+  if (/egypt|cairo/.test(loc))                                       return 'EG';
+  if (/\buae\b|dubai|united arab emirates/.test(loc))               return 'AE';
+  if (/malaysia|kuala lumpur/.test(loc))                             return 'MY';
+  if (/philippines|manila/.test(loc))                                return 'PH';
+  if (/argentina/.test(loc))                                         return 'AR';
+  if (/brazil|brasil/.test(loc))                                     return 'BR';
+  if (/costa rica/.test(loc))                                        return 'CR';
+  return null;
 }
 
 const jobPostings = activeJobs.map((j) => {
+  const normArr = Array.isArray(j.locationNormalised) ? j.locationNormalised : [j.locationNormalised];
+  const BROAD_REGIONS = ['remote', 'europe', 'latam', 'africa', 'asia'];
   const isRemote =
-    j.locationNormalised.includes('remote') ||
-    j.location.toLowerCase().includes('remote');
-  const cc = countryCode(j.locationNormalised, j.location);
+    normArr.some((n) => BROAD_REGIONS.includes(n)) ||
+    j.location.toLowerCase().includes('remote') ||
+    j.location.toLowerCase() === 'global';
+  const cc = countryCode(normArr, j.location);
 
   return {
     '@type': 'JobPosting',
     title: j.title,
-    description: j.description ?? `${j.title} position at ${j.company}.`,
+    description: j.description || `${j.title} position at ${j.company}.`,
     datePosted: j.firstSeen,
     validThrough: j.lastSeen,
     hiringOrganization: { '@type': 'Organization', name: j.company },
-    jobLocation: {
-      '@type': 'Place',
-      address: { '@type': 'PostalAddress', addressCountry: cc, addressLocality: j.location },
-    },
-    ...(isRemote ? { jobLocationType: 'TELECOMMUTE' } : {}),
-    ...(isRemote ? { applicantLocationRequirements: { '@type': 'Country', name: cc } } : {}),
+    ...(isRemote
+      ? {
+          jobLocationType: 'TELECOMMUTE',
+          ...(cc ? { applicantLocationRequirements: { '@type': 'Country', name: cc } } : {}),
+        }
+      : {
+          jobLocation: {
+            '@type': 'Place',
+            address: {
+              '@type': 'PostalAddress',
+              ...(cc ? { addressCountry: cc } : {}),
+              ...(j.location ? { addressLocality: j.location } : {}),
+            },
+          },
+        }),
     url: j.url,
   };
 });

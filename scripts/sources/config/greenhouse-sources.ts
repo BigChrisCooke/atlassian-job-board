@@ -11,4 +11,9 @@ export const GREENHOUSE_SOURCES: GreenhouseSource[] = [
   // Non-partner companies — filter to Atlassian-relevant titles only
   { slug: 'samsara',        name: 'Samsara',     titleFilter: ATLASSIAN_TITLE_FILTER },
   { slug: 'kallesgroup',    name: 'Kalles Group', titleFilter: ATLASSIAN_TITLE_FILTER },
+  { slug: 'valtech',        name: 'Valtech',      titleFilter: ATLASSIAN_TITLE_FILTER },
+  { slug: 'braze',          name: 'Braze',        titleFilter: ATLASSIAN_TITLE_FILTER },
+  { slug: 'conga',          name: 'Conga',        titleFilter: ATLASSIAN_TITLE_FILTER },
+  // Partner with broad consulting roster — filter to Atlassian-relevant titles
+  { slug: 'appnovation',    name: 'Appnovation Technologies', titleFilter: ATLASSIAN_TITLE_FILTER },
 ];
