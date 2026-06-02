@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-01T06:58:50.309Z",
-  "totalActive": 269,
+  "generatedAt": "2026-06-02T09:54:23.668Z",
+  "totalActive": 270,
   "jobs": [
     {
       "id": "cprime-67b77768-4972-457d-8113-798ec51b302b",
@@ -5467,6 +5467,24 @@
       "url": "https://xpand-it.com/en/careers/find-opportunities/core-services/cloud-solutions-architect",
       "firstSeen": "2026-06-01T06:58:39.877Z",
       "lastSeen": "2026-06-01T06:58:39.877Z",
+      "isActive": true
+    },
+    {
+      "id": "omgtech-72a9fc66-43eb-4679-a5ba-7c56365bc797",
+      "sourceId": "72a9fc66-43eb-4679-a5ba-7c56365bc797",
+      "source": "OMG Tech Partners",
+      "title": "Atlassian Solutions Engineer",
+      "company": "OMG Tech Partners",
+      "location": "Remote (US — Ohio or Florida preferred)",
+      "locationNormalised": [
+        "remote",
+        "usa"
+      ],
+      "type": "Full-time",
+      "description": "Primary Atlassian expert at a woman-owned Gold Solution Partner. Role spans sales demos, architecture governance, and enterprise solution design across the full Atlassian stack, including REST API automation. 5+ years of enterprise Atlassian administration required; coding in Python, TypeScript, Node.js, or React a plus. Salary $125k–$175k.",
+      "url": "https://jobs.gusto.com/postings/omg-tech-partners-atlassian-solutions-engineer-72a9fc66-43eb-4679-a5ba-7c56365bc797",
+      "firstSeen": "2026-06-02T09:54:23.668Z",
+      "lastSeen": "2026-06-02T09:54:23.668Z",
       "isActive": true
     }
   ]
