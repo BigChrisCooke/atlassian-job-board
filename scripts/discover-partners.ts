@@ -37,30 +37,28 @@ interface CandidatePartner {
 
 async function extractPartnersFromPage(page: Page): Promise<CandidatePartner[]> {
   return page.evaluate(() => {
-    const cards = document.querySelectorAll('a[href*="partnerdirectory.atlassian.com/"]');
+    // Partner cards are <a data-test-service-partner-card href="/slug"> with
+    // relative hrefs. (The separate data-test-service-matchmaking-card is the
+    // "find a partner" promo and is correctly excluded by this selector.)
+    const cards = document.querySelectorAll('a[data-test-service-partner-card]');
     const seen = new Set<string>();
     const out: CandidatePartner[] = [];
 
     cards.forEach((el) => {
       const a = el as HTMLAnchorElement;
-      const url = new URL(a.href, location.href);
-      if (url.hostname !== 'partnerdirectory.atlassian.com') return;
-      const slug = url.pathname.replace(/^\/+|\/+$/g, '');
+      const slug = (a.getAttribute('href') ?? '').replace(/^\/+|\/+$/g, '');
       if (!slug || slug.includes('/') || seen.has(slug)) return;
       seen.add(slug);
 
-      const card = a.closest('[class*="card" i], li, article') ?? a;
-      const text = (card.textContent ?? '').replace(/\s+/g, ' ').trim();
-
-      const tierMatch = text.match(/\b(Platinum|Gold|Silver|Enterprise)\b/i);
-      const locMatch = text.match(/(?:in|at)\s+([A-Z][A-Za-z\s,]{2,40})/);
+      const name = (a.querySelector('[data-test-partner-name]')?.textContent ?? '').trim() || slug;
+      const tierText = (a.querySelector('[data-test-tier-name]')?.textContent ?? '').trim();
+      const tierMatch = tierText.match(/\b(Platinum|Gold|Silver|Enterprise)\b/i);
 
       out.push({
-        name: (a.textContent ?? '').trim() || slug,
+        name,
         slug,
         tier: tierMatch?.[1],
-        location: locMatch?.[1]?.trim(),
-        detailUrl: a.href,
+        detailUrl: a.href, // .href property resolves the relative path to absolute
       });
     });
 
@@ -102,7 +100,7 @@ async function main() {
       }
 
       await page
-        .waitForSelector('a[href*="partnerdirectory.atlassian.com/"]', { timeout: 20_000 })
+        .waitForSelector('a[data-test-service-partner-card]', { timeout: 20_000 })
         .catch(() => null);
 
       const partners = await extractPartnersFromPage(page);
