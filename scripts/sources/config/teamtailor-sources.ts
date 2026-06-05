@@ -9,4 +9,6 @@ export const TEAMTAILOR_SOURCES: TeamtailorSource[] = [
   // Broader IT consultancies — filter to Atlassian-relevant titles only
   { baseUrl: 'https://knowmadmood.teamtailor.com', name: 'knowmad mood', titleFilter: ATLASSIAN_TITLE_FILTER },
   { baseUrl: 'https://directio.teamtailor.com',    name: 'Directio',     titleFilter: ATLASSIAN_TITLE_FILTER },
+  { baseUrl: 'https://embriq.teamtailor.com',      name: 'Embriq',       titleFilter: ATLASSIAN_TITLE_FILTER },
+  { baseUrl: 'https://careers.itera.com',          name: 'Itera',        titleFilter: ATLASSIAN_TITLE_FILTER },
 ];
