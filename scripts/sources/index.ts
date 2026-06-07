@@ -6,6 +6,7 @@ import { SMARTRECRUITERS_SOURCES } from './config/smartrecruiters-sources.js';
 import { TEAMTAILOR_SOURCES } from './config/teamtailor-sources.js';
 import { BAMBOOHR_SOURCES } from './config/bamboohr-sources.js';
 import { WORKABLE_SOURCES } from './config/workable-sources.js';
+import { JOIN_SOURCES } from './config/join-sources.js';
 
 export {
   LEVER_SOURCES,
@@ -16,4 +17,5 @@ export {
   TEAMTAILOR_SOURCES,
   BAMBOOHR_SOURCES,
   WORKABLE_SOURCES,
+  JOIN_SOURCES,
 };

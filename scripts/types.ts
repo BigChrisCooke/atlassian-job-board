@@ -65,6 +65,12 @@ export interface BambooHRSource {
   name: string;
 }
 
+export interface JoinSource {
+  slug: string;   // company slug on join.com/companies/<slug>
+  name: string;
+  titleFilter?: RegExp;
+}
+
 export interface JobsDataFile {
   generatedAt: string;
   totalActive: number;

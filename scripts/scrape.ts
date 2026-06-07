@@ -8,6 +8,7 @@ import { scrapeGreenhouse } from './sources/engines/greenhouse.js';
 import { scrapeSmartRecruiters } from './sources/engines/smartrecruiters.js';
 import { scrapeTeamtailor } from './sources/engines/teamtailor.js';
 import { scrapeWorkable } from './sources/engines/workable.js';
+import { scrapeJoin } from './sources/engines/join.js';
 import { scrapePersonio } from './sources/engines/personio.js';
 import { scrapeBambooHR } from './sources/engines/bamboohr.js';
 import { scrapeCommunardo } from './sources/custom/communardo.js';
@@ -35,7 +36,6 @@ import { scrapeAriel } from './sources/custom/ariel.js';
 import { scrapeParseq } from './sources/custom/parseq.js';
 import { scrapeEmpyra } from './sources/custom/empyra.js';
 import { scrapeSngular } from './sources/custom/sngular.js';
-import { scrapeMeskru } from './sources/custom/meskru.js';
 import {
   LEVER_SOURCES,
   ASHBY_SOURCES,
@@ -45,6 +45,7 @@ import {
   PERSONIO_SOURCES,
   BAMBOOHR_SOURCES,
   WORKABLE_SOURCES,
+  JOIN_SOURCES,
 } from './sources/index.js';
 import {
   COOLDOWN_THRESHOLD,
@@ -187,7 +188,13 @@ async function main() {
     await sleep(1500);
   }
 
-  console.log('\n[scrape] Group 9 — Custom');
+  console.log('\n[scrape] Group 9 — JOIN');
+  for (const source of filterSources(JOIN_SOURCES)) {
+    await runSource('JOIN', source, scrapeJoin);
+    await sleep(1500);
+  }
+
+  console.log('\n[scrape] Group 10 — Custom');
   const custom: Array<{ name: string; fn: () => Promise<Job[]> }> = [
     { name: 'Communardo',      fn: scrapeCommunardo },
     { name: 'Seibert Group',   fn: scrapeSeibert },
@@ -214,7 +221,6 @@ async function main() {
     { name: 'Parseq',          fn: scrapeParseq },
     { name: 'Empyra',          fn: scrapeEmpyra },
     { name: 'Sngular',         fn: scrapeSngular },
-    { name: 'MESKRU',          fn: scrapeMeskru },
   ];
 
   for (const { name, fn } of custom) {
