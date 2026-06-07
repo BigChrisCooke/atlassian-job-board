@@ -9,4 +9,6 @@ export const WORKABLE_SOURCES: WorkableSource[] = [
   { slug: 'cententia',  name: 'Cententia' },
   // Non-partner IT companies — filter to Atlassian-relevant titles only
   { slug: 'mastek',     name: 'Mastek', titleFilter: ATLASSIAN_TITLE_FILTER },
+  // Focused Atlassian partner (Singapore) — scrape all roles
+  { slug: 'ease-solutions-pte-ltd', name: 'Ease Solutions' },
 ];

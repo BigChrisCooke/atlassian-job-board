@@ -59,3 +59,83 @@ Shanghai Dragonsoft · StrataCom
 **Also rejected:** A-Players (recruitment agency — posts roles for *other* companies,
 not its own Atlassian hiring) · Abano (SmartRecruiters `AbanoHealthcare` is a
 healthcare-clinic chain — wrong-company match, not the Atlassian partner).
+
+**Feeds verified but 0 Atlassian-titled roles (re-check periodically):**
+Advania Sverige (teamtailor `advaniaab`, 29 generic Swedish IT roles) ·
+Avenga (teamtailor `career.avenga.com`, 100 generic dev roles) ·
+HiQ Finland (teamtailor `careers.hiq.fi`, 16 generic dev roles) ·
+greenique (personio `greenique`, 3 positions — ITSM + open applications) ·
+INVENTI Development (workable `inventi`, 3 Lithuania dev roles) ·
+Beijing XData (teamtailor `careers.xdatagroup.io`, 2 FinTech dev roles — no Atlassian content).
+
+**Wrong company / not Atlassian:** Cross ALM (personio `cross-alm-gmbh`) — SAP ALM
+consultancy, not Atlassian. "ALM" in the name is SAP Application Lifecycle Management.
+AtlasOptima (ashby slug `atlas` is unconfirmed — page title returns generic "Atlas Jobs").
+Dione Technology (SmartRecruiters `Diono`) — 0 Atlassian results, possible wrong company ID.
+Globant (SmartRecruiters `Globant2`) — 0 Atlassian-titled results despite being a listed partner.
+
+**Added from Gold sweep:** Pinja Digital (teamtailor `career.pinja.com`) ·
+Reti S.p.A. (teamtailor `jobs.reti.it`) · Softronic AB (teamtailor `jobb.softronic.se`) ·
+TECHNIA AB (teamtailor `careers.technia.com`) · TNG Technology (personio `tngtech`) ·
+Stefanini (smartrecruiters `Stefanini1`) · Publicis Sapient (smartrecruiters `PublicisGroupe`) ·
+Visionet (smartrecruiters `VisionetSystemsInc`)
+
+---
+
+### Gold tier — swept 2026-06-07
+
+**HARD (job board, no clean feed):**
+JDS Australia (custom careers page) · Kunz Leigh & Associates (Paylocity — confirmed Atlassian Admin role) ·
+Lupus Consulting (ApplyToJob/JazzHR) · Medialine AG (JOIN.com) ·
+MESKRU GmbH (JOIN.com — dedicated Atlassian shop, confirmed Atlassian Consultant roles — high-value if JOIN scraper ever built) ·
+mgm technology partners (Trakstar) · Movate Technologies (proprietary TAMS — 11,700-person BPO) ·
+Nortal AG (iCIMS at `careers-en-nortal.icims.com`) · OBSS Teknoloji (Kariyer.net, Turkey's leading Atlassian partner) ·
+Mykad Consulting (LinkedIn/jobs.ca — Montreal Atlassian boutique) · Nanga Systems (JOIN.com) ·
+NEMETSCHEK (custom portal — primarily AEC software group, not Atlassian-focused) ·
+Protiviti (Workday) · PT Mitra Integrasi Informatika (custom portal) ·
+PrimeUp (ApplyToJob — Brazilian partner) · SelectStar Solutions (Breezy HR — confirmed Atlassian Consultant roles) ·
+Service Dynamics (SEEK NZ — pure JSM shop) · SoftServe (Workday — 9,500-person Ukrainian-origin firm, Atlassian Partner of the Year 2019) ·
+Softtek (iCIMS — `jobs.softtek.com`) · Software Craftsmen (static HTML — pure Atlassian Marketplace developer) ·
+Sonata Software (custom careers portal) · STAND 8 (custom) ·
+STRATEGENICS (custom — Australian Partner of the Year 2024–25, confirmed Atlassian roles — high value if scraper written) ·
+SYPAQ Systems (custom portal — confirmed Atlassian Jira Consultant roles) ·
+Team Neusta (custom German karriere portal — neusta inspire is Atlassian sub-entity) ·
+Techanics (static HTML, DACH Atlassian partner) · Teolia (custom inline forms — French Atlassian firm) ·
+Test Triangle (custom CMS — Irish Atlassian Platinum partner) · Titansoft (custom portal — Singapore) ·
+Transition Technologies PSC (custom `kariera.ttpsc.com` — large Polish IT, very Atlassian-relevant) ·
+Triangu Ukraine (Work.ua/DOU Ukrainian boards) · Twinit (custom page — only Atlassian partner in Georgia) ·
+Uniteam Sp. z o.o. (custom — website URL ambiguous, possible conflict with marine engineering company of same name) ·
+UST Global (custom portal — 9,500+ employees) · VATES/EPAM (custom preview — acquired by EPAM 2024) ·
+VI2VA/SOLVVision (custom WordPress, Frankfurt ITSM + Atlassian specialist)
+
+**NO-BOARD (no public listings):**
+Jer-nee Consulting (Utah Atlassian shop — email inquiry only) · M20 Technology (contact form only) ·
+Panasonic System Design (Japanese corporate HR, no English feed) ·
+Preflex Solutions (LinkedIn-only, India) · Progrez Consulting (no public feed, Indonesia) ·
+ReleaseTEAM (contact form — DevOps staffing, places consultants rather than posting jobs) ·
+Software.com.br (no careers page found) · SPK and Associates (LinkedIn-only) ·
+TechTime (jobs on own Confluence wiki) · tecuri (jobs page under construction — email only) ·
+TecVeris (LinkedIn-only — US Atlassian Gold partner since 2011) ·
+TICBLUE (static brochure site — Chilean Atlassian shop) · Unlimit Brasil (no visible careers page — unrelated global fintech "Unlimit" appears on Glassdoor)
+
+**UNKNOWN (re-check later):**
+JAP CONNECT (no website domain confirmed — check partnerdirectory.atlassian.com/jap-connect) ·
+Kapsu Partners (kapsupartners.com.au — no careers page confirmed) ·
+KIC Consulting (Korean site kicco.com, no English careers page) ·
+linkyard ag (linkyard.ch/about/karriere — pure Atlassian Gold partner, ATS backend unknown) ·
+mecodia GmbH (mecodia.de/jobs — Stuttgart Atlassian partner, ATS unknown) ·
+Mind-Mercatis (mindmercatis.com/en/carriere/ — confirmed Atlassian Expert role, custom page — worth a custom scraper) ·
+Moresimp Kft (moresimp.com/careers/ — Budapest all-senior Atlassian team, new page, ATS unknown) ·
+Movonte (no careers page found — US/Mexico consulting) ·
+Nimbax (no careers page — first French-Canadian Atlassian partner, Quebec) ·
+Now Consultians (nowconsultians.at — Austria's largest Atlassian partner, no careers page found) ·
+ONE DOT Technologies (onedot.com.au/jobs — email CV submission only) ·
+Onlio/Onlio APS (onlio.com/en/career/ — Czech/Slovak Atlassian partner since 2004, ATS unknown) ·
+Ovyka (ovyka.com/recrutement — French Atlassian partner, ATS unknown) ·
+QUABU SOLUTIONS (quabusolutions.com — Spanish Atlassian Marketplace developer, no careers page indexed) ·
+Snapbytes (snapbytes.com — Turkish Atlassian partner, no careers page found) ·
+Tietoevry (reported SmartRecruiters but `Tietoevry1` returns 0 total postings — company ID unconfirmed) ·
+Translucent ApS (translucent.dk — first Atlassian partner in Denmark, likely LinkedIn-only) ·
+VIDSCOLA (vidscola.com — UAE, Middle East's only Agile at Scale specialization partner) ·
+VMotion (vmotion.ie — Limerick Ireland, likely LinkedIn-only) ·
+汇科天下 / Huike Tianxia (hktx.cn — Chinese Atlassian Marketplace vendor, only on Chinese job platforms)

@@ -11,4 +11,8 @@ export const TEAMTAILOR_SOURCES: TeamtailorSource[] = [
   { baseUrl: 'https://directio.teamtailor.com',    name: 'Directio',     titleFilter: ATLASSIAN_TITLE_FILTER },
   { baseUrl: 'https://embriq.teamtailor.com',      name: 'Embriq',       titleFilter: ATLASSIAN_TITLE_FILTER },
   { baseUrl: 'https://careers.itera.com',          name: 'Itera',        titleFilter: ATLASSIAN_TITLE_FILTER },
+  { baseUrl: 'https://career.pinja.com',           name: 'Pinja',        titleFilter: ATLASSIAN_TITLE_FILTER },
+  { baseUrl: 'https://jobs.reti.it',               name: 'Reti',         titleFilter: ATLASSIAN_TITLE_FILTER },
+  { baseUrl: 'https://jobb.softronic.se',          name: 'Softronic',    titleFilter: ATLASSIAN_TITLE_FILTER },
+  { baseUrl: 'https://careers.technia.com',        name: 'TECHNIA',      titleFilter: ATLASSIAN_TITLE_FILTER },
 ];

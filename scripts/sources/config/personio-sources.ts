@@ -9,4 +9,5 @@ export const PERSONIO_SOURCES: PersonioSource[] = [
   { slug: 'automation-consultants-ltd', name: 'Automation Consultants' },
   { slug: 'demicon', name: 'DEMICON', titleFilter: ATLASSIAN_TITLE_FILTER },
   { slug: 'hiq', name: 'HiQ', titleFilter: ATLASSIAN_TITLE_FILTER },
+  { slug: 'tngtech', name: 'TNG Technology', titleFilter: ATLASSIAN_TITLE_FILTER },
 ];

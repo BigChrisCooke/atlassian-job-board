@@ -34,8 +34,45 @@ export const SMARTRECRUITERS_SOURCES: SmartRecruitersSource[] = [
   },
   {
     // Global SI + Atlassian partner — title-restricted (see Nagarro note above).
+    companyId: 'inetum2',
+    name: 'INETUM',
+    queries: [
+      { q: 'atlassian', titleContains: 'atlassian' },
+      { q: 'jira', titleContains: 'jira' },
+      { q: 'confluence', titleContains: 'confluence' },
+    ],
+  },
+  {
+    // Global SI + Atlassian partner — title-restricted (see Nagarro note above).
     companyId: 'soprasteria1',
     name: 'Sopra Steria',
+    queries: [
+      { q: 'atlassian', titleContains: 'atlassian' },
+      { q: 'jira', titleContains: 'jira' },
+      { q: 'confluence', titleContains: 'confluence' },
+    ],
+  },
+  {
+    companyId: 'Stefanini1',
+    name: 'Stefanini',
+    queries: [
+      { q: 'atlassian', titleContains: 'atlassian' },
+      { q: 'jira', titleContains: 'jira' },
+      { q: 'confluence', titleContains: 'confluence' },
+    ],
+  },
+  {
+    companyId: 'PublicisGroupe',
+    name: 'Publicis Sapient',
+    queries: [
+      { q: 'atlassian', titleContains: 'atlassian' },
+      { q: 'jira', titleContains: 'jira' },
+      { q: 'confluence', titleContains: 'confluence' },
+    ],
+  },
+  {
+    companyId: 'VisionetSystemsInc',
+    name: 'Visionet',
     queries: [
       { q: 'atlassian', titleContains: 'atlassian' },
       { q: 'jira', titleContains: 'jira' },
