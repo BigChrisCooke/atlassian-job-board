@@ -1,16 +1,112 @@
 {
-  "generatedAt": "2026-06-02T13:32:14.535Z",
-  "durationMs": 34064,
-  "totalFresh": 21,
-  "totalActive": 291,
-  "prevTotalActive": 286,
+  "generatedAt": "2026-06-08T06:47:38.394Z",
+  "durationMs": 250935,
+  "totalFresh": 289,
+  "totalActive": 289,
+  "prevTotalActive": 291,
   "sources": [
+    {
+      "name": "Cprime",
+      "group": "Lever",
+      "count": 10,
+      "durationMs": 320,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "ServiceRocket",
+      "group": "Lever",
+      "count": 7,
+      "durationMs": 617,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Valiantys",
+      "group": "Lever",
+      "count": 13,
+      "durationMs": 83,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Easy Agile",
+      "group": "Lever",
+      "count": 0,
+      "durationMs": 33,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Tempo",
+      "group": "Ashby",
+      "count": 19,
+      "durationMs": 1147,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Rewind",
+      "group": "Ashby",
+      "count": 1,
+      "durationMs": 341,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Appfire",
+      "group": "Greenhouse",
+      "count": 11,
+      "durationMs": 228,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "SmartBear",
+      "group": "Greenhouse",
+      "count": 18,
+      "durationMs": 109,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Modus Create",
+      "group": "Greenhouse",
+      "count": 17,
+      "durationMs": 109,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Lucid",
+      "group": "Greenhouse",
+      "count": 32,
+      "durationMs": 111,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Samsara",
+      "group": "Greenhouse",
+      "count": 0,
+      "durationMs": 122,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Kalles Group",
+      "group": "Greenhouse",
+      "count": 0,
+      "durationMs": 109,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
     {
       "name": "Betsson Group",
       "group": "Greenhouse",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 1529,
+      "durationMs": 109,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -18,7 +114,168 @@
       "name": "Appnovation Technologies",
       "group": "Greenhouse",
       "count": 1,
-      "durationMs": 286,
+      "prevCount": 1,
+      "durationMs": 106,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Adaptavist",
+      "group": "SmartRecruiters",
+      "count": 5,
+      "durationMs": 523,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Devoteam",
+      "group": "SmartRecruiters",
+      "count": 29,
+      "durationMs": 1281,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Axians",
+      "group": "SmartRecruiters",
+      "count": 0,
+      "durationMs": 1208,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Nagarro",
+      "group": "SmartRecruiters",
+      "count": 1,
+      "durationMs": 1329,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "INETUM",
+      "group": "SmartRecruiters",
+      "count": 3,
+      "durationMs": 1330,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Sopra Steria",
+      "group": "SmartRecruiters",
+      "count": 1,
+      "durationMs": 1419,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Stefanini",
+      "group": "SmartRecruiters",
+      "count": 0,
+      "durationMs": 1226,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Publicis Sapient",
+      "group": "SmartRecruiters",
+      "count": 0,
+      "durationMs": 1232,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Visionet",
+      "group": "SmartRecruiters",
+      "count": 0,
+      "durationMs": 1192,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Eficode",
+      "group": "Teamtailor",
+      "count": 9,
+      "durationMs": 558,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Refined",
+      "group": "Teamtailor",
+      "count": 0,
+      "durationMs": 230,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "knowmad mood",
+      "group": "Teamtailor",
+      "count": 1,
+      "durationMs": 1774,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Directio",
+      "group": "Teamtailor",
+      "count": 0,
+      "durationMs": 1621,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Embriq",
+      "group": "Teamtailor",
+      "count": 0,
+      "durationMs": 764,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Itera",
+      "group": "Teamtailor",
+      "count": 0,
+      "durationMs": 219,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Pinja",
+      "group": "Teamtailor",
+      "count": 0,
+      "durationMs": 343,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Reti",
+      "group": "Teamtailor",
+      "count": 0,
+      "durationMs": 481,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Softronic",
+      "group": "Teamtailor",
+      "count": 0,
+      "durationMs": 1038,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "TECHNIA",
+      "group": "Teamtailor",
+      "count": 0,
+      "durationMs": 1069,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "K15t",
+      "group": "Personio",
+      "count": 2,
+      "durationMs": 834,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -27,7 +284,256 @@
       "group": "Personio",
       "count": 8,
       "prevCount": 8,
-      "durationMs": 985,
+      "durationMs": 1073,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "DEMICON",
+      "group": "Personio",
+      "count": 2,
+      "durationMs": 1199,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "HiQ",
+      "group": "Personio",
+      "count": 0,
+      "durationMs": 1043,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "TNG Technology",
+      "group": "Personio",
+      "count": 0,
+      "durationMs": 5126,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Isos Technology",
+      "group": "BambooHR",
+      "count": 5,
+      "durationMs": 496,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Nimaworks",
+      "group": "Workable",
+      "count": 0,
+      "durationMs": 154,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Praecipio",
+      "group": "Workable",
+      "count": 0,
+      "durationMs": 109,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Cententia",
+      "group": "Workable",
+      "count": 0,
+      "durationMs": 113,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Mastek",
+      "group": "Workable",
+      "count": 0,
+      "durationMs": 113,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Ease Solutions",
+      "group": "Workable",
+      "count": 1,
+      "durationMs": 114,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "MESKRU",
+      "group": "JOIN",
+      "count": 4,
+      "durationMs": 131,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Medialine",
+      "group": "JOIN",
+      "count": 0,
+      "durationMs": 9548,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Nanga Systems",
+      "group": "JOIN",
+      "count": 0,
+      "durationMs": 298,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Communardo",
+      "group": "Custom",
+      "count": 10,
+      "durationMs": 1078,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Seibert Group",
+      "group": "Custom",
+      "count": 5,
+      "durationMs": 973,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Deviniti",
+      "group": "Custom",
+      "count": 7,
+      "durationMs": 2448,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "GLINtech",
+      "group": "Custom",
+      "count": 1,
+      "durationMs": 854,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "iDalko",
+      "group": "Custom",
+      "count": 4,
+      "durationMs": 171,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "catworkx",
+      "group": "Custom",
+      "count": 3,
+      "durationMs": 1874,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Contegix",
+      "group": "Custom",
+      "count": 0,
+      "durationMs": 217,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Spectrum Groupe",
+      "group": "Custom",
+      "count": 14,
+      "durationMs": 1874,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Oxalis Solutions",
+      "group": "Custom",
+      "count": 0,
+      "durationMs": 300,
+      "status": "failed",
+      "error": "Oxalis: HTTP 404",
+      "consecutiveFailures": 1
+    },
+    {
+      "name": "NSI",
+      "group": "Custom",
+      "count": 2,
+      "durationMs": 705,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Softgile",
+      "group": "Custom",
+      "count": 1,
+      "durationMs": 2164,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Euris",
+      "group": "Custom",
+      "count": 1,
+      "durationMs": 1610,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "e-core",
+      "group": "Custom",
+      "count": 14,
+      "durationMs": 826,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Remote OK",
+      "group": "Custom",
+      "count": 1,
+      "durationMs": 920,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Salto",
+      "group": "Custom",
+      "count": 2,
+      "durationMs": 90,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Xpand IT",
+      "group": "Custom",
+      "count": 10,
+      "durationMs": 68757,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Elements",
+      "group": "Custom",
+      "count": 0,
+      "durationMs": 2999,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Decadis",
+      "group": "Custom",
+      "count": 2,
+      "durationMs": 758,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "MBition",
+      "group": "Custom",
+      "count": 0,
+      "durationMs": 1651,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -36,7 +542,7 @@
       "group": "Custom",
       "count": 1,
       "prevCount": 1,
-      "durationMs": 11942,
+      "durationMs": 3475,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -45,7 +551,7 @@
       "group": "Custom",
       "count": 7,
       "prevCount": 7,
-      "durationMs": 1216,
+      "durationMs": 2840,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -54,7 +560,7 @@
       "group": "Custom",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 1652,
+      "durationMs": 335,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -63,7 +569,7 @@
       "group": "Custom",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 1446,
+      "durationMs": 1560,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -71,7 +577,8 @@
       "name": "Empyra",
       "group": "Custom",
       "count": 4,
-      "durationMs": 575,
+      "prevCount": 4,
+      "durationMs": 844,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -79,11 +586,21 @@
       "name": "Sngular",
       "group": "Custom",
       "count": 0,
-      "durationMs": 861,
+      "prevCount": 0,
+      "durationMs": 822,
       "status": "ok",
       "consecutiveFailures": 0
     }
   ],
-  "anomalies": [],
+  "anomalies": [
+    {
+      "source": "Oxalis Solutions",
+      "kind": "failed",
+      "message": "Oxalis Solutions threw an error during scraping (1 consecutive failure).",
+      "count": 0,
+      "error": "Oxalis: HTTP 404",
+      "synthesis": "Based on the HTTP 404 error during scraping, it appears that the Oxalis Solutions website may be down or the specific page being accessed is no longer available. Without additional context, it's unclear if the company is still hiring for Atlassian-related roles. This anomaly is likely due to a scraper failure rather than a genuine change at the company. The next step should be to verify the URL being scraped and ensure it is correct."
+    }
+  ],
   "duplicateIds": []
 }

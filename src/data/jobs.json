@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-02T13:32:14.533Z",
-  "totalActive": 291,
+  "generatedAt": "2026-06-08T06:47:38.392Z",
+  "totalActive": 289,
   "jobs": [
     {
       "id": "cprime-67b77768-4972-457d-8113-798ec51b302b",
@@ -17,7 +17,7 @@
       "description": "Cprime brings business into a new light—illuminating possibilities that once seemed hidden. For more than two decades, we’ve partnered with 2,500+ organizations worldwide, including over 300 of the Fortune 500, to help leaders see complexity with new clarity and rewire it into intelligent flow. With",
       "url": "https://jobs.lever.co/cprime/67b77768-4972-457d-8113-798ec51b302b",
       "firstSeen": "2026-04-03T17:53:07.202Z",
-      "lastSeen": "2026-06-01T06:56:01.217Z",
+      "lastSeen": "2026-06-08T06:43:27.777Z",
       "isActive": true
     },
     {
@@ -35,7 +35,7 @@
       "description": "Cprime brings business into a new light—illuminating possibilities that once seemed hidden. For more than two decades, we’ve partnered with 2,500+ organizations worldwide, including over 300 of the Fortune 500, to help leaders see complexity with new clarity and rewire it into intelligent flow. With",
       "url": "https://jobs.lever.co/cprime/26ef9491-c5ec-414c-bac8-37fb03033da8",
       "firstSeen": "2026-04-03T17:53:07.202Z",
-      "lastSeen": "2026-06-01T06:56:01.217Z",
+      "lastSeen": "2026-06-08T06:43:27.777Z",
       "isActive": true
     },
     {
@@ -53,7 +53,7 @@
       "description": "Cprime brings business into a new light—illuminating possibilities that once seemed hidden. For more than two decades, we’ve partnered with 2,500+ organizations worldwide, including over 300 of the Fortune 500, to help leaders see complexity with new clarity and rewire it into intelligent flow. With",
       "url": "https://jobs.lever.co/cprime/f06601f7-c0d7-47e4-bd25-8b670269690e",
       "firstSeen": "2026-04-03T17:53:07.202Z",
-      "lastSeen": "2026-06-01T06:56:01.217Z",
+      "lastSeen": "2026-06-08T06:43:27.777Z",
       "isActive": true
     },
     {
@@ -71,26 +71,8 @@
       "description": "About Elabor8\n\nWe are all about bringing value to our clients on their agile transformation journeys. Our focus on operational design, new ways of working and agile delivery helps organisations move easily between now, and what comes next.\n\nWe are currently building our Expression of Interest talent",
       "url": "https://jobs.lever.co/cprime/3afdf93e-403f-424f-9883-be0bcad9cd99",
       "firstSeen": "2026-04-03T17:53:07.202Z",
-      "lastSeen": "2026-06-01T06:56:01.217Z",
+      "lastSeen": "2026-06-08T06:43:27.777Z",
       "isActive": true
-    },
-    {
-      "id": "cprime-97679668-cc77-4976-9e8f-e1765d0f2255",
-      "sourceId": "97679668-cc77-4976-9e8f-e1765d0f2255",
-      "source": "Cprime",
-      "title": "Solutions Advisory Director",
-      "company": "Cprime",
-      "location": "United States",
-      "locationNormalised": [
-        "usa"
-      ],
-      "department": "Enterprise Technology and Value Acceleration",
-      "type": "Full-time",
-      "description": "Cprime brings business into a new light—illuminating possibilities that once seemed hidden. For more than two decades, we’ve partnered with 2,500+ organizations worldwide, including over 300 of the Fortune 500, to help leaders see complexity with new clarity and rewire it into intelligent flow. With",
-      "url": "https://jobs.lever.co/cprime/97679668-cc77-4976-9e8f-e1765d0f2255",
-      "firstSeen": "2026-04-03T17:53:07.202Z",
-      "lastSeen": "2026-05-18T06:14:36.574Z",
-      "isActive": false
     },
     {
       "id": "servicerocket-c93dbf07-5514-4fc0-b2dd-aea9273a5cd5",
@@ -108,24 +90,6 @@
       "url": "https://jobs.lever.co/servicerocket/c93dbf07-5514-4fc0-b2dd-aea9273a5cd5",
       "firstSeen": "2026-04-03T17:53:08.992Z",
       "lastSeen": "2026-06-01T06:56:02.911Z",
-      "isActive": true
-    },
-    {
-      "id": "servicerocket-a7576d2a-9b57-4c98-bbb1-cf5268c1a383",
-      "sourceId": "a7576d2a-9b57-4c98-bbb1-cf5268c1a383",
-      "source": "ServiceRocket",
-      "title": "Client Solutions Project Manager",
-      "company": "ServiceRocket",
-      "location": "Sydney, Australia",
-      "locationNormalised": [
-        "australia"
-      ],
-      "department": "Service Delivery",
-      "type": "Full-time",
-      "description": "G'day!\nWe are ServiceRocket🚀, a global tech-enabled services company headquartered in Palo Alto, California. Our purpose is to be the single most reliable partner in the acceleration of your growth. At ServiceRocket, we are committed to the development of every Rocketeer and the trust of every cust",
-      "url": "https://jobs.lever.co/servicerocket/a7576d2a-9b57-4c98-bbb1-cf5268c1a383",
-      "firstSeen": "2026-04-03T17:53:08.992Z",
-      "lastSeen": "2026-05-18T06:14:38.253Z",
       "isActive": false
     },
     {
@@ -144,7 +108,7 @@
       "description": "G'day!\nWe are ServiceRocket🚀, a global tech-enabled services company headquartered in Palo Alto, California. Our purpose is to be the single most reliable partner in the acceleration of our clients' and your growth. At ServiceRocket, we are committed to the development of every Rocketeer and the tr",
       "url": "https://jobs.lever.co/servicerocket/472f0615-aa47-416d-afc3-d75f1ae8d8da",
       "firstSeen": "2026-04-03T17:53:08.992Z",
-      "lastSeen": "2026-06-01T06:56:02.911Z",
+      "lastSeen": "2026-06-08T06:43:29.897Z",
       "isActive": true
     },
     {
@@ -163,7 +127,7 @@
       "url": "https://jobs.lever.co/servicerocket/c209931b-8543-4d11-8af3-2b6bec61e9b9",
       "firstSeen": "2026-04-03T17:53:08.992Z",
       "lastSeen": "2026-06-01T06:56:02.911Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "servicerocket-ac155382-9359-4135-afe7-ceaf84ddbb63",
@@ -180,7 +144,7 @@
       "description": "G'day!\nWe are ServiceRocket🚀, a global tech-enabled services company headquartered in Palo Alto, California. Our purpose is to be the single most reliable partner in the acceleration of your growth. At ServiceRocket, we are committed to the development of every Rocketeer and the trust of every cust",
       "url": "https://jobs.lever.co/servicerocket/ac155382-9359-4135-afe7-ceaf84ddbb63",
       "firstSeen": "2026-04-03T17:53:08.992Z",
-      "lastSeen": "2026-06-01T06:56:02.911Z",
+      "lastSeen": "2026-06-08T06:43:29.897Z",
       "isActive": true
     },
     {
@@ -216,26 +180,8 @@
       "description": "About Valiantys \n \nValiantys transforms how organizations work by delivering expert solutions that increase enterprise and team agility. Valiantys unlocks the full value of Atlassian’s System of Work, helping customers revolutionize product development, streamline enterprise service management (ESM)",
       "url": "https://jobs.lever.co/valiantys/1fb15a44-dd34-460b-aa88-e6553d432c30",
       "firstSeen": "2026-04-03T17:53:11.926Z",
-      "lastSeen": "2026-06-01T06:56:04.680Z",
+      "lastSeen": "2026-06-08T06:43:31.481Z",
       "isActive": true
-    },
-    {
-      "id": "valiantys-e7a6a4e3-38c0-4d6a-abe7-3f37b4a5b933",
-      "sourceId": "e7a6a4e3-38c0-4d6a-abe7-3f37b4a5b933",
-      "source": "Valiantys",
-      "title": "Principal Transformation Consultant (f/m/d)",
-      "company": "Valiantys",
-      "location": "Remote, United Kingdom",
-      "locationNormalised": [
-        "remote",
-        "uk"
-      ],
-      "department": "Transformation Consulting",
-      "description": "About Valiantys\nValiantys is a global leader in consulting and services for the Atlassian ecosystem, helping businesses transform their IT operations and business processes. With a focus on driving operational excellence, innovation, and agility, we empower organizations to achieve their goals throu",
-      "url": "https://jobs.lever.co/valiantys/e7a6a4e3-38c0-4d6a-abe7-3f37b4a5b933",
-      "firstSeen": "2026-04-03T17:53:11.926Z",
-      "lastSeen": "2026-05-18T06:14:39.998Z",
-      "isActive": false
     },
     {
       "id": "tempo-io-e94d97cd-9fb7-4d9a-863b-3c6d35c4270f",
@@ -251,7 +197,7 @@
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/e94d97cd-9fb7-4d9a-863b-3c6d35c4270f",
       "firstSeen": "2026-04-03T18:04:55.059Z",
-      "lastSeen": "2026-06-01T06:56:08.718Z",
+      "lastSeen": "2026-06-08T06:43:35.636Z",
       "isActive": true
     },
     {
@@ -268,7 +214,7 @@
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/b1aca505-6772-46ea-9d5d-54a4d11f816d",
       "firstSeen": "2026-04-03T18:04:55.059Z",
-      "lastSeen": "2026-06-01T06:56:08.718Z",
+      "lastSeen": "2026-06-08T06:43:35.636Z",
       "isActive": true
     },
     {
@@ -285,7 +231,7 @@
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/2e3bfa48-72ac-4eaa-b5b3-18c1cb46dbd0",
       "firstSeen": "2026-04-03T18:04:55.059Z",
-      "lastSeen": "2026-06-01T06:56:08.718Z",
+      "lastSeen": "2026-06-08T06:43:35.636Z",
       "isActive": true
     },
     {
@@ -319,7 +265,7 @@
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/072a78d8-fdea-4f3e-b0b7-890467b5e147",
       "firstSeen": "2026-04-03T18:04:55.059Z",
-      "lastSeen": "2026-06-01T06:56:08.718Z",
+      "lastSeen": "2026-06-08T06:43:35.636Z",
       "isActive": true
     },
     {
@@ -335,7 +281,7 @@
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4633727005",
       "firstSeen": "2025-12-16T03:53:06-05:00",
       "lastSeen": "2026-06-01T06:56:12.212Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "appfire-4641115005",
@@ -350,7 +296,7 @@
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4641115005",
       "firstSeen": "2025-12-16T03:53:07-05:00",
       "lastSeen": "2026-06-01T06:56:12.212Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "appfire-4656919005",
@@ -365,7 +311,7 @@
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4656919005",
       "firstSeen": "2026-02-09T10:31:43-05:00",
       "lastSeen": "2026-06-01T06:56:12.212Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "appfire-4667233005",
@@ -379,7 +325,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4667233005",
       "firstSeen": "2026-03-04T04:31:58-05:00",
-      "lastSeen": "2026-06-01T06:56:12.212Z",
+      "lastSeen": "2026-06-08T06:43:39.231Z",
       "isActive": true
     },
     {
@@ -395,7 +341,7 @@
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4664145005",
       "firstSeen": "2026-02-19T11:36:04-05:00",
       "lastSeen": "2026-06-01T06:56:12.212Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "appfire-4667238005",
@@ -410,7 +356,7 @@
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4667238005",
       "firstSeen": "2026-03-03T11:20:14-05:00",
       "lastSeen": "2026-06-01T06:56:12.212Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "appfire-4660626005",
@@ -425,36 +371,6 @@
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4660626005",
       "firstSeen": "2026-02-19T11:36:02-05:00",
       "lastSeen": "2026-06-01T06:56:12.212Z",
-      "isActive": true
-    },
-    {
-      "id": "appfire-4659508005",
-      "sourceId": "4659508005",
-      "source": "Appfire",
-      "title": "Senior Software Engineer ",
-      "company": "Appfire",
-      "location": "Spain",
-      "locationNormalised": [
-        "europe"
-      ],
-      "url": "https://job-boards.greenhouse.io/appfire/jobs/4659508005",
-      "firstSeen": "2026-02-09T15:14:54-05:00",
-      "lastSeen": "2026-05-18T06:14:48.441Z",
-      "isActive": false
-    },
-    {
-      "id": "appfire-4655908005",
-      "sourceId": "4655908005",
-      "source": "Appfire",
-      "title": "Senior Software Engineer ",
-      "company": "Appfire",
-      "location": "Bulgaria",
-      "locationNormalised": [
-        "europe"
-      ],
-      "url": "https://job-boards.greenhouse.io/appfire/jobs/4655908005",
-      "firstSeen": "2026-02-09T15:05:37-05:00",
-      "lastSeen": "2026-05-18T06:14:48.441Z",
       "isActive": false
     },
     {
@@ -469,7 +385,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4669651005",
       "firstSeen": "2026-03-12T13:52:49-04:00",
-      "lastSeen": "2026-06-01T06:56:12.212Z",
+      "lastSeen": "2026-06-08T06:43:39.231Z",
       "isActive": true
     },
     {
@@ -484,7 +400,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4672674005",
       "firstSeen": "2026-03-12T14:00:29-04:00",
-      "lastSeen": "2026-06-01T06:56:12.212Z",
+      "lastSeen": "2026-06-08T06:43:39.231Z",
       "isActive": true
     },
     {
@@ -502,7 +418,7 @@
       "url": "https://jobs.smartrecruiters.com/TheAdaptavistGroup/744000119188427",
       "firstSeen": "2026-04-01T13:46:53.197Z",
       "lastSeen": "2026-06-01T06:56:22.143Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "career-eficode-com-7471122-atlassian-consultant",
@@ -517,7 +433,7 @@
       "department": "Atlassian consulting",
       "url": "https://career.eficode.com/jobs/7471122-atlassian-consultant",
       "firstSeen": "2026-04-03T18:16:51.506Z",
-      "lastSeen": "2026-06-01T06:56:29.354Z",
+      "lastSeen": "2026-06-08T06:44:16.806Z",
       "isActive": true
     },
     {
@@ -534,7 +450,7 @@
       "url": "https://career.eficode.com/jobs/7319649-github-solutions-architect",
       "firstSeen": "2026-04-03T18:16:51.506Z",
       "lastSeen": "2026-06-01T06:56:29.354Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "career-eficode-com-7001190-open-application",
@@ -548,7 +464,7 @@
       ],
       "url": "https://career.eficode.com/jobs/7001190-open-application",
       "firstSeen": "2026-04-03T18:16:51.506Z",
-      "lastSeen": "2026-06-01T06:56:29.354Z",
+      "lastSeen": "2026-06-08T06:44:16.806Z",
       "isActive": true
     },
     {
@@ -565,7 +481,7 @@
       "type": "full-time",
       "url": "https://k15t.jobs.personio.com/job/2527693",
       "firstSeen": "2026-02-12T10:02:48+00:00",
-      "lastSeen": "2026-06-01T06:56:39.205Z",
+      "lastSeen": "2026-06-08T06:44:40.190Z",
       "isActive": true
     },
     {
@@ -582,7 +498,7 @@
       "type": "full-or-part-time",
       "url": "https://k15t.jobs.personio.com/job/857940",
       "firstSeen": "2022-10-18T13:41:41+00:00",
-      "lastSeen": "2026-06-01T06:56:39.205Z",
+      "lastSeen": "2026-06-08T06:44:40.190Z",
       "isActive": true
     },
     {
@@ -612,7 +528,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7536798003",
       "firstSeen": "2025-12-03T14:22:19-05:00",
-      "lastSeen": "2026-06-01T06:56:13.797Z",
+      "lastSeen": "2026-06-08T06:43:40.839Z",
       "isActive": true
     },
     {
@@ -627,7 +543,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/5905855003",
       "firstSeen": "2026-02-02T12:35:41-05:00",
-      "lastSeen": "2026-06-01T06:56:13.797Z",
+      "lastSeen": "2026-06-08T06:43:40.839Z",
       "isActive": true
     },
     {
@@ -642,7 +558,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7659639003",
       "firstSeen": "2026-04-03T06:45:24-04:00",
-      "lastSeen": "2026-06-01T06:56:13.797Z",
+      "lastSeen": "2026-06-08T06:43:40.839Z",
       "isActive": true
     },
     {
@@ -657,7 +573,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7551629003",
       "firstSeen": "2025-12-17T06:00:46-05:00",
-      "lastSeen": "2026-06-01T06:56:13.797Z",
+      "lastSeen": "2026-06-08T06:43:40.839Z",
       "isActive": true
     },
     {
@@ -673,7 +589,7 @@
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7711704003",
       "firstSeen": "2026-04-01T10:50:03-04:00",
       "lastSeen": "2026-06-01T06:56:13.797Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "smartbear-7568505003",
@@ -687,7 +603,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7568505003",
       "firstSeen": "2025-12-19T09:38:06-05:00",
-      "lastSeen": "2026-06-01T06:56:13.797Z",
+      "lastSeen": "2026-06-08T06:43:40.839Z",
       "isActive": true
     },
     {
@@ -702,38 +618,8 @@
       ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7665421003",
       "firstSeen": "2026-03-20T08:40:46-04:00",
-      "lastSeen": "2026-06-01T06:56:13.797Z",
+      "lastSeen": "2026-06-08T06:43:40.839Z",
       "isActive": true
-    },
-    {
-      "id": "smartbear-7667231003",
-      "sourceId": "7667231003",
-      "source": "SmartBear",
-      "title": "Junior Software Engineer ZE",
-      "company": "SmartBear",
-      "location": "Bengaluru, Karnataka, India",
-      "locationNormalised": [
-        "india"
-      ],
-      "url": "https://job-boards.greenhouse.io/smartbear/jobs/7667231003",
-      "firstSeen": "2026-03-17T03:09:48-04:00",
-      "lastSeen": "2026-05-18T06:14:50.024Z",
-      "isActive": false
-    },
-    {
-      "id": "smartbear-7607136003",
-      "sourceId": "7607136003",
-      "source": "SmartBear",
-      "title": "Partner Program Manager",
-      "company": "SmartBear",
-      "location": "Somerville, Massachusetts, United States",
-      "locationNormalised": [
-        "usa"
-      ],
-      "url": "https://job-boards.greenhouse.io/smartbear/jobs/7607136003",
-      "firstSeen": "2026-02-03T06:26:31-05:00",
-      "lastSeen": "2026-05-18T06:14:50.024Z",
-      "isActive": false
     },
     {
       "id": "smartbear-7665379003",
@@ -747,23 +633,8 @@
       ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7665379003",
       "firstSeen": "2026-03-25T13:25:47-04:00",
-      "lastSeen": "2026-06-01T06:56:13.797Z",
+      "lastSeen": "2026-06-08T06:43:40.839Z",
       "isActive": true
-    },
-    {
-      "id": "smartbear-7629262003",
-      "sourceId": "7629262003",
-      "source": "SmartBear",
-      "title": "QA Engineer- ReadyAPI",
-      "company": "SmartBear",
-      "location": "Wrocław, Lower Silesian Voivodeship, Poland",
-      "locationNormalised": [
-        "europe"
-      ],
-      "url": "https://job-boards.greenhouse.io/smartbear/jobs/7629262003",
-      "firstSeen": "2026-02-12T03:06:21-05:00",
-      "lastSeen": "2026-05-18T06:14:50.024Z",
-      "isActive": false
     },
     {
       "id": "smartbear-7668635003",
@@ -777,7 +648,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7668635003",
       "firstSeen": "2026-03-17T23:02:44-04:00",
-      "lastSeen": "2026-06-01T06:56:13.797Z",
+      "lastSeen": "2026-06-08T06:43:40.839Z",
       "isActive": true
     },
     {
@@ -794,7 +665,7 @@
       "type": "Full-Time",
       "url": "https://isostech.bamboohr.com/careers/251",
       "firstSeen": "2026-04-04T02:00:43.719Z",
-      "lastSeen": "2026-06-01T06:56:41.188Z",
+      "lastSeen": "2026-06-08T06:44:56.631Z",
       "isActive": true
     },
     {
@@ -809,7 +680,7 @@
       ],
       "url": "https://seibert.group/jobs/initiativbewerbung-mitarbeiterin-in-unserer-google-business-unit/",
       "firstSeen": "2026-04-04T02:00:47.737Z",
-      "lastSeen": "2026-06-01T06:56:56.516Z",
+      "lastSeen": "2026-06-08T06:45:24.271Z",
       "isActive": true
     },
     {
@@ -824,7 +695,7 @@
       ],
       "url": "https://seibert.group/jobs/web-developer-atlassian-cloud-apps-react-und-node/",
       "firstSeen": "2026-04-04T02:00:47.737Z",
-      "lastSeen": "2026-06-01T06:56:56.516Z",
+      "lastSeen": "2026-06-08T06:45:24.271Z",
       "isActive": true
     },
     {
@@ -839,7 +710,7 @@
       ],
       "url": "https://deviniti.com/job/product-marketing-manager/",
       "firstSeen": "2026-04-04T02:14:12.127Z",
-      "lastSeen": "2026-06-01T06:56:59.139Z",
+      "lastSeen": "2026-06-08T06:45:26.984Z",
       "isActive": true
     },
     {
@@ -869,7 +740,7 @@
       ],
       "url": "https://deviniti.com/job/atlassian-cloud-migration-specialist/",
       "firstSeen": "2026-04-04T02:14:12.127Z",
-      "lastSeen": "2026-06-01T06:56:59.139Z",
+      "lastSeen": "2026-06-08T06:45:26.984Z",
       "isActive": true
     },
     {
@@ -884,23 +755,8 @@
       ],
       "url": "https://deviniti.com/job/senior-lead-flutter-developer/",
       "firstSeen": "2026-04-04T02:14:12.127Z",
-      "lastSeen": "2026-06-01T06:56:59.139Z",
+      "lastSeen": "2026-06-08T06:45:26.984Z",
       "isActive": true
-    },
-    {
-      "id": "deviniti-senior-business-analyst",
-      "sourceId": "senior-business-analyst",
-      "source": "Deviniti",
-      "title": "Senior Business Analyst",
-      "company": "Deviniti",
-      "location": "Poland",
-      "locationNormalised": [
-        "europe"
-      ],
-      "url": "https://deviniti.com/job/senior-business-analyst/",
-      "firstSeen": "2026-04-04T02:14:12.127Z",
-      "lastSeen": "2026-05-18T06:15:31.211Z",
-      "isActive": false
     },
     {
       "id": "idalko-business-developer",
@@ -914,7 +770,7 @@
       ],
       "url": "https://idalko.com/job-list/business-developer",
       "firstSeen": "2026-04-04T02:27:19.913Z",
-      "lastSeen": "2026-06-01T06:57:03.791Z",
+      "lastSeen": "2026-06-08T06:45:32.249Z",
       "isActive": true
     },
     {
@@ -929,7 +785,7 @@
       ],
       "url": "https://idalko.com/job-list/competence-lead-tech",
       "firstSeen": "2026-04-04T02:27:19.913Z",
-      "lastSeen": "2026-06-01T06:57:03.791Z",
+      "lastSeen": "2026-06-08T06:45:32.249Z",
       "isActive": true
     },
     {
@@ -944,7 +800,7 @@
       ],
       "url": "https://idalko.com/job-list/project-manager",
       "firstSeen": "2026-04-04T02:27:19.913Z",
-      "lastSeen": "2026-06-01T06:57:03.791Z",
+      "lastSeen": "2026-06-08T06:45:32.249Z",
       "isActive": true
     },
     {
@@ -959,7 +815,7 @@
       ],
       "url": "https://www.catworkx.com/stellenangebote/catworkx/enterprise-portfolio-and-data-analytics-engineer",
       "firstSeen": "2026-04-04T02:27:21.198Z",
-      "lastSeen": "2026-06-01T06:57:06.238Z",
+      "lastSeen": "2026-06-08T06:45:34.707Z",
       "isActive": true
     },
     {
@@ -974,7 +830,7 @@
       ],
       "url": "https://www.catworkx.com/stellenangebote/catworkx/lead-atlassian-migration-architect",
       "firstSeen": "2026-04-04T02:27:21.198Z",
-      "lastSeen": "2026-06-01T06:57:06.238Z",
+      "lastSeen": "2026-06-08T06:45:34.707Z",
       "isActive": true
     },
     {
@@ -989,7 +845,7 @@
       ],
       "url": "https://www.catworkx.com/stellenangebote/catworkx/lead-jira-engineer",
       "firstSeen": "2026-04-04T02:27:21.198Z",
-      "lastSeen": "2026-06-01T06:57:06.238Z",
+      "lastSeen": "2026-06-08T06:45:34.707Z",
       "isActive": true
     },
     {
@@ -1004,7 +860,7 @@
       ],
       "url": "https://spectrumgroupe.fr/en/job/junior-technical-consultant-2/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
-      "lastSeen": "2026-06-01T06:57:12.613Z",
+      "lastSeen": "2026-06-08T06:45:40.717Z",
       "isActive": true
     },
     {
@@ -1019,7 +875,7 @@
       ],
       "url": "https://spectrumgroupe.fr/en/job/senior-technical-consultant-2/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
-      "lastSeen": "2026-06-01T06:57:12.613Z",
+      "lastSeen": "2026-06-08T06:45:40.717Z",
       "isActive": true
     },
     {
@@ -1034,7 +890,7 @@
       ],
       "url": "https://spectrumgroupe.fr/en/job/marketing-assistant-office-admin-3/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
-      "lastSeen": "2026-06-01T06:57:12.613Z",
+      "lastSeen": "2026-06-08T06:45:40.717Z",
       "isActive": true
     },
     {
@@ -1049,7 +905,7 @@
       ],
       "url": "https://spectrumgroupe.fr/en/job/technical-delivery-manager-2/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
-      "lastSeen": "2026-06-01T06:57:12.613Z",
+      "lastSeen": "2026-06-08T06:45:40.717Z",
       "isActive": true
     },
     {
@@ -1064,7 +920,7 @@
       ],
       "url": "https://spectrumgroupe.fr/en/job/marketing-assistant-office-admin-4/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
-      "lastSeen": "2026-06-01T06:57:12.613Z",
+      "lastSeen": "2026-06-08T06:45:40.717Z",
       "isActive": true
     },
     {
@@ -1079,7 +935,7 @@
       ],
       "url": "https://spectrumgroupe.fr/en/job/stages-dete-graphic-designer-2/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
-      "lastSeen": "2026-06-01T06:57:12.613Z",
+      "lastSeen": "2026-06-08T06:45:40.717Z",
       "isActive": true
     },
     {
@@ -1094,7 +950,7 @@
       ],
       "url": "https://spectrumgroupe.fr/en/job/software-tester-s/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
-      "lastSeen": "2026-06-01T06:57:12.613Z",
+      "lastSeen": "2026-06-08T06:45:40.717Z",
       "isActive": true
     },
     {
@@ -1109,7 +965,7 @@
       ],
       "url": "https://spectrumgroupe.fr/en/job/administrateur-systemes-et-reseaux-2/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
-      "lastSeen": "2026-06-01T06:57:12.613Z",
+      "lastSeen": "2026-06-08T06:45:40.717Z",
       "isActive": true
     },
     {
@@ -1124,7 +980,7 @@
       ],
       "url": "https://spectrumgroupe.fr/en/job/consultant-technico-fonctionnel-outils-atlassian-2/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
-      "lastSeen": "2026-06-01T06:57:12.613Z",
+      "lastSeen": "2026-06-08T06:45:40.717Z",
       "isActive": true
     },
     {
@@ -1139,7 +995,7 @@
       ],
       "url": "https://spectrumgroupe.fr/en/job/account-manager/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
-      "lastSeen": "2026-06-01T06:57:12.613Z",
+      "lastSeen": "2026-06-08T06:45:40.717Z",
       "isActive": true
     },
     {
@@ -1154,7 +1010,7 @@
       ],
       "url": "https://spectrumgroupe.fr/en/job/product-marketing-manager-3/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
-      "lastSeen": "2026-06-01T06:57:12.613Z",
+      "lastSeen": "2026-06-08T06:45:40.717Z",
       "isActive": true
     },
     {
@@ -1169,7 +1025,7 @@
       ],
       "url": "https://spectrumgroupe.fr/en/job/software-engineering-manager-2/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
-      "lastSeen": "2026-06-01T06:57:12.613Z",
+      "lastSeen": "2026-06-08T06:45:40.717Z",
       "isActive": true
     },
     {
@@ -1184,7 +1040,7 @@
       ],
       "url": "https://spectrumgroupe.fr/en/job/technical-consultant-atlassian-tools/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
-      "lastSeen": "2026-06-01T06:57:12.613Z",
+      "lastSeen": "2026-06-08T06:45:40.717Z",
       "isActive": true
     },
     {
@@ -1199,7 +1055,7 @@
       ],
       "url": "https://spectrumgroupe.fr/en/job/odoo-developer/",
       "firstSeen": "2026-04-04T02:27:24.809Z",
-      "lastSeen": "2026-06-01T06:57:12.613Z",
+      "lastSeen": "2026-06-08T06:45:40.717Z",
       "isActive": true
     },
     {
@@ -1214,7 +1070,7 @@
       ],
       "url": "https://moduscreate.com/careers/7652509003?gh_jid=7652509003",
       "firstSeen": "2026-03-04T11:24:38-05:00",
-      "lastSeen": "2026-06-01T06:56:15.390Z",
+      "lastSeen": "2026-06-08T06:43:42.449Z",
       "isActive": true
     },
     {
@@ -1229,7 +1085,7 @@
       ],
       "url": "https://moduscreate.com/careers/7641401003?gh_jid=7641401003",
       "firstSeen": "2026-02-23T15:20:27-05:00",
-      "lastSeen": "2026-06-01T06:56:15.390Z",
+      "lastSeen": "2026-06-08T06:43:42.449Z",
       "isActive": true
     },
     {
@@ -1244,7 +1100,7 @@
       ],
       "url": "https://moduscreate.com/careers/7660851003?gh_jid=7660851003",
       "firstSeen": "2026-03-12T09:16:13-04:00",
-      "lastSeen": "2026-06-01T06:56:15.390Z",
+      "lastSeen": "2026-06-08T06:43:42.449Z",
       "isActive": true
     },
     {
@@ -1259,7 +1115,7 @@
       ],
       "url": "https://moduscreate.com/careers/7662644003?gh_jid=7662644003",
       "firstSeen": "2026-03-12T09:17:21-04:00",
-      "lastSeen": "2026-06-01T06:56:15.390Z",
+      "lastSeen": "2026-06-08T06:43:42.449Z",
       "isActive": true
     },
     {
@@ -1275,7 +1131,7 @@
       "url": "https://moduscreate.com/careers/7636532003?gh_jid=7636532003",
       "firstSeen": "2026-02-26T07:56:13-05:00",
       "lastSeen": "2026-06-01T06:56:15.390Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "lucidsoftware-5075811004",
@@ -1290,7 +1146,7 @@
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5075811004",
       "firstSeen": "2024-02-15T17:45:40-05:00",
       "lastSeen": "2026-06-01T06:56:16.973Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "lucidsoftware-5486168004",
@@ -1304,23 +1160,8 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5486168004",
       "firstSeen": "2025-03-26T18:36:40-04:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
-    },
-    {
-      "id": "lucidsoftware-5035148004",
-      "sourceId": "5035148004",
-      "source": "Lucid",
-      "title": "EMEA  Mid Market Expansion Account Executive (DACH)",
-      "company": "Lucid",
-      "location": "Amsterdam, NL",
-      "locationNormalised": [
-        "europe"
-      ],
-      "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5035148004",
-      "firstSeen": "2023-12-07T10:40:41-05:00",
-      "lastSeen": "2026-05-18T06:14:53.195Z",
-      "isActive": false
     },
     {
       "id": "lucidsoftware-4938861004",
@@ -1335,7 +1176,7 @@
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/4938861004",
       "firstSeen": "2023-07-24T18:23:32-04:00",
       "lastSeen": "2026-06-01T06:56:16.973Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "lucidsoftware-4910160004",
@@ -1349,7 +1190,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/4910160004",
       "firstSeen": "2023-07-05T15:47:46-04:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
     },
     {
@@ -1364,158 +1205,8 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5561256004",
       "firstSeen": "2025-06-10T12:56:20-04:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
-    },
-    {
-      "id": "lucidsoftware-5498211004",
-      "sourceId": "5498211004",
-      "source": "Lucid",
-      "title": "NA Corporate Expansion Sr. Account Executive",
-      "company": "Lucid",
-      "location": "Remote, US",
-      "locationNormalised": [
-        "remote"
-      ],
-      "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5498211004",
-      "firstSeen": "2025-04-08T16:55:01-04:00",
-      "lastSeen": "2026-05-18T06:14:53.195Z",
-      "isActive": false
-    },
-    {
-      "id": "lucidsoftware-5498213004",
-      "sourceId": "5498213004",
-      "source": "Lucid",
-      "title": "NA Emerging Enterprise Expansion Sr. Account Executive",
-      "company": "Lucid",
-      "location": "Raleigh, NC",
-      "locationNormalised": [
-        "usa"
-      ],
-      "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5498213004",
-      "firstSeen": "2025-06-17T12:00:27-04:00",
-      "lastSeen": "2026-05-18T06:14:53.195Z",
-      "isActive": false
-    },
-    {
-      "id": "lucidsoftware-5498210004",
-      "sourceId": "5498210004",
-      "source": "Lucid",
-      "title": "NA Emerging Enterprise Expansion Sr. Account Executive",
-      "company": "Lucid",
-      "location": "Salt Lake City, UT",
-      "locationNormalised": [
-        "usa"
-      ],
-      "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5498210004",
-      "firstSeen": "2025-04-08T16:54:59-04:00",
-      "lastSeen": "2026-05-18T06:14:53.195Z",
-      "isActive": false
-    },
-    {
-      "id": "lucidsoftware-5970817004",
-      "sourceId": "5970817004",
-      "source": "Lucid",
-      "title": "NA Mid-Market Expansion Account Executive",
-      "company": "Lucid",
-      "location": "Raleigh, NC",
-      "locationNormalised": [
-        "usa"
-      ],
-      "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5970817004",
-      "firstSeen": "2026-02-12T09:52:29-05:00",
-      "lastSeen": "2026-05-18T06:14:53.195Z",
-      "isActive": false
-    },
-    {
-      "id": "lucidsoftware-5970814004",
-      "sourceId": "5970814004",
-      "source": "Lucid",
-      "title": "NA Mid-Market Expansion Account Executive",
-      "company": "Lucid",
-      "location": "Salt Lake City, UT",
-      "locationNormalised": [
-        "usa"
-      ],
-      "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5970814004",
-      "firstSeen": "2026-02-12T09:51:35-05:00",
-      "lastSeen": "2026-05-18T06:14:53.195Z",
-      "isActive": false
-    },
-    {
-      "id": "lucidsoftware-5841153004",
-      "sourceId": "5841153004",
-      "source": "Lucid",
-      "title": "NA Mid-Market New Logo Account Executive",
-      "company": "Lucid",
-      "location": "Salt Lake City, UT",
-      "locationNormalised": [
-        "usa"
-      ],
-      "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5841153004",
-      "firstSeen": "2026-03-30T16:57:42-04:00",
-      "lastSeen": "2026-05-18T06:14:53.195Z",
-      "isActive": false
-    },
-    {
-      "id": "lucidsoftware-5841152004",
-      "sourceId": "5841152004",
-      "source": "Lucid",
-      "title": "NA Mid-Market New Logo Account Executive",
-      "company": "Lucid",
-      "location": "Raleigh, NC",
-      "locationNormalised": [
-        "usa"
-      ],
-      "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5841152004",
-      "firstSeen": "2026-03-30T16:57:18-04:00",
-      "lastSeen": "2026-05-18T06:14:53.195Z",
-      "isActive": false
-    },
-    {
-      "id": "lucidsoftware-5661506004",
-      "sourceId": "5661506004",
-      "source": "Lucid",
-      "title": "NA Sales Development Representative",
-      "company": "Lucid",
-      "location": "Salt Lake City, UT",
-      "locationNormalised": [
-        "usa"
-      ],
-      "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5661506004",
-      "firstSeen": "2025-09-29T11:27:07-04:00",
-      "lastSeen": "2026-05-18T06:14:53.195Z",
-      "isActive": false
-    },
-    {
-      "id": "lucidsoftware-5802789004",
-      "sourceId": "5802789004",
-      "source": "Lucid",
-      "title": "NA SMB Expansion Account Executive ",
-      "company": "Lucid",
-      "location": "Salt Lake City, UT",
-      "locationNormalised": [
-        "usa"
-      ],
-      "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5802789004",
-      "firstSeen": "2026-02-12T09:56:42-05:00",
-      "lastSeen": "2026-05-18T06:14:53.195Z",
-      "isActive": false
-    },
-    {
-      "id": "lucidsoftware-5802792004",
-      "sourceId": "5802792004",
-      "source": "Lucid",
-      "title": "NA SMB Expansion Account Executive ",
-      "company": "Lucid",
-      "location": "Raleigh, NC",
-      "locationNormalised": [
-        "usa"
-      ],
-      "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5802792004",
-      "firstSeen": "2026-02-12T09:57:51-05:00",
-      "lastSeen": "2026-05-18T06:14:53.195Z",
-      "isActive": false
     },
     {
       "id": "lucidsoftware-5844865004",
@@ -1529,7 +1220,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5844865004",
       "firstSeen": "2026-04-02T14:56:39-04:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
     },
     {
@@ -1544,7 +1235,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5848334004",
       "firstSeen": "2026-04-03T12:41:02-04:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
     },
     {
@@ -1559,7 +1250,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5848338004",
       "firstSeen": "2026-04-03T12:41:04-04:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
     },
     {
@@ -1574,7 +1265,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5812414004",
       "firstSeen": "2026-03-02T18:30:47-05:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
     },
     {
@@ -1589,7 +1280,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5817343004",
       "firstSeen": "2026-03-02T18:30:47-05:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
     },
     {
@@ -1606,7 +1297,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000120992600",
       "firstSeen": "2026-03-26T09:54:59.297Z",
-      "lastSeen": "2026-06-01T06:56:24.962Z",
+      "lastSeen": "2026-06-08T06:43:55.313Z",
       "isActive": true
     },
     {
@@ -1624,7 +1315,7 @@
       "description": "Cprime brings business into a new light—illuminating possibilities that once seemed hidden. For more than two decades, we’ve partnered with 2,500+ organizations worldwide, including over 300 of the Fortune 500, to help leaders see complexity with new clarity and rewire it into intelligent flow. With",
       "url": "https://jobs.lever.co/cprime/0ef115b1-a4df-4707-9d52-7e729a15fe35",
       "firstSeen": "2026-04-06T06:32:50.710Z",
-      "lastSeen": "2026-06-01T06:56:01.217Z",
+      "lastSeen": "2026-06-08T06:43:27.777Z",
       "isActive": true
     },
     {
@@ -1633,11 +1324,11 @@
       "source": "NSI",
       "title": "Consultant Atlassian expérimenté H.F",
       "company": "NSI",
-      "location": "Marseille, FR",
+      "location": "Paris, FR",
       "locationNormalised": "europe",
       "url": "https://careers.nsigroup.eu/o/consultant-atlassian-experimente-hf",
       "firstSeen": "2026-04-06T06:33:21.031Z",
-      "lastSeen": "2026-06-01T06:57:16.192Z",
+      "lastSeen": "2026-06-08T06:45:44.723Z",
       "isActive": true
     },
     {
@@ -1650,7 +1341,7 @@
       "locationNormalised": "europe",
       "url": "https://careers.nsigroup.eu/o/nsi-business-consultant-atlassian-experimente-fr-an",
       "firstSeen": "2026-04-06T06:33:21.031Z",
-      "lastSeen": "2026-06-01T06:57:16.192Z",
+      "lastSeen": "2026-06-08T06:45:44.723Z",
       "isActive": true
     },
     {
@@ -1663,7 +1354,7 @@
       "locationNormalised": "remote",
       "url": "https://softgile.com/en/vakansiyi/",
       "firstSeen": "2026-04-06T06:33:23.012Z",
-      "lastSeen": "2026-06-01T06:57:19.870Z",
+      "lastSeen": "2026-06-08T06:45:48.387Z",
       "isActive": true
     },
     {
@@ -1676,7 +1367,7 @@
       "locationNormalised": "europe",
       "url": "https://euris.altamiraweb.com/annunci-lavoro/job-details?JobID=261911796",
       "firstSeen": "2026-04-06T06:33:24.453Z",
-      "lastSeen": "2026-06-01T06:57:23.107Z",
+      "lastSeen": "2026-06-08T06:45:51.498Z",
       "isActive": true
     },
     {
@@ -1689,7 +1380,7 @@
       "locationNormalised": "other",
       "url": "https://ecore.inhire.app/vagas/bc042a4c-69b2-4140-8783-853193ae5d8f",
       "firstSeen": "2026-04-06T06:33:33.576Z",
-      "lastSeen": "2026-06-01T06:57:25.377Z",
+      "lastSeen": "2026-06-08T06:45:53.824Z",
       "isActive": true
     },
     {
@@ -1702,7 +1393,7 @@
       "locationNormalised": "other",
       "url": "https://ecore.inhire.app/vagas/a60dc271-3ca4-4683-a652-723d2f97848d",
       "firstSeen": "2026-04-06T06:33:33.576Z",
-      "lastSeen": "2026-06-01T06:57:25.377Z",
+      "lastSeen": "2026-06-08T06:45:53.824Z",
       "isActive": true
     },
     {
@@ -1715,7 +1406,7 @@
       "locationNormalised": "other",
       "url": "https://ecore.inhire.app/vagas/ca794009-b79a-4d0f-b7f5-b802ca031350",
       "firstSeen": "2026-04-06T06:33:33.576Z",
-      "lastSeen": "2026-06-01T06:57:25.377Z",
+      "lastSeen": "2026-06-08T06:45:53.824Z",
       "isActive": true
     },
     {
@@ -1728,7 +1419,7 @@
       "locationNormalised": "other",
       "url": "https://ecore.inhire.app/vagas/5888f9ae-53ce-4aec-8449-b03a0f4fd33d",
       "firstSeen": "2026-04-06T06:33:33.576Z",
-      "lastSeen": "2026-06-01T06:57:25.377Z",
+      "lastSeen": "2026-06-08T06:45:53.824Z",
       "isActive": true
     },
     {
@@ -1741,7 +1432,7 @@
       "locationNormalised": "other",
       "url": "https://ecore.inhire.app/vagas/e1312a73-467d-4628-8d73-ad3b1c3f92a2",
       "firstSeen": "2026-04-06T06:33:33.576Z",
-      "lastSeen": "2026-06-01T06:57:25.377Z",
+      "lastSeen": "2026-06-08T06:45:53.824Z",
       "isActive": true
     },
     {
@@ -1755,7 +1446,7 @@
       "url": "https://ecore.inhire.app/vagas/d0c7d9bb-2cff-4497-9fff-6eb0c28fb398",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-06-01T06:57:25.377Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "ecore-59357fad-1806-44d3-bc24-8afe3a36e052",
@@ -1768,7 +1459,7 @@
       "url": "https://ecore.inhire.app/vagas/59357fad-1806-44d3-bc24-8afe3a36e052",
       "firstSeen": "2026-04-06T06:33:33.576Z",
       "lastSeen": "2026-06-01T06:57:25.377Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "ecore-2b37007b-21ef-4d32-bd73-5dcdd67177e3",
@@ -1793,25 +1484,8 @@
       "locationNormalised": "other",
       "url": "https://ecore.inhire.app/vagas/f9f05a98-364c-400c-abc3-5c7521e933cf",
       "firstSeen": "2026-04-06T06:33:33.576Z",
-      "lastSeen": "2026-06-01T06:57:25.377Z",
+      "lastSeen": "2026-06-08T06:45:53.824Z",
       "isActive": true
-    },
-    {
-      "id": "devoteam-744000105805806",
-      "sourceId": "744000105805806",
-      "source": "Devoteam",
-      "title": "Consultor Atlassian (100% teletrabajo)",
-      "company": "Devoteam",
-      "location": "Remote",
-      "locationNormalised": [
-        "remote"
-      ],
-      "department": "Development",
-      "type": "Full-time",
-      "url": "https://jobs.smartrecruiters.com/Devoteam/744000105805806",
-      "firstSeen": "2026-01-27T09:52:16.172Z",
-      "lastSeen": "2026-05-18T06:15:01.214Z",
-      "isActive": false
     },
     {
       "id": "devoteam-744000104650146",
@@ -1845,7 +1519,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000103353261",
       "firstSeen": "2026-01-13T18:12:45.693Z",
-      "lastSeen": "2026-06-01T06:56:24.962Z",
+      "lastSeen": "2026-06-08T06:43:55.313Z",
       "isActive": true
     },
     {
@@ -1862,7 +1536,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000103353175",
       "firstSeen": "2026-01-13T18:11:59.152Z",
-      "lastSeen": "2026-06-01T06:56:24.962Z",
+      "lastSeen": "2026-06-08T06:43:55.313Z",
       "isActive": true
     },
     {
@@ -1879,7 +1553,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000099359006",
       "firstSeen": "2025-12-17T14:23:47.017Z",
-      "lastSeen": "2026-06-01T06:56:24.962Z",
+      "lastSeen": "2026-06-08T06:43:55.313Z",
       "isActive": true
     },
     {
@@ -1896,7 +1570,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000099359299",
       "firstSeen": "2025-12-17T14:23:09.681Z",
-      "lastSeen": "2026-06-01T06:56:24.962Z",
+      "lastSeen": "2026-06-08T06:43:55.313Z",
       "isActive": true
     },
     {
@@ -1913,7 +1587,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000082248095",
       "firstSeen": "2025-09-16T13:55:38.810Z",
-      "lastSeen": "2026-06-01T06:56:24.962Z",
+      "lastSeen": "2026-06-08T06:43:55.313Z",
       "isActive": true
     },
     {
@@ -1930,26 +1604,8 @@
       "description": "Role:                   Specialist 2, Customer Support\nContract:            3+ months- Contract-to-Hire\nLocation:             Blue Ash, OH (no remote work available)\n \nJob Description:\nOnsite in Blue Ash, OH (no remote work available)\nStart:  04/27\n \nSchedule:  Mon-Fri 8:30 am- 5pm EST Pay $20.00/ho",
       "url": "https://jobs.lever.co/cprime/2ccbfad1-be7e-4627-a10a-a4dcdc212639",
       "firstSeen": "2026-04-13T04:59:05.525Z",
-      "lastSeen": "2026-06-01T06:56:01.217Z",
+      "lastSeen": "2026-06-08T06:43:27.777Z",
       "isActive": true
-    },
-    {
-      "id": "cprime-de9bfa1c-8884-4a85-9e71-22d9d45a159c",
-      "sourceId": "de9bfa1c-8884-4a85-9e71-22d9d45a159c",
-      "source": "Cprime",
-      "title": "Sr Developer (HP NONSTOP ,TANDEM, SCOBOL)",
-      "company": "Cprime",
-      "location": "India",
-      "locationNormalised": [
-        "india"
-      ],
-      "department": "Global Talent Services -India",
-      "type": "Full-time",
-      "description": "Cprime brings business into a new light—illuminating possibilities that once seemed hidden. For more than two decades, we’ve partnered with 2,500+ organizations worldwide, including over 300 of the Fortune 500, to help leaders see complexity with new clarity and rewire it into intelligent flow. With",
-      "url": "https://jobs.lever.co/cprime/de9bfa1c-8884-4a85-9e71-22d9d45a159c",
-      "firstSeen": "2026-04-13T04:59:05.525Z",
-      "lastSeen": "2026-05-18T06:14:36.574Z",
-      "isActive": false
     },
     {
       "id": "servicerocket-5ad4ef9d-9b40-45e8-91ec-a194fa969c62",
@@ -1967,7 +1623,7 @@
       "description": "G'day!\nWe are ServiceRocket🚀, a global tech-enabled services company headquartered in Palo Alto, California. Our purpose is to be the single most reliable partner in the acceleration of our clients' and your growth. At ServiceRocket, we are committed to the development of every Rocketeer and the tr",
       "url": "https://jobs.lever.co/servicerocket/5ad4ef9d-9b40-45e8-91ec-a194fa969c62",
       "firstSeen": "2026-04-13T04:59:07.314Z",
-      "lastSeen": "2026-06-01T06:56:02.911Z",
+      "lastSeen": "2026-06-08T06:43:29.897Z",
       "isActive": true
     },
     {
@@ -1985,7 +1641,7 @@
       "description": "G'day!\nWe are ServiceRocket🚀, a global tech-enabled services company headquartered in Palo Alto, California. Our purpose is to be the single most reliable partner in the acceleration of our clients' and your growth. At ServiceRocket, we are committed to the development of every Rocketeer and the tr",
       "url": "https://jobs.lever.co/servicerocket/ef2eb035-76c1-46df-a2d9-e34201759087",
       "firstSeen": "2026-04-13T04:59:07.314Z",
-      "lastSeen": "2026-06-01T06:56:02.911Z",
+      "lastSeen": "2026-06-08T06:43:29.897Z",
       "isActive": true
     },
     {
@@ -2003,40 +1659,8 @@
       "description": "G'day!\nWe are ServiceRocket🚀, a global tech-enabled services company headquartered in Palo Alto, California. Our purpose is to be the single most reliable partner in the acceleration of our clients' and your growth. At ServiceRocket, we are committed to the development of every Rocketeer and the tr",
       "url": "https://jobs.lever.co/servicerocket/f2f9ac4f-ddb7-4bd7-b36a-4911a7c46043",
       "firstSeen": "2026-04-13T04:59:07.314Z",
-      "lastSeen": "2026-06-01T06:56:02.911Z",
+      "lastSeen": "2026-06-08T06:43:29.897Z",
       "isActive": true
-    },
-    {
-      "id": "rewind-c512d98b-1ca6-4e13-802e-5aa4b3de12be",
-      "sourceId": "c512d98b-1ca6-4e13-802e-5aa4b3de12be",
-      "source": "Rewind",
-      "title": "Account Manager",
-      "company": "Rewind",
-      "location": "Ontario",
-      "locationNormalised": [
-        "other"
-      ],
-      "department": "Revenue",
-      "type": "FullTime",
-      "url": "https://jobs.ashbyhq.com/rewind/c512d98b-1ca6-4e13-802e-5aa4b3de12be",
-      "firstSeen": "2026-04-13T04:59:17.361Z",
-      "lastSeen": "2026-05-18T06:14:46.794Z",
-      "isActive": false
-    },
-    {
-      "id": "smartbear-7675316003",
-      "sourceId": "7675316003",
-      "source": "SmartBear",
-      "title": "Senior Software Engineer - AI",
-      "company": "SmartBear",
-      "location": "Ahmedabad, Gujarat, India",
-      "locationNormalised": [
-        "india"
-      ],
-      "url": "https://job-boards.greenhouse.io/smartbear/jobs/7675316003",
-      "firstSeen": "2026-04-08T09:39:19-04:00",
-      "lastSeen": "2026-05-18T06:14:50.024Z",
-      "isActive": false
     },
     {
       "id": "lucidsoftware-5076057004",
@@ -2050,24 +1674,8 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5076057004",
       "firstSeen": "2024-02-08T17:43:21-05:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
-    },
-    {
-      "id": "lucidsoftware-5888823004",
-      "sourceId": "5888823004",
-      "source": "Lucid",
-      "title": "EMEA Enterprise Expansion Account Executive ",
-      "company": "Lucid",
-      "location": "Remote, UK",
-      "locationNormalised": [
-        "remote",
-        "uk"
-      ],
-      "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5888823004",
-      "firstSeen": "2026-04-09T10:20:25-04:00",
-      "lastSeen": "2026-05-18T06:14:53.195Z",
-      "isActive": false
     },
     {
       "id": "lucidsoftware-5916229004",
@@ -2081,7 +1689,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5916229004",
       "firstSeen": "2026-04-10T10:15:58-04:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
     },
     {
@@ -2097,7 +1705,7 @@
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5803417004",
       "firstSeen": "2026-03-09T18:06:50-04:00",
       "lastSeen": "2026-06-01T06:56:16.973Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "isostech-252",
@@ -2113,7 +1721,7 @@
       "type": "Full-Time",
       "url": "https://isostech.bamboohr.com/careers/252",
       "firstSeen": "2026-04-13T04:59:38.825Z",
-      "lastSeen": "2026-06-01T06:56:41.188Z",
+      "lastSeen": "2026-06-08T06:44:56.631Z",
       "isActive": true
     },
     {
@@ -2128,7 +1736,7 @@
       ],
       "url": "https://deviniti.com/job/atlassian-consultant/",
       "firstSeen": "2026-04-13T04:59:52.705Z",
-      "lastSeen": "2026-06-01T06:56:59.139Z",
+      "lastSeen": "2026-06-08T06:45:26.984Z",
       "isActive": true
     },
     {
@@ -2144,7 +1752,7 @@
       "url": "https://remoteok.com/remote-jobs/remote-product-owner-medical-cost-containment-jira-expertise-reliant-1130334",
       "firstSeen": "2026-04-13T05:00:21.309Z",
       "lastSeen": "2026-06-01T06:57:26.879Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "salto-product-manager",
@@ -2158,7 +1766,7 @@
       ],
       "url": "https://www.salto.io/careers/product-manager",
       "firstSeen": "2026-04-13T05:00:23.999Z",
-      "lastSeen": "2026-06-01T06:57:29.423Z",
+      "lastSeen": "2026-06-08T06:45:57.835Z",
       "isActive": true
     },
     {
@@ -2173,7 +1781,7 @@
       ],
       "url": "https://www.salto.io/careers/regional-sales-manager-5",
       "firstSeen": "2026-04-13T05:00:23.999Z",
-      "lastSeen": "2026-06-01T06:57:29.423Z",
+      "lastSeen": "2026-06-08T06:45:57.835Z",
       "isActive": true
     },
     {
@@ -2192,7 +1800,7 @@
       "description": "About Valiantys\nValiantys helps organizations transform how work gets done across the enterprise, leading with transformation consulting, enterprise service management (ESM), and engineering productivity. By combining deep process expertise with modern collaboration, automation, and value stream pra",
       "url": "https://jobs.lever.co/valiantys/763b79c8-1097-404a-9f36-3f841f98bb1d",
       "firstSeen": "2026-04-13T11:32:31.952Z",
-      "lastSeen": "2026-06-01T06:56:04.680Z",
+      "lastSeen": "2026-06-08T06:43:31.481Z",
       "isActive": true
     },
     {
@@ -2209,7 +1817,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000112666958",
       "firstSeen": "2026-03-04T12:36:37.765Z",
-      "lastSeen": "2026-06-01T06:56:24.962Z",
+      "lastSeen": "2026-06-08T06:43:55.313Z",
       "isActive": true
     },
     {
@@ -2226,7 +1834,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000109281817",
       "firstSeen": "2026-02-13T17:41:40.951Z",
-      "lastSeen": "2026-06-01T06:56:24.962Z",
+      "lastSeen": "2026-06-08T06:43:55.313Z",
       "isActive": true
     },
     {
@@ -2243,7 +1851,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000102290325",
       "firstSeen": "2026-01-08T13:31:33.444Z",
-      "lastSeen": "2026-06-01T06:56:24.962Z",
+      "lastSeen": "2026-06-08T06:43:55.313Z",
       "isActive": true
     },
     {
@@ -2260,7 +1868,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000100372376",
       "firstSeen": "2025-12-24T10:53:42.177Z",
-      "lastSeen": "2026-06-01T06:56:24.962Z",
+      "lastSeen": "2026-06-08T06:43:55.313Z",
       "isActive": true
     },
     {
@@ -2277,7 +1885,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000100373325",
       "firstSeen": "2025-12-24T10:53:03.562Z",
-      "lastSeen": "2026-06-01T06:56:24.962Z",
+      "lastSeen": "2026-06-08T06:43:55.313Z",
       "isActive": true
     },
     {
@@ -2294,7 +1902,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000100371991",
       "firstSeen": "2025-12-24T10:52:22.506Z",
-      "lastSeen": "2026-06-01T06:56:24.962Z",
+      "lastSeen": "2026-06-08T06:43:55.313Z",
       "isActive": true
     },
     {
@@ -2311,7 +1919,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000100372845",
       "firstSeen": "2025-12-24T10:47:35.875Z",
-      "lastSeen": "2026-06-01T06:56:24.962Z",
+      "lastSeen": "2026-06-08T06:43:55.313Z",
       "isActive": true
     },
     {
@@ -2328,7 +1936,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000070580035",
       "firstSeen": "2025-07-14T21:37:59.221Z",
-      "lastSeen": "2026-06-01T06:56:24.962Z",
+      "lastSeen": "2026-06-08T06:43:55.313Z",
       "isActive": true
     },
     {
@@ -2345,7 +1953,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000070579025",
       "firstSeen": "2025-07-14T21:31:22.051Z",
-      "lastSeen": "2026-06-01T06:56:24.962Z",
+      "lastSeen": "2026-06-08T06:43:55.313Z",
       "isActive": true
     },
     {
@@ -2362,7 +1970,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000046950099",
       "firstSeen": "2025-03-10T16:25:33.279Z",
-      "lastSeen": "2026-06-01T06:56:24.962Z",
+      "lastSeen": "2026-06-08T06:43:55.313Z",
       "isActive": true
     },
     {
@@ -2379,7 +1987,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000045128008",
       "firstSeen": "2025-02-28T09:58:38.605Z",
-      "lastSeen": "2026-06-01T06:56:24.962Z",
+      "lastSeen": "2026-06-08T06:43:55.313Z",
       "isActive": true
     },
     {
@@ -2396,7 +2004,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000039583940",
       "firstSeen": "2025-01-30T09:07:35.276Z",
-      "lastSeen": "2026-06-01T06:56:24.962Z",
+      "lastSeen": "2026-06-08T06:43:55.313Z",
       "isActive": true
     },
     {
@@ -2413,7 +2021,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000037672166",
       "firstSeen": "2025-01-20T17:14:06.853Z",
-      "lastSeen": "2026-06-01T06:56:24.962Z",
+      "lastSeen": "2026-06-08T06:43:55.313Z",
       "isActive": true
     },
     {
@@ -2430,7 +2038,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000036102672",
       "firstSeen": "2025-01-13T13:03:55.787Z",
-      "lastSeen": "2026-06-01T06:56:24.962Z",
+      "lastSeen": "2026-06-08T06:43:55.313Z",
       "isActive": true
     },
     {
@@ -2445,7 +2053,7 @@
       ],
       "url": "https://xpand-it.com/en/careers/find-opportunities/business-process-transformation/sales-administrative",
       "firstSeen": "2026-04-13T12:09:36.035Z",
-      "lastSeen": "2026-06-01T06:58:39.877Z",
+      "lastSeen": "2026-06-08T06:47:08.067Z",
       "isActive": true
     },
     {
@@ -2461,7 +2069,7 @@
       "url": "https://xpand-it.com/en/careers/find-opportunities/human-resources/learning-development-specialist",
       "firstSeen": "2026-04-13T12:09:36.035Z",
       "lastSeen": "2026-06-01T06:58:39.877Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "xpandit-senior-software-engineer",
@@ -2475,23 +2083,8 @@
       ],
       "url": "https://xpand-it.com/en/careers/find-opportunities/core-services/senior-software-engineer",
       "firstSeen": "2026-04-13T12:09:36.035Z",
-      "lastSeen": "2026-06-01T06:58:39.877Z",
+      "lastSeen": "2026-06-08T06:47:08.067Z",
       "isActive": true
-    },
-    {
-      "id": "xpandit-senior-net-developer",
-      "sourceId": "senior-net-developer",
-      "source": "Xpand IT",
-      "title": "Senior .NET Developer",
-      "company": "Xpand IT",
-      "location": "Portugal",
-      "locationNormalised": [
-        "europe"
-      ],
-      "url": "https://xpand-it.com/en/careers/find-opportunities/core-services/senior-net-developer",
-      "firstSeen": "2026-04-13T12:09:36.035Z",
-      "lastSeen": "2026-05-18T06:17:10.495Z",
-      "isActive": false
     },
     {
       "id": "xpandit-mid-level-software-engineer",
@@ -2505,53 +2098,8 @@
       ],
       "url": "https://xpand-it.com/en/careers/find-opportunities/core-services/mid-level-software-engineer",
       "firstSeen": "2026-04-13T12:09:36.035Z",
-      "lastSeen": "2026-06-01T06:58:39.877Z",
+      "lastSeen": "2026-06-08T06:47:08.067Z",
       "isActive": true
-    },
-    {
-      "id": "xpandit-mid-level-net-developer",
-      "sourceId": "mid-level-net-developer",
-      "source": "Xpand IT",
-      "title": "Mid-level .NET Developer",
-      "company": "Xpand IT",
-      "location": "Portugal",
-      "locationNormalised": [
-        "europe"
-      ],
-      "url": "https://xpand-it.com/en/careers/find-opportunities/core-services/mid-level-net-developer",
-      "firstSeen": "2026-04-13T12:09:36.035Z",
-      "lastSeen": "2026-05-18T06:17:10.495Z",
-      "isActive": false
-    },
-    {
-      "id": "xpandit-junior-software-engineer",
-      "sourceId": "junior-software-engineer",
-      "source": "Xpand IT",
-      "title": "Junior Software Engineer",
-      "company": "Xpand IT",
-      "location": "Portugal",
-      "locationNormalised": [
-        "europe"
-      ],
-      "url": "https://xpand-it.com/en/careers/find-opportunities/core-services/junior-software-engineer",
-      "firstSeen": "2026-04-13T12:09:36.035Z",
-      "lastSeen": "2026-05-18T06:17:10.495Z",
-      "isActive": false
-    },
-    {
-      "id": "xpandit-junior-net-developer",
-      "sourceId": "junior-net-developer",
-      "source": "Xpand IT",
-      "title": "Junior .NET Developer",
-      "company": "Xpand IT",
-      "location": "Portugal",
-      "locationNormalised": [
-        "europe"
-      ],
-      "url": "https://xpand-it.com/en/careers/find-opportunities/core-services/junior-net-developer",
-      "firstSeen": "2026-04-13T12:09:36.035Z",
-      "lastSeen": "2026-05-18T06:17:10.495Z",
-      "isActive": false
     },
     {
       "id": "xpandit-ai-engineer",
@@ -2598,7 +2146,7 @@
       "description": "Cprime brings business into a new light—illuminating possibilities that once seemed hidden. For more than two decades, we’ve partnered with 2,500+ organizations worldwide, including over 300 of the Fortune 500, to help leaders see complexity with new clarity and rewire it into intelligent flow. With",
       "url": "https://jobs.lever.co/cprime/0cfe0bc5-8647-41a3-ae19-5d987667afc3",
       "firstSeen": "2026-04-20T04:58:22.081Z",
-      "lastSeen": "2026-06-01T06:56:01.217Z",
+      "lastSeen": "2026-06-08T06:43:27.777Z",
       "isActive": true
     },
     {
@@ -2616,7 +2164,7 @@
       "description": "",
       "url": "https://jobs.lever.co/cprime/7de8bfaa-2a41-4cc2-acef-a320c13f5262",
       "firstSeen": "2026-04-20T04:58:22.081Z",
-      "lastSeen": "2026-06-01T06:56:01.217Z",
+      "lastSeen": "2026-06-08T06:43:27.777Z",
       "isActive": true
     },
     {
@@ -2635,7 +2183,7 @@
       "url": "https://jobs.lever.co/cprime/8e71ccc5-ce1b-44c7-a05f-ede30367c19e",
       "firstSeen": "2026-04-20T04:58:22.081Z",
       "lastSeen": "2026-06-01T06:56:01.217Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "valiantys-b96f90ef-21b7-4ecf-b570-2c29f855642f",
@@ -2653,7 +2201,7 @@
       "description": "Über Valiantys \n \nSchließe dich Valiantys an und werde Teil von etwas Außergewöhnlichem!\nBei Valiantys sind wir kein typischer Atlassian Platinum Solution Partner – wir sind die treibende Kraft hinter beeindruckenden, bahnbrechenden Lösungen, die mit größter Sorgfalt für die Atlassian-Produktpalette",
       "url": "https://jobs.lever.co/valiantys/b96f90ef-21b7-4ecf-b570-2c29f855642f",
       "firstSeen": "2026-04-20T04:58:26.181Z",
-      "lastSeen": "2026-06-01T06:56:04.680Z",
+      "lastSeen": "2026-06-08T06:43:31.481Z",
       "isActive": true
     },
     {
@@ -2671,7 +2219,7 @@
       "url": "https://jobs.ashbyhq.com/tempo-io/67dfe327-3dcf-4651-88b6-1d48b4b2624d",
       "firstSeen": "2026-04-20T04:58:30.090Z",
       "lastSeen": "2026-06-01T06:56:08.718Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "tempo-io-21cdd8e1-9146-4d5e-bc13-fa9d03664f09",
@@ -2687,25 +2235,8 @@
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/21cdd8e1-9146-4d5e-bc13-fa9d03664f09",
       "firstSeen": "2026-04-20T04:58:30.090Z",
-      "lastSeen": "2026-06-01T06:56:08.718Z",
+      "lastSeen": "2026-06-08T06:43:35.636Z",
       "isActive": true
-    },
-    {
-      "id": "tempo-io-e0447ab1-097d-4348-8f90-ec27ba50057a",
-      "sourceId": "e0447ab1-097d-4348-8f90-ec27ba50057a",
-      "source": "Tempo",
-      "title": "Software Development Manager",
-      "company": "Tempo",
-      "location": "Canada",
-      "locationNormalised": [
-        "canada"
-      ],
-      "department": "Engineering",
-      "type": "FullTime",
-      "url": "https://jobs.ashbyhq.com/tempo-io/e0447ab1-097d-4348-8f90-ec27ba50057a",
-      "firstSeen": "2026-04-20T04:58:30.090Z",
-      "lastSeen": "2026-05-18T06:14:44.983Z",
-      "isActive": false
     },
     {
       "id": "tempo-io-f82c4127-adb4-4495-9e3e-973ba7ab42e4",
@@ -2739,7 +2270,7 @@
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/rewind/dae5f6d5-7ec3-4dc4-8b2e-2494cd7d65b7",
       "firstSeen": "2026-04-20T04:58:31.896Z",
-      "lastSeen": "2026-06-01T06:56:10.552Z",
+      "lastSeen": "2026-06-08T06:43:37.478Z",
       "isActive": true
     },
     {
@@ -2754,8 +2285,8 @@
       ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4684721005",
       "firstSeen": "2026-04-17T07:33:42-04:00",
-      "lastSeen": "2026-05-25T06:28:03.251Z",
-      "isActive": false
+      "lastSeen": "2026-06-08T06:43:39.231Z",
+      "isActive": true
     },
     {
       "id": "appfire-4684717005",
@@ -2769,8 +2300,8 @@
       ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4684717005",
       "firstSeen": "2026-04-17T07:33:41-04:00",
-      "lastSeen": "2026-05-25T06:28:03.251Z",
-      "isActive": false
+      "lastSeen": "2026-06-08T06:43:39.231Z",
+      "isActive": true
     },
     {
       "id": "appfire-4684719005",
@@ -2784,8 +2315,8 @@
       ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4684719005",
       "firstSeen": "2026-04-17T07:33:42-04:00",
-      "lastSeen": "2026-05-25T06:28:03.251Z",
-      "isActive": false
+      "lastSeen": "2026-06-08T06:43:39.231Z",
+      "isActive": true
     },
     {
       "id": "lucidsoftware-5969693004",
@@ -2799,7 +2330,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5969693004",
       "firstSeen": "2026-04-14T10:40:23-04:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
     },
     {
@@ -2814,7 +2345,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5968802004",
       "firstSeen": "2026-04-13T14:32:27-04:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
     },
     {
@@ -2829,7 +2360,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5968786004",
       "firstSeen": "2026-04-13T14:32:27-04:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
     },
     {
@@ -2846,7 +2377,7 @@
       "type": "Full-Time",
       "url": "https://isostech.bamboohr.com/careers/254",
       "firstSeen": "2026-04-20T04:58:52.359Z",
-      "lastSeen": "2026-06-01T06:56:41.188Z",
+      "lastSeen": "2026-06-08T06:44:56.631Z",
       "isActive": true
     },
     {
@@ -2861,23 +2392,8 @@
       ],
       "url": "https://deviniti.com/job/digital-ai-transformation-advisor/",
       "firstSeen": "2026-04-20T04:59:05.111Z",
-      "lastSeen": "2026-06-01T06:56:59.139Z",
+      "lastSeen": "2026-06-08T06:45:26.984Z",
       "isActive": true
-    },
-    {
-      "id": "deviniti-senior-it-project-manager-atlassian",
-      "sourceId": "senior-it-project-manager-atlassian",
-      "source": "Deviniti",
-      "title": "Senior IT Project Manager (Atlassian)",
-      "company": "Deviniti",
-      "location": "Poland",
-      "locationNormalised": [
-        "europe"
-      ],
-      "url": "https://deviniti.com/job/senior-it-project-manager-atlassian/",
-      "firstSeen": "2026-04-20T04:59:05.111Z",
-      "lastSeen": "2026-05-18T06:15:31.211Z",
-      "isActive": false
     },
     {
       "id": "idalko-seniorconsultantbe",
@@ -2891,7 +2407,7 @@
       ],
       "url": "https://idalko.com/job-list/seniorconsultantbe",
       "firstSeen": "2026-04-20T04:59:10.069Z",
-      "lastSeen": "2026-06-01T06:57:03.791Z",
+      "lastSeen": "2026-06-08T06:45:32.249Z",
       "isActive": true
     },
     {
@@ -2906,7 +2422,7 @@
       ],
       "url": "https://www.decadis.de/jobs/atlassian-cloud-solution-consultant-m-w-d",
       "firstSeen": "2026-04-20T05:00:48.385Z",
-      "lastSeen": "2026-06-01T06:58:46.093Z",
+      "lastSeen": "2026-06-08T06:47:14.853Z",
       "isActive": true
     },
     {
@@ -2921,7 +2437,7 @@
       ],
       "url": "https://www.decadis.de/jobs/atlassian-technical-consultant-m-w-d",
       "firstSeen": "2026-04-20T05:00:48.385Z",
-      "lastSeen": "2026-06-01T06:58:46.093Z",
+      "lastSeen": "2026-06-08T06:47:14.853Z",
       "isActive": true
     },
     {
@@ -2956,7 +2472,7 @@
       "url": "https://jobs.ashbyhq.com/tempo-io/deeabf16-f5e0-404d-a29f-a32fb0ad7ac7",
       "firstSeen": "2026-04-27T05:24:13.776Z",
       "lastSeen": "2026-06-01T06:56:08.718Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "tempo-io-5e927ff4-19e8-4dd2-b635-456dde5ec1df",
@@ -2973,7 +2489,7 @@
       "url": "https://jobs.ashbyhq.com/tempo-io/5e927ff4-19e8-4dd2-b635-456dde5ec1df",
       "firstSeen": "2026-04-27T05:24:13.776Z",
       "lastSeen": "2026-06-01T06:56:08.718Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "tempo-io-d68c2416-6b22-453f-a149-94f9facc4acf",
@@ -2990,7 +2506,7 @@
       "url": "https://jobs.ashbyhq.com/tempo-io/d68c2416-6b22-453f-a149-94f9facc4acf",
       "firstSeen": "2026-04-27T05:24:13.776Z",
       "lastSeen": "2026-06-01T06:56:08.718Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "tempo-io-c65b12aa-79df-414e-a98f-11c0f9837f92",
@@ -3006,7 +2522,7 @@
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/c65b12aa-79df-414e-a98f-11c0f9837f92",
       "firstSeen": "2026-04-27T05:24:13.776Z",
-      "lastSeen": "2026-06-01T06:56:08.718Z",
+      "lastSeen": "2026-06-08T06:43:35.636Z",
       "isActive": true
     },
     {
@@ -3024,7 +2540,7 @@
       "url": "https://jobs.ashbyhq.com/tempo-io/1ec412de-57ba-4738-8daf-54d50ab0abe3",
       "firstSeen": "2026-04-27T05:24:13.776Z",
       "lastSeen": "2026-06-01T06:56:08.718Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "tempo-io-41115cce-b31e-46b2-8d22-184cb7233e4c",
@@ -3040,7 +2556,7 @@
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/41115cce-b31e-46b2-8d22-184cb7233e4c",
       "firstSeen": "2026-04-27T05:24:13.776Z",
-      "lastSeen": "2026-06-01T06:56:08.718Z",
+      "lastSeen": "2026-06-08T06:43:35.636Z",
       "isActive": true
     },
     {
@@ -3073,7 +2589,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4688118005",
       "firstSeen": "2026-04-23T07:44:01-04:00",
-      "lastSeen": "2026-06-01T06:56:12.212Z",
+      "lastSeen": "2026-06-08T06:43:39.231Z",
       "isActive": true
     },
     {
@@ -3092,36 +2608,6 @@
       "isActive": false
     },
     {
-      "id": "lucidsoftware-5977136004",
-      "sourceId": "5977136004",
-      "source": "Lucid",
-      "title": "Sr. Technical Project Manager",
-      "company": "Lucid",
-      "location": "Salt Lake City, UT",
-      "locationNormalised": [
-        "usa"
-      ],
-      "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5977136004",
-      "firstSeen": "2026-04-21T12:12:23-04:00",
-      "lastSeen": "2026-05-18T06:14:53.195Z",
-      "isActive": false
-    },
-    {
-      "id": "lucidsoftware-5977910004",
-      "sourceId": "5977910004",
-      "source": "Lucid",
-      "title": "Sr. Technical Project Manager",
-      "company": "Lucid",
-      "location": "Raleigh, NC",
-      "locationNormalised": [
-        "usa"
-      ],
-      "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5977910004",
-      "firstSeen": "2026-04-21T12:12:24-04:00",
-      "lastSeen": "2026-05-18T06:14:53.195Z",
-      "isActive": false
-    },
-    {
       "id": "isostech-255",
       "sourceId": "255",
       "source": "Isos Technology",
@@ -3135,7 +2621,7 @@
       "type": "Full-Time",
       "url": "https://isostech.bamboohr.com/careers/255",
       "firstSeen": "2026-04-27T05:24:36.840Z",
-      "lastSeen": "2026-06-01T06:56:41.188Z",
+      "lastSeen": "2026-06-08T06:44:56.631Z",
       "isActive": true
     },
     {
@@ -3180,7 +2666,7 @@
       ],
       "url": "https://www.glintech.com/about/careers/atlassian-consultant/",
       "firstSeen": "2026-04-27T05:24:53.055Z",
-      "lastSeen": "2026-06-01T06:57:01.836Z",
+      "lastSeen": "2026-06-08T06:45:30.303Z",
       "isActive": true
     },
     {
@@ -3194,7 +2680,7 @@
       "url": "https://ecore.inhire.app/vagas/1b2c672c-4814-45d1-a46b-dd882a40c51a",
       "firstSeen": "2026-04-27T05:25:16.136Z",
       "lastSeen": "2026-06-01T06:57:25.377Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "ecore-f88194c0-ef6a-4b6f-8a5c-6d4e701f2f9a",
@@ -3206,7 +2692,7 @@
       "locationNormalised": "other",
       "url": "https://ecore.inhire.app/vagas/f88194c0-ef6a-4b6f-8a5c-6d4e701f2f9a",
       "firstSeen": "2026-04-27T05:25:16.136Z",
-      "lastSeen": "2026-06-01T06:57:25.377Z",
+      "lastSeen": "2026-06-08T06:45:53.824Z",
       "isActive": true
     },
     {
@@ -3243,7 +2729,7 @@
       "description": "Über Valiantys \n \nSchließe dich Valiantys an und werde Teil von etwas Außergewöhnlichem!\nBei Valiantys sind wir kein typischer Atlassian Platinum Solution Partner – wir sind die treibende Kraft hinter beeindruckenden, bahnbrechenden Lösungen, die mit größter Sorgfalt für die Atlassian-Produktpalette",
       "url": "https://jobs.lever.co/valiantys/ff66cda4-7298-4fc7-b8a2-877244f6de89",
       "firstSeen": "2026-05-11T05:59:17.150Z",
-      "lastSeen": "2026-06-01T06:56:04.680Z",
+      "lastSeen": "2026-06-08T06:43:31.481Z",
       "isActive": true
     },
     {
@@ -3252,9 +2738,8 @@
       "source": "Valiantys",
       "title": "Atlassian Consultant - Cloud Practice",
       "company": "Valiantys",
-      "location": "Remote, France",
+      "location": "Paris, Île-de-France, France",
       "locationNormalised": [
-        "remote",
         "europe"
       ],
       "department": "Delivery Consulting",
@@ -3262,7 +2747,7 @@
       "description": "About Valiantys\nValiantys helps organizations transform how work gets done across the enterprise, leading with transformation consulting, enterprise service management (ESM), and engineering productivity. By combining deep process expertise with modern collaboration, automation, and value stream pra",
       "url": "https://jobs.lever.co/valiantys/5dd0330c-35f4-45b0-8edd-61814fea943b",
       "firstSeen": "2026-05-11T05:59:17.150Z",
-      "lastSeen": "2026-06-01T06:56:04.680Z",
+      "lastSeen": "2026-06-08T06:43:31.481Z",
       "isActive": true
     },
     {
@@ -3281,7 +2766,7 @@
       "description": "About Valiantys\nValiantys helps organizations transform how work gets done across the enterprise, leading with transformation consulting, enterprise service management (ESM), and engineering productivity. By combining deep process expertise with modern collaboration, automation, and value stream pra",
       "url": "https://jobs.lever.co/valiantys/90ad901f-b392-48c2-b8cc-309c7dc89a84",
       "firstSeen": "2026-05-11T05:59:17.150Z",
-      "lastSeen": "2026-06-01T06:56:04.680Z",
+      "lastSeen": "2026-06-08T06:43:31.481Z",
       "isActive": true
     },
     {
@@ -3300,7 +2785,7 @@
       "description": "About Valiantys\nHere at Valiantys, we are one of the world’s largest Atlassian partners, helping organizations work better through scalable, people-centered solutions. As an Atlassian Platinum Solution Partner with a global footprint, we support customers across industries as they adopt ITSM, Agile ",
       "url": "https://jobs.lever.co/valiantys/6533d145-a225-444f-ba95-de3d03710795",
       "firstSeen": "2026-05-11T05:59:17.150Z",
-      "lastSeen": "2026-06-01T06:56:04.680Z",
+      "lastSeen": "2026-06-08T06:43:31.481Z",
       "isActive": true
     },
     {
@@ -3319,7 +2804,7 @@
       "description": "Über Valiantys \n \nSchließe dich Valiantys an und werde Teil von etwas Außergewöhnlichem!\nBei Valiantys sind wir kein typischer Atlassian Platinum Solution Partner – wir sind die treibende Kraft hinter beeindruckenden, bahnbrechenden Lösungen, die mit größter Sorgfalt für die Atlassian-Produktpalette",
       "url": "https://jobs.lever.co/valiantys/6e7e628d-1f56-4a04-b73d-76d528e9523d",
       "firstSeen": "2026-05-11T05:59:17.150Z",
-      "lastSeen": "2026-06-01T06:56:04.680Z",
+      "lastSeen": "2026-06-08T06:43:31.481Z",
       "isActive": true
     },
     {
@@ -3337,7 +2822,7 @@
       "description": "About Valiantys\nJoin Valiantys and be part of something extraordinary!\nWe're the pioneers in delivering cutting-edge team collaboration and productivity tools. Think of us as the rocket fuel that powers organizations, propelling them to unparalleled heights of success and efficiency!\nValiantys is an",
       "url": "https://jobs.lever.co/valiantys/d864e6b6-69a9-476f-bd8a-0ec11ca83e67",
       "firstSeen": "2026-05-11T05:59:17.150Z",
-      "lastSeen": "2026-06-01T06:56:04.680Z",
+      "lastSeen": "2026-06-08T06:43:31.481Z",
       "isActive": true
     },
     {
@@ -3356,7 +2841,7 @@
       "url": "https://jobs.lever.co/valiantys/92506292-86af-490b-8cb2-77a3ec5e46f4",
       "firstSeen": "2026-05-11T05:59:17.150Z",
       "lastSeen": "2026-06-01T06:56:04.680Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "tempo-io-49f73de4-6130-4d30-88ae-52646791c08d",
@@ -3372,25 +2857,8 @@
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/49f73de4-6130-4d30-88ae-52646791c08d",
       "firstSeen": "2026-05-11T05:59:20.709Z",
-      "lastSeen": "2026-06-01T06:56:08.718Z",
+      "lastSeen": "2026-06-08T06:43:35.636Z",
       "isActive": true
-    },
-    {
-      "id": "tempo-io-88600c9c-0932-43cd-badc-430f8a7d68f8",
-      "sourceId": "88600c9c-0932-43cd-badc-430f8a7d68f8",
-      "source": "Tempo",
-      "title": "Senior Frontend Developer (Cloud)",
-      "company": "Tempo",
-      "location": "Canada",
-      "locationNormalised": [
-        "canada"
-      ],
-      "department": "Engineering",
-      "type": "FullTime",
-      "url": "https://jobs.ashbyhq.com/tempo-io/88600c9c-0932-43cd-badc-430f8a7d68f8",
-      "firstSeen": "2026-05-11T05:59:20.709Z",
-      "lastSeen": "2026-05-18T06:14:44.983Z",
-      "isActive": false
     },
     {
       "id": "appfire-4692802005",
@@ -3405,36 +2873,6 @@
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4692802005",
       "firstSeen": "2026-05-06T05:25:05-04:00",
       "lastSeen": "2026-06-01T06:56:12.212Z",
-      "isActive": true
-    },
-    {
-      "id": "appfire-4690227005",
-      "sourceId": "4690227005",
-      "source": "Appfire",
-      "title": "Senior Customer Success Manager",
-      "company": "Appfire",
-      "location": "United States",
-      "locationNormalised": [
-        "usa"
-      ],
-      "url": "https://job-boards.greenhouse.io/appfire/jobs/4690227005",
-      "firstSeen": "2026-05-04T10:57:16-04:00",
-      "lastSeen": "2026-05-18T06:14:48.441Z",
-      "isActive": false
-    },
-    {
-      "id": "appfire-4690229005",
-      "sourceId": "4690229005",
-      "source": "Appfire",
-      "title": "Senior Customer Success Manager",
-      "company": "Appfire",
-      "location": "Canada",
-      "locationNormalised": [
-        "canada"
-      ],
-      "url": "https://job-boards.greenhouse.io/appfire/jobs/4690229005",
-      "firstSeen": "2026-05-04T10:59:12-04:00",
-      "lastSeen": "2026-05-18T06:14:48.441Z",
       "isActive": false
     },
     {
@@ -3494,23 +2932,8 @@
       ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7671021003",
       "firstSeen": "2026-05-05T14:34:12-04:00",
-      "lastSeen": "2026-06-01T06:56:13.797Z",
+      "lastSeen": "2026-06-08T06:43:40.839Z",
       "isActive": true
-    },
-    {
-      "id": "smartbear-7686291003",
-      "sourceId": "7686291003",
-      "source": "SmartBear",
-      "title": "Junior QA Engineer - Automation",
-      "company": "SmartBear",
-      "location": "Ahmedabad, Gujarat, India",
-      "locationNormalised": [
-        "india"
-      ],
-      "url": "https://job-boards.greenhouse.io/smartbear/jobs/7686291003",
-      "firstSeen": "2026-04-28T08:14:21-04:00",
-      "lastSeen": "2026-05-18T06:14:50.024Z",
-      "isActive": false
     },
     {
       "id": "smartbear-7663631003",
@@ -3540,7 +2963,7 @@
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7726235003",
       "firstSeen": "2026-05-08T10:05:46-04:00",
       "lastSeen": "2026-06-01T06:56:13.797Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "smartbear-7698967003",
@@ -3570,7 +2993,7 @@
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7722876003",
       "firstSeen": "2026-05-07T13:02:57-04:00",
       "lastSeen": "2026-06-01T06:56:13.797Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "smartbear-7675318003",
@@ -3584,7 +3007,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7675318003",
       "firstSeen": "2026-04-08T09:39:19-04:00",
-      "lastSeen": "2026-06-01T06:56:13.797Z",
+      "lastSeen": "2026-06-08T06:43:40.839Z",
       "isActive": true
     },
     {
@@ -3615,21 +3038,6 @@
       "url": "https://moduscreate.com/careers/7727005003?gh_jid=7727005003",
       "firstSeen": "2026-05-09T17:56:37-04:00",
       "lastSeen": "2026-06-01T06:56:15.390Z",
-      "isActive": true
-    },
-    {
-      "id": "moduscreate-7671153003",
-      "sourceId": "7671153003",
-      "source": "Modus Create",
-      "title": "Senior Atlassian Consultant ",
-      "company": "Modus Create",
-      "location": "United Kingdom (UK)",
-      "locationNormalised": [
-        "uk"
-      ],
-      "url": "https://moduscreate.com/careers/7671153003?gh_jid=7671153003",
-      "firstSeen": "2026-03-18T16:53:11-04:00",
-      "lastSeen": "2026-05-18T06:14:51.608Z",
       "isActive": false
     },
     {
@@ -3644,7 +3052,7 @@
       ],
       "url": "https://moduscreate.com/careers/7724688003?gh_jid=7724688003",
       "firstSeen": "2026-05-05T18:51:09-04:00",
-      "lastSeen": "2026-06-01T06:56:15.390Z",
+      "lastSeen": "2026-06-08T06:43:42.449Z",
       "isActive": true
     },
     {
@@ -3659,7 +3067,7 @@
       ],
       "url": "https://moduscreate.com/careers/7725373003?gh_jid=7725373003",
       "firstSeen": "2026-05-05T18:53:24-04:00",
-      "lastSeen": "2026-06-01T06:56:15.390Z",
+      "lastSeen": "2026-06-08T06:43:42.449Z",
       "isActive": true
     },
     {
@@ -3674,7 +3082,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5987384004",
       "firstSeen": "2026-05-04T09:31:18-04:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
     },
     {
@@ -3690,7 +3098,7 @@
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5982982004",
       "firstSeen": "2026-04-27T16:47:51-04:00",
       "lastSeen": "2026-06-01T06:56:16.973Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "lucidsoftware-5983958004",
@@ -3721,25 +3129,8 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/TheAdaptavistGroup/744000124518429",
       "firstSeen": "2026-05-04T22:34:44.123Z",
-      "lastSeen": "2026-06-01T06:56:22.143Z",
+      "lastSeen": "2026-06-08T06:43:52.531Z",
       "isActive": true
-    },
-    {
-      "id": "theadaptavistgroup-744000124135774",
-      "sourceId": "744000124135774",
-      "source": "Adaptavist",
-      "title": "Office Manager - English Speaker, Part-Time role, 15 hours per week",
-      "company": "Adaptavist",
-      "location": "Kharkiv, , Ukraine",
-      "locationNormalised": [
-        "europe"
-      ],
-      "department": "Rozdoum",
-      "type": "Full-time",
-      "url": "https://jobs.smartrecruiters.com/TheAdaptavistGroup/744000124135774",
-      "firstSeen": "2026-05-01T14:35:56.841Z",
-      "lastSeen": "2026-05-18T06:14:58.388Z",
-      "isActive": false
     },
     {
       "id": "devoteam-744000125067729",
@@ -3755,7 +3146,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000125067729",
       "firstSeen": "2026-05-07T08:33:46.222Z",
-      "lastSeen": "2026-06-01T06:56:24.962Z",
+      "lastSeen": "2026-06-08T06:43:55.313Z",
       "isActive": true
     },
     {
@@ -3771,7 +3162,7 @@
       "department": "AI Consulting",
       "url": "https://career.eficode.com/jobs/7597127-lead-ai-consultant",
       "firstSeen": "2026-05-11T05:59:41.059Z",
-      "lastSeen": "2026-06-01T06:56:29.354Z",
+      "lastSeen": "2026-06-08T06:44:16.806Z",
       "isActive": true
     },
     {
@@ -3788,7 +3179,7 @@
       "url": "https://career.eficode.com/jobs/7481223-github-solutions-architect",
       "firstSeen": "2026-05-11T05:59:41.059Z",
       "lastSeen": "2026-06-01T06:56:29.354Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "career-eficode-com-7425294-solutions-architect-github-devops-transformations",
@@ -3804,7 +3195,7 @@
       "url": "https://career.eficode.com/jobs/7425294-solutions-architect-github-devops-transformations",
       "firstSeen": "2026-05-11T05:59:41.059Z",
       "lastSeen": "2026-06-01T06:56:29.354Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "communardo-senior-finance-business-partner-b2b-saas-for-elevatic-m-f-d",
@@ -3819,7 +3210,7 @@
       "url": "https://www.communardo.de/karriere/stellenangebot/senior-finance-business-partner-b2b-saas-for-elevatic-m-f-d/",
       "firstSeen": "2026-05-11T06:00:01.169Z",
       "lastSeen": "2026-06-01T06:56:50.170Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "communardo-projektleiterin-microsoft-365-azure-ki-m-w-d",
@@ -3833,7 +3224,7 @@
       ],
       "url": "https://www.communardo.de/karriere/stellenangebot/projektleiterin-microsoft-365-azure-ki-m-w-d/",
       "firstSeen": "2026-05-11T06:00:01.169Z",
-      "lastSeen": "2026-06-01T06:56:50.170Z",
+      "lastSeen": "2026-06-08T06:45:21.798Z",
       "isActive": true
     },
     {
@@ -3848,7 +3239,7 @@
       ],
       "url": "https://www.communardo.de/karriere/stellenangebot/associate-multiproject-officer-m-w-d/",
       "firstSeen": "2026-05-11T06:00:01.169Z",
-      "lastSeen": "2026-06-01T06:56:50.170Z",
+      "lastSeen": "2026-06-08T06:45:21.798Z",
       "isActive": true
     },
     {
@@ -3863,7 +3254,7 @@
       ],
       "url": "https://www.communardo.de/karriere/stellenangebot/bilanzbuchhalterin-m-w-d-1/",
       "firstSeen": "2026-05-11T06:00:01.169Z",
-      "lastSeen": "2026-06-01T06:56:50.170Z",
+      "lastSeen": "2026-06-08T06:45:21.798Z",
       "isActive": true
     },
     {
@@ -3879,7 +3270,7 @@
       "url": "https://www.communardo.de/karriere/stellenangebot/minijob-office-management-m-w-d-unterstuetzung-im-office-eventbereich-bei-communardo/",
       "firstSeen": "2026-05-11T06:00:01.169Z",
       "lastSeen": "2026-06-01T06:56:50.170Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "communardo-senior-itsm-consultant-m-w-d-gestalte-itsm-bei-unseren-kundinnen",
@@ -3893,7 +3284,7 @@
       ],
       "url": "https://www.communardo.de/karriere/stellenangebot/senior-itsm-consultant-m-w-d-gestalte-itsm-bei-unseren-kundinnen/",
       "firstSeen": "2026-05-11T06:00:01.169Z",
-      "lastSeen": "2026-06-01T06:56:50.170Z",
+      "lastSeen": "2026-06-08T06:45:21.798Z",
       "isActive": true
     },
     {
@@ -3908,7 +3299,7 @@
       ],
       "url": "https://www.communardo.de/karriere/stellenangebot/itsm-consultant-m-w-d-wachse-in-komplexe-itsm-projekte-hinein/",
       "firstSeen": "2026-05-11T06:00:01.169Z",
-      "lastSeen": "2026-06-01T06:56:50.170Z",
+      "lastSeen": "2026-06-08T06:45:21.798Z",
       "isActive": true
     },
     {
@@ -3923,7 +3314,7 @@
       ],
       "url": "https://www.communardo.de/karriere/stellenangebot/technischer-itsm-consultant-m-w-d-fokus-jira-service-management/",
       "firstSeen": "2026-05-11T06:00:01.169Z",
-      "lastSeen": "2026-06-01T06:56:50.170Z",
+      "lastSeen": "2026-06-08T06:45:21.798Z",
       "isActive": true
     },
     {
@@ -3953,7 +3344,7 @@
       ],
       "url": "https://deviniti.com/job/senior-enterprise-account-manager/",
       "firstSeen": "2026-05-11T06:00:05.800Z",
-      "lastSeen": "2026-06-01T06:56:59.139Z",
+      "lastSeen": "2026-06-08T06:45:26.984Z",
       "isActive": true
     },
     {
@@ -3989,7 +3380,7 @@
       "description": "",
       "url": "https://jobs.lever.co/cprime/90a6618c-cfd9-4e82-b17e-8a38aaa6acd4",
       "firstSeen": "2026-05-18T06:14:36.574Z",
-      "lastSeen": "2026-06-01T06:56:01.217Z",
+      "lastSeen": "2026-06-08T06:43:27.777Z",
       "isActive": true
     },
     {
@@ -4007,7 +3398,7 @@
       "description": "G'day!\nWe are ServiceRocket🚀, a global tech-enabled services company headquartered in Palo Alto, California. Our purpose is to be the single most reliable partner in the acceleration of your growth. At ServiceRocket, we are committed to the development of every Rocketeer and the trust of every cust",
       "url": "https://jobs.lever.co/servicerocket/eba2774e-3ecd-4978-ba33-121a1eabf1a6",
       "firstSeen": "2026-05-18T06:14:38.253Z",
-      "lastSeen": "2026-06-01T06:56:02.911Z",
+      "lastSeen": "2026-06-08T06:43:29.897Z",
       "isActive": true
     },
     {
@@ -4025,7 +3416,7 @@
       "description": "About Valiantys \n \nValiantys transforms how organizations work by delivering expert solutions that increase enterprise and team agility. Valiantys unlocks the full value of Atlassian’s System of Work, helping customers revolutionize product development, streamline enterprise service management (ESM)",
       "url": "https://jobs.lever.co/valiantys/68634ea8-1c3d-44b2-b9c4-f730be9323c4",
       "firstSeen": "2026-05-18T06:14:39.998Z",
-      "lastSeen": "2026-06-01T06:56:04.680Z",
+      "lastSeen": "2026-06-08T06:43:31.481Z",
       "isActive": true
     },
     {
@@ -4042,7 +3433,7 @@
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/5585ad16-fbdf-4d8e-b294-6da7ac0c8f63",
       "firstSeen": "2026-05-18T06:14:44.983Z",
-      "lastSeen": "2026-06-01T06:56:08.718Z",
+      "lastSeen": "2026-06-08T06:43:35.636Z",
       "isActive": true
     },
     {
@@ -4060,7 +3451,7 @@
       "url": "https://jobs.ashbyhq.com/tempo-io/be892c24-7a3e-45cb-bad2-8c256a74984c",
       "firstSeen": "2026-05-18T06:14:44.983Z",
       "lastSeen": "2026-06-01T06:56:08.718Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "tempo-io-d4a18341-bb9a-42a5-aa01-9c2c48e9a9f7",
@@ -4076,7 +3467,7 @@
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/d4a18341-bb9a-42a5-aa01-9c2c48e9a9f7",
       "firstSeen": "2026-05-18T06:14:44.983Z",
-      "lastSeen": "2026-06-01T06:56:08.718Z",
+      "lastSeen": "2026-06-08T06:43:35.636Z",
       "isActive": true
     },
     {
@@ -4093,7 +3484,7 @@
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/30825c1b-0a8b-4b5b-8333-956798ad48c4",
       "firstSeen": "2026-05-18T06:14:44.983Z",
-      "lastSeen": "2026-06-01T06:56:08.718Z",
+      "lastSeen": "2026-06-08T06:43:35.636Z",
       "isActive": true
     },
     {
@@ -4108,7 +3499,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7728935003",
       "firstSeen": "2026-05-14T13:28:52-04:00",
-      "lastSeen": "2026-06-01T06:56:13.797Z",
+      "lastSeen": "2026-06-08T06:43:40.839Z",
       "isActive": true
     },
     {
@@ -4123,7 +3514,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7724783003",
       "firstSeen": "2026-05-15T08:16:53-04:00",
-      "lastSeen": "2026-06-01T06:56:13.797Z",
+      "lastSeen": "2026-06-08T06:43:40.839Z",
       "isActive": true
     },
     {
@@ -4138,7 +3529,7 @@
       ],
       "url": "https://moduscreate.com/careers/7733202003?gh_jid=7733202003",
       "firstSeen": "2026-05-15T08:54:18-04:00",
-      "lastSeen": "2026-06-01T06:56:15.390Z",
+      "lastSeen": "2026-06-08T06:43:42.449Z",
       "isActive": true
     },
     {
@@ -4153,7 +3544,7 @@
       ],
       "url": "https://moduscreate.com/careers/7667397003?gh_jid=7667397003",
       "firstSeen": "2026-05-14T06:27:02-04:00",
-      "lastSeen": "2026-06-01T06:56:15.390Z",
+      "lastSeen": "2026-06-08T06:43:42.449Z",
       "isActive": true
     },
     {
@@ -4169,7 +3560,7 @@
       "url": "https://moduscreate.com/careers/7736223003?gh_jid=7736223003",
       "firstSeen": "2026-05-17T18:48:54-04:00",
       "lastSeen": "2026-06-01T06:56:15.390Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "moduscreate-7734520003",
@@ -4183,7 +3574,7 @@
       ],
       "url": "https://moduscreate.com/careers/7734520003?gh_jid=7734520003",
       "firstSeen": "2026-05-14T17:08:54-04:00",
-      "lastSeen": "2026-06-01T06:56:15.390Z",
+      "lastSeen": "2026-06-08T06:43:42.449Z",
       "isActive": true
     },
     {
@@ -4198,23 +3589,8 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5993218004",
       "firstSeen": "2026-05-11T11:33:01-04:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
-    },
-    {
-      "id": "lucidsoftware-5567092004",
-      "sourceId": "5567092004",
-      "source": "Lucid",
-      "title": "NA Business Development Representative,  Public Sector",
-      "company": "Lucid",
-      "location": "Salt Lake City, UT",
-      "locationNormalised": [
-        "usa"
-      ],
-      "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5567092004",
-      "firstSeen": "2025-06-17T12:06:50-04:00",
-      "lastSeen": "2026-05-18T06:14:53.195Z",
-      "isActive": false
     },
     {
       "id": "lucidsoftware-5997142004",
@@ -4228,7 +3604,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5997142004",
       "firstSeen": "2026-05-15T13:27:56-04:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
     },
     {
@@ -4243,7 +3619,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5994809004",
       "firstSeen": "2026-05-13T10:28:37-04:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
     },
     {
@@ -4258,25 +3634,8 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5990017004",
       "firstSeen": "2026-05-14T19:26:56-04:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
-    },
-    {
-      "id": "theadaptavistgroup-744000125885779",
-      "sourceId": "744000125885779",
-      "source": "Adaptavist",
-      "title": "Associate Service Desk Analyst (f/m/d) (german speaker)",
-      "company": "Adaptavist",
-      "location": "Remote",
-      "locationNormalised": [
-        "remote"
-      ],
-      "department": "Adaptavist Shared Services",
-      "type": "Full-time",
-      "url": "https://jobs.smartrecruiters.com/TheAdaptavistGroup/744000125885779",
-      "firstSeen": "2026-05-11T15:48:07.970Z",
-      "lastSeen": "2026-05-18T06:14:58.388Z",
-      "isActive": false
     },
     {
       "id": "devoteam-744000126727719",
@@ -4292,7 +3651,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000126727719",
       "firstSeen": "2026-05-15T15:51:58.861Z",
-      "lastSeen": "2026-06-01T06:56:24.962Z",
+      "lastSeen": "2026-06-08T06:43:55.313Z",
       "isActive": true
     },
     {
@@ -4308,7 +3667,7 @@
       "department": "Atlassian consulting",
       "url": "https://career.eficode.com/jobs/7725419-atlassian-solution-architect",
       "firstSeen": "2026-05-18T06:15:05.596Z",
-      "lastSeen": "2026-06-01T06:56:29.354Z",
+      "lastSeen": "2026-06-08T06:44:16.806Z",
       "isActive": true
     },
     {
@@ -4325,25 +3684,8 @@
       "department": "Licensing",
       "url": "https://career.eficode.com/jobs/7725048-license-renewal-growth-manager",
       "firstSeen": "2026-05-18T06:15:05.596Z",
-      "lastSeen": "2026-05-18T06:15:05.596Z",
-      "isActive": false
-    },
-    {
-      "id": "isostech-256",
-      "sourceId": "256",
-      "source": "Isos Technology",
-      "title": "Functional Consultant ",
-      "company": "Isos Technology",
-      "location": "Tempe, Arizona, United States",
-      "locationNormalised": [
-        "usa"
-      ],
-      "department": "Services : Shared",
-      "type": "Full-Time",
-      "url": "https://isostech.bamboohr.com/careers/256",
-      "firstSeen": "2026-05-18T06:15:16.961Z",
-      "lastSeen": "2026-05-18T06:15:16.961Z",
-      "isActive": false
+      "lastSeen": "2026-06-08T06:44:16.806Z",
+      "isActive": true
     },
     {
       "id": "ecore-459e3f64-9353-466b-a4fe-d6ff4b19ebba",
@@ -4355,7 +3697,7 @@
       "locationNormalised": "other",
       "url": "https://ecore.inhire.app/vagas/459e3f64-9353-466b-a4fe-d6ff4b19ebba",
       "firstSeen": "2026-05-18T06:15:55.678Z",
-      "lastSeen": "2026-06-01T06:57:25.377Z",
+      "lastSeen": "2026-06-08T06:45:53.824Z",
       "isActive": true
     },
     {
@@ -4368,7 +3710,7 @@
       "locationNormalised": "other",
       "url": "https://ecore.inhire.app/vagas/e8fab56e-cf87-4c38-98d5-73da065a8add",
       "firstSeen": "2026-05-18T06:15:55.678Z",
-      "lastSeen": "2026-06-01T06:57:25.377Z",
+      "lastSeen": "2026-06-08T06:45:53.824Z",
       "isActive": true
     },
     {
@@ -4384,7 +3726,7 @@
       "url": "https://www.decadis.de/jobs/werkstudent-sales-operations-license-support-m-w-d",
       "firstSeen": "2026-05-18T06:17:17.144Z",
       "lastSeen": "2026-06-01T06:58:46.093Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "servicerocket-ed1ccd6c-1991-441e-9624-b6e892065947",
@@ -4401,7 +3743,7 @@
       "description": "G'day!\nWe are ServiceRocket🚀, a global tech-enabled services company headquartered in Palo Alto, California. Our purpose is to be the single most reliable partner in the acceleration of your growth. At ServiceRocket, we are committed to the development of every Rocketeer and the trust of every cust",
       "url": "https://jobs.lever.co/servicerocket/ed1ccd6c-1991-441e-9624-b6e892065947",
       "firstSeen": "2026-05-25T06:27:52.416Z",
-      "lastSeen": "2026-06-01T06:56:02.911Z",
+      "lastSeen": "2026-06-08T06:43:29.897Z",
       "isActive": true
     },
     {
@@ -4420,7 +3762,7 @@
       "description": "About Valiantys\n \nHere at Valiantys, we are one of the world’s largest Atlassian partners, helping organizations work better through scalable, people-centered solutions. As an Atlassian Platinum Solution Partner with a global footprint, we support customers across industries as they adopt ITSM, Agil",
       "url": "https://jobs.lever.co/valiantys/349ed7fd-4fde-4d41-832c-23de5c7b9ffe",
       "firstSeen": "2026-05-25T06:27:54.570Z",
-      "lastSeen": "2026-06-01T06:56:04.680Z",
+      "lastSeen": "2026-06-08T06:43:31.481Z",
       "isActive": true
     },
     {
@@ -4439,7 +3781,7 @@
       "description": "About Valiantys\nHere at Valiantys, we are one of the world’s largest Atlassian partners, helping organizations work better through scalable, people-centered solutions. As an Atlassian Platinum Solution Partner with a global footprint, we support customers across industries as they adopt ITSM, Agile ",
       "url": "https://jobs.lever.co/valiantys/77aa2f9a-fa93-4f99-8156-67395d90415e",
       "firstSeen": "2026-05-25T06:27:54.570Z",
-      "lastSeen": "2026-06-01T06:56:04.680Z",
+      "lastSeen": "2026-06-08T06:43:31.481Z",
       "isActive": true
     },
     {
@@ -4456,7 +3798,7 @@
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/c7a33194-9667-41e4-9e15-079873226f35",
       "firstSeen": "2026-05-25T06:27:59.744Z",
-      "lastSeen": "2026-06-01T06:56:08.718Z",
+      "lastSeen": "2026-06-08T06:43:35.636Z",
       "isActive": true
     },
     {
@@ -4473,7 +3815,7 @@
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/8ec6e8c5-c2f0-47c3-a7a0-c1c072825de0",
       "firstSeen": "2026-05-25T06:27:59.744Z",
-      "lastSeen": "2026-06-01T06:56:08.718Z",
+      "lastSeen": "2026-06-08T06:43:35.636Z",
       "isActive": true
     },
     {
@@ -4490,7 +3832,7 @@
       "type": "FullTime",
       "url": "https://jobs.ashbyhq.com/tempo-io/f8088402-d327-43ba-91db-35596bd784b8",
       "firstSeen": "2026-05-25T06:27:59.744Z",
-      "lastSeen": "2026-06-01T06:56:08.718Z",
+      "lastSeen": "2026-06-08T06:43:35.636Z",
       "isActive": true
     },
     {
@@ -4595,7 +3937,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7733747003",
       "firstSeen": "2026-05-20T12:08:13-04:00",
-      "lastSeen": "2026-06-01T06:56:13.797Z",
+      "lastSeen": "2026-06-08T06:43:40.839Z",
       "isActive": true
     },
     {
@@ -4610,7 +3952,7 @@
       ],
       "url": "https://moduscreate.com/careers/7736249003?gh_jid=7736249003",
       "firstSeen": "2026-05-19T09:33:10-04:00",
-      "lastSeen": "2026-06-01T06:56:15.390Z",
+      "lastSeen": "2026-06-08T06:43:42.449Z",
       "isActive": true
     },
     {
@@ -4626,7 +3968,7 @@
       "url": "https://moduscreate.com/careers/7737492003?gh_jid=7737492003",
       "firstSeen": "2026-05-18T15:26:03-04:00",
       "lastSeen": "2026-06-01T06:56:15.390Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "lucidsoftware-5633294004",
@@ -4640,7 +3982,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5633294004",
       "firstSeen": "2025-08-28T15:22:41-04:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
     },
     {
@@ -4656,7 +3998,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5997905004",
       "firstSeen": "2026-05-18T10:25:33-04:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
     },
     {
@@ -4671,7 +4013,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5997911004",
       "firstSeen": "2026-05-18T10:30:12-04:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
     },
     {
@@ -4686,7 +4028,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5997913004",
       "firstSeen": "2026-05-18T10:32:21-04:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
     },
     {
@@ -4701,7 +4043,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5997912004",
       "firstSeen": "2026-05-18T10:31:12-04:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
     },
     {
@@ -4716,7 +4058,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5997920004",
       "firstSeen": "2026-05-18T10:35:19-04:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
     },
     {
@@ -4731,7 +4073,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5997917004",
       "firstSeen": "2026-05-18T10:34:07-04:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
     },
     {
@@ -4746,7 +4088,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5997922004",
       "firstSeen": "2026-05-18T10:36:54-04:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
     },
     {
@@ -4761,7 +4103,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5997923004",
       "firstSeen": "2026-05-18T10:37:37-04:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
     },
     {
@@ -4776,7 +4118,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5997924004",
       "firstSeen": "2026-05-18T10:39:39-04:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
     },
     {
@@ -4791,7 +4133,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5997926004",
       "firstSeen": "2026-05-18T10:40:15-04:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
     },
     {
@@ -4806,7 +4148,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5997928004",
       "firstSeen": "2026-05-18T10:41:53-04:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
     },
     {
@@ -4821,7 +4163,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/5997927004",
       "firstSeen": "2026-05-18T10:41:16-04:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
     },
     {
@@ -4855,7 +4197,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/TheAdaptavistGroup/744000127240133",
       "firstSeen": "2026-05-19T15:23:36.038Z",
-      "lastSeen": "2026-06-01T06:56:22.143Z",
+      "lastSeen": "2026-06-08T06:43:52.531Z",
       "isActive": true
     },
     {
@@ -4872,7 +4214,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/TheAdaptavistGroup/744000127169699",
       "firstSeen": "2026-05-19T10:00:57.938Z",
-      "lastSeen": "2026-06-01T06:56:22.143Z",
+      "lastSeen": "2026-06-08T06:43:52.531Z",
       "isActive": true
     },
     {
@@ -4889,7 +4231,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000127921145",
       "firstSeen": "2026-05-22T14:58:40.199Z",
-      "lastSeen": "2026-06-01T06:56:24.962Z",
+      "lastSeen": "2026-06-08T06:43:55.313Z",
       "isActive": true
     },
     {
@@ -4904,7 +4246,7 @@
       ],
       "url": "https://career.eficode.com/jobs/7197625-senior-innovation-engineer",
       "firstSeen": "2026-05-25T06:28:20.804Z",
-      "lastSeen": "2026-06-01T06:56:29.354Z",
+      "lastSeen": "2026-06-08T06:44:16.806Z",
       "isActive": true
     },
     {
@@ -4919,7 +4261,7 @@
       ],
       "url": "https://deviniti.com/job/account-executive/",
       "firstSeen": "2026-05-25T06:28:44.397Z",
-      "lastSeen": "2026-06-01T06:56:59.139Z",
+      "lastSeen": "2026-06-08T06:45:26.984Z",
       "isActive": true
     },
     {
@@ -4932,7 +4274,7 @@
       "locationNormalised": "other",
       "url": "https://ecore.inhire.app/vagas/b2983b23-cf74-47de-8add-cf907d101e42",
       "firstSeen": "2026-05-25T06:29:08.023Z",
-      "lastSeen": "2026-06-01T06:57:25.377Z",
+      "lastSeen": "2026-06-08T06:45:53.824Z",
       "isActive": true
     },
     {
@@ -4960,7 +4302,7 @@
       ],
       "url": "https://xpand-it.com/en/careers/find-opportunities/core-services/quality-assurance-engineer",
       "firstSeen": "2026-05-25T06:30:20.918Z",
-      "lastSeen": "2026-06-01T06:58:39.877Z",
+      "lastSeen": "2026-06-08T06:47:08.067Z",
       "isActive": true
     },
     {
@@ -4975,7 +4317,7 @@
       ],
       "url": "https://xpand-it.com/en/careers/find-opportunities/core-services/java-spring-backend-developer",
       "firstSeen": "2026-05-25T06:30:20.918Z",
-      "lastSeen": "2026-06-01T06:58:39.877Z",
+      "lastSeen": "2026-06-08T06:47:08.067Z",
       "isActive": true
     },
     {
@@ -4990,7 +4332,7 @@
       ],
       "url": "https://xpand-it.com/en/careers/find-opportunities/user-experience/ux-ui-designer",
       "firstSeen": "2026-05-25T06:30:20.918Z",
-      "lastSeen": "2026-06-01T06:58:39.877Z",
+      "lastSeen": "2026-06-08T06:47:08.067Z",
       "isActive": true
     },
     {
@@ -5005,7 +4347,7 @@
       ],
       "url": "https://xpand-it.com/en/careers/find-opportunities/business-quality-assurance/business-analyst",
       "firstSeen": "2026-05-25T06:30:20.918Z",
-      "lastSeen": "2026-06-01T06:58:39.877Z",
+      "lastSeen": "2026-06-08T06:47:08.067Z",
       "isActive": true
     },
     {
@@ -5024,7 +4366,7 @@
       "url": "https://jobs.lever.co/cprime/bfec4353-8992-475b-b6dc-773a96079b4b",
       "firstSeen": "2026-06-01T06:56:01.217Z",
       "lastSeen": "2026-06-01T06:56:01.217Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "cprime-415c9ba9-7983-4e74-80d2-975856658adf",
@@ -5042,7 +4384,7 @@
       "url": "https://jobs.lever.co/cprime/415c9ba9-7983-4e74-80d2-975856658adf",
       "firstSeen": "2026-06-01T06:56:01.217Z",
       "lastSeen": "2026-06-01T06:56:01.217Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "appfire-4636764005",
@@ -5056,7 +4398,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4636764005",
       "firstSeen": "2026-05-29T07:32:03-04:00",
-      "lastSeen": "2026-06-01T06:56:12.212Z",
+      "lastSeen": "2026-06-08T06:43:39.231Z",
       "isActive": true
     },
     {
@@ -5071,7 +4413,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4700629005",
       "firstSeen": "2026-05-29T07:32:04-04:00",
-      "lastSeen": "2026-06-01T06:56:12.212Z",
+      "lastSeen": "2026-06-08T06:43:39.231Z",
       "isActive": true
     },
     {
@@ -5086,7 +4428,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/appfire/jobs/4700631005",
       "firstSeen": "2026-05-29T07:32:05-04:00",
-      "lastSeen": "2026-06-01T06:56:12.212Z",
+      "lastSeen": "2026-06-08T06:43:39.231Z",
       "isActive": true
     },
     {
@@ -5101,7 +4443,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7749518003",
       "firstSeen": "2026-05-27T10:26:57-04:00",
-      "lastSeen": "2026-06-01T06:56:13.797Z",
+      "lastSeen": "2026-06-08T06:43:40.839Z",
       "isActive": true
     },
     {
@@ -5116,7 +4458,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7743173003",
       "firstSeen": "2026-05-26T13:35:28-04:00",
-      "lastSeen": "2026-06-01T06:56:13.797Z",
+      "lastSeen": "2026-06-08T06:43:40.839Z",
       "isActive": true
     },
     {
@@ -5131,7 +4473,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/smartbear/jobs/7748413003",
       "firstSeen": "2026-05-26T11:59:01-04:00",
-      "lastSeen": "2026-06-01T06:56:13.797Z",
+      "lastSeen": "2026-06-08T06:43:40.839Z",
       "isActive": true
     },
     {
@@ -5146,7 +4488,7 @@
       ],
       "url": "https://moduscreate.com/careers/7451928003?gh_jid=7451928003",
       "firstSeen": "2025-09-22T14:01:28-04:00",
-      "lastSeen": "2026-06-01T06:56:15.390Z",
+      "lastSeen": "2026-06-08T06:43:42.449Z",
       "isActive": true
     },
     {
@@ -5161,7 +4503,7 @@
       ],
       "url": "https://moduscreate.com/careers/7756605003?gh_jid=7756605003",
       "firstSeen": "2026-05-31T16:34:36-04:00",
-      "lastSeen": "2026-06-01T06:56:15.390Z",
+      "lastSeen": "2026-06-08T06:43:42.449Z",
       "isActive": true
     },
     {
@@ -5176,7 +4518,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/lucidsoftware/jobs/6005919004",
       "firstSeen": "2026-05-26T11:09:48-04:00",
-      "lastSeen": "2026-06-01T06:56:16.973Z",
+      "lastSeen": "2026-06-08T06:43:44.061Z",
       "isActive": true
     },
     {
@@ -5193,7 +4535,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/TheAdaptavistGroup/744000129217900",
       "firstSeen": "2026-05-29T16:19:47.582Z",
-      "lastSeen": "2026-06-01T06:56:22.143Z",
+      "lastSeen": "2026-06-08T06:43:52.531Z",
       "isActive": true
     },
     {
@@ -5211,7 +4553,7 @@
       "url": "https://jobs.smartrecruiters.com/TheAdaptavistGroup/744000128677310",
       "firstSeen": "2026-05-27T09:23:02.681Z",
       "lastSeen": "2026-06-01T06:56:22.143Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "devoteam-744000129196577",
@@ -5227,7 +4569,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000129196577",
       "firstSeen": "2026-05-29T14:47:28.459Z",
-      "lastSeen": "2026-06-01T06:56:24.962Z",
+      "lastSeen": "2026-06-08T06:43:55.313Z",
       "isActive": true
     },
     {
@@ -5244,7 +4586,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000129198854",
       "firstSeen": "2026-05-29T14:46:06.804Z",
-      "lastSeen": "2026-06-01T06:56:24.962Z",
+      "lastSeen": "2026-06-08T06:43:55.313Z",
       "isActive": true
     },
     {
@@ -5262,7 +4604,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000128908359",
       "firstSeen": "2026-05-28T09:36:53.967Z",
-      "lastSeen": "2026-06-01T06:56:24.962Z",
+      "lastSeen": "2026-06-08T06:43:55.313Z",
       "isActive": true
     },
     {
@@ -5280,7 +4622,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000128905685",
       "firstSeen": "2026-05-28T09:35:13.804Z",
-      "lastSeen": "2026-06-01T06:56:24.962Z",
+      "lastSeen": "2026-06-08T06:43:55.313Z",
       "isActive": true
     },
     {
@@ -5298,7 +4640,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000128902700",
       "firstSeen": "2026-05-28T09:20:26.923Z",
-      "lastSeen": "2026-06-01T06:56:24.962Z",
+      "lastSeen": "2026-06-08T06:43:55.313Z",
       "isActive": true
     },
     {
@@ -5316,7 +4658,7 @@
       "type": "Full-time",
       "url": "https://jobs.smartrecruiters.com/Devoteam/744000128405044",
       "firstSeen": "2026-05-26T07:20:36.933Z",
-      "lastSeen": "2026-06-01T06:56:24.962Z",
+      "lastSeen": "2026-06-08T06:43:55.313Z",
       "isActive": true
     },
     {
@@ -5333,7 +4675,7 @@
       "url": "https://knowmadmood.teamtailor.com/jobs/7813264-qa-automation-engineer-appium-selenium-jira-mobile-testing",
       "firstSeen": "2026-06-01T06:56:34.176Z",
       "lastSeen": "2026-06-01T06:56:34.176Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "knowmadmood-teamtailor-com-7807554-qa-automation-engineer-appium-selenium-jira-mobile-testing",
@@ -5349,7 +4691,7 @@
       "url": "https://knowmadmood.teamtailor.com/jobs/7807554-qa-automation-engineer-appium-selenium-jira-mobile-testing",
       "firstSeen": "2026-06-01T06:56:34.176Z",
       "lastSeen": "2026-06-01T06:56:34.176Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "isostech-257",
@@ -5365,7 +4707,7 @@
       "type": "Full-Time",
       "url": "https://isostech.bamboohr.com/careers/257",
       "firstSeen": "2026-06-01T06:56:41.188Z",
-      "lastSeen": "2026-06-01T06:56:41.188Z",
+      "lastSeen": "2026-06-08T06:44:56.631Z",
       "isActive": true
     },
     {
@@ -5380,7 +4722,7 @@
       ],
       "url": "https://www.communardo.de/karriere/stellenangebot/licence-sales-managerin-m-w-d-1/",
       "firstSeen": "2026-06-01T06:56:50.170Z",
-      "lastSeen": "2026-06-01T06:56:50.170Z",
+      "lastSeen": "2026-06-08T06:45:21.798Z",
       "isActive": true
     },
     {
@@ -5396,7 +4738,7 @@
       "url": "https://www.communardo.de/karriere/stellenangebot/sales-development-representative-mit-fokus-aws-devops-und-ki/",
       "firstSeen": "2026-06-01T06:56:50.170Z",
       "lastSeen": "2026-06-01T06:56:50.170Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "seibert-tutorin-fuer-die-seibert-stiftung",
@@ -5410,7 +4752,7 @@
       ],
       "url": "https://seibert.group/jobs/tutorin-fuer-die-seibert-stiftung/",
       "firstSeen": "2026-06-01T06:56:56.516Z",
-      "lastSeen": "2026-06-01T06:56:56.516Z",
+      "lastSeen": "2026-06-08T06:45:24.271Z",
       "isActive": true
     },
     {
@@ -5423,7 +4765,7 @@
       "locationNormalised": "other",
       "url": "https://ecore.inhire.app/vagas/ec5d760d-d9c4-4999-99f3-69279aa6a543",
       "firstSeen": "2026-06-01T06:57:25.377Z",
-      "lastSeen": "2026-06-01T06:57:25.377Z",
+      "lastSeen": "2026-06-08T06:45:53.824Z",
       "isActive": true
     },
     {
@@ -5436,7 +4778,7 @@
       "locationNormalised": "other",
       "url": "https://ecore.inhire.app/vagas/7ae28cd4-35d5-4199-8e41-a072dc0cce35",
       "firstSeen": "2026-06-01T06:57:25.377Z",
-      "lastSeen": "2026-06-01T06:57:25.377Z",
+      "lastSeen": "2026-06-08T06:45:53.824Z",
       "isActive": true
     },
     {
@@ -5451,7 +4793,7 @@
       ],
       "url": "https://xpand-it.com/en/careers/find-opportunities/human-resources/talent-engagement-specialist",
       "firstSeen": "2026-06-01T06:58:39.877Z",
-      "lastSeen": "2026-06-01T06:58:39.877Z",
+      "lastSeen": "2026-06-08T06:47:08.067Z",
       "isActive": true
     },
     {
@@ -5466,7 +4808,7 @@
       ],
       "url": "https://xpand-it.com/en/careers/find-opportunities/core-services/cloud-solutions-architect",
       "firstSeen": "2026-06-01T06:58:39.877Z",
-      "lastSeen": "2026-06-01T06:58:39.877Z",
+      "lastSeen": "2026-06-08T06:47:08.067Z",
       "isActive": true
     },
     {
@@ -5485,7 +4827,7 @@
       "url": "https://jobs.gusto.com/postings/omg-tech-partners-atlassian-solutions-engineer-72a9fc66-43eb-4679-a5ba-7c56365bc797",
       "firstSeen": "2026-06-02T09:54:23.668Z",
       "lastSeen": "2026-06-02T09:54:23.668Z",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "automation-consultants-ltd-2314929",
@@ -5501,7 +4843,7 @@
       "type": "full-time",
       "url": "https://automation-consultants-ltd.jobs.personio.com/job/2314929",
       "firstSeen": "2025-08-27T11:05:11+00:00",
-      "lastSeen": "2026-06-02T13:31:46.282Z",
+      "lastSeen": "2026-06-08T06:44:42.764Z",
       "isActive": true
     },
     {
@@ -5518,7 +4860,7 @@
       "type": "part-time",
       "url": "https://automation-consultants-ltd.jobs.personio.com/job/1437054",
       "firstSeen": "2024-02-22T16:14:03+00:00",
-      "lastSeen": "2026-06-02T13:31:46.282Z",
+      "lastSeen": "2026-06-08T06:44:42.764Z",
       "isActive": true
     },
     {
@@ -5535,7 +4877,7 @@
       "type": "full-time",
       "url": "https://automation-consultants-ltd.jobs.personio.com/job/1754080",
       "firstSeen": "2024-09-25T15:35:02+00:00",
-      "lastSeen": "2026-06-02T13:31:46.282Z",
+      "lastSeen": "2026-06-08T06:44:42.764Z",
       "isActive": true
     },
     {
@@ -5552,7 +4894,7 @@
       "type": "full-time",
       "url": "https://automation-consultants-ltd.jobs.personio.com/job/1754087",
       "firstSeen": "2024-09-25T15:40:51+00:00",
-      "lastSeen": "2026-06-02T13:31:46.282Z",
+      "lastSeen": "2026-06-08T06:44:42.764Z",
       "isActive": true
     },
     {
@@ -5569,7 +4911,7 @@
       "type": "full-time",
       "url": "https://automation-consultants-ltd.jobs.personio.com/job/2602811",
       "firstSeen": "2026-04-15T15:37:21+00:00",
-      "lastSeen": "2026-06-02T13:31:46.282Z",
+      "lastSeen": "2026-06-08T06:44:42.764Z",
       "isActive": true
     },
     {
@@ -5586,7 +4928,7 @@
       "type": "full-time",
       "url": "https://automation-consultants-ltd.jobs.personio.com/job/2599264",
       "firstSeen": "2026-04-13T11:24:32+00:00",
-      "lastSeen": "2026-06-02T13:31:46.282Z",
+      "lastSeen": "2026-06-08T06:44:42.764Z",
       "isActive": true
     },
     {
@@ -5603,7 +4945,7 @@
       "type": "full-time",
       "url": "https://automation-consultants-ltd.jobs.personio.com/job/2632485",
       "firstSeen": "2026-05-12T15:49:49+00:00",
-      "lastSeen": "2026-06-02T13:31:46.282Z",
+      "lastSeen": "2026-06-08T06:44:42.764Z",
       "isActive": true
     },
     {
@@ -5620,7 +4962,7 @@
       "type": "full-time",
       "url": "https://automation-consultants-ltd.jobs.personio.com/job/616255",
       "firstSeen": "2022-03-08T10:55:43+00:00",
-      "lastSeen": "2026-06-02T13:31:46.282Z",
+      "lastSeen": "2026-06-08T06:44:42.764Z",
       "isActive": true
     },
     {
@@ -5635,7 +4977,7 @@
       ],
       "url": "https://atlas-bench.zohorecruit.com/jobs/Careers/614246000004468242/Principal-Full-Stack-Developer-Node-TypeScript-React-Global-?source=CareerSite",
       "firstSeen": "2026-06-02T13:10:57.530Z",
-      "lastSeen": "2026-06-02T13:31:59.659Z",
+      "lastSeen": "2026-06-08T06:47:22.960Z",
       "isActive": true
     },
     {
@@ -5651,7 +4993,7 @@
       ],
       "url": "https://www.xalt.de/en/projektmanager-m-w-d-digitalisierungsprojekte/",
       "firstSeen": "2026-06-02T13:11:00.780Z",
-      "lastSeen": "2026-06-02T13:32:02.460Z",
+      "lastSeen": "2026-06-08T06:47:27.323Z",
       "isActive": true
     },
     {
@@ -5667,7 +5009,7 @@
       ],
       "url": "https://www.xalt.de/en/atlassian-ai-consultant-m-f-d/",
       "firstSeen": "2026-06-02T13:11:00.780Z",
-      "lastSeen": "2026-06-02T13:32:02.460Z",
+      "lastSeen": "2026-06-08T06:47:27.323Z",
       "isActive": true
     },
     {
@@ -5682,7 +5024,7 @@
       ],
       "url": "https://www.xalt.de/en/referent-der-geschaeftsfuehrung-m-w-d-fokus-auf-consulting-devops/",
       "firstSeen": "2026-06-02T13:11:00.780Z",
-      "lastSeen": "2026-06-02T13:32:02.460Z",
+      "lastSeen": "2026-06-08T06:47:27.323Z",
       "isActive": true
     },
     {
@@ -5698,7 +5040,7 @@
       ],
       "url": "https://www.xalt.de/en/lead-atlassian-consultant-m-w-d/",
       "firstSeen": "2026-06-02T13:11:00.780Z",
-      "lastSeen": "2026-06-02T13:32:02.460Z",
+      "lastSeen": "2026-06-08T06:47:27.323Z",
       "isActive": true
     },
     {
@@ -5714,7 +5056,7 @@
       ],
       "url": "https://www.xalt.de/en/senior-atlassian-consultant-m-w-d/",
       "firstSeen": "2026-06-02T13:11:00.780Z",
-      "lastSeen": "2026-06-02T13:32:02.460Z",
+      "lastSeen": "2026-06-08T06:47:27.323Z",
       "isActive": true
     },
     {
@@ -5730,7 +5072,7 @@
       ],
       "url": "https://www.xalt.de/en/administrator-m-w-d-jira-confluence/",
       "firstSeen": "2026-06-02T13:11:00.780Z",
-      "lastSeen": "2026-06-02T13:32:02.460Z",
+      "lastSeen": "2026-06-08T06:47:27.323Z",
       "isActive": true
     },
     {
@@ -5746,7 +5088,7 @@
       ],
       "url": "https://www.xalt.de/en/junior-atlassian-consultant-m-w-d/",
       "firstSeen": "2026-06-02T13:11:00.780Z",
-      "lastSeen": "2026-06-02T13:32:02.460Z",
+      "lastSeen": "2026-06-08T06:47:27.323Z",
       "isActive": true
     },
     {
@@ -5761,7 +5103,7 @@
       ],
       "url": "https://job-boards.greenhouse.io/appnovation/jobs/8502408002",
       "firstSeen": "2026-04-10T13:31:54-04:00",
-      "lastSeen": "2026-06-02T13:31:43.793Z",
+      "lastSeen": "2026-06-08T06:43:50.508Z",
       "isActive": true
     },
     {
@@ -5777,7 +5119,7 @@
       "department": "Engineering",
       "url": "https://empyra.keka.com/careers/jobdetails/34954",
       "firstSeen": "2026-06-02T13:32:10.654Z",
-      "lastSeen": "2026-06-02T13:32:10.654Z",
+      "lastSeen": "2026-06-08T06:47:34.564Z",
       "isActive": true
     },
     {
@@ -5793,7 +5135,7 @@
       "department": "Implementation",
       "url": "https://empyra.keka.com/careers/jobdetails/34410",
       "firstSeen": "2026-06-02T13:32:10.654Z",
-      "lastSeen": "2026-06-02T13:32:10.654Z",
+      "lastSeen": "2026-06-08T06:47:34.564Z",
       "isActive": true
     },
     {
@@ -5809,7 +5151,7 @@
       "department": "Engineering",
       "url": "https://empyra.keka.com/careers/jobdetails/30222",
       "firstSeen": "2026-06-02T13:32:10.654Z",
-      "lastSeen": "2026-06-02T13:32:10.654Z",
+      "lastSeen": "2026-06-08T06:47:34.564Z",
       "isActive": true
     },
     {
@@ -5825,7 +5167,660 @@
       "department": "Engineering",
       "url": "https://empyra.keka.com/careers/jobdetails/21927",
       "firstSeen": "2026-06-02T13:32:10.654Z",
-      "lastSeen": "2026-06-02T13:32:10.654Z",
+      "lastSeen": "2026-06-08T06:47:34.564Z",
+      "isActive": true
+    },
+    {
+      "id": "cprime-b4978645-1770-43a7-b262-e4cdca1ca455",
+      "sourceId": "b4978645-1770-43a7-b262-e4cdca1ca455",
+      "source": "Cprime",
+      "title": "ServiceNow Technical Consultant - HRSD",
+      "company": "Cprime",
+      "location": "Hyderabad, India",
+      "locationNormalised": [
+        "india"
+      ],
+      "department": "Employee Experience (EX)",
+      "type": "Full-time",
+      "description": "Cprime brings business into a new light—illuminating possibilities that once seemed hidden. For more than two decades, we’ve partnered with 2,500+ organizations worldwide, including over 300 of the Fortune 500, to help leaders see complexity with new clarity and rewire it into intelligent flow. With",
+      "url": "https://jobs.lever.co/cprime/b4978645-1770-43a7-b262-e4cdca1ca455",
+      "firstSeen": "2026-06-08T06:43:27.777Z",
+      "lastSeen": "2026-06-08T06:43:27.777Z",
+      "isActive": true
+    },
+    {
+      "id": "valiantys-d78a3a1f-2397-43a7-89da-702709c60a5d",
+      "sourceId": "d78a3a1f-2397-43a7-89da-702709c60a5d",
+      "source": "Valiantys",
+      "title": "FP&A Manager",
+      "company": "Valiantys",
+      "location": "Toulouse, Occitanie, France",
+      "locationNormalised": [
+        "europe"
+      ],
+      "department": "Financial Planning & Analysis",
+      "type": "Full Time Permanent Contract",
+      "description": "",
+      "url": "https://jobs.lever.co/valiantys/d78a3a1f-2397-43a7-89da-702709c60a5d",
+      "firstSeen": "2026-06-08T06:43:31.481Z",
+      "lastSeen": "2026-06-08T06:43:31.481Z",
+      "isActive": true
+    },
+    {
+      "id": "tempo-io-ba2b3a6b-8be3-4f8a-9e11-2a33650d522e",
+      "sourceId": "ba2b3a6b-8be3-4f8a-9e11-2a33650d522e",
+      "source": "Tempo",
+      "title": "Corporate IT Automation Engineer",
+      "company": "Tempo",
+      "location": "United States",
+      "locationNormalised": [
+        "usa"
+      ],
+      "department": "Administration",
+      "type": "FullTime",
+      "url": "https://jobs.ashbyhq.com/tempo-io/ba2b3a6b-8be3-4f8a-9e11-2a33650d522e",
+      "firstSeen": "2026-06-08T06:43:35.636Z",
+      "lastSeen": "2026-06-08T06:43:35.636Z",
+      "isActive": true
+    },
+    {
+      "id": "tempo-io-725ed2b5-d94c-4fb2-83ae-c05a651ceee5",
+      "sourceId": "725ed2b5-d94c-4fb2-83ae-c05a651ceee5",
+      "source": "Tempo",
+      "title": "Lead Architect",
+      "company": "Tempo",
+      "location": "Canada",
+      "locationNormalised": [
+        "canada"
+      ],
+      "department": "Engineering",
+      "type": "FullTime",
+      "url": "https://jobs.ashbyhq.com/tempo-io/725ed2b5-d94c-4fb2-83ae-c05a651ceee5",
+      "firstSeen": "2026-06-08T06:43:35.636Z",
+      "lastSeen": "2026-06-08T06:43:35.636Z",
+      "isActive": true
+    },
+    {
+      "id": "tempo-io-6080aa14-dca7-40c3-9b3e-95bbb9d1e857",
+      "sourceId": "6080aa14-dca7-40c3-9b3e-95bbb9d1e857",
+      "source": "Tempo",
+      "title": "Senior AI/ML Engineer",
+      "company": "Tempo",
+      "location": "United States",
+      "locationNormalised": [
+        "usa"
+      ],
+      "department": "Engineering",
+      "type": "FullTime",
+      "url": "https://jobs.ashbyhq.com/tempo-io/6080aa14-dca7-40c3-9b3e-95bbb9d1e857",
+      "firstSeen": "2026-06-08T06:43:35.636Z",
+      "lastSeen": "2026-06-08T06:43:35.636Z",
+      "isActive": true
+    },
+    {
+      "id": "tempo-io-43426c88-282d-4e7e-973a-a067471a99e4",
+      "sourceId": "43426c88-282d-4e7e-973a-a067471a99e4",
+      "source": "Tempo",
+      "title": "Senior Frontend Developer",
+      "company": "Tempo",
+      "location": "Canada",
+      "locationNormalised": [
+        "canada"
+      ],
+      "department": "Engineering",
+      "type": "FullTime",
+      "url": "https://jobs.ashbyhq.com/tempo-io/43426c88-282d-4e7e-973a-a067471a99e4",
+      "firstSeen": "2026-06-08T06:43:35.636Z",
+      "lastSeen": "2026-06-08T06:43:35.636Z",
+      "isActive": true
+    },
+    {
+      "id": "tempo-io-36a92411-6c9c-476e-b6b6-9b9b1b537c6d",
+      "sourceId": "36a92411-6c9c-476e-b6b6-9b9b1b537c6d",
+      "source": "Tempo",
+      "title": "Senior Product Designer",
+      "company": "Tempo",
+      "location": "Canada",
+      "locationNormalised": [
+        "canada"
+      ],
+      "department": "Product",
+      "type": "FullTime",
+      "url": "https://jobs.ashbyhq.com/tempo-io/36a92411-6c9c-476e-b6b6-9b9b1b537c6d",
+      "firstSeen": "2026-06-08T06:43:35.636Z",
+      "lastSeen": "2026-06-08T06:43:35.636Z",
+      "isActive": true
+    },
+    {
+      "id": "appfire-4702352005",
+      "sourceId": "4702352005",
+      "source": "Appfire",
+      "title": "Senior Manager of Financial Systems",
+      "company": "Appfire",
+      "location": "United States",
+      "locationNormalised": [
+        "usa"
+      ],
+      "url": "https://job-boards.greenhouse.io/appfire/jobs/4702352005",
+      "firstSeen": "2026-06-05T10:15:43-04:00",
+      "lastSeen": "2026-06-08T06:43:39.231Z",
+      "isActive": true
+    },
+    {
+      "id": "smartbear-7753557003",
+      "sourceId": "7753557003",
+      "source": "SmartBear",
+      "title": "Product Owner - Swagger",
+      "company": "SmartBear",
+      "location": "Bengaluru, Karnataka, India",
+      "locationNormalised": [
+        "india"
+      ],
+      "url": "https://job-boards.greenhouse.io/smartbear/jobs/7753557003",
+      "firstSeen": "2026-06-03T00:03:47-04:00",
+      "lastSeen": "2026-06-08T06:43:40.839Z",
+      "isActive": true
+    },
+    {
+      "id": "smartbear-7762314003",
+      "sourceId": "7762314003",
+      "source": "SmartBear",
+      "title": "Web Developer - Marketing",
+      "company": "SmartBear",
+      "location": "Wrocław, Lower Silesian Voivodeship, Poland",
+      "locationNormalised": [
+        "europe"
+      ],
+      "url": "https://job-boards.greenhouse.io/smartbear/jobs/7762314003",
+      "firstSeen": "2026-06-04T09:54:38-04:00",
+      "lastSeen": "2026-06-08T06:43:40.839Z",
+      "isActive": true
+    },
+    {
+      "id": "moduscreate-7761689003",
+      "sourceId": "7761689003",
+      "source": "Modus Create",
+      "title": "Adobe Journey Engineer",
+      "company": "Modus Create",
+      "location": "Brazil",
+      "locationNormalised": [
+        "latam"
+      ],
+      "url": "https://moduscreate.com/careers/7761689003?gh_jid=7761689003",
+      "firstSeen": "2026-06-03T14:38:15-04:00",
+      "lastSeen": "2026-06-08T06:43:42.449Z",
+      "isActive": true
+    },
+    {
+      "id": "moduscreate-7753640003",
+      "sourceId": "7753640003",
+      "source": "Modus Create",
+      "title": "Partner Marketing Manager",
+      "company": "Modus Create",
+      "location": "United States of America (USA)",
+      "locationNormalised": [
+        "usa"
+      ],
+      "url": "https://moduscreate.com/careers/7753640003?gh_jid=7753640003",
+      "firstSeen": "2026-06-02T18:14:18-04:00",
+      "lastSeen": "2026-06-08T06:43:42.449Z",
+      "isActive": true
+    },
+    {
+      "id": "moduscreate-7763949003",
+      "sourceId": "7763949003",
+      "source": "Modus Create",
+      "title": "Principal Product Manager",
+      "company": "Modus Create",
+      "location": "Latam",
+      "locationNormalised": [
+        "latam"
+      ],
+      "url": "https://moduscreate.com/careers/7763949003?gh_jid=7763949003",
+      "firstSeen": "2026-06-04T18:32:47-04:00",
+      "lastSeen": "2026-06-08T06:43:42.449Z",
+      "isActive": true
+    },
+    {
+      "id": "moduscreate-7764740003",
+      "sourceId": "7764740003",
+      "source": "Modus Create",
+      "title": "Principal Product Manager",
+      "company": "Modus Create",
+      "location": "United States of America (USA)",
+      "locationNormalised": [
+        "usa"
+      ],
+      "url": "https://moduscreate.com/careers/7764740003?gh_jid=7764740003",
+      "firstSeen": "2026-06-05T11:54:10-04:00",
+      "lastSeen": "2026-06-08T06:43:42.449Z",
+      "isActive": true
+    },
+    {
+      "id": "moduscreate-7636531003",
+      "sourceId": "7636531003",
+      "source": "Modus Create",
+      "title": "Senior Director:Data Engineering & Machine Learning",
+      "company": "Modus Create",
+      "location": "United States of America (USA)",
+      "locationNormalised": [
+        "usa"
+      ],
+      "url": "https://moduscreate.com/careers/7636531003?gh_jid=7636531003",
+      "firstSeen": "2026-02-19T14:48:52-05:00",
+      "lastSeen": "2026-06-08T06:43:42.449Z",
+      "isActive": true
+    },
+    {
+      "id": "theadaptavistgroup-744000130005519",
+      "sourceId": "744000130005519",
+      "source": "Adaptavist",
+      "title": "Executive Assistant",
+      "company": "Adaptavist",
+      "location": "London, England, United Kingdom",
+      "locationNormalised": [
+        "uk"
+      ],
+      "department": "Executive Support",
+      "type": "Full-time",
+      "url": "https://jobs.smartrecruiters.com/TheAdaptavistGroup/744000130005519",
+      "firstSeen": "2026-06-03T13:35:17.217Z",
+      "lastSeen": "2026-06-08T06:43:52.531Z",
+      "isActive": true
+    },
+    {
+      "id": "nagarro1-744000126917292",
+      "sourceId": "744000126917292",
+      "source": "Nagarro",
+      "title": "Associate Staff Engineer, Atlassian",
+      "company": "Nagarro",
+      "location": "Remote",
+      "locationNormalised": [
+        "remote"
+      ],
+      "department": "Engineering",
+      "type": "Full-time",
+      "url": "https://jobs.smartrecruiters.com/nagarro1/744000126917292",
+      "firstSeen": "2026-05-18T07:01:30.861Z",
+      "lastSeen": "2026-06-08T06:44:00.851Z",
+      "isActive": true
+    },
+    {
+      "id": "inetum2-744000110368316",
+      "sourceId": "744000110368316",
+      "source": "INETUM",
+      "title": "Atlassian Consultant",
+      "company": "INETUM",
+      "location": "Belgium, Flanders, Belgium",
+      "locationNormalised": [
+        "europe"
+      ],
+      "department": "Consulting CS - BE",
+      "type": "Full-time",
+      "url": "https://jobs.smartrecruiters.com/inetum2/744000110368316",
+      "firstSeen": "2026-02-20T11:56:50.195Z",
+      "lastSeen": "2026-06-08T06:44:03.681Z",
+      "isActive": true
+    },
+    {
+      "id": "inetum2-744000125288556",
+      "sourceId": "744000125288556",
+      "source": "INETUM",
+      "title": "Senior Jira System Administrator / 1",
+      "company": "INETUM",
+      "location": "Remote",
+      "locationNormalised": [
+        "remote"
+      ],
+      "department": "IT Support - PL",
+      "type": "Full-time",
+      "url": "https://jobs.smartrecruiters.com/inetum2/744000125288556",
+      "firstSeen": "2026-05-08T08:31:41.471Z",
+      "lastSeen": "2026-06-08T06:44:03.681Z",
+      "isActive": true
+    },
+    {
+      "id": "inetum2-744000122057680",
+      "sourceId": "744000122057680",
+      "source": "INETUM",
+      "title": "Administrateur Jira & Confluence – Support N2/N3",
+      "company": "INETUM",
+      "location": "Casablanca, Casablanca-Settat, Morocco",
+      "locationNormalised": [
+        "africa"
+      ],
+      "type": "Full-time",
+      "url": "https://jobs.smartrecruiters.com/inetum2/744000122057680",
+      "firstSeen": "2026-04-21T15:15:36.241Z",
+      "lastSeen": "2026-06-08T06:44:03.681Z",
+      "isActive": true
+    },
+    {
+      "id": "soprasteria1-744000119441002",
+      "sourceId": "744000119441002",
+      "source": "Sopra Steria",
+      "title": "Atlassian consultant",
+      "company": "Sopra Steria",
+      "location": "Nieuwegein, UT, Netherlands",
+      "locationNormalised": [
+        "usa",
+        "europe"
+      ],
+      "department": "Business Consulting & Transformation",
+      "type": "Full-time",
+      "url": "https://jobs.smartrecruiters.com/soprasteria1/744000119441002",
+      "firstSeen": "2026-04-08T17:40:53.462Z",
+      "lastSeen": "2026-06-08T06:44:06.599Z",
+      "isActive": true
+    },
+    {
+      "id": "career-eficode-com-7858244-senior-atlassian-consultant",
+      "sourceId": "7858244-senior-atlassian-consultant",
+      "source": "Eficode",
+      "title": "Senior Atlassian Consultant",
+      "company": "Eficode",
+      "location": "Netherlands",
+      "locationNormalised": [
+        "europe"
+      ],
+      "department": "Atlassian consulting",
+      "url": "https://career.eficode.com/jobs/7858244-senior-atlassian-consultant",
+      "firstSeen": "2026-06-08T06:44:16.806Z",
+      "lastSeen": "2026-06-08T06:44:16.806Z",
+      "isActive": true
+    },
+    {
+      "id": "career-eficode-com-7841473-github-solutions-architect",
+      "sourceId": "7841473-github-solutions-architect",
+      "source": "Eficode",
+      "title": "GitHub Solutions Architect",
+      "company": "Eficode",
+      "location": "Gothenburg - Sweden",
+      "locationNormalised": [
+        "europe"
+      ],
+      "department": "GitHub & Microsoft consulting",
+      "url": "https://career.eficode.com/jobs/7841473-github-solutions-architect",
+      "firstSeen": "2026-06-08T06:44:16.806Z",
+      "lastSeen": "2026-06-08T06:44:16.806Z",
+      "isActive": true
+    },
+    {
+      "id": "career-eficode-com-6901653-senior-atlassian-consultant",
+      "sourceId": "6901653-senior-atlassian-consultant",
+      "source": "Eficode",
+      "title": "Senior Atlassian Consultant",
+      "company": "Eficode",
+      "location": "Germany (Remote/Hybrid)",
+      "locationNormalised": [
+        "remote",
+        "europe"
+      ],
+      "department": "Atlassian consulting",
+      "url": "https://career.eficode.com/jobs/6901653-senior-atlassian-consultant",
+      "firstSeen": "2026-06-08T06:44:16.806Z",
+      "lastSeen": "2026-06-08T06:44:16.806Z",
+      "isActive": true
+    },
+    {
+      "id": "knowmadmood-teamtailor-com-7851945-atlassian-technician",
+      "sourceId": "7851945-atlassian-technician",
+      "source": "knowmad mood",
+      "title": "Atlassian Technician",
+      "company": "knowmad mood",
+      "location": "Las Rozas - Madrid",
+      "locationNormalised": [
+        "europe"
+      ],
+      "department": "Comunidad ALM/Atlassian",
+      "url": "https://knowmadmood.teamtailor.com/jobs/7851945-atlassian-technician",
+      "firstSeen": "2026-06-08T06:44:21.811Z",
+      "lastSeen": "2026-06-08T06:44:21.811Z",
+      "isActive": true
+    },
+    {
+      "id": "demicon-2618017",
+      "sourceId": "2618017",
+      "source": "DEMICON",
+      "title": "Atlassian Consultant / Cloud-Sherpa  (x/w/m)",
+      "company": "DEMICON",
+      "location": "Baden-Württemberg",
+      "locationNormalised": [
+        "other"
+      ],
+      "department": "CON",
+      "type": "full-time",
+      "url": "https://demicon.jobs.personio.com/job/2618017",
+      "firstSeen": "2026-04-29T11:53:52+00:00",
+      "lastSeen": "2026-06-08T06:44:45.464Z",
+      "isActive": true
+    },
+    {
+      "id": "demicon-2629419",
+      "sourceId": "2629419",
+      "source": "DEMICON",
+      "title": "Atlassian Sales Manager",
+      "company": "DEMICON",
+      "location": "REMOTE",
+      "locationNormalised": [
+        "remote"
+      ],
+      "department": "SALES",
+      "type": "full-time",
+      "url": "https://demicon.jobs.personio.com/job/2629419",
+      "firstSeen": "2026-05-09T05:14:48+00:00",
+      "lastSeen": "2026-06-08T06:44:45.464Z",
+      "isActive": true
+    },
+    {
+      "id": "ease-solutions-pte-ltd-6a877dcdf9",
+      "sourceId": "6A877DCDF9",
+      "source": "Ease Solutions",
+      "title": "Business Development Executive - Atlassian Solutions",
+      "company": "Ease Solutions",
+      "location": "Malaysia",
+      "locationNormalised": [
+        "asia"
+      ],
+      "department": null,
+      "url": "https://apply.workable.com/j/6A877DCDF9",
+      "firstSeen": "2026-06-08T06:45:04.739Z",
+      "lastSeen": "2026-06-08T06:45:04.739Z",
+      "isActive": true
+    },
+    {
+      "id": "meskru-16137492",
+      "sourceId": "16137492",
+      "source": "MESKRU",
+      "title": "Junior IT Consultant (m/w/d)",
+      "company": "MESKRU",
+      "location": "Munich, Germany",
+      "locationNormalised": [
+        "europe"
+      ],
+      "department": "Consulting, Engineering",
+      "url": "https://join.com/companies/meskru/16137492-junior-it-consultant-m-w-d",
+      "firstSeen": "2026-06-08T06:45:06.241Z",
+      "lastSeen": "2026-06-08T06:45:06.241Z",
+      "isActive": true
+    },
+    {
+      "id": "meskru-16124713",
+      "sourceId": "16124713",
+      "source": "MESKRU",
+      "title": "Junior IT Consultant (m/w/d)",
+      "company": "MESKRU",
+      "location": "Essen, Germany",
+      "locationNormalised": [
+        "europe"
+      ],
+      "department": "Consulting, Engineering",
+      "url": "https://join.com/companies/meskru/16124713-junior-it-consultant-m-w-d",
+      "firstSeen": "2026-06-08T06:45:06.241Z",
+      "lastSeen": "2026-06-08T06:45:06.241Z",
+      "isActive": true
+    },
+    {
+      "id": "meskru-16124710",
+      "sourceId": "16124710",
+      "source": "MESKRU",
+      "title": "Software Developer (Junior) - Java, Groovy, ScriptRunner, Forge (m/w/d)",
+      "company": "MESKRU",
+      "location": "Essen, Germany",
+      "locationNormalised": [
+        "europe"
+      ],
+      "department": "Software Development",
+      "url": "https://join.com/companies/meskru/16124710-software-developer-junior-java-groovy-scriptrunner-forge-m-w-d",
+      "firstSeen": "2026-06-08T06:45:06.241Z",
+      "lastSeen": "2026-06-08T06:45:06.241Z",
+      "isActive": true
+    },
+    {
+      "id": "meskru-16046955",
+      "sourceId": "16046955",
+      "source": "MESKRU",
+      "title": "Werkstudent:innen IT Consulting (m/w/d)",
+      "company": "MESKRU",
+      "location": "Munich, Germany",
+      "locationNormalised": [
+        "europe"
+      ],
+      "department": "Consulting, Engineering",
+      "url": "https://join.com/companies/meskru/16046955-werkstudent-innen-it-consulting-m-w-d",
+      "firstSeen": "2026-06-08T06:45:06.241Z",
+      "lastSeen": "2026-06-08T06:45:06.241Z",
+      "isActive": true
+    },
+    {
+      "id": "communardo-sales-development-representative-mit-fokus-aws-devops-und-ki-m-w-d",
+      "sourceId": "sales-development-representative-mit-fokus-aws-devops-und-ki-m-w-d",
+      "source": "Communardo",
+      "title": "Sales Development Representative mit Fokus AWS, DevOps und KI (m/w/d)",
+      "company": "Communardo",
+      "location": "Germany",
+      "locationNormalised": [
+        "europe"
+      ],
+      "url": "https://www.communardo.de/karriere/stellenangebot/sales-development-representative-mit-fokus-aws-devops-und-ki-m-w-d/",
+      "firstSeen": "2026-06-08T06:45:21.798Z",
+      "lastSeen": "2026-06-08T06:45:21.798Z",
+      "isActive": true
+    },
+    {
+      "id": "communardo-people-culture-hr-manager-m-w-d",
+      "sourceId": "people-culture-hr-manager-m-w-d",
+      "source": "Communardo",
+      "title": "People & Culture / HR Manager (m/w/d)",
+      "company": "Communardo",
+      "location": "Germany",
+      "locationNormalised": [
+        "europe"
+      ],
+      "url": "https://www.communardo.de/karriere/stellenangebot/people-culture-hr-manager-m-w-d/",
+      "firstSeen": "2026-06-08T06:45:21.798Z",
+      "lastSeen": "2026-06-08T06:45:21.798Z",
+      "isActive": true
+    },
+    {
+      "id": "communardo-lead-consultant-atlassian-cloud-transformation-m-w-d",
+      "sourceId": "lead-consultant-atlassian-cloud-transformation-m-w-d",
+      "source": "Communardo",
+      "title": "Lead Consultant Atlassian Cloud Transformation (m/w/d)",
+      "company": "Communardo",
+      "location": "Germany",
+      "locationNormalised": [
+        "europe"
+      ],
+      "url": "https://www.communardo.de/karriere/stellenangebot/lead-consultant-atlassian-cloud-transformation-m-w-d/",
+      "firstSeen": "2026-06-08T06:45:21.798Z",
+      "lastSeen": "2026-06-08T06:45:21.798Z",
+      "isActive": true
+    },
+    {
+      "id": "seibert-finanzbuchhalterin",
+      "sourceId": "finanzbuchhalterin",
+      "source": "Seibert Group",
+      "title": "Finanzbuchhalter*in",
+      "company": "Seibert Group",
+      "location": "Germany",
+      "locationNormalised": [
+        "europe"
+      ],
+      "url": "https://seibert.group/jobs/finanzbuchhalterin/",
+      "firstSeen": "2026-06-08T06:45:24.271Z",
+      "lastSeen": "2026-06-08T06:45:24.271Z",
+      "isActive": true
+    },
+    {
+      "id": "seibert-sales-leadership",
+      "sourceId": "sales-leadership",
+      "source": "Seibert Group",
+      "title": "Sales Lead",
+      "company": "Seibert Group",
+      "location": "Germany",
+      "locationNormalised": [
+        "europe"
+      ],
+      "url": "https://seibert.group/jobs/sales-leadership/",
+      "firstSeen": "2026-06-08T06:45:24.271Z",
+      "lastSeen": "2026-06-08T06:45:24.271Z",
+      "isActive": true
+    },
+    {
+      "id": "ecore-1a917003-d3bc-4eae-8f71-1b10670b979a",
+      "sourceId": "1a917003-d3bc-4eae-8f71-1b10670b979a",
+      "source": "e-core",
+      "title": "Analista de IT Junior - POA",
+      "company": "e-core",
+      "location": "Brazil",
+      "locationNormalised": "other",
+      "url": "https://ecore.inhire.app/vagas/1a917003-d3bc-4eae-8f71-1b10670b979a",
+      "firstSeen": "2026-06-08T06:45:53.824Z",
+      "lastSeen": "2026-06-08T06:45:53.824Z",
+      "isActive": true
+    },
+    {
+      "id": "ecore-0d8cfbdc-e9a8-43a4-8cda-ad9455130e16",
+      "sourceId": "0d8cfbdc-e9a8-43a4-8cda-ad9455130e16",
+      "source": "e-core",
+      "title": "Cyber Security Analyst III - White Team",
+      "company": "e-core",
+      "location": "Brazil",
+      "locationNormalised": "other",
+      "url": "https://ecore.inhire.app/vagas/0d8cfbdc-e9a8-43a4-8cda-ad9455130e16",
+      "firstSeen": "2026-06-08T06:45:53.824Z",
+      "lastSeen": "2026-06-08T06:45:53.824Z",
+      "isActive": true
+    },
+    {
+      "id": "remoteok-remote-analista-de-service-desk-revvo-1132705",
+      "sourceId": "remote-analista-de-service-desk-revvo-1132705",
+      "source": "Remote OK",
+      "title": "ANALISTA DE SERVICE DESK",
+      "company": "Revvo",
+      "location": "Rio de Janeiro, Rio de Janeiro, Rio de Janeiro, Brasil",
+      "locationNormalised": [
+        "latam"
+      ],
+      "url": "https://remoteok.com/remote-jobs/remote-analista-de-service-desk-revvo-1132705",
+      "firstSeen": "2026-06-08T06:45:55.326Z",
+      "lastSeen": "2026-06-08T06:45:55.326Z",
+      "isActive": true
+    },
+    {
+      "id": "xpandit-delivery-manager",
+      "sourceId": "delivery-manager",
+      "source": "Xpand IT",
+      "title": "Delivery Manager",
+      "company": "Xpand IT",
+      "location": "Portugal",
+      "locationNormalised": [
+        "europe"
+      ],
+      "url": "https://xpand-it.com/en/careers/find-opportunities/data-engineering/delivery-manager",
+      "firstSeen": "2026-06-08T06:47:08.067Z",
+      "lastSeen": "2026-06-08T06:47:08.067Z",
       "isActive": true
     }
   ]
