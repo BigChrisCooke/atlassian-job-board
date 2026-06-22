@@ -15,4 +15,5 @@ export const TEAMTAILOR_SOURCES: TeamtailorSource[] = [
   { baseUrl: 'https://jobs.reti.it',               name: 'Reti',         titleFilter: ATLASSIAN_TITLE_FILTER },
   { baseUrl: 'https://jobb.softronic.se',          name: 'Softronic',    titleFilter: ATLASSIAN_TITLE_FILTER },
   { baseUrl: 'https://careers.technia.com',        name: 'TECHNIA',      titleFilter: ATLASSIAN_TITLE_FILTER },
+  { baseUrl: 'https://jobb.advania.se',            name: 'Advania Sverige', titleFilter: ATLASSIAN_TITLE_FILTER },
 ];

@@ -79,4 +79,23 @@ export const SMARTRECRUITERS_SOURCES: SmartRecruitersSource[] = [
       { q: 'confluence', titleContains: 'confluence' },
     ],
   },
+  {
+    companyId: 'Infosysta',
+    name: 'Infosysta',
+    queries: [
+      { q: 'atlassian' },
+      { q: 'jira' },
+      { q: 'confluence' },
+    ],
+  },
+  {
+    // Global SI — title-restricted (see Nagarro note above), company is huge.
+    companyId: 'Infosys2',
+    name: 'Infosys',
+    queries: [
+      { q: 'atlassian', titleContains: 'atlassian' },
+      { q: 'jira', titleContains: 'jira' },
+      { q: 'confluence', titleContains: 'confluence' },
+    ],
+  },
 ];

@@ -44,7 +44,15 @@ export async function scrapeParseq(): Promise<Job[]> {
     return [];
   }
 
-  const items = (await res.json()) as WPJobListing[];
+  let items: WPJobListing[];
+  try {
+    items = (await res.json()) as WPJobListing[];
+  } catch {
+    // WP site occasionally serves an HTML WAF challenge page with a 200
+    // status instead of JSON — treat as a transient blip, not a hard failure.
+    console.warn('Parseq: response was not valid JSON (likely a WAF challenge page) — returning empty');
+    return [];
+  }
   const now = new Date().toISOString();
 
   return items

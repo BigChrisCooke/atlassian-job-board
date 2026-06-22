@@ -11,4 +11,6 @@ export const WORKABLE_SOURCES: WorkableSource[] = [
   { slug: 'mastek',     name: 'Mastek', titleFilter: ATLASSIAN_TITLE_FILTER },
   // Focused Atlassian partner (Singapore) — scrape all roles
   { slug: 'ease-solutions-pte-ltd', name: 'Ease Solutions' },
+  // Broader SaaS/digital shop — filter to Atlassian-relevant titles only
+  { slug: 'grazitti-interactive', name: 'Grazitti Interactive', titleFilter: ATLASSIAN_TITLE_FILTER },
 ];
