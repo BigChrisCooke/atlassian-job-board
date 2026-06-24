@@ -7,6 +7,7 @@ import { TEAMTAILOR_SOURCES } from './config/teamtailor-sources.js';
 import { BAMBOOHR_SOURCES } from './config/bamboohr-sources.js';
 import { WORKABLE_SOURCES } from './config/workable-sources.js';
 import { JOIN_SOURCES } from './config/join-sources.js';
+import { BREEZYHR_SOURCES } from './config/breezyhr-sources.js';
 
 export {
   LEVER_SOURCES,
@@ -18,4 +19,5 @@ export {
   BAMBOOHR_SOURCES,
   WORKABLE_SOURCES,
   JOIN_SOURCES,
+  BREEZYHR_SOURCES,
 };

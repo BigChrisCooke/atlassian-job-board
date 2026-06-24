@@ -71,6 +71,12 @@ export interface JoinSource {
   titleFilter?: RegExp;
 }
 
+export interface BreezyHRSource {
+  slug: string;   // company subdomain on <slug>.breezy.hr
+  name: string;
+  titleFilter?: RegExp;
+}
+
 export interface JobsDataFile {
   generatedAt: string;
   totalActive: number;
