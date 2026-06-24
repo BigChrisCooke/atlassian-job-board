@@ -37,6 +37,7 @@ import { scrapeParseq } from './sources/custom/parseq.js';
 import { scrapeEmpyra } from './sources/custom/empyra.js';
 import { scrapeSngular } from './sources/custom/sngular.js';
 import { scrapeMumo } from './sources/custom/mumo.js';
+import { scrapeBlueRidge } from './sources/custom/blueridge.js';
 import {
   LEVER_SOURCES,
   ASHBY_SOURCES,
@@ -223,6 +224,7 @@ async function main() {
     { name: 'Empyra',          fn: scrapeEmpyra },
     { name: 'Sngular',         fn: scrapeSngular },
     { name: 'Mumo Systems',    fn: scrapeMumo },
+    { name: 'Blue Ridge Consultants', fn: scrapeBlueRidge },
   ];
 
   for (const { name, fn } of custom) {
