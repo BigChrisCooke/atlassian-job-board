@@ -1,34 +1,34 @@
 {
-  "generatedAt": "2026-06-22T07:27:39.926Z",
-  "durationMs": 221917,
-  "totalFresh": 305,
-  "totalActive": 305,
-  "prevTotalActive": 295,
+  "generatedAt": "2026-06-29T06:51:15.900Z",
+  "durationMs": 238925,
+  "totalFresh": 296,
+  "totalActive": 296,
+  "prevTotalActive": 305,
   "sources": [
     {
       "name": "Cprime",
       "group": "Lever",
-      "count": 10,
-      "prevCount": 11,
-      "durationMs": 681,
+      "count": 9,
+      "prevCount": 10,
+      "durationMs": 578,
       "status": "ok",
       "consecutiveFailures": 0
     },
     {
       "name": "ServiceRocket",
       "group": "Lever",
-      "count": 7,
+      "count": 4,
       "prevCount": 7,
-      "durationMs": 186,
+      "durationMs": 144,
       "status": "ok",
       "consecutiveFailures": 0
     },
     {
       "name": "Valiantys",
       "group": "Lever",
-      "count": 15,
-      "prevCount": 14,
-      "durationMs": 546,
+      "count": 13,
+      "prevCount": 15,
+      "durationMs": 210,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -37,16 +37,16 @@
       "group": "Lever",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 109,
+      "durationMs": 83,
       "status": "ok",
       "consecutiveFailures": 0
     },
     {
       "name": "Tempo",
       "group": "Ashby",
-      "count": 26,
-      "prevCount": 19,
-      "durationMs": 1221,
+      "count": 21,
+      "prevCount": 26,
+      "durationMs": 979,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -55,25 +55,34 @@
       "group": "Ashby",
       "count": 2,
       "prevCount": 2,
-      "durationMs": 255,
+      "durationMs": 290,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Praecipio",
+      "group": "Ashby",
+      "count": 2,
+      "prevCount": 0,
+      "durationMs": 247,
       "status": "ok",
       "consecutiveFailures": 0
     },
     {
       "name": "Appfire",
       "group": "Greenhouse",
-      "count": 17,
-      "prevCount": 12,
-      "durationMs": 127,
+      "count": 12,
+      "prevCount": 17,
+      "durationMs": 118,
       "status": "ok",
       "consecutiveFailures": 0
     },
     {
       "name": "SmartBear",
       "group": "Greenhouse",
-      "count": 23,
+      "count": 24,
       "prevCount": 23,
-      "durationMs": 24,
+      "durationMs": 45,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -81,17 +90,17 @@
       "name": "Modus Create",
       "group": "Greenhouse",
       "count": 7,
-      "prevCount": 12,
-      "durationMs": 24,
+      "prevCount": 7,
+      "durationMs": 48,
       "status": "ok",
       "consecutiveFailures": 0
     },
     {
       "name": "Lucid",
       "group": "Greenhouse",
-      "count": 31,
-      "prevCount": 35,
-      "durationMs": 23,
+      "count": 32,
+      "prevCount": 31,
+      "durationMs": 47,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -100,7 +109,7 @@
       "group": "Greenhouse",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 39,
+      "durationMs": 60,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -109,7 +118,7 @@
       "group": "Greenhouse",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 24,
+      "durationMs": 49,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -118,7 +127,7 @@
       "group": "Greenhouse",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 30,
+      "durationMs": 51,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -127,16 +136,16 @@
       "group": "Greenhouse",
       "count": 1,
       "prevCount": 1,
-      "durationMs": 24,
+      "durationMs": 43,
       "status": "ok",
       "consecutiveFailures": 0
     },
     {
       "name": "Adaptavist",
       "group": "SmartRecruiters",
-      "count": 6,
-      "prevCount": 5,
-      "durationMs": 465,
+      "count": 5,
+      "prevCount": 6,
+      "durationMs": 400,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -144,7 +153,7 @@
       "name": "Devoteam",
       "group": "SmartRecruiters",
       "count": 27,
-      "prevCount": 29,
+      "prevCount": 27,
       "durationMs": 1143,
       "status": "ok",
       "consecutiveFailures": 0
@@ -154,16 +163,16 @@
       "group": "SmartRecruiters",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 1061,
+      "durationMs": 1055,
       "status": "ok",
       "consecutiveFailures": 0
     },
     {
       "name": "Nagarro",
       "group": "SmartRecruiters",
-      "count": 1,
+      "count": 0,
       "prevCount": 1,
-      "durationMs": 1172,
+      "durationMs": 1081,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -172,7 +181,7 @@
       "group": "SmartRecruiters",
       "count": 2,
       "prevCount": 2,
-      "durationMs": 1118,
+      "durationMs": 1134,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -181,7 +190,7 @@
       "group": "SmartRecruiters",
       "count": 1,
       "prevCount": 1,
-      "durationMs": 1181,
+      "durationMs": 1256,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -190,7 +199,7 @@
       "group": "SmartRecruiters",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 1038,
+      "durationMs": 1045,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -199,7 +208,7 @@
       "group": "SmartRecruiters",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 1095,
+      "durationMs": 1034,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -208,34 +217,50 @@
       "group": "SmartRecruiters",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 1057,
+      "durationMs": 1049,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Infosysta",
+      "group": "SmartRecruiters",
+      "count": 1,
+      "durationMs": 1157,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Infosys",
+      "group": "SmartRecruiters",
+      "count": 0,
+      "durationMs": 1075,
       "status": "ok",
       "consecutiveFailures": 0
     },
     {
       "name": "Eficode",
       "group": "Teamtailor",
-      "count": 11,
-      "prevCount": 10,
-      "durationMs": 378,
+      "count": 10,
+      "prevCount": 11,
+      "durationMs": 513,
       "status": "ok",
       "consecutiveFailures": 0
     },
     {
       "name": "Refined",
       "group": "Teamtailor",
-      "count": 0,
+      "count": 1,
       "prevCount": 0,
-      "durationMs": 199,
+      "durationMs": 384,
       "status": "ok",
       "consecutiveFailures": 0
     },
     {
       "name": "knowmad mood",
       "group": "Teamtailor",
-      "count": 1,
+      "count": 0,
       "prevCount": 1,
-      "durationMs": 2460,
+      "durationMs": 1423,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -244,7 +269,7 @@
       "group": "Teamtailor",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 849,
+      "durationMs": 1080,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -253,7 +278,7 @@
       "group": "Teamtailor",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 331,
+      "durationMs": 707,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -262,7 +287,7 @@
       "group": "Teamtailor",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 371,
+      "durationMs": 384,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -271,7 +296,7 @@
       "group": "Teamtailor",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 257,
+      "durationMs": 413,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -280,7 +305,7 @@
       "group": "Teamtailor",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 485,
+      "durationMs": 483,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -289,7 +314,7 @@
       "group": "Teamtailor",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 806,
+      "durationMs": 639,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -298,16 +323,24 @@
       "group": "Teamtailor",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 436,
+      "durationMs": 638,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Advania Sverige",
+      "group": "Teamtailor",
+      "count": 0,
+      "durationMs": 941,
       "status": "ok",
       "consecutiveFailures": 0
     },
     {
       "name": "K15t",
       "group": "Personio",
-      "count": 2,
+      "count": 3,
       "prevCount": 2,
-      "durationMs": 622,
+      "durationMs": 566,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -315,8 +348,8 @@
       "name": "Automation Consultants",
       "group": "Personio",
       "count": 6,
-      "prevCount": 7,
-      "durationMs": 751,
+      "prevCount": 6,
+      "durationMs": 862,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -334,7 +367,7 @@
       "group": "Personio",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 929,
+      "durationMs": 649,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -343,16 +376,16 @@
       "group": "Personio",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 638,
+      "durationMs": 724,
       "status": "ok",
       "consecutiveFailures": 0
     },
     {
       "name": "Isos Technology",
       "group": "BambooHR",
-      "count": 5,
+      "count": 2,
       "prevCount": 5,
-      "durationMs": 334,
+      "durationMs": 340,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -361,16 +394,7 @@
       "group": "Workable",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 95,
-      "status": "ok",
-      "consecutiveFailures": 0
-    },
-    {
-      "name": "Praecipio",
-      "group": "Workable",
-      "count": 0,
-      "prevCount": 0,
-      "durationMs": 49,
+      "durationMs": 188,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -379,7 +403,7 @@
       "group": "Workable",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 33,
+      "durationMs": 57,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -388,7 +412,7 @@
       "group": "Workable",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 84,
+      "durationMs": 51,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -397,7 +421,15 @@
       "group": "Workable",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 33,
+      "durationMs": 47,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Grazitti Interactive",
+      "group": "Workable",
+      "count": 0,
+      "durationMs": 59,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -406,7 +438,7 @@
       "group": "JOIN",
       "count": 3,
       "prevCount": 3,
-      "durationMs": 55,
+      "durationMs": 609,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -415,7 +447,7 @@
       "group": "JOIN",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 338,
+      "durationMs": 2500,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -424,7 +456,15 @@
       "group": "JOIN",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 27,
+      "durationMs": 234,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "HeroCoders",
+      "group": "Breezy HR",
+      "count": 1,
+      "durationMs": 149,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -433,25 +473,25 @@
       "group": "Custom",
       "count": 10,
       "prevCount": 10,
-      "durationMs": 823,
+      "durationMs": 701,
       "status": "ok",
       "consecutiveFailures": 0
     },
     {
       "name": "Seibert Group",
       "group": "Custom",
-      "count": 5,
+      "count": 6,
       "prevCount": 5,
-      "durationMs": 610,
+      "durationMs": 673,
       "status": "ok",
       "consecutiveFailures": 0
     },
     {
       "name": "Deviniti",
       "group": "Custom",
-      "count": 6,
-      "prevCount": 7,
-      "durationMs": 1576,
+      "count": 7,
+      "prevCount": 6,
+      "durationMs": 1793,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -460,7 +500,7 @@
       "group": "Custom",
       "count": 1,
       "prevCount": 1,
-      "durationMs": 845,
+      "durationMs": 792,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -468,8 +508,8 @@
       "name": "iDalko",
       "group": "Custom",
       "count": 3,
-      "prevCount": 4,
-      "durationMs": 161,
+      "prevCount": 3,
+      "durationMs": 155,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -478,7 +518,7 @@
       "group": "Custom",
       "count": 3,
       "prevCount": 3,
-      "durationMs": 709,
+      "durationMs": 1346,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -487,7 +527,7 @@
       "group": "Custom",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 105,
+      "durationMs": 183,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -496,7 +536,7 @@
       "group": "Custom",
       "count": 14,
       "prevCount": 14,
-      "durationMs": 1581,
+      "durationMs": 1159,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -505,16 +545,16 @@
       "group": "Custom",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 451,
+      "durationMs": 411,
       "status": "ok",
       "consecutiveFailures": 0
     },
     {
       "name": "NSI",
       "group": "Custom",
-      "count": 1,
+      "count": 2,
       "prevCount": 1,
-      "durationMs": 555,
+      "durationMs": 402,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -523,7 +563,7 @@
       "group": "Custom",
       "count": 1,
       "prevCount": 1,
-      "durationMs": 1663,
+      "durationMs": 1850,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -532,16 +572,16 @@
       "group": "Custom",
       "count": 1,
       "prevCount": 1,
-      "durationMs": 1091,
+      "durationMs": 1055,
       "status": "ok",
       "consecutiveFailures": 0
     },
     {
       "name": "e-core",
       "group": "Custom",
-      "count": 17,
+      "count": 18,
       "prevCount": 17,
-      "durationMs": 508,
+      "durationMs": 124,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -550,7 +590,7 @@
       "group": "Custom",
       "count": 1,
       "prevCount": 1,
-      "durationMs": 764,
+      "durationMs": 885,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -559,7 +599,7 @@
       "group": "Custom",
       "count": 2,
       "prevCount": 2,
-      "durationMs": 215,
+      "durationMs": 67,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -568,7 +608,7 @@
       "group": "Custom",
       "count": 10,
       "prevCount": 10,
-      "durationMs": 68341,
+      "durationMs": 68359,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -576,8 +616,8 @@
       "name": "Elements",
       "group": "Custom",
       "count": 1,
-      "prevCount": 0,
-      "durationMs": 1458,
+      "prevCount": 1,
+      "durationMs": 1872,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -586,7 +626,7 @@
       "group": "Custom",
       "count": 2,
       "prevCount": 2,
-      "durationMs": 302,
+      "durationMs": 439,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -595,7 +635,7 @@
       "group": "Custom",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 1173,
+      "durationMs": 1273,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -603,8 +643,8 @@
       "name": "Atlas Bench",
       "group": "Custom",
       "count": 10,
-      "prevCount": 1,
-      "durationMs": 4493,
+      "prevCount": 10,
+      "durationMs": 3799,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -613,7 +653,7 @@
       "group": "Custom",
       "count": 7,
       "prevCount": 7,
-      "durationMs": 859,
+      "durationMs": 731,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -622,7 +662,7 @@
       "group": "Custom",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 160,
+      "durationMs": 139,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -631,17 +671,16 @@
       "group": "Custom",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 471,
-      "status": "failed",
-      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
-      "consecutiveFailures": 2
+      "durationMs": 436,
+      "status": "ok",
+      "consecutiveFailures": 0
     },
     {
       "name": "Empyra",
       "group": "Custom",
       "count": 4,
       "prevCount": 4,
-      "durationMs": 741,
+      "durationMs": 815,
       "status": "ok",
       "consecutiveFailures": 0
     },
@@ -650,20 +689,51 @@
       "group": "Custom",
       "count": 0,
       "prevCount": 0,
-      "durationMs": 180,
+      "durationMs": 560,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Mumo Systems",
+      "group": "Custom",
+      "count": 0,
+      "durationMs": 165,
+      "status": "ok",
+      "consecutiveFailures": 0
+    },
+    {
+      "name": "Blue Ridge Consultants",
+      "group": "Custom",
+      "count": 2,
+      "durationMs": 300,
       "status": "ok",
       "consecutiveFailures": 0
     }
   ],
   "anomalies": [
     {
-      "source": "Parseq",
-      "kind": "failed",
-      "message": "Parseq threw an error during scraping (2 consecutive failures).",
+      "source": "Nagarro",
+      "kind": "silent_zero",
+      "message": "Nagarro returned 0 jobs but had 1 last run — the scraper may have silently broken (HTML changed, selectors stale, soft block). Worth verifying.",
       "count": 0,
-      "prevCount": 0,
-      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
-      "synthesis": "The anomaly indicates a scraper failure, as the error suggests that the response from Parseq is not in the expected JSON format but rather an HTML document. Without any web search snippets to confirm current hiring activity, it's unclear if Parseq is still hiring for Atlassian-related roles. The next step should be to verify selectors to ensure they are correctly targeting the intended data."
+      "prevCount": 1,
+      "synthesis": "Given that Nagarro returned 0 jobs after previously having 1, it suggests a potential issue with the scraper rather than a genuine change in hiring, especially since there are no snippets to indicate a shift in their recruitment strategy. The anomaly likely points to a scraper failure, possibly due to changes in HTML or stale selectors. The next step should be to verify the selectors used in the scraper to ensure they are still accurate."
+    },
+    {
+      "source": "knowmad mood",
+      "kind": "silent_zero",
+      "message": "knowmad mood returned 0 jobs but had 1 last run — the scraper may have silently broken (HTML changed, selectors stale, soft block). Worth verifying.",
+      "count": 0,
+      "prevCount": 1,
+      "synthesis": "The anomaly indicates that Knowmad Mood returned no jobs despite having one in the previous run, suggesting a potential issue with the scraper rather than a genuine change in hiring status. Since there is no web search context to confirm current hiring activity, it’s prudent to verify the selectors used in the scraper to ensure they are still accurate and functioning properly."
+    },
+    {
+      "source": "Isos Technology",
+      "kind": "huge_drop",
+      "message": "Isos Technology dropped from 5 to 2 jobs (>50% decline). Could be genuine churn or a partial scraper failure.",
+      "count": 2,
+      "prevCount": 5,
+      "synthesis": "Isos Technology's significant drop in job listings from 5 to 2 could indicate genuine churn, suggesting a potential shift in their hiring strategy or a reduction in demand for Atlassian-related roles. However, without additional context, it's also possible that this decline is due to a scraper failure. The next step should be to verify selectors to ensure accurate data collection from their job postings."
     }
   ],
   "duplicateIds": []
