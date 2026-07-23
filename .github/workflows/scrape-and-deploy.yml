@@ -61,19 +61,39 @@ jobs:
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
 
-      # Opens a GitHub issue when this run flagged any anomalies, so the
-      # maintainer gets a notification without watching the report URL.
-      - name: Open issue if anomalies were flagged
+      # Publishes one full report for every scrape. Re-running the workflow on
+      # the same UTC date updates the existing issue instead of duplicating it.
+      - name: Publish weekly scrape report
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          COUNT=$(node -e "console.log(require('./src/data/scrape-report.json').anomalies.length)")
-          if [ "$COUNT" -gt 0 ]; then
-            DATE=$(date -u +"%Y-%m-%d")
-            npx tsx scripts/anomaly-issue-body.ts > /tmp/issue-body.md
+          DATE=$(node -e "console.log(require('./src/data/scrape-report.json').generatedAt.slice(0, 10))")
+          TITLE="Weekly scrape report — $DATE"
+          export DATE
+          npx tsx scripts/weekly-report-issue-body.ts > /tmp/weekly-report.md
+
+          gh label create weekly-report \
+            --color 6900c4 \
+            --description "Automated weekly scrape report" \
+            --force
+
+          EXISTING=$(gh issue list \
+            --state all \
+            --label weekly-report \
+            --limit 100 \
+            --json number,title \
+            | node -e "const issues=JSON.parse(require('fs').readFileSync(0,'utf8')); const issue=issues.find(({title})=>title.startsWith('Weekly scrape report')&&title.endsWith(process.env.DATE)); if(issue) process.stdout.write(String(issue.number))")
+
+          if [ -n "$EXISTING" ]; then
+            gh issue edit "$EXISTING" \
+              --title "$TITLE" \
+              --body-file /tmp/weekly-report.md \
+              --add-label weekly-report
+          else
             gh issue create \
-              --title "Scrape anomalies: $COUNT flagged ($DATE)" \
-              --body-file /tmp/issue-body.md
+              --title "$TITLE" \
+              --body-file /tmp/weekly-report.md \
+              --label weekly-report
           fi
 
       # Netlify paused — re-enable when plan upgraded or credits resume
