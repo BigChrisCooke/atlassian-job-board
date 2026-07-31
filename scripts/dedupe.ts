@@ -22,6 +22,23 @@ function sanitise(job: Job): Job {
   };
 }
 
+function sourceMatchesFilters(source: string, filters: string[]): boolean {
+  const normalisedSource = source.toLowerCase();
+  return filters.some(
+    (filter) => normalisedSource.includes(filter) || filter.includes(normalisedSource),
+  );
+}
+
+export function shouldRetainAfterPrune(
+  job: Job,
+  cutoff: string,
+  onlyFilters?: string[],
+): boolean {
+  if (job.isActive || job.lastSeen > cutoff) return true;
+  if (!onlyFilters) return false;
+  return !sourceMatchesFilters(job.source, onlyFilters);
+}
+
 export function deduplicateAndMerge(freshJobs: Job[], onlyFilters?: string[]): Job[] {
   let existing: Job[] = [];
 
@@ -54,9 +71,7 @@ export function deduplicateAndMerge(freshJobs: Job[], onlyFilters?: string[]): J
     if (freshIds.has(id)) continue;
     if (!job.isActive) continue;
     if (onlyFilters) {
-      const src = job.source.toLowerCase();
-      const inScope = onlyFilters.some((f) => src.includes(f) || f.includes(src));
-      if (!inScope) continue; // leave other companies untouched
+      if (!sourceMatchesFilters(job.source, onlyFilters)) continue;
     }
     existingMap.set(id, { ...job, isActive: false });
   }
@@ -64,7 +79,7 @@ export function deduplicateAndMerge(freshJobs: Job[], onlyFilters?: string[]): J
   // Prune jobs inactive for more than INACTIVE_PRUNE_DAYS
   const cutoff = new Date(Date.now() - INACTIVE_PRUNE_DAYS * 24 * 60 * 60 * 1000).toISOString();
 
-  return Array.from(existingMap.values()).filter(
-    (j) => j.isActive || j.lastSeen > cutoff
+  return Array.from(existingMap.values()).filter((job) =>
+    shouldRetainAfterPrune(job, cutoff, onlyFilters)
   );
 }

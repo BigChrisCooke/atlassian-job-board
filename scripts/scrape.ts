@@ -10,6 +10,7 @@ import { scrapeTeamtailor } from './sources/engines/teamtailor.js';
 import { scrapeWorkable } from './sources/engines/workable.js';
 import { scrapeJoin } from './sources/engines/join.js';
 import { scrapeBreezyHR } from './sources/engines/breezyhr.js';
+import { scrapeWorkday } from './sources/engines/workday.js';
 import { scrapePersonio } from './sources/engines/personio.js';
 import { scrapeBambooHR } from './sources/engines/bamboohr.js';
 import { scrapeCommunardo } from './sources/custom/communardo.js';
@@ -50,6 +51,7 @@ import {
   WORKABLE_SOURCES,
   JOIN_SOURCES,
   BREEZYHR_SOURCES,
+  WORKDAY_SOURCES,
 } from './sources/index.js';
 import {
   COOLDOWN_THRESHOLD,
@@ -204,7 +206,13 @@ async function main() {
     await sleep(1500);
   }
 
-  console.log('\n[scrape] Group 11 — Custom');
+  console.log('\n[scrape] Group 11 — Workday');
+  for (const source of filterSources(WORKDAY_SOURCES)) {
+    await runSource('Workday', source, scrapeWorkday);
+    await sleep(1500);
+  }
+
+  console.log('\n[scrape] Group 12 — Custom');
   const custom: Array<{ name: string; fn: () => Promise<Job[]> }> = [
     { name: 'Communardo',      fn: scrapeCommunardo },
     { name: 'Seibert Group',   fn: scrapeSeibert },

@@ -77,6 +77,16 @@ export interface BreezyHRSource {
   titleFilter?: RegExp;
 }
 
+export interface WorkdaySource {
+  baseUrl: string;
+  tenant: string;
+  site: string;
+  name: string;
+  searchTerms: string[];
+  titleFilter?: RegExp;
+  titleCorrections?: Record<string, string>;
+}
+
 export interface JobsDataFile {
   generatedAt: string;
   totalActive: number;

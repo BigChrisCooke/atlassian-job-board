@@ -8,6 +8,7 @@ import { BAMBOOHR_SOURCES } from './config/bamboohr-sources.js';
 import { WORKABLE_SOURCES } from './config/workable-sources.js';
 import { JOIN_SOURCES } from './config/join-sources.js';
 import { BREEZYHR_SOURCES } from './config/breezyhr-sources.js';
+import { WORKDAY_SOURCES } from './config/workday-sources.js';
 
 export {
   LEVER_SOURCES,
@@ -20,4 +21,5 @@ export {
   WORKABLE_SOURCES,
   JOIN_SOURCES,
   BREEZYHR_SOURCES,
+  WORKDAY_SOURCES,
 };

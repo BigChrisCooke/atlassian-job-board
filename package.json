@@ -10,6 +10,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "test": "tsx --test \"scripts/**/*.test.ts\"",
     "scrape": "tsx scripts/scrape.ts",
     "discover-partners": "tsx scripts/discover-partners.ts"
   },
