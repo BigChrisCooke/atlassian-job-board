@@ -31,7 +31,7 @@ scripts/
   dedupe.ts                — Deduplication + merge logic (21-day grace period for dropped jobs)
   report.ts                — Health rules + scrape-report.json builder
   summarize.ts             — Optional GitHub Models pass: 1-paragraph synthesis per anomaly
-  weekly-report-issue-body.ts — Full Markdown report published to GitHub Issues by CI
+  anomaly-issue-body.ts     — Markdown body for the CI anomaly-alert issue
   types.ts                 — Job interface, ATS source types, report types
   sources/
     braveSearch.ts         — Optional Brave Search pass: top-3 snippets per anomaly
@@ -184,7 +184,10 @@ placeholder — say so and tell them to wait for the next Monday cron.
 - **Domain**: jobs.apwide.com
 - **Analytics**: Vercel Analytics + Google Analytics (G-NQ4BSEGLYS)
 - **CI scrape**: GitHub Actions, weekly Monday 02:00 UTC (or manual trigger);
-  commits refreshed data and creates or updates a `weekly-report` GitHub issue
+  commits refreshed data and opens an anomaly-alert issue only when something
+  broke. The full weekly write-up under the `weekly-report` label is published
+  by the scheduled Claude routine, not by CI — keep the two separate so the
+  label stays one report per week.
 
 ## Operating defaults
 
