@@ -25,3 +25,8 @@ pnpm-debug.log*
 
 # discover-partners output (working file, not source of truth)
 src/data/candidate-partners.json
+
+# local agent/editor state (per-machine, not shared)
+.claude/
+.playwright-mcp/
+.vscode/
