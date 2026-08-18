@@ -39,9 +39,11 @@ scripts/
       lever.ts, ashby.ts, greenhouse.ts, smartrecruiters.ts,
       teamtailor.ts, workable.ts, personio.ts, bamboohr.ts
     custom/                — Company-specific scrapers:
-      communardo, seibert, deviniti, glintech, idalko, catworkx,
-      contegix, spectrumgroupe, oxalis, nsi, softgile, euris, ecore,
-      remoteok, salto, xpandit, elements, decadis, mbition
+      ariel, atlasbench, blueridge, catworkx, communardo, contegix,
+      decadis, deviniti, ecore, elements, empyra, euris, glintech,
+      idalko, mbition, mumo, nsi, oxalis, parseq, pmobytes, remoteok,
+      salto, seibert, sii, sngular, softgile, spectrumgroupe, trundl,
+      xalt, xpandit
     config/                — Source lists (company slugs/URLs) for each engine
     index.ts               — Re-exports all source config arrays
 

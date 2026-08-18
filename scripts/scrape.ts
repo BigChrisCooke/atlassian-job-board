@@ -42,6 +42,7 @@ import { scrapeMumo } from './sources/custom/mumo.js';
 import { scrapeBlueRidge } from './sources/custom/blueridge.js';
 import { scrapePmobytes } from './sources/custom/pmobytes.js';
 import { scrapeTrundl } from './sources/custom/trundl.js';
+import { scrapeSii } from './sources/custom/sii.js';
 import {
   LEVER_SOURCES,
   ASHBY_SOURCES,
@@ -245,6 +246,7 @@ async function main() {
     { name: 'Blue Ridge Consultants', fn: scrapeBlueRidge },
     { name: 'PMOBytes',        fn: scrapePmobytes },
     { name: 'Trundl',          fn: scrapeTrundl },
+    { name: 'Sii Poland',      fn: scrapeSii },
   ];
 
   for (const { name, fn } of custom) {
