@@ -3,14 +3,48 @@ import type { Job } from '../../types.js';
 import { buildStableJobId, decodeEntities, normaliseLocation } from '../../utils/normalise.js';
 
 // Atlas Bench (Atlassian Platinum Solution Partner) uses Zoho Recruit's hosted
-// careers page. The jobs are rendered client-side after the JS bundle runs —
-// raw fetch returns 1.7MB of inert HTML — so Playwright is required. Pure
-// Atlassian shop, no title filter needed.
+// careers page. The jobs are rendered client-side after the JS bundle runs, so
+// Playwright is required. Pure Atlassian shop, no title filter needed.
 const CAREERS_URL = 'https://atlas-bench.zohorecruit.com/jobs/Careers';
 
 interface RawJob {
   href: string;
   title: string;
+}
+
+interface JobDetails {
+  location: string;
+  type?: string;
+}
+
+function readDetailValue(lines: string[], label: string): string {
+  const i = lines.findIndex((line) => line.toLowerCase() === label.toLowerCase());
+  return i >= 0 ? (lines[i + 1] ?? '').trim() : '';
+}
+
+function parseJobDetails(text: string): JobDetails {
+  const lines = text.split('\n').map((line) => line.trim()).filter(Boolean);
+
+  const city = readDetailValue(lines, 'City');
+  const state = readDetailValue(lines, 'State/Province');
+  const country = readDetailValue(lines, 'Country');
+  let type = readDetailValue(lines, 'Job Type');
+  if (!type) {
+    const headerType = lines.find((line) => /^Atlas Bench\s*\|/i.test(line));
+    type = headerType?.split('|')[1]?.trim() ?? '';
+  }
+
+  const locationParts = city && country
+    ? [city, country]
+    : [city || state, country].filter(Boolean);
+  let location = locationParts.join(', ');
+
+  if (!location) {
+    const headerLocation = lines.find((line) => /\|\s*Posted on\b/i.test(line));
+    location = headerLocation?.split('|')[0]?.trim() ?? '';
+  }
+
+  return { location, type: type || undefined };
 }
 
 export async function scrapeAtlasBench(): Promise<Job[]> {
@@ -55,17 +89,25 @@ export async function scrapeAtlasBench(): Promise<Job[]> {
       const title = decodeEntities(r.title);
       if (!title) continue;
 
-      // Atlas Bench's board doesn't surface a separate location element on the
-      // listing page — many titles encode it inline (e.g. "*Global*"). Leave
-      // raw and let normaliseLocation extract whatever it can.
+      let details: JobDetails = { location: '' };
+      try {
+        await page.goto(r.href, { waitUntil: 'networkidle', timeout: 60_000 });
+        await page.waitForTimeout(1000);
+        details = parseJobDetails(await page.locator('body').innerText({ timeout: 10_000 }));
+      } catch {
+        // Detail pages add location/type metadata; keep the listing if one
+        // page is temporarily slow or blocked.
+      }
+
       jobs.push({
         id: buildStableJobId('atlas-bench', sourceId),
         sourceId,
         source: 'Atlas Bench',
         title,
         company: 'Atlas Bench',
-        location: '',
-        locationNormalised: normaliseLocation(title),
+        location: details.location,
+        locationNormalised: normaliseLocation(`${details.location} ${title}`),
+        type: details.type,
         url: r.href,
         firstSeen: now,
         lastSeen: now,
